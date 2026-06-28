@@ -102,7 +102,7 @@ Vagrant es la herramienta que creará y configurará la máquina virtual por nos
 Una vez realizada la instalación inicial, el uso diario es sumamente rápido:
 
 ### Paso A: Clonar el proyecto
-Clona este repositorio (requiere tener **Git** instalado en Windows) en un directorio nativo (por ejemplo, `C:\proys\`):
+Abre la terminal de **PowerShell** en tu Windows 10/11 y clona este repositorio (requiere tener **Git** instalado en Windows) en un directorio nativo (por ejemplo, `C:\proys\`):
 ```powershell
 git clone https://github.com/hooperits/ex200-flow-labs.git
 cd ex200-flow-labs
