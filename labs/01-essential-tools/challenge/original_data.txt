@@ -1,0 +1,8 @@
+EX200: Tarea de redireccionamiento completada
+OTRO: Comando secundario sin relevancia
+EX200: Creacion de enlace simbolico exitosa
+SISTEMA: Reinicio programado de servicios
+EX200: Permisos configurados a 640 en el reto
+OTRO: Nota de estudio para el examen
+EX200: Filtro de texto funcionando correctamente
+SISTEMA: Alerta de espacio en disco
