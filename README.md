@@ -95,6 +95,18 @@ Vagrant es la herramienta que creará y configurará la máquina virtual por nos
 1. Ve al sitio oficial de descargas de [Vagrant](https://www.vagrantup.com/downloads) y descarga el instalador para Windows (arquitectura AMD64/x86_64).
 2. Ejecuta el instalador descargado y sigue el asistente haciendo clic en "Next" hasta finalizar.
 
+### 3. Configurar rsync en el PATH de Windows (Recomendado para evitar credenciales)
+Por defecto, al usar Hyper-V, Vagrant intentará sincronizar las carpetas locales usando **SMB**, lo que te solicitará ingresar tu usuario y contraseña de Windows en cada arranque. Para evitar esta petición y hacer el proceso 100% silencioso y rápido:
+1. Asegúrate de tener instalado [Git para Windows](https://git-scm.com/download/win).
+2. Abre el menú Inicio de Windows, escribe **variables de entorno** y selecciona **Editar las variables de entorno del sistema**.
+3. Haz clic en el botón **Variables de entorno...**.
+4. En la sección superior ("Variables de usuario"), busca la variable llamada **`Path`**, selecciónala y haz clic en **Editar...**.
+5. Haz clic en **Nuevo** y añade la siguiente ruta (donde Git instala `rsync.exe`):
+   ```text
+   C:\Program Files\Git\usr\bin
+   ```
+6. Haz clic en **Aceptar** en todas las ventanas. **Cierra todas tus terminales abiertas** y vuelve a abrir una terminal de PowerShell para que se cargue la nueva configuración.
+
 ---
 
 ## 🚀 Cómo Iniciar y Usar el Laboratorio
