@@ -104,7 +104,7 @@ Una vez realizada la instalación inicial, el uso diario es sumamente rápido:
 ### Paso A: Clonar el proyecto
 Clona este repositorio en un directorio nativo de Windows (por ejemplo, `C:\proys\`):
 ```powershell
-git clone https://github.com/tu-usuario/ex200-flow-labs.git
+git clone https://github.com/hooperits/ex200-flow-labs.git
 cd ex200-flow-labs
 ```
 
