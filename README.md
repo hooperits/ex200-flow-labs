@@ -114,6 +114,12 @@ Inicia la máquina AlmaLinux 9 de estudio desde tu consola (PowerShell o Git Bas
 vagrant up --provider=hyperv
 ```
 
+> [!IMPORTANT]
+> **Selección del Switch Virtual en Hyper-V**:
+> Durante el arranque de la máquina virtual, Vagrant te solicitará elegir un **Virtual Switch** (Switch Virtual). 
+> * **Recomendación**: Selecciona la opción correspondiente a **`Default Switch`**.
+> * **Por qué**: Este switch interno de Windows viene preconfigurado con asignación de IP automática (DHCP) y traducción de red (NAT), lo que asegura que tu máquina virtual obtenga salida a Internet para el aprovisionamiento de dependencias y que Vagrant pueda comunicarse con ella vía SSH.
+
 ### Paso C: Entrar a la Máquina de Estudio
 Accede a la consola de la máquina virtual vía SSH:
 ```powershell
