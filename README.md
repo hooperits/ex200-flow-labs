@@ -1,0 +1,85 @@
+# 🎵 ex200-flow-labs
+
+[![RHCSA-EX200](https://img.shields.io/badge/Exam-RHCSA%20EX200-red?style=for-the-badge&logo=redhat)](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam)
+[![RHEL-Version](https://img.shields.io/badge/RHEL-9%20Compatible-red?style=for-the-badge&logo=redhat)](https://rockylinux.org/)
+[![Vagrant](https://img.shields.io/badge/Environment-Vagrant%20%2B%20Hyper--V-blue?style=for-the-badge&logo=vagrant)](https://www.vagrantup.com/)
+[![Language](https://img.shields.io/badge/Language-Espa%C3%B1ol-green?style=for-the-badge)](https://github.com/github/spec-kit)
+
+> **"Con la rima en la mente y los comandos en la shell, pasar el EX200 se vuelve un nivel fácil de vencer."**
+
+`ex200-flow-labs` es un entorno interactivo y automatizado de aprendizaje diseñado en español para dominar el examen **Red Hat Certified System Administrator (RHCSA EX200)** basado en **Red Hat Enterprise Linux 9 (RHEL 9)**. 
+
+Este proyecto utiliza **Vagrant con Hyper-V** para ofrecer laboratorios rápidos y aislados, y añade un enfoque mnemotécnico único: **canciones de rap técnico en español** diseñadas con IA (**Suno + revid.ai**) para memorizar comandos complejos y sus flags específicos de forma divertida y permanente.
+
+---
+
+## ⚡ El Flujo de Estudio ("The Flow")
+
+Cada laboratorio cuenta con una metodología estricta de cinco pasos estructurada bajo principios de desarrollo ágil:
+
+```mermaid
+graph TD
+    A[1. Entender: demo.sh] --> B[2. Practicar: instructions.md]
+    B --> C[3. Evaluar: verify.sh]
+    C -- FAILED --> D[Pistas: hints.md / Reiniciar: reset.sh]
+    D --> B
+    C -- PASSED --> E[4. Memorizar: Rap Lyrics / Suno]
+    E --> F[¡Siguiente Tema!]
+```
+
+1.  **`demo.sh` (La Demo Visual):** Corre el script de tutorial animado dentro de la VM para ver los comandos en acción.
+2.  **`instructions.md` (El Reto):** Lee las directrices del challenge redactadas en español (pero conservando comandos en inglés).
+3.  **`verify.sh` (El Validador):** Ejecuta el validador automatizado para autoevaluar tu entrega. Te dará un reporte visual de `PASSED`/`FAILED` sin alterar tus configuraciones.
+4.  **`reset.sh` (El Reinicio):** ¿Cometiste un error crítico? Ejecuta el reset para limpiar la práctica y volver a empezar.
+5.  **`hints.md` (Las Pistas):** Consulta pistas progresivas si te encuentras estancado.
+
+---
+
+## 📊 Tabla de Progreso y Hoja de Ruta (Cobertura 100%)
+
+| Módulo | Tema del Examen | Estado del Lab | Especificación | Enlace al Lab | Rap Lyrics |
+| :---: | :--- | :---: | :---: | :---: | :---: |
+| **01** | Herramientas Esenciales e Inicio de Sesión | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/01-essential-tools/spec.md) | `labs/01-essential-tools/` | 📝 Planificado |
+| **02** | Scripts de Automatización (Shell Scripting) | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/02-shell-scripting/spec.md) | `labs/02-shell-scripting/` | 📝 Planificado |
+| **03** | Operación del Sistema (systemd, GRUB, root pass) | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/03-operating-systems/spec.md) | `labs/03-operating-systems/` | 📝 Planificado |
+| **04** | Usuarios, Grupos, Permisos Especiales y ACLs | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/04-users-groups/spec.md) | `labs/04-users-groups/` | 📝 Planificado |
+| **05** | Red (nmcli), Hostname, NTP (chrony) y Cron | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/05-networking-services/spec.md) | `labs/05-networking-services/` | 📝 Planificado |
+| **06** | Seguridad de Red (firewalld) y SELinux | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/06-security-selinux/spec.md) | `labs/06-security-selinux/` | 📝 Planificado |
+| **07** | Almacenamiento Local (LVM, Particiones, VDO) | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/07-local-storage/spec.md) | `labs/07-local-storage/` | 📝 Planificado |
+| **08** | fstab, Almacenamiento en Red (NFS/SMB) y Autofs | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/08-filesystems-network/spec.md) | `labs/08-filesystems-network/` | 📝 Planificado |
+| **09** | Contenedores con Podman (Rootless y Systemd) | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/09-podman-containers/spec.md) | `labs/09-podman-containers/` | 📝 Planificado |
+
+---
+
+## 🛠️ Configuración e Instalación Rápida
+
+Este entorno está optimizado para ejecutarse en **Windows 10/11 con WSL (Windows Subsystem for Linux)** e **Hyper-V** habilitado.
+
+### Requisitos Previos (en tu máquina host de Windows)
+1. **Hyper-V habilitado:** Abre PowerShell como Administrador en Windows y ejecuta:
+   ```powershell
+   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+   ```
+2. **Vagrant instalado:** Descarga e instala Vagrant para Windows desde el [sitio oficial](https://www.vagrantup.com/downloads).
+
+### Levantar el Entorno (desde WSL o Git Bash)
+Clona este repositorio y levanta la máquina virtual de estudio:
+```bash
+git clone https://github.com/tu-usuario/ex200-flow-labs.git
+cd ex200-flow-labs
+vagrant up --provider=hyperv
+```
+
+Una vez que termine el aprovisionamiento, puedes conectarte vía SSH a la máquina virtual:
+```bash
+vagrant ssh
+```
+*(Todos los laboratorios estarán sincronizados automáticamente dentro de la máquina en el directorio `/labs/`)*.
+
+---
+
+## 🎧 Mnemotecnia de Rap Técnico (Lyrics)
+
+Como política de desarrollo e infraestructura, las letras de rap en español para cada tema **no se suben a este repositorio Git** para mantener limpio el entorno de código. Se guardan y gestionan de forma local en tu máquina host en el directorio externo `/home/juanca/RHCSA-EX200-lyrics/`.
+
+Puedes copiar la letra del tema correspondiente, procesarla con la IA de generación de música de **Suno** para generar la canción de rap técnico, y usar **revid.ai** con las capturas de video de las terminales para crear videos nemotécnicos de estudio increíbles.
