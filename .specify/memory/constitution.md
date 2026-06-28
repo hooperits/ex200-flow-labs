@@ -24,7 +24,7 @@ Cada laboratorio de tema del examen MUST estar ubicado en su propio directorio y
 5. `reset.sh`: Script que restablece el entorno del laboratorio a su estado inicial.
 
 ### III. Mnemotecnia Musical Externa (Lyrics)
-Para cada laboratorio de tema, se MUST generar una letra de rap técnico en español detallando los comandos y flags clave del examen. Estos archivos se almacenarán exclusivamente de forma externa en `/home/juanca/RHCSA-EX200-lyrics` para su posterior uso en Suno y revid.ai. No se deben subir estos archivos al repositorio de Git para mantener limpio el entorno de código.
+Para cada laboratorio de tema, se MUST generar una letra de rap técnico en español detallando los comandos y flags clave del examen. Estos archivos se almacenarán exclusivamente de forma externa en el directorio adyacente `../RHCSA-EX200-lyrics/` para su posterior uso. No se deben subir estos archivos al repositorio de Git para mantener limpio el entorno de código.
 
 ### IV. Localización Lingüística y Vocabulario Técnico
 Toda la documentación, instrucciones de retos, comentarios de código y mensajes de salida de la terminal MUST estar redactados en español. Sin embargo, todos los comandos (`systemctl`, `pvcreate`), flags (`-m`, `-L`, `-G`), nombres de configuraciones, servicios y conceptos oficiales de Red Hat (como *Volume Group*, *SELinux*, *cron*) MUST permanecer en su inglés original para simular con precisión el examen de certificación.

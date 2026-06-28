@@ -17,4 +17,4 @@ El estudiante aprende a gestionar servicios, procesos, ver logs con journalctl e
 ## Requirements
 - **FR-001**: El laboratorio MUST detallar el flujo de recuperación de contraseña de root (`rd.break`, `mount -o remount,rw /sysroot`, `chroot /sysroot`, `passwd`, `touch /.autorelabel`).
 - **FR-002**: El script `verify.sh` MUST validar el estado de los servicios (start/stop/enabled/disabled) y el target por defecto del sistema.
-- **FR-003**: La letra de rap técnico en español MUST guardarse en `/home/juanca/RHCSA-EX200-lyrics/03-operating-systems.txt`, rimando la secuencia de recuperación de GRUB y comandos de systemd.
+- **FR-003**: La letra de rap técnico en español MUST guardarse en `../RHCSA-EX200-lyrics/03-operating-systems.txt`, rimando la secuencia de recuperación de GRUB y comandos de systemd.

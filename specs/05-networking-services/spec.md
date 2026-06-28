@@ -18,4 +18,4 @@ El estudiante configura una dirección IP estática en una interfaz de red secun
 - **FR-001**: El laboratorio MUST contener demo y retos de comandos `nmcli connection modify` y `nmcli connection up`.
 - **FR-002**: El laboratorio MUST cubrir la configuración de un servidor NTP en `/etc/chrony.conf` y la verificación con `chronyc sources`.
 - **FR-003**: El script `verify.sh` MUST inspeccionar el estado de red y las tareas programadas sin alterar las configuraciones.
-- **FR-004**: La letra de rap técnico en español MUST guardarse en `/home/juanca/RHCSA-EX200-lyrics/05-networking-services.txt`, rimando la sintaxis de `nmcli`, `hostnamectl` y las estrellas del formato `cron` (`* * * * *`).
+- **FR-004**: La letra de rap técnico en español MUST guardarse en `../RHCSA-EX200-lyrics/05-networking-services.txt`, rimando la sintaxis de `nmcli`, `hostnamectl` y las estrellas del formato `cron` (`* * * * *`).

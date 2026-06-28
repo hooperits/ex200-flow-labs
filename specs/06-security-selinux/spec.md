@@ -18,4 +18,4 @@ El estudiante configura zonas, puertos y servicios en firewalld (incluyendo regl
 - **FR-001**: El laboratorio MUST contener retos de agregar puertos, servicios y reglas rich en `firewalld`.
 - **FR-002**: El laboratorio MUST simular un problema real de SELinux (ej. Apache bloqueado) para que el estudiante use `semanage fcontext`, `restorecon` y booleanos (`setsebool -P`).
 - **FR-003**: El script `verify.sh` MUST validar el estado del firewall (`firewall-cmd --list-all`) y los contextos de SELinux (`ls -Z` o `semanage`) de forma no destructiva.
-- **FR-004**: La letra de rap técnico en español MUST guardarse en `/home/juanca/RHCSA-EX200-lyrics/06-security-selinux.txt`, rimando `firewall-cmd --add-service`, `semanage fcontext -a -t` y `restorecon -v`.
+- **FR-004**: La letra de rap técnico en español MUST guardarse en `../RHCSA-EX200-lyrics/06-security-selinux.txt`, rimando `firewall-cmd --add-service`, `semanage fcontext -a -t` y `restorecon -v`.

@@ -19,4 +19,4 @@ El estudiante inicia sesión en la VM como un usuario regular, descarga una imag
 - **FR-002**: El laboratorio MUST requerir la persistencia de datos montando directorios de la máquina host del usuario en el contenedor.
 - **FR-003**: El laboratorio MUST cubrir la automatización del arranque del contenedor usando servicios de systemd de usuario (`systemctl --user`) y la activación de `loginctl enable-linger`.
 - **FR-004**: El script `verify.sh` MUST validar el estado del contenedor y del servicio de systemd del usuario de forma no destructiva.
-- **FR-005**: La letra de rap técnico en español MUST guardarse en `/home/juanca/RHCSA-EX200-lyrics/09-podman-containers.txt`, rimando comandos como `podman run -d`, `podman generate systemd` y `loginctl enable-linger`.
+- **FR-005**: La letra de rap técnico en español MUST guardarse en `../RHCSA-EX200-lyrics/09-podman-containers.txt`, rimando comandos como `podman run -d`, `podman generate systemd` y `loginctl enable-linger`.

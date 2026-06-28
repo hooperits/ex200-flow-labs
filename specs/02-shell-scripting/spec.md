@@ -17,5 +17,5 @@ El estudiante ejecuta la demostración en la VM y luego implementa un script en 
 ## Requirements
 - **FR-001**: El laboratorio MUST contener un script `demo.sh` que enseñe condicionales, bucles (`for`/`while`) y manejo de argumentos de script (`$1`, `$2`, etc.) en Bash.
 - **FR-002**: El script `verify.sh` MUST validar el script desarrollado por el estudiante pasándole diferentes argumentos de prueba y analizando su salida y código de retorno.
-- **FR-003**: La letra de rap técnico en español MUST escribirse en `/home/juanca/RHCSA-EX200-lyrics/02-shell-scripting.txt` rimando conceptos de Bash (`if [ -f $1 ]`, `for item in $list`, etc.).
+- **FR-003**: La letra de rap técnico en español MUST escribirse en `../RHCSA-EX200-lyrics/02-shell-scripting.txt` rimando conceptos de Bash (`if [ -f $1 ]`, `for item in $list`, etc.).
 - **FR-004**: Todo el material interactivo en consola y textos explicativos deben estar en español, conservando los términos de programación de la shell en inglés.

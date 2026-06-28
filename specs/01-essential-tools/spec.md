@@ -58,10 +58,15 @@ El instructor/estudiante desea tener la letra del rap técnico en español para 
 
 **Why this priority**: Ayuda a la retención a largo plazo mediante mnemotecnia musical fuera del entorno de programación.
 
-**Independent Test**: Validar que el archivo `/home/juanca/RHCSA-EX200-lyrics/01-essential-tools.txt` contenga las rimas técnicas en español con los comandos y flags del módulo.
+**Independent Test**: Validar que el archivo `../RHCSA-EX200-lyrics/01-essential-tools.txt` contenga las rimas técnicas en español con los comandos y flags del módulo.
 
 **Acceptance Scenarios**:
 1. **Given** el desarrollo del módulo, **When** se finalice la especificación, **Then** debe existir la letra del rap en la ruta externa especificada, rimando comandos como `tar -czvf`, `ln -s`, `chmod`, `chown` y `grep -E`.
+### Edge Cases
+
+- **Caso de Borde 1 - Re-ejecución del Reset**: Si el usuario ejecuta `reset.sh` varias veces consecutivas o cuando el laboratorio ya está limpio, el script debe completarse de forma exitosa y silenciosa, sin fallar debido a archivos o directorios no encontrados.
+- **Caso de Borde 2 - Archivos Inexistentes en la Evaluación**: Si el estudiante ejecuta `verify.sh` antes de crear los archivos o enlaces del reto, el script evaluador debe manejar la ausencia de estos elementos de forma segura y reportar `FAILED` sin lanzar errores de ejecución de Bash.
+- **Caso de Borde 3 - Directorio de Rap Lyrics No Creado**: Si el directorio externo `../RHCSA-EX200-lyrics/` no existe al intentar guardar la letra, se debe manejar el error de forma segura o crearlo automáticamente para evitar fallos de escritura.
 
 ---
 
@@ -80,14 +85,14 @@ El instructor/estudiante desea tener la letra del rap técnico en español para 
   - Si el archivo del reto tiene exactamente los permisos configurados (ej. `rw-r-----` o `640`) y pertenece al propietario y grupo correctos.
   - Si el archivo de texto resultante del filtro `grep` contiene las líneas esperadas.
 - **FR-003**: El laboratorio MUST contener un script `reset.sh` que limpie los directorios y archivos creados para el reto, restaurando el entorno al estado inicial de práctica.
-- **FR-004**: Las letras de rap técnico MUST escribirse en español en el archivo `/home/juanca/RHCSA-EX200-lyrics/01-essential-tools.txt` y enfocarse en la memorización de la sintaxis y flags exactos.
+- **FR-004**: Las letras de rap técnico MUST escribirse en español en el archivo `../RHCSA-EX200-lyrics/01-essential-tools.txt` y enfocarse en la memorización de la sintaxis y flags exactos.
 - **FR-005**: Todo el contenido explicativo para el usuario MUST estar en español, pero los comandos y conceptos de Linux MUST permanecer en inglés técnico.
 
 ### Key Entities
 
 - **Vagrant Environment**: La máquina virtual Rocky Linux 9 donde residen todos los laboratorios interactivos bajo `/labs/`.
 - **Lab Directory (`/labs/01-essential-tools/`)**: El directorio en la VM que contiene `demo.sh`, `instructions.md`, `hints.md`, `verify.sh` y `reset.sh`.
-- **Lyrics File (`/home/juanca/RHCSA-EX200-lyrics/01-essential-tools.txt`)**: Archivo externo que contiene el guion lírico del módulo.
+- **Lyrics File (`../RHCSA-EX200-lyrics/01-essential-tools.txt`)**: Archivo externo que contiene el guion lírico del módulo.
 
 ## Success Criteria
 

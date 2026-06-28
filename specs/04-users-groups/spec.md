@@ -18,4 +18,4 @@ El estudiante crea usuarios con configuraciones específicas (shell sin login, U
 - **FR-001**: El laboratorio MUST contener demo y retos de creación de usuarios con UIDs específicos y expiración de contraseña (`chage`).
 - **FR-002**: El laboratorio MUST cubrir el uso de SGID en directorios y Sticky Bit en `/tmp/` o directorios de carga común.
 - **FR-003**: El script `verify.sh` MUST validar el archivo `/etc/passwd`, `/etc/group` y usar `getfacl` para verificar ACLs de forma no destructiva.
-- **FR-004**: La letra de rap técnico en español MUST guardarse en `/home/juanca/RHCSA-EX200-lyrics/04-users-groups.txt`, rimando comandos como `useradd -s`, `groupadd`, `chmod g+s` y `setfacl -m u:user:rwx`.
+- **FR-004**: La letra de rap técnico en español MUST guardarse en `../RHCSA-EX200-lyrics/04-users-groups.txt`, rimando comandos como `useradd -s`, `groupadd`, `chmod g+s` y `setfacl -m u:user:rwx`.
