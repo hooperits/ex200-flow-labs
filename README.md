@@ -1,4 +1,11 @@
-# 🎵 ex200-flow-labs
+```text
+███████╗██╗  ██╗██████╗  ██████╗  ██████╗    ███████╗██╗      ██████╗ ██╗    ██╗    ██╗      ██████╗ ██████╗ ███████╗
+██╔════╝╚██╗██╔╝╚════██╗██╔═══██╗██╔═══██╗    ██╔════╝██║     ██╔═══██╗██║    ██║    ██║     ██╔══██╗██╔══██╗██╔════╝
+█████╗   ╚███╔╝  █████╔╝██║   ██║██║   ██║    █████╗  ██║     ██║   ██║██║ █╗ ██║    ██║     ███████║██████╔╝███████╗
+██╔══╝   ██╔██╗ ██╔═══╝ ██║   ██║██║   ██║    ██╔══╝  ██║     ██║   ██║██║███╗██║    ██║     ██╔══██║██╔══██╗╚════██║
+███████╗██╔╝ ██╗███████╗╚██████╔╝╚██████╔╝    ██║     ███████╗╚██████╔╝╚███╔███╔╝    ███████╗██║  ██║██████╔╝███████║
+╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚═════╝     ╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝     ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝
+```
 
 [![RHCSA-EX200](https://img.shields.io/badge/Exam-RHCSA%20EX200-red?style=for-the-badge&logo=redhat)](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam)
 [![RHEL-Version](https://img.shields.io/badge/RHEL-9%20Compatible-red?style=for-the-badge&logo=redhat)](https://rockylinux.org/)
@@ -9,7 +16,7 @@
 
 `ex200-flow-labs` es un entorno interactivo y automatizado de aprendizaje diseñado en español para dominar el examen **Red Hat Certified System Administrator (RHCSA EX200)** basado en **Red Hat Enterprise Linux 9 (RHEL 9)**. 
 
-Este proyecto utiliza **Vagrant con Hyper-V** para ofrecer laboratorios rápidos y aislados, y añade un enfoque mnemotécnico único: **canciones de rap técnico en español** diseñadas con IA (**Suno + revid.ai**) para memorizar comandos complejos y sus flags específicos de forma divertida y permanente.
+Este proyecto utiliza **Vagrant con Hyper-V** para ofrecer laboratorios rápidos y aislados, y añade un enfoque mnemotécnico único: **canciones de rap técnico en español** para memorizar comandos complejos y sus flags específicos de forma divertida y permanente.
 
 ---
 
@@ -23,7 +30,7 @@ graph TD
     B --> C[3. Evaluar: verify.sh]
     C -- FAILED --> D[Pistas: hints.md / Reiniciar: reset.sh]
     D --> B
-    C -- PASSED --> E[4. Memorizar: Rap Lyrics / Suno]
+    C -- PASSED --> E[4. Memorizar: Rap Lyrics]
     E --> F[¡Siguiente Tema!]
 ```
 
@@ -135,5 +142,3 @@ Dentro de la máquina, podrás navegar al directorio `/labs/` donde encontrarás
 ## 🎧 Mnemotecnia de Rap Técnico (Lyrics)
 
 Como política de desarrollo e infraestructura, las letras de rap en español para cada tema **no se suben a este repositorio Git** para mantener limpio el entorno de código. Se guardan y gestionan de forma local en tu máquina host en el directorio externo `/home/juanca/RHCSA-EX200-lyrics/`.
-
-Puedes copiar la letra del tema correspondiente, procesarla con la IA de generación de música de **Suno** para generar la canción de rap técnico, y usar **revid.ai** con las capturas de video de las terminales para crear videos nemotécnicos de estudio increíbles.
