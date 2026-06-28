@@ -75,84 +75,72 @@ graph TD
 
 ---
 
-## 🛠️ Configuración e Instalación Rápida (Paso a Paso)
+## 🚀 Guía de Inicio Rápido (Paso a Paso)
 
-Para que puedas correr estos laboratorios de forma local, utilizaremos un entorno nativo: **Windows 10/11** actuará como el hipervisor físico (mediante **Hyper-V**) y ejecutarás los comandos de Vagrant desde tu consola de comandos (PowerShell, CMD, o Git Bash).
+Sigue este flujo cronológico ordenado para configurar tu entorno y ejecutar tu primer laboratorio en menos de 10 minutos.
 
-Sigue esta guía narrativa sencilla para preparar tu computadora en 10 minutos:
+### Paso 1: Clonar el proyecto
+Primero, abre la terminal de **PowerShell** en tu Windows 10/11 y clona este repositorio en un directorio local de tu disco físico (por ejemplo, `C:\proys\`):
+```powershell
+# Nota: Requiere tener Git para Windows instalado
+git clone https://github.com/hooperits/ex200-flow-labs.git
+cd ex200-flow-labs
+```
 
-### 1. Activar Hyper-V en tu Windows
-Hyper-V es la tecnología nativa de virtualización de Windows. Necesitamos activarla:
-1. Abre el menú Inicio de Windows, escribe **PowerShell**, haz clic derecho sobre él y selecciona **Ejecutar como Administrador**.
-2. Copia, pega y ejecuta el siguiente comando:
+### Paso 2: Activar Hyper-V en Windows
+Hyper-V es la tecnología nativa de virtualización de Windows. Para activarla:
+1. Con la consola de **PowerShell** aún abierta, asegúrate de ejecutarla con privilegios de **Administrador**.
+2. Copia y ejecuta el siguiente comando:
    ```powershell
    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
    ```
 3. Si el sistema te solicita reiniciar para aplicar los cambios, acepta y reinicia tu equipo.
 
-### 2. Instalar Vagrant en Windows
-Vagrant es la herramienta que creará y configurará la máquina virtual por nosotros:
-1. Ve al sitio oficial de descargas de [Vagrant](https://www.vagrantup.com/downloads) y descarga el instalador para Windows (arquitectura AMD64/x86_64).
-2. Ejecuta el instalador descargado y sigue el asistente haciendo clic en "Next" hasta finalizar.
+### Paso 3: Instalar Vagrant
+Vagrant creará y gestionará la máquina virtual de forma automática:
+1. Descarga el instalador oficial de [Vagrant para Windows](https://www.vagrantup.com/downloads) (arquitectura AMD64/x86_64).
+2. Ejecuta el archivo descargado y completa el asistente haciendo clic en "Next" hasta finalizar.
 
-### 3. Configurar rsync en el PATH de Windows (Recomendado para evitar credenciales)
-Por defecto, al usar Hyper-V, Vagrant intentará sincronizar las carpetas locales usando **SMB**, lo que te solicitará ingresar tu usuario y contraseña de Windows en cada arranque. Para evitar esta petición y hacer el proceso 100% silencioso y rápido, puedes instalar y configurar `rsync`:
+### Paso 4: Configurar rsync (Recomendado para evitar credenciales)
+Por defecto, al usar Hyper-V, Vagrant intentará sincronizar las carpetas usando **SMB**, lo que te pedirá ingresar tu usuario y contraseña de Windows en cada encendido. Para evitar esta petición y hacer el proceso 100% silencioso y rápido, configura `rsync`:
 
-#### Método A: Instalación Automática (Recomendado)
-Hemos incluido un script `setup-rsync.ps1` en la raíz del proyecto que automatiza todo usando **winget** (el administrador oficial de paquetes de Microsoft preinstalado en Windows 10/11):
-1. Abre una terminal de **PowerShell** en tu Windows.
-2. Navega al directorio del proyecto y ejecuta:
-   ```powershell
-   Set-ExecutionPolicy Bypass -Scope Process -Force; .\setup-rsync.ps1
-   ```
-3. Cierra tu terminal actual y abre una nueva ventana de PowerShell para aplicar los cambios de entorno. ¡Y listo!
+* **Método Automático (Recomendado)**:
+  Hemos incluido un script `setup-rsync.ps1` en la raíz del repositorio clonado que automatiza todo usando **winget** (el administrador oficial de paquetes de Microsoft):
+  1. En tu consola de **PowerShell** dentro del directorio del proyecto (`C:\proys\ex200-flow-labs\`), ejecuta:
+     ```powershell
+     Set-ExecutionPolicy Bypass -Scope Process -Force; .\setup-rsync.ps1
+     ```
+  2. **Cierra tu terminal actual** y abre una nueva ventana de PowerShell normal para que se aplique la variable de entorno PATH recién creada.
 
-#### Método B: Configuración Manual (si ya tienes Git para Windows)
-Si prefieres no usar el instalador automático y cuentas con [Git para Windows](https://git-scm.com/download/win) completo:
-1. Abre el menú Inicio de Windows, escribe **variables de entorno** y selecciona **Editar las variables de entorno del sistema**.
-2. Haz clic en el botón **Variables de entorno...**.
-3. En la sección superior ("Variables de usuario"), busca la variable llamada **`Path`**, selecciónala y haz clic en **Editar...**.
-4. Haz clic en **Nuevo** y añade la siguiente ruta (donde Git instala sus herramientas Unix secundarias):
-   ```text
-   C:\Program Files\Git\usr\bin
-   ```
-5. Haz clic en **Aceptar** en todas las ventanas. **Cierra todas tus terminales abiertas** y abre una nueva terminal de PowerShell. *(Nota: En algunas versiones recientes de Git para Windows, rsync no se instala por defecto; si ves que no funciona, utiliza el Método A).*
+* **Método Manual (Alternativo)**:
+  Si prefieres no usar el instalador y ya cuentas con [Git para Windows](https://git-scm.com/download/win) completo, puedes añadir la ruta manualmente:
+  1. Abre el menú Inicio, escribe **variables de entorno** y selecciona **Editar las variables de entorno del sistema**.
+  2. Haz clic en **Variables de entorno...** y edita la variable **`Path`** en la sección superior ("Variables de usuario").
+  3. Haz clic en **Nuevo** y añade la ruta: `C:\Program Files\Git\usr\bin`.
+  4. Cierra todas tus terminales y abre una nueva PowerShell. *(Nota: Si rsync no funciona con este método manual, utiliza el Método Automático).*
 
----
-
-## 🚀 Cómo Iniciar y Usar el Laboratorio
-
-Una vez realizada la instalación inicial, el uso diario es sumamente rápido:
-
-### Paso A: Clonar el proyecto
-Abre la terminal de **PowerShell** en tu Windows 10/11 y clona este repositorio (requiere tener **Git** instalado en Windows) en un directorio nativo (por ejemplo, `C:\proys\`):
-```powershell
-git clone https://github.com/hooperits/ex200-flow-labs.git
-cd ex200-flow-labs
-```
-
-### Paso B: Encender la Máquina Virtual
-Inicia la máquina AlmaLinux 9 de estudio desde tu consola (PowerShell o Git Bash) con privilegios de Administrador (requerido para Hyper-V):
+### Paso 5: Encender la Máquina Virtual
+Desde tu nueva terminal de **PowerShell** (ejecutada como **Administrador**), ve a la carpeta del proyecto e inicia la máquina virtual de estudio (AlmaLinux 9):
 ```powershell
 vagrant up --provider=hyperv
 ```
 
 > [!IMPORTANT]
 > **Selección del Switch Virtual en Hyper-V**:
-> Durante el arranque de la máquina virtual, Vagrant te solicitará elegir un **Virtual Switch** (Switch Virtual). 
-> * **Recomendación**: Selecciona la opción correspondiente a **`Default Switch`**.
-> * **Por qué**: Este switch interno de Windows viene preconfigurado con asignación de IP automática (DHCP) y traducción de red (NAT), lo que asegura que tu máquina virtual obtenga salida a Internet para el aprovisionamiento de dependencias y que Vagrant pueda comunicarse con ella vía SSH.
+> Durante el arranque, Vagrant te solicitará elegir un **Virtual Switch** (Switch Virtual). 
+> * **Recomendación**: Elige el número de opción correspondiente a **`Default Switch`**.
+> * **Por qué**: Este switch interno de Windows viene preconfigurado con asignación de IP automática (DHCP) y traducción de red (NAT), lo que asegura que tu máquina virtual obtenga salida a Internet para el aprovisionamiento y que Vagrant pueda comunicarse con ella vía SSH.
 
-### Paso C: Entrar a la Máquina de Estudio y Ejecutar el Lab
-1. Accede a la consola de la máquina virtual vía SSH:
+### Paso 6: Acceder a la VM y Ejecutar el Lab
+1. Conéctate a la consola de la máquina virtual vía SSH:
    ```powershell
    vagrant ssh
    ```
-2. Dentro de la máquina (que es un entorno Linux de AlmaLinux 9), navega al directorio de laboratorios `/labs/` y entra en el módulo que desees practicar (por ejemplo, el módulo 01):
+2. Dentro de la máquina (que es un entorno Linux puro de AlmaLinux 9), navega al directorio del laboratorio y entra en el módulo que desees practicar (por ejemplo, el módulo 01):
    ```bash
    cd /labs/01-essential-tools/
    ```
-3. Ejecuta la demostración animada con explicaciones en español para entender los conceptos:
+3. Ejecuta la demostración animada en español para ver los comandos en acción:
    ```bash
    ./demo.sh
    ```
@@ -160,20 +148,21 @@ vagrant up --provider=hyperv
    ```bash
    cat instructions.md
    ```
-5. Realiza los cambios necesarios en el subdirectorio `challenge/` para resolver el reto (puedes consultar pistas progresivas con `cat hints.md`).
-6. Valida si tu solución es correcta ejecutando el script evaluador automático no destructivo:
+5. Realiza los cambios necesarios en el subdirectorio `challenge/` para resolver el reto (puedes ver pistas progresivas con `cat hints.md`).
+6. Valida si tu solución es correcta ejecutando el validador automático no destructivo:
    ```bash
    ./verify.sh
    ```
-7. Si deseas volver a practicar desde cero o limpiar tu entorno, puedes restablecer el reto ejecutando:
+7. Si deseas volver a practicar desde cero, limpia el entorno ejecutando:
    ```bash
    ./reset.sh
    ```
 
 > [!TIP]
 > **Sincronización de Archivos**:
-> Si realizas algún cambio en las instrucciones o scripts de la carpeta `./labs/` en el host (Windows) mediante tu editor de código (como VS Code), puedes sincronizarlos con la máquina virtual ejecutando:
+> Si realizas cambios en las instrucciones o scripts de la carpeta `./labs/` en el host (Windows) con tu editor de código (como VS Code), puedes sincronizarlos con la máquina virtual en cualquier momento ejecutando desde PowerShell en Windows:
 > ```powershell
 > vagrant provision
 > ```
+
 
