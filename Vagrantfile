@@ -11,9 +11,9 @@ Vagrant.configure("2") do |config|
     h.cpus = 2
   end
 
-  # Mount the local labs/ directory to /labs inside the Rocky Linux 9 guest VM
-  # Using rsync to avoid credential prompts with Hyper-V on Windows
-  config.vm.synced_folder "./labs", "/labs", type: "rsync", rsync__exclude: [".git/", ".vagrant/"]
+  # Mount the local labs/ directory to /labs inside the guest VM
+  # Using SMB (native Windows sharing for Hyper-V)
+  config.vm.synced_folder "./labs", "/labs", type: "smb"
 
   # Provisioning to ensure correct script execution permissions on mount
   config.vm.provision "shell", inline: <<-SHELL

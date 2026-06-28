@@ -101,37 +101,28 @@ Vagrant creará y gestionará la máquina virtual de forma automática:
 1. Descarga el instalador oficial de [Vagrant para Windows](https://www.vagrantup.com/downloads) (arquitectura AMD64/x86_64).
 2. Ejecuta el archivo descargado y completa el asistente haciendo clic en "Next" hasta finalizar.
 
-### Paso 4: Configurar rsync (Recomendado para evitar credenciales)
-Por defecto, al usar Hyper-V, Vagrant intentará sincronizar las carpetas usando **SMB**, lo que te pedirá ingresar tu usuario y contraseña de Windows en cada encendido. Para evitar esta petición y hacer el proceso 100% silencioso y rápido, configura `rsync`:
-
-* **Método Automático (Recomendado)**:
-  Hemos incluido un script `setup-rsync.ps1` en la raíz del repositorio clonado que automatiza todo usando **winget** (el administrador oficial de paquetes de Microsoft):
-  1. En tu consola de **PowerShell** dentro del directorio del proyecto (`C:\proys\ex200-flow-labs\`), ejecuta:
-     ```powershell
-     Set-ExecutionPolicy Bypass -Scope Process -Force; .\setup-rsync.ps1
-     ```
-  2. **Cierra tu terminal actual** y abre una nueva ventana de PowerShell normal para que se aplique la variable de entorno PATH recién creada.
-
-* **Método Manual (Alternativo)**:
-  Si prefieres no usar el instalador y ya cuentas con [Git para Windows](https://git-scm.com/download/win) completo, puedes añadir la ruta manualmente:
-  1. Abre el menú Inicio, escribe **variables de entorno** y selecciona **Editar las variables de entorno del sistema**.
-  2. Haz clic en **Variables de entorno...** y edita la variable **`Path`** en la sección superior ("Variables de usuario").
-  3. Haz clic en **Nuevo** y añade la ruta: `C:\Program Files\Git\usr\bin`.
-  4. Cierra todas tus terminales y abre una nueva PowerShell. *(Nota: Si rsync no funciona con este método manual, utiliza el Método Automático).*
-
-### Paso 5: Encender la Máquina Virtual
-Desde tu nueva terminal de **PowerShell** (ejecutada como **Administrador**), ve a la carpeta del proyecto e inicia la máquina virtual de estudio (AlmaLinux 9):
+### Paso 4: Encender la Máquina Virtual
+Desde tu terminal de **PowerShell** (ejecutada con privilegios de **Administrador**, requerido para Hyper-V), navega a la carpeta del proyecto e inicia la máquina virtual de estudio (AlmaLinux 9):
 ```powershell
 vagrant up --provider=hyperv
 ```
 
 > [!IMPORTANT]
-> **Selección del Switch Virtual en Hyper-V**:
+> **1. Selección del Switch Virtual en Hyper-V**:
 > Durante el arranque, Vagrant te solicitará elegir un **Virtual Switch** (Switch Virtual). 
 > * **Recomendación**: Elige el número de opción correspondiente a **`Default Switch`**.
 > * **Por qué**: Este switch interno de Windows viene preconfigurado con asignación de IP automática (DHCP) y traducción de red (NAT), lo que asegura que tu máquina virtual obtenga salida a Internet para el aprovisionamiento y que Vagrant pueda comunicarse con ella vía SSH.
 
-### Paso 6: Acceder a la VM y Ejecutar el Lab
+> [!NOTE]
+> **2. Nota de Seguridad sobre Credenciales de Windows (SMB)**:
+> Al usar Hyper-V, Vagrant comparte la carpeta local del proyecto con la máquina virtual usando el protocolo nativo de red de Windows (SMB). **Windows exige ingresar tus credenciales locales para autorizar que la VM acceda a tus archivos**.
+> * **Privacidad**: Vagrant **no almacena ni transmite tus credenciales**. Solo las pasa de forma local al sistema operativo Windows para dar permiso de lectura/escritura a la VM. Este prompt es generado directamente por el software oficial de HashiCorp Vagrant.
+> * **Formato del Usuario**:
+>   * Si usas una cuenta local de Windows, escribe tu usuario (ej: `jc` o `nombre_de_equipo\jc`). Puedes verificar tu usuario exacto abriendo otra consola de comandos y ejecutando `whoami`.
+>   * Si inicias sesión con una cuenta de Microsoft (correo electrónico), escribe el formato: `MicrosoftAccount\tu-correo@outlook.com`.
+> * **Contraseña**: Debes ingresar la **contraseña real** de tu cuenta (local o de Microsoft). **NO uses el PIN** de Windows Hello (de 4 o 6 dígitos), ya que SMB requiere la contraseña completa de la cuenta.
+
+### Paso 5: Acceder a la VM y Ejecutar el Lab
 1. Conéctate a la consola de la máquina virtual vía SSH:
    ```powershell
    vagrant ssh
@@ -164,5 +155,3 @@ vagrant up --provider=hyperv
 > ```powershell
 > vagrant provision
 > ```
-
-
