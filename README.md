@@ -1,22 +1,26 @@
-```text
-███████╗██╗  ██╗██████╗  ██████╗  ██████╗    ███████╗██╗      ██████╗ ██╗    ██╗
+<div align="center">
+<pre>
+███████╗██╗  ██╗██████╗  ██████╗  ██████╗    ███████╗██╗      ██████╗ ██╗    ██╗ 
 ██╔════╝╚██╗██╔╝╚════██╗██╔═══██╗██╔═══██╗    ██╔════╝██║     ██╔═══██╗██║    ██║
 █████╗   ╚███╔╝  █████╔╝██║   ██║██║   ██║    █████╗  ██║     ██║   ██║██║ █╗ ██║
 ██╔══╝   ██╔██╗ ██╔═══╝ ██║   ██║██║   ██║    ██╔══╝  ██║     ██║   ██║██║███╗██║
 ███████╗██╔╝ ██╗███████╗╚██████╔╝╚██████╔╝    ██║     ███████╗╚██████╔╝╚███╔███╔╝
-╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚═════╝    ╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝
-                        ██╗      ██████╗ ██████╗ ███████╗
-                        ██║     ██╔══██╗██╔══██╗██╔════╝
-                        ██║     ███████║██████╔╝███████╗
-                        ██║     ██╔══██║██╔══██╗╚════██║
-                        ███████╗██║  ██║██████╔╝███████║
-                        ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝
-```
+╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚═════╝    ╚═╝     ╚══════╝ ╚═════╝  ╚══╝╚══╝  
+                        ██╗      ██████╗ ██████╗ ███████╗                        
+                        ██║     ██╔══██╗██╔══██╗██╔════╝                         
+                        ██║     ███████║██████╔╝███████╗                         
+                        ██║     ██╔══██║██╔══██╗╚════██║                         
+                        ███████╗██║  ██║██████╔╝███████║                         
+                        ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝                         
+</pre>
+</div>
 
-[![RHCSA-EX200](https://img.shields.io/badge/Exam-RHCSA%20EX200-red?style=for-the-badge&logo=redhat)](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam)
-[![RHEL-Version](https://img.shields.io/badge/RHEL-9%20Compatible-red?style=for-the-badge&logo=redhat)](https://rockylinux.org/)
-[![Vagrant](https://img.shields.io/badge/Environment-Vagrant%20%2B%20Hyper--V-blue?style=for-the-badge&logo=vagrant)](https://www.vagrantup.com/)
-[![Language](https://img.shields.io/badge/Language-Espa%C3%B1ol-green?style=for-the-badge)](https://github.com/github/spec-kit)
+<p align="center">
+  [![RHCSA-EX200](https://img.shields.io/badge/Exam-RHCSA%20EX200-red?style=for-the-badge&logo=redhat)](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam)
+  [![RHEL-Version](https://img.shields.io/badge/RHEL-9%20Compatible-red?style=for-the-badge&logo=redhat)](https://rockylinux.org/)
+  [![Vagrant](https://img.shields.io/badge/Environment-Vagrant%20%2B%20Hyper--V-blue?style=for-the-badge&logo=vagrant)](https://www.vagrantup.com/)
+  [![Language](https://img.shields.io/badge/Language-Espa%C3%B1ol-green?style=for-the-badge)](https://github.com/github/spec-kit)
+</p>
 
 > **"Con la rima en la mente y los comandos en la shell, pasar el EX200 se vuelve un nivel fácil de vencer."**
 
