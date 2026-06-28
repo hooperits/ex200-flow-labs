@@ -102,10 +102,18 @@ Vagrant creará y gestionará la máquina virtual de forma automática:
 2. Ejecuta el archivo descargado y completa el asistente haciendo clic en "Next" hasta finalizar.
 
 ### Paso 4: Encender la Máquina Virtual
-Desde tu terminal de **PowerShell** (ejecutada con privilegios de **Administrador**, requerido para Hyper-V), navega a la carpeta del proyecto e inicia la máquina virtual de estudio (AlmaLinux 9):
-```powershell
-vagrant up --provider=hyperv
-```
+Para evitar ingresar tu cuenta personal de Windows (o si inicias sesión con PIN y no recuerdas tu contraseña), crearemos un usuario local auxiliar en Windows exclusivo para la compartición de archivos del laboratorio:
+
+1. Abre tu terminal de **PowerShell** con privilegios de **Administrador** (requerido por Hyper-V).
+2. Crea el usuario local `vagrantlabs` ejecutando los siguientes dos comandos:
+   ```powershell
+   net user vagrantlabs MiPasswordSeguro123 /add
+   net localgroup Administradores vagrantlabs /add
+   ```
+3. Inicia la máquina virtual de estudio (AlmaLinux 9) ejecutando:
+   ```powershell
+   vagrant up --provider=hyperv
+   ```
 
 > [!IMPORTANT]
 > **1. Selección del Switch Virtual en Hyper-V**:
@@ -114,13 +122,12 @@ vagrant up --provider=hyperv
 > * **Por qué**: Este switch interno de Windows viene preconfigurado con asignación de IP automática (DHCP) y traducción de red (NAT), lo que asegura que tu máquina virtual obtenga salida a Internet para el aprovisionamiento y que Vagrant pueda comunicarse con ella vía SSH.
 
 > [!NOTE]
-> **2. Nota de Seguridad sobre Credenciales de Windows (SMB)**:
-> Al usar Hyper-V, Vagrant comparte la carpeta local del proyecto con la máquina virtual usando el protocolo nativo de red de Windows (SMB). **Windows exige ingresar tus credenciales locales para autorizar que la VM acceda a tus archivos**.
-> * **Privacidad**: Vagrant **no almacena ni transmite tus credenciales**. Solo las pasa de forma local al sistema operativo Windows para dar permiso de lectura/escritura a la VM. Este prompt es generado directamente por el software oficial de HashiCorp Vagrant.
-> * **Formato del Usuario**:
->   * Si usas una cuenta local de Windows, escribe tu usuario (ej: `jc` o `nombre_de_equipo\jc`). Puedes verificar tu usuario exacto abriendo otra consola de comandos y ejecutando `whoami`.
->   * Si inicias sesión con una cuenta de Microsoft (correo electrónico), escribe el formato: `MicrosoftAccount\tu-correo@outlook.com`.
-> * **Contraseña**: Debes ingresar la **contraseña real** de tu cuenta (local o de Microsoft). **NO uses el PIN** de Windows Hello (de 4 o 6 dígitos), ya que SMB requiere la contraseña completa de la cuenta.
+> **2. Credenciales de Windows (SMB)**:
+> Al montar las carpetas, Vagrant te pedirá un usuario y contraseña. Utiliza la cuenta de servicio local que acabas de crear:
+> * **Username (usuario)**: `vagrantlabs`
+> * **Password (contraseña)**: `MiPasswordSeguro123`
+> *(Nota: Vagrant no almacena tus credenciales en ningún sitio; solo las pasa localmente a Windows para autorizar el montaje de la carpeta de red hacia la VM).*
+
 
 ### Paso 5: Acceder a la VM y Ejecutar el Lab
 1. Conéctate a la consola de la máquina virtual vía SSH:
