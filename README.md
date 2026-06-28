@@ -18,7 +18,7 @@
   <a href="https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam">
     <img src="https://img.shields.io/badge/Exam-RHCSA%20EX200-red?style=for-the-badge&logo=redhat" alt="RHCSA-EX200" />
   </a>
-  <a href="https://rockylinux.org/">
+  <a href="https://almalinux.org/">
     <img src="https://img.shields.io/badge/RHEL-9%20Compatible-red?style=for-the-badge&logo=redhat" alt="RHEL-Version" />
   </a>
   <a href="https://www.vagrantup.com/">
@@ -109,7 +109,7 @@ cd ex200-flow-labs
 ```
 
 ### Paso B: Encender la Máquina Virtual
-Inicia la máquina Rocky Linux 9 de estudio desde tu consola (PowerShell o Git Bash) con privilegios de Administrador (requerido para Hyper-V):
+Inicia la máquina AlmaLinux 9 de estudio desde tu consola (PowerShell o Git Bash) con privilegios de Administrador (requerido para Hyper-V):
 ```powershell
 vagrant up --provider=hyperv
 ```
