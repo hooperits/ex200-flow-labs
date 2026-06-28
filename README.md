@@ -132,19 +132,36 @@ vagrant up --provider=hyperv
 > * **Recomendación**: Selecciona la opción correspondiente a **`Default Switch`**.
 > * **Por qué**: Este switch interno de Windows viene preconfigurado con asignación de IP automática (DHCP) y traducción de red (NAT), lo que asegura que tu máquina virtual obtenga salida a Internet para el aprovisionamiento de dependencias y que Vagrant pueda comunicarse con ella vía SSH.
 
-### Paso C: Entrar a la Máquina de Estudio
-Accede a la consola de la máquina virtual vía SSH:
-```powershell
-vagrant ssh
-```
-Dentro de la máquina virtual (que es un entorno Linux puro), podrás navegar al directorio `/labs/` donde encontrarás el laboratorio actual listo para ejecutar la demo o realizar el challenge:
-```bash
-cd /labs/
-```
+### Paso C: Entrar a la Máquina de Estudio y Ejecutar el Lab
+1. Accede a la consola de la máquina virtual vía SSH:
+   ```powershell
+   vagrant ssh
+   ```
+2. Dentro de la máquina (que es un entorno Linux de AlmaLinux 9), navega al directorio de laboratorios `/labs/` y entra en el módulo que desees practicar (por ejemplo, el módulo 01):
+   ```bash
+   cd /labs/01-essential-tools/
+   ```
+3. Ejecuta la demostración animada con explicaciones en español para entender los conceptos:
+   ```bash
+   ./demo.sh
+   ```
+4. Lee las instrucciones del reto práctico:
+   ```bash
+   cat instructions.md
+   ```
+5. Realiza los cambios necesarios en el subdirectorio `challenge/` para resolver el reto (puedes consultar pistas progresivas con `cat hints.md`).
+6. Valida si tu solución es correcta ejecutando el script evaluador automático no destructivo:
+   ```bash
+   ./verify.sh
+   ```
+7. Si deseas volver a practicar desde cero o limpiar tu entorno, puedes restablecer el reto ejecutando:
+   ```bash
+   ./reset.sh
+   ```
 
 > [!TIP]
 > **Sincronización de Archivos**:
-> Si realizas algún cambio en las instrucciones o scripts de la carpeta `./labs/` desde el host (Windows), puedes sincronizarlos con la máquina virtual ejecutando:
+> Si realizas algún cambio en las instrucciones o scripts de la carpeta `./labs/` en el host (Windows) mediante tu editor de código (como VS Code), puedes sincronizarlos con la máquina virtual ejecutando:
 > ```powershell
 > vagrant provision
 > ```
