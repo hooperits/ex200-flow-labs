@@ -1,0 +1,6 @@
+# Enforce LF line endings for all shell scripts, even on Windows
+*.sh text eol=lf
+
+# Enforce LF for text-based documentation files in labs
+*.md text eol=lf
+*.txt text eol=lf
