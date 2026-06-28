@@ -37,6 +37,22 @@ Este proyecto utiliza **Vagrant con Hyper-V** para ofrecer laboratorios rápidos
 
 ---
 
+## 📚 Temas Cubiertos en los Labs
+
+Este entorno de laboratorios cubre el 100% de los objetivos oficiales del examen RHCSA (EX200):
+
+1. **Herramientas Esenciales:** Consola, edición de archivos, comandos básicos y redirecciones.
+2. **Scripts de Automatización:** Fundamentos y prácticas de Shell Scripting en Bash.
+3. **Operación del Sistema:** Control de servicios con systemd, GRUB y recuperación de contraseña de root.
+4. **Usuarios y Grupos:** Gestión de identidades, permisos especiales (SUID, SGID, Sticky Bit) y ACLs.
+5. **Servicios de Red:** Configuración con nmcli, sincronización de hora con chrony y tareas programadas con Cron.
+6. **Seguridad y SELinux:** Gestión de firewalld y modos, contextos y políticas de SELinux.
+7. **Almacenamiento Local:** Gestión de particiones, volúmenes lógicos (LVM) y optimización.
+8. **Sistemas de Archivos en Red:** Montajes estáticos en `/etc/fstab`, NFS, SMB y montajes dinámicos con Autofs.
+9. **Contenedores:** Despliegue de contenedores Rootless y persistencia de servicios mediante systemd con Podman.
+
+---
+
 ## ⚡ El Flujo de Estudio ("The Flow")
 
 Cada laboratorio cuenta con una metodología estricta de cinco pasos estructurada bajo principios de desarrollo ágil:
@@ -56,22 +72,6 @@ graph TD
 3.  **`verify.sh` (El Validador):** Ejecuta el validador automatizado para autoevaluar tu entrega. Te dará un reporte visual de `PASSED`/`FAILED` sin alterar tus configuraciones.
 4.  **`reset.sh` (El Reinicio):** ¿Cometiste un error crítico? Ejecuta el reset para limpiar la práctica y volver a empezar.
 5.  **`hints.md` (Las Pistas):** Consulta pistas progresivas si te encuentras estancado.
-
----
-
-## 📊 Tabla de Progreso y Hoja de Ruta (Cobertura 100%)
-
-| Módulo | Tema del Examen | Estado del Lab | Especificación | Enlace al Lab | Rap Lyrics |
-| :---: | :--- | :---: | :---: | :---: | :---: |
-| **01** | Herramientas Esenciales e Inicio de Sesión | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/01-essential-tools/spec.md) | `labs/01-essential-tools/` | 📝 Planificado |
-| **02** | Scripts de Automatización (Shell Scripting) | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/02-shell-scripting/spec.md) | `labs/02-shell-scripting/` | 📝 Planificado |
-| **03** | Operación del Sistema (systemd, GRUB, root pass) | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/03-operating-systems/spec.md) | `labs/03-operating-systems/` | 📝 Planificado |
-| **04** | Usuarios, Grupos, Permisos Especiales y ACLs | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/04-users-groups/spec.md) | `labs/04-users-groups/` | 📝 Planificado |
-| **05** | Red (nmcli), Hostname, NTP (chrony) y Cron | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/05-networking-services/spec.md) | `labs/05-networking-services/` | 📝 Planificado |
-| **06** | Seguridad de Red (firewalld) y SELinux | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/06-security-selinux/spec.md) | `labs/06-security-selinux/` | 📝 Planificado |
-| **07** | Almacenamiento Local (LVM, Particiones, VDO) | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/07-local-storage/spec.md) | `labs/07-local-storage/` | 📝 Planificado |
-| **08** | fstab, Almacenamiento en Red (NFS/SMB) y Autofs | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/08-filesystems-network/spec.md) | `labs/08-filesystems-network/` | 📝 Planificado |
-| **09** | Contenedores con Podman (Rootless y Systemd) | 📝 Planificación | [Ver Spec](file:///home/juanca/proys/RHCSA-EX200/specs/09-podman-containers/spec.md) | `labs/09-podman-containers/` | 📝 Planificado |
 
 ---
 
@@ -154,8 +154,3 @@ Dentro de la máquina, podrás navegar al directorio `/labs/` donde encontrarás
 > vagrant provision
 > ```
 
----
-
-## 🎧 Mnemotecnia de Rap Técnico (Lyrics)
-
-Como política de desarrollo e infraestructura, las letras de rap en español para cada tema **no se suben a este repositorio Git** para mantener limpio el entorno de código. Se guardan y gestionan de forma local en tu máquina host en el directorio externo `/home/juanca/RHCSA-EX200-lyrics/`.
