@@ -51,30 +51,84 @@ graph TD
 
 ---
 
-## 🛠️ Configuración e Instalación Rápida
+## 🛠️ Configuración e Instalación Rápida (Paso a Paso)
 
-Este entorno está optimizado para ejecutarse en **Windows 10/11 con WSL (Windows Subsystem for Linux)** e **Hyper-V** habilitado.
+Para que puedas correr estos laboratorios de forma local, utilizaremos un entorno mixto: **Windows 10/11** actuará como el hipervisor físico (mediante **Hyper-V**) y tu terminal de **WSL2 (Windows Subsystem for Linux)** servirá para controlar el despliegue del laboratorio sin tocar configuraciones manuales.
 
-### Requisitos Previos (en tu máquina host de Windows)
-1. **Hyper-V habilitado:** Abre PowerShell como Administrador en Windows y ejecuta:
+Sigue esta guía narrativa sencilla para preparar tu computadora en 10 minutos:
+
+### 1. Activar Hyper-V en tu Windows
+Hyper-V es la tecnología nativa de virtualización de Windows. Necesitamos activarla:
+1. Abre el menú Inicio de Windows, escribe **PowerShell**, haz clic derecho sobre él y selecciona **Ejecutar como Administrador**.
+2. Copia, pega y ejecuta el siguiente comando:
    ```powershell
    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
    ```
-2. **Vagrant instalado:** Descarga e instala Vagrant para Windows desde el [sitio oficial](https://www.vagrantup.com/downloads).
+3. Si el sistema te solicita reiniciar para aplicar los cambios, acepta y reinicia tu equipo.
 
-### Levantar el Entorno (desde WSL o Git Bash)
-Clona este repositorio y levanta la máquina virtual de estudio:
+### 2. Instalar Vagrant en Windows
+Vagrant es la herramienta que creará y configurará la máquina virtual por nosotros:
+1. Ve al sitio oficial de descargas de [Vagrant](https://www.vagrantup.com/downloads) y descarga el instalador para Windows (arquitectura AMD64/x86_64).
+2. Ejecuta el instalador descargado y sigue el asistente haciendo clic en "Next" hasta finalizar.
+
+### 3. Instalar Vagrant dentro de tu WSL2 (Linux)
+Para que puedas controlar todo desde tu terminal de Linux, debemos instalar el ejecutable de Vagrant en WSL:
+1. Abre tu terminal de WSL (por ejemplo, Ubuntu) y ejecuta los siguientes comandos para agregar el repositorio oficial de HashiCorp e instalar Vagrant:
+   ```bash
+   wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg > /dev/null
+   echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com/ $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+   sudo apt update && sudo apt install vagrant
+   ```
+
+### 4. Enlazar Vagrant de WSL con el Motor de Windows
+Dado que la máquina virtual real correrá en el Hyper-V de Windows, debemos decirle al Vagrant de WSL que tiene permiso para comunicarse con Windows:
+1. Abre tu archivo de perfil en la terminal de WSL:
+   ```bash
+   nano ~/.bashrc
+   ```
+2. Desplázate hasta el final del archivo y añade esta línea:
+   ```bash
+   export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS="1"
+   ```
+3. Guarda los cambios presionando `Ctrl+O`, luego `Enter` y sal con `Ctrl+X`.
+4. Recarga tu terminal para activar el cambio:
+   ```bash
+   source ~/.bashrc
+   ```
+
+---
+
+## 🚀 Cómo Iniciar y Usar el Laboratorio
+
+Una vez realizada la instalación inicial, el uso diario es sumamente rápido:
+
+### Paso A: Clonar el proyecto
+Clona este repositorio en tu directorio de trabajo dentro de WSL:
 ```bash
 git clone https://github.com/tu-usuario/ex200-flow-labs.git
 cd ex200-flow-labs
-vagrant up --provider=hyperv
 ```
 
-Una vez que termine el aprovisionamiento, puedes conectarte vía SSH a la máquina virtual:
+### Paso B: Encender la Máquina Virtual
+Inicia la máquina Rocky Linux 9 de estudio. Este comando creará la VM, le adjuntará un disco virtual de 10 GB para tus prácticas de almacenamiento, e instalará todo el software básico:
+```bash
+vagrant up --provider=hyperv
+```
+*(Nota: Al haber configurado la **Opción B de Copia Estática**, este comando no te pedirá ninguna credencial o contraseña de Windows host).*
+
+### Paso C: Entrar a la Máquina de Estudio
+Accede a la consola de la máquina virtual vía SSH:
 ```bash
 vagrant ssh
 ```
-*(Todos los laboratorios estarán sincronizados automáticamente dentro de la máquina en el directorio `/labs/`)*.
+Dentro de la máquina, podrás navegar al directorio `/labs/` donde encontrarás el laboratorio actual listo para ejecutar la demo o realizar el challenge.
+
+> [!TIP]
+> **Modificaciones de archivos y sincronización:**
+> Como estamos usando la opción de copia estática segura para evitar fricción de contraseñas de red en Windows, si realizas algún cambio en las instrucciones o scripts desde WSL en el host, deberás sincronizar los archivos dentro de la VM ejecutando:
+> ```bash
+> vagrant provision
+> ```
 
 ---
 
