@@ -28,3 +28,4 @@ Una vez completadas todas las tareas, ejecuta el validador automatizado dentro d
 ```
 
 El script te dará un reporte en tiempo real de qué puntos han pasado y cuáles han fallado. Si algo sale mal, puedes usar las pistas en `hints.md` o reiniciar la práctica con `./reset.sh`.
+
