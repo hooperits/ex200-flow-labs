@@ -28,7 +28,11 @@ run_demo_cmd() {
     echo -n -e "${BLUE}vagrant@localhost:~$ ${NC}"
     type_text "$cmd" 0.03
     sleep 0.8
-    eval "$cmd"
+    
+    # Filtrar comentarios explicativos entre paréntesis para evitar errores de sintaxis en eval
+    local exec_cmd
+    exec_cmd=$(echo "$cmd" | sed 's/ ([^)]*)$//')
+    eval "$exec_cmd"
     echo
     sleep 5.0
 }
