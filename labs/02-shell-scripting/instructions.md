@@ -32,3 +32,4 @@ Una vez que completes el script y le des permisos de ejecución (`chmod +x chall
 ```
 
 Puedes ver pistas progresivas en `hints.md` y restablecer el entorno de pruebas con `./reset.sh`.
+
