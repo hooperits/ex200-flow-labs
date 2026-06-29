@@ -23,9 +23,9 @@ tests/
 Bash 5.x: Follow standard conventions
 
 ## Recent Changes
+- 005-specs-06-security: Added Bash 5.x + Rocky Linux 9 (VM), Vagrant 2.4.9, Hyper-V
 - 004-specs-05-networking: Added Bash 5.x + Rocky Linux 9 (VM), Vagrant 2.4.9, Hyper-V
 - 003-specs-04-users: Added Bash 5.x + Rocky Linux 9 (VM), Vagrant 2.4.9, Hyper-V
-- 002-specs-03-operating: Added Bash 5.x + Rocky Linux 9 (VM), Vagrant 2.4.9, Hyper-V
 
 
 <!-- MANUAL ADDITIONS START -->
