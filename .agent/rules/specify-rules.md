@@ -23,6 +23,7 @@ tests/
 Bash 5.x: Follow standard conventions
 
 ## Recent Changes
+- 001-specs-02-shell: Added Bash 5.x + Rocky Linux 9 (VM), Vagrant 2.4.9, Hyper-V
 - 001-essential-tools: Added Bash 5.x + Rocky Linux 9 (VM), Vagrant 2.4.9, Hyper-V
 
 - 001-essential-tools: Added Bash 5.x + Rocky Linux 9 (VM), Vagrant 2.4.9, Hyper-V
