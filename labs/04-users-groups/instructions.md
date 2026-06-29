@@ -33,3 +33,4 @@ Una vez completado el reto, valida tu solución ejecutando:
 ```
 
 Puedes ver pistas progresivas en `hints.md` y restablecer el entorno a su estado original con `./reset.sh`.
+
