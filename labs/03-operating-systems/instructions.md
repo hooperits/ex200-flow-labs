@@ -30,3 +30,4 @@ Una vez completadas todas las configuraciones, valida tu solución ejecutando:
 ```
 
 Puedes ver pistas progresivas en `hints.md` y restablecer las configuraciones a su estado inicial con `./reset.sh`.
+
