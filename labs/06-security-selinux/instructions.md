@@ -28,3 +28,4 @@ Una vez que configures las reglas y políticas, valida tu solución ejecutando:
 ```
 
 Puedes ver pistas progresivas en `hints.md` y restablecer el entorno a su estado original con `./reset.sh`.
+
