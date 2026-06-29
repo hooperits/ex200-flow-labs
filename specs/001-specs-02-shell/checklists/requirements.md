@@ -5,7 +5,6 @@ Use this checklist to verify that all specifications are fully met.
 ## 📋 General Requirements
 - [x] R-001: The feature directory has been resolved as `/specs/001-specs-02-shell/`
 - [x] R-002: The branch is `001-specs-02-shell`
-- [x] R-003: The lyrics file path is relative and portable `../RHCSA-EX200-lyrics/02-shell-scripting.txt`
 
 ## 📋 Functional Requirements (Module 02)
 - [x] FR-001: `demo.sh` illustrates Bash variables, conditionals (`if/then/else`), loops (`for`/`while`), and script arguments (`$1`, `$2`, `$#`).
@@ -15,4 +14,3 @@ Use this checklist to verify that all specifications are fully met.
 - [x] FR-005: `hints.md` provides progressive clues to solve the challenge.
 - [x] FR-006: `verify.sh` automatically evaluates the user's script with valid and invalid parameters and checks its exit code and stdout.
 - [x] FR-007: `reset.sh` cleans up user-created files and directories.
-- [x] FR-008: Mnemotechnic lyrics are saved externally in `../RHCSA-EX200-lyrics/02-shell-scripting.txt` in Spanish.

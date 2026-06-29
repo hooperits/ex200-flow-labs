@@ -5,7 +5,6 @@ Use this checklist to verify that all specifications are fully met.
 ## 📋 General Requirements
 - [x] R-001: The feature directory has been resolved as `/specs/007-specs-08-filesystems/`
 - [x] R-002: The branch is `007-specs-08-filesystems`
-- [x] R-003: The lyrics file path is relative and portable `../RHCSA-EX200-lyrics/08-filesystems-network.txt`
 
 ## 📋 Functional Requirements (Module 08)
 - [x] FR-001: `demo.sh` illustrates file systems (`mkfs.ext4`, `blkid`), persistent mounts using UUIDs, network mounting, and Autofs (`auto.master`, `auto.misc`).
@@ -15,4 +14,3 @@ Use this checklist to verify that all specifications are fully met.
 - [x] FR-005: `hints.md` provides progressive clues to solve the challenge.
 - [x] FR-006: `verify.sh` automatically evaluates fstab mount entry (checking UUID format) and autofs mount status.
 - [x] FR-007: `reset.sh` cleans up autofs configs, stops autofs service, and removes mountpoints.
-- [x] FR-008: Mnemotechnic lyrics are saved externally in `../RHCSA-EX200-lyrics/08-filesystems-network.txt` in Spanish.

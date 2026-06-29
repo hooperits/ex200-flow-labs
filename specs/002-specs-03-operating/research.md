@@ -23,7 +23,6 @@ Commands to manage:
 ## System Target Configuration
 Change default boot environment:
 - View: `systemctl get-default`
-- Set: `systemctl set-default multi-user.target` (non-graphical terminal mode).
 
 ## Root Password Recovery sequence
 Under GRUB boot menu:

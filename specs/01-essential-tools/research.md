@@ -24,8 +24,5 @@ Este documento registra los hallazgos y decisiones técnicas tomadas para el dis
 * **Decisión**: Implementar una función en Bash `type_text` que procese carácter por carácter un texto y aplique un retardo programado de `0.01` a `0.02` segundos.
 * **Racional**: Genera el efecto visual premium requerido sin depender de utilidades externas (como `asciinema` o `expect`) y cumple con el límite de duración inferior a 3 minutos para todo el script.
 
-### 4. Letras de Rap Externas (`../RHCSA-EX200-lyrics/01-essential-tools.txt`)
-* **Decisión**: Almacenar las letras en el directorio relativo portable `../RHCSA-EX200-lyrics/` adyacente a la raíz del repositorio de Git.
 * **Racional**:
   - Permite que el código sea portable tanto en Windows (PowerShell/CMD) como en Linux/WSL, evitando acoplar rutas absolutas que incluyan nombres de usuarios específicos del sistema (como `/home/juanca/`).
-  - Satisface el principio de la constitución de no contaminar el repositorio Git del laboratorio con letras de rap.

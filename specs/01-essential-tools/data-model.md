@@ -39,7 +39,4 @@ Todas las entidades residen dentro del directorio del reto: `/labs/01-essential-
 
 ## Entidades Externas
 
-### 6. Mnemotecnia de Rap (`../RHCSA-EX200-lyrics/01-essential-tools.txt`)
-* **Propósito**: Guardar el guion de rap técnico fuera del árbol de Git.
 * **Metadatos**:
-  * Ruta en el host: `../RHCSA-EX200-lyrics/01-essential-tools.txt`.

@@ -3,7 +3,6 @@
 **Feature Branch**: `07-local-storage`  
 **Created**: 2026-06-28  
 **Status**: Draft  
-**Input**: Séptimo módulo de laboratorios y rap sobre Almacenamiento Local (Particiones GPT/MBR y Administración Completa de LVM, incluyendo LVM VDO) para el examen RHCSA EX200 (RHEL 9).
 
 ## User Scenarios & Testing
 
@@ -19,4 +18,3 @@ El estudiante crea particiones en un disco secundario, inicializa Physical Volum
 - **FR-002**: El laboratorio MUST cubrir el flujo completo de creación, extensión y administración de LVM.
 - **FR-003**: El laboratorio MUST incluir la creación de volúmenes LVM VDO (`lvcreate --type vdo`).
 - **FR-004**: El script `verify.sh` MUST inspeccionar los metadatos de LVM usando `pvs`, `vgs` y `lvs` sin alterar los discos de la VM.
-- **FR-005**: La letra de rap técnico en español MUST guardarse en `../RHCSA-EX200-lyrics/07-local-storage.txt`, rimando `pvcreate`, `vgextend`, `lvextend -r` y la sintaxis de LVM VDO.

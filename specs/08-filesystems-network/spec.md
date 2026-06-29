@@ -3,7 +3,6 @@
 **Feature Branch**: `08-filesystems-network`  
 **Created**: 2026-06-28  
 **Status**: Draft  
-**Input**: Octavo módulo de laboratorios y rap sobre Creación de Sistemas de Archivos, Montaje Persistente en `/etc/fstab`, y Montaje de Recursos de Red NFS y SMB/CIFS (tanto de forma persistente como a demanda mediante Autofs) para el examen RHCSA EX200 (RHEL 9).
 
 ## User Scenarios & Testing
 
@@ -18,4 +17,3 @@ El estudiante formatea volúmenes locales en XFS/ext4 y los monta persistentemen
 - **FR-001**: El laboratorio MUST requerir el formateo e identificación del UUID de los discos (`blkid`).
 - **FR-002**: El laboratorio MUST simular o proveer un servidor NFS/SMB local en la VM para permitir el ejercicio de montaje de red y autofs.
 - **FR-003**: El script `verify.sh` MUST validar `/etc/fstab` y simular el acceso al directorio para forzar el montaje de `autofs` y corroborar que esté activo.
-- **FR-004**: La letra de rap técnico en español MUST guardarse en `../RHCSA-EX200-lyrics/08-filesystems-network.txt`, rimando `mount -a`, la estructura de `/etc/fstab` (defaults, 0 0) y el flujo de configuración de `autofs`.

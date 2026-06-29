@@ -5,7 +5,6 @@ Use this checklist to verify that all specifications are fully met.
 ## 📋 General Requirements
 - [x] R-001: The feature directory has been resolved as `/specs/004-specs-05-networking/`
 - [x] R-002: The branch is `004-specs-05-networking`
-- [x] R-003: The lyrics file path is relative and portable `../RHCSA-EX200-lyrics/05-networking-services.txt`
 
 ## 📋 Functional Requirements (Module 05)
 - [x] FR-001: `demo.sh` illustrates `nmcli` (connection modify, dynamic vs static, show), `hostnamectl`, `chronyc` (sources, tracking), and `crontab` task creation.
@@ -15,4 +14,3 @@ Use this checklist to verify that all specifications are fully met.
 - [x] FR-005: `hints.md` provides progressive clues to solve the challenge.
 - [x] FR-006: `verify.sh` automatically evaluates static network, hostname, chrony sources, and cron entries.
 - [x] FR-007: `reset.sh` cleans up network interfaces and system cron jobs.
-- [x] FR-008: Mnemotechnic lyrics are saved externally in `../RHCSA-EX200-lyrics/05-networking-services.txt` in Spanish.

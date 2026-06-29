@@ -29,9 +29,7 @@
 
 ---
 
-## Phase 4: User Story 2 - Lyrics (Priority: P2)
 
-- [ ] T010 Write the Spanish technical rap lyrics to `../RHCSA-EX200-lyrics/04-users-groups.txt`
 
 ---
 

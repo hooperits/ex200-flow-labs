@@ -31,4 +31,3 @@
 
 ## Notes
 
-- All checks passed successfully under the simplified architecture (no WSL, portable lyrics path).

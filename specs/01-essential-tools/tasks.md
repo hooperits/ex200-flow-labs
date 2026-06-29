@@ -88,15 +88,11 @@
 
 ---
 
-## Phase 6: User Story 4 - Letra del Rap para Nemotecnia (Priority: P2)
 
-**Goal**: External Spanish lyrics file.
 
-**Independent Test**: Read `../RHCSA-EX200-lyrics/01-essential-tools.txt` on the host to check if lyrics are created.
 
 ### Implementation for User Story 4
 
-- [x] T019 [US4] Write the Spanish mnemotechnic lyrics to `../RHCSA-EX200-lyrics/01-essential-tools.txt`
 
 **Checkpoint**: All user stories are functional.
 

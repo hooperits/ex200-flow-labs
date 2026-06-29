@@ -25,7 +25,6 @@ El módulo 01-essential-tools implementa el primer laboratorio práctico del exa
 
 - **Principle I: Isolated Hyper-V Environment**: **PASSED**. All labs and evaluations will run strictly inside the Rocky Linux 9 guest VM, controlled from the Windows Host.
 - **Principle II: Standardized Module Structure**: **PASSED**. The lab folder will contain `demo.sh`, `instructions.md`, `hints.md`, `verify.sh`, and `reset.sh`.
-- **Principle III: External Lyrics**: **PASSED**. Lyrics file will be stored outside Git at `../RHCSA-EX200-lyrics/01-essential-tools.txt`.
 - **Principle IV: Language Localization**: **PASSED**. Explanations and instruction prose in Spanish; commands, arguments, and Red Hat service names in English.
 - **Principle V: Non-destructive Evaluation**: **PASSED**. The verification script will check file statuses/content without modifying any configurations.
 - **Principle VI: Public Visibility (README)**: **PASSED**. The main README has been updated to document this lab module and its contents.

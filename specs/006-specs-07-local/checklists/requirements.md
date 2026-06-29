@@ -5,7 +5,6 @@ Use this checklist to verify that all specifications are fully met.
 ## 📋 General Requirements
 - [x] R-001: The feature directory has been resolved as `/specs/006-specs-07-local/`
 - [x] R-002: The branch is `006-specs-07-local`
-- [x] R-003: The lyrics file path is relative and portable `../RHCSA-EX200-lyrics/07-local-storage.txt`
 
 ## 📋 Functional Requirements (Module 07)
 - [x] FR-001: `demo.sh` illustrates LVM management (`pvcreate`, `vgcreate`, `lvcreate`), filesystem resizing (`lvextend -r`), and VDO storage optimization (`lvcreate --type vdo`).
@@ -15,4 +14,3 @@ Use this checklist to verify that all specifications are fully met.
 - [x] FR-005: `hints.md` provides progressive clues to solve the challenge.
 - [x] FR-006: `verify.sh` automatically evaluates LVM components and mount configurations.
 - [x] FR-007: `reset.sh` cleans up logical volumes, volume groups, and unmounts paths.
-- [x] FR-008: Mnemotechnic lyrics are saved externally in `../RHCSA-EX200-lyrics/07-local-storage.txt` in Spanish.

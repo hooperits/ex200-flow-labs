@@ -5,7 +5,6 @@ Use this checklist to verify that all specifications are fully met.
 ## 📋 General Requirements
 - [x] R-001: The feature directory has been resolved as `/specs/008-specs-09-podman/`
 - [x] R-002: The branch is `008-specs-09-podman`
-- [x] R-003: The lyrics file path is relative and portable `../RHCSA-EX200-lyrics/09-podman-containers.txt`
 
 ## 📋 Functional Requirements (Module 09)
 - [x] FR-001: `demo.sh` illustrates rootless podman (`podman run`, `podman ps`), local directory mounts (`-v`), user systemd configurations, and loginctl linger activation.
@@ -15,4 +14,3 @@ Use this checklist to verify that all specifications are fully met.
 - [x] FR-005: `hints.md` provides progressive clues to solve the challenge.
 - [x] FR-006: `verify.sh` automatically evaluates container status, user systemd configuration, and linger state.
 - [x] FR-007: `reset.sh` cleans up podman containers, user systemd configurations, and lingers.
-- [x] FR-008: Mnemotechnic lyrics are saved externally in `../RHCSA-EX200-lyrics/09-podman-containers.txt` in Spanish.

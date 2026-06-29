@@ -29,11 +29,11 @@
   </a>
 </p>
 
-> **"Con la rima en la mente y los comandos en la shell, pasar el EX200 se vuelve un nivel fácil de vencer."**
+> **"Con los comandos en la shell, pasar el EX200 se vuelve un nivel fácil de vencer."**
 
 `ex200-flow-labs` es un entorno interactivo y automatizado de aprendizaje diseñado en español para dominar el examen **Red Hat Certified System Administrator (RHCSA EX200)** basado en **Red Hat Enterprise Linux 9 (RHEL 9)**. 
 
-Este proyecto utiliza **Vagrant con Hyper-V** para ofrecer laboratorios rápidos y aislados, y añade un enfoque mnemotécnico único: **canciones de rap técnico en español** para memorizar comandos complejos y sus flags específicos de forma divertida y permanente.
+Este proyecto utiliza **Vagrant con Hyper-V** para ofrecer laboratorios rápidos y aislados orientados a la práctica interactiva para el examen de certificación.
 
 ---
 
@@ -63,8 +63,7 @@ graph TD
     B --> C[3. Evaluar: verify.sh]
     C -- FAILED --> D[Pistas: hints.md / Reiniciar: reset.sh]
     D --> B
-    C -- PASSED --> E[4. Memorizar: Rap Lyrics]
-    E --> F[¡Siguiente Tema!]
+    C -- PASSED --> E[¡Siguiente Tema!]
 ```
 
 1.  **`demo.sh` (La Demo Visual):** Corre el script de tutorial animado dentro de la VM para ver los comandos en acción.
