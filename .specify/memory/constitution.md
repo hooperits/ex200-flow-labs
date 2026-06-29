@@ -1,7 +1,7 @@
 <!--
-Version change: 1.0.0 → 1.1.0
+Version change: 1.1.0 → 1.2.0
 List of modified principles:
-- Added Principle VI: Visibilidad Pública y README de Alta Calidad.
+- Updated Principle III: Added rule that technical rap lyrics must match the 3-minute minimum demo duration (at least 4 verses + chorus, aligned with topics).
 Added sections: None
 Removed sections: None
 Templates requiring updates: None
@@ -25,6 +25,7 @@ Cada laboratorio de tema del examen MUST estar ubicado en su propio directorio y
 
 ### III. Mnemotecnia Musical Externa (Lyrics)
 Para cada laboratorio de tema, se MUST generar una letra de rap técnico en español detallando los comandos y flags clave del examen. Estos archivos se almacenarán exclusivamente de forma externa en el directorio adyacente `../RHCSA-EX200-lyrics/` para su posterior uso. No se deben subir estos archivos al repositorio de Git para mantener limpio el entorno de código.
+* **Regla de Duración y Estructura**: Para alinearse con las demostraciones visuales de al menos 3 minutos, cada letra de rap MUST estar estructurada con un coro recurrente y al menos 4 estrofas largas y detalladas (una por cada subtema principal del laboratorio). Esto asegura que la letra tenga suficiente densidad de contenido y extensión para acompañar la reproducción de la demo completa.
 
 ### IV. Localización Lingüística y Vocabulario Técnico
 Toda la documentación, instrucciones de retos, comentarios de código y mensajes de salida de la terminal MUST estar redactados en español. Sin embargo, todos los comandos (`systemctl`, `pvcreate`), flags (`-m`, `-L`, `-G`), nombres de configuraciones, servicios y conceptos oficiales de Red Hat (como *Volume Group*, *SELinux*, *cron*) MUST permanecer en su inglés original para simular con precisión el examen de certificación.
@@ -61,4 +62,4 @@ La incorporación de cualquier nuevo tema o laboratorio en el repositorio se reg
   - MINOR: Adición de nuevas tecnologías de apoyo o principios no restrictivos.
   - PATCH: Correcciones de redacción o aclaraciones menores.
 
-**Version**: 1.1.0 | **Ratified**: 2026-06-28 | **Last Amended**: 2026-06-28
+**Version**: 1.2.0 | **Ratified**: 2026-06-28 | **Last Amended**: 2026-06-28
