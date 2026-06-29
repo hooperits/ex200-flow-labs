@@ -12,7 +12,7 @@ NC='\033[0m' # No Color
 # Helper for simulated typing
 type_text() {
     local text="$1"
-    local delay="${2:-0.01}"
+    local delay="${2:-0.03}"
     for ((i=0; i<${#text}; i++)); do
         echo -n -e "${text:$i:1}"
         sleep "$delay"
@@ -24,56 +24,62 @@ type_text() {
 run_demo_cmd() {
     local cmd="$2"
     echo -e "${MAGENTA}➔ Explicación:${NC} ${YELLOW}$1${NC}"
-    echo -n -e "${BLUE}vagrant@rocky9:~$ ${NC}"
-    type_text "$cmd" 0.02
-    sleep 0.5
+    sleep 1.0
+    echo -n -e "${BLUE}vagrant@localhost:~$ ${NC}"
+    type_text "$cmd" 0.03
+    sleep 0.8
     eval "$cmd"
     echo
-    sleep 1.5
+    sleep 5.0
 }
 
-clear
-echo -e "${CYAN}================================================================${NC}"
-echo -e "${CYAN}    RHCSA Módulo 01: Demostración de Herramientas Esenciales    ${NC}"
-echo -e "${CYAN}================================================================${NC}"
-echo
+# Helper to clean terminal and show section header
+clear_section() {
+    clear
+    echo -e "${CYAN}================================================================${NC}"
+    echo -e "${CYAN}    RHCSA Módulo 01: Demostración de Herramientas Esenciales    ${NC}"
+    echo -e "${CYAN}    Tema: $1${NC}"
+    echo -e "${CYAN}================================================================${NC}"
+    echo
+    sleep 2.0
+}
 
 # 1. Redirecciones de entrada/salida y pipes
-echo -e "${CYAN}=== 1. Redirecciones de Salida (stdout/stderr) y Pipes ===${NC}"
+clear_section "1. Redirecciones (stdout/stderr) y Pipes"
 run_demo_cmd "Redirigimos la salida estándar (stdout) a un archivo usando el operador '>'" "echo 'Hola Estudiante EX200' > saludo.txt"
-run_demo_cmd "Leemos el archivo creado" "cat saludo.txt"
+run_demo_cmd "Leemos el archivo creado para confirmar su contenido" "cat saludo.txt"
 run_demo_cmd "Redirigimos el canal de error (stderr, descriptor 2) a otro archivo usando '2>'" "ls archivo_inexistente.txt 2> error.log"
 run_demo_cmd "Leemos el archivo de errores" "cat error.log"
 run_demo_cmd "Usamos un pipe '|' para enviar la salida de un comando como entrada de otro" "echo -e 'rojo\nverde\nazul\namarillo' | grep 'a'"
 rm -f saludo.txt error.log
-echo
+sleep 2.0
 
 # 2. Uso de grep y expresiones regulares
-echo -e "${CYAN}=== 2. Filtrado con grep y Expresiones Regulares ===${NC}"
-run_demo_cmd "Creamos un archivo temporal con varios registros" "echo -e 'EX200: Permisos\nEX200: Redes\nOTRO: Linux\nEX200: Storage' > temas.txt"
+clear_section "2. Filtrado con grep y Expresiones Regulares"
+run_demo_cmd "Creamos un archivo temporal con varios registros de prueba" "echo -e 'EX200: Permisos\nEX200: Redes\nOTRO: Linux\nEX200: Storage' > temas.txt"
 run_demo_cmd "Usamos grep con expresión regular '^EX200:' para buscar líneas que inicien con ese texto" "grep -E '^EX200:' temas.txt"
 rm -f temas.txt
-echo
+sleep 2.0
 
 # 3. Compresión y archivado con tar
-echo -e "${CYAN}=== 3. Archivación y Compresión con tar (tar.gz) ===${NC}"
+clear_section "3. Archivación y Compresión con tar"
 run_demo_cmd "Creamos dos archivos de texto temporales" "touch archivo_a.txt archivo_b.txt"
 run_demo_cmd "Creamos un archivo empaquetado y comprimido en formato gzip con 'tar -czvf'" "tar -czvf backup.tar.gz archivo_a.txt archivo_b.txt"
-run_demo_cmd "Listamos el contenido del archivo comprimido sin extraerlo" "tar -tzf backup.tar.gz"
+run_demo_cmd "Listamos el contenido del archivo comprimido sin extraerlo usando '-tzf'" "tar -tzf backup.tar.gz"
 rm -f archivo_a.txt archivo_b.txt backup.tar.gz
-echo
+sleep 2.0
 
 # 4. Enlaces duros y simbólicos
-echo -e "${CYAN}=== 4. Enlaces Duros (Hard Links) y Simbólicos (Soft Links) ===${NC}"
+clear_section "4. Enlaces Duros (Hard Links) y Simbólicos (Soft Links)"
 run_demo_cmd "Creamos un archivo base de origen" "echo 'Datos Importantes' > original.txt"
 run_demo_cmd "Creamos un enlace duro que compartirá el mismo inodo que el archivo original" "ln original.txt enlace_duro.txt"
 run_demo_cmd "Creamos un enlace simbólico (o de tipo soft) usando la opción '-s'" "ln -s original.txt enlace_simbolico.txt"
 run_demo_cmd "Listamos los archivos mostrando el número de inodo ('-i') para comparar" "ls -li original.txt enlace_duro.txt enlace_simbolico.txt"
 rm -f original.txt enlace_duro.txt enlace_simbolico.txt
-echo
+sleep 2.0
 
 # 5. Permisos estándar de archivos
-echo -e "${CYAN}=== 5. Permisos de Archivos (chmod / chown) ===${NC}"
+clear_section "5. Permisos de Archivos (chmod / chown)"
 run_demo_cmd "Creamos un archivo para pruebas de permisos" "touch secreto.txt"
 run_demo_cmd "Revisamos los permisos iniciales con ls -l" "ls -l secreto.txt"
 run_demo_cmd "Modificamos los permisos a 640 (lectura/escritura dueño, lectura grupo, nada para otros)" "chmod 640 secreto.txt"
@@ -81,8 +87,12 @@ run_demo_cmd "Validamos el cambio en la lista de permisos" "ls -l secreto.txt"
 run_demo_cmd "Cambiamos el grupo propietario del archivo secreto a 'vagrant'" "chown :vagrant secreto.txt"
 run_demo_cmd "Verificamos los propietarios y grupos finales" "ls -l secreto.txt"
 rm -f secreto.txt
-echo
+sleep 2.0
 
+# Fin de la demostración
+clear
 echo -e "${GREEN}================================================================${NC}"
 echo -e "${GREEN}   ¡Demostración completada con éxito! Listo para el reto.       ${NC}"
 echo -e "${GREEN}================================================================${NC}"
+sleep 5.0
+
