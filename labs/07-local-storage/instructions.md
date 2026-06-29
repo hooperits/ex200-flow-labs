@@ -36,3 +36,4 @@ Una vez configurado todo el LVM y sus montajes, valida tu solución ejecutando:
 ```
 
 Puedes ver pistas progresivas en `hints.md` y restablecer el entorno a su estado original con `./reset.sh`.
+
