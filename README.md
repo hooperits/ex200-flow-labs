@@ -162,3 +162,22 @@ Para evitar ingresar tu cuenta personal de Windows (o si inicias sesión con PIN
 > ```powershell
 > vagrant provision
 > ```
+
+---
+
+## 📈 Progreso y Estado de los Laboratorios
+
+El desarrollo de los laboratorios está completo al 100%. A continuación se detalla el estado de cada módulo:
+
+| Módulo | Tema del Laboratorio | Estado | Verificador | Pistas | Letra Rap |
+| :---: | :--- | :---: | :---: | :---: | :---: |
+| **01** | [Herramientas Esenciales](labs/01-essential-tools) | `🟢 Completado` | `verify.sh` | `hints.md` | [Ver letras](../RHCSA-EX200-lyrics/01-essential-tools.txt) |
+| **02** | [Shell Scripting](labs/02-shell-scripting) | `🟢 Completado` | `verify.sh` | `hints.md` | [Ver letras](../RHCSA-EX200-lyrics/02-shell-scripting.txt) |
+| **03** | [Operación de Sistemas](labs/03-operating-systems) | `🟢 Completado` | `verify.sh` | `hints.md` | [Ver letras](../RHCSA-EX200-lyrics/03-operating-systems.txt) |
+| **04** | [Usuarios y Grupos](labs/04-users-groups) | `🟢 Completado` | `verify.sh` | `hints.md` | [Ver letras](../RHCSA-EX200-lyrics/04-users-groups.txt) |
+| **05** | [Servicios de Red y Cron](labs/05-networking-services) | `🟢 Completado` | `verify.sh` | `hints.md` | [Ver letras](../RHCSA-EX200-lyrics/05-networking-services.txt) |
+| **06** | [Seguridad y SELinux](labs/06-security-selinux) | `🟢 Completado` | `verify.sh` | `hints.md` | [Ver letras](../RHCSA-EX200-lyrics/06-security-selinux.txt) |
+| **07** | [Almacenamiento Local LVM](labs/07-local-storage) | `🟢 Completado` | `verify.sh` | `hints.md` | [Ver letras](../RHCSA-EX200-lyrics/07-local-storage.txt) |
+| **08** | [Sistemas de Archivos de Red](labs/08-filesystems-network) | `🟢 Completado` | `verify.sh` | `hints.md` | [Ver letras](../RHCSA-EX200-lyrics/08-filesystems-network.txt) |
+| **09** | [Contenedores Podman](labs/09-podman-containers) | `🟢 Completado` | `verify.sh` | `hints.md` | [Ver letras](../RHCSA-EX200-lyrics/09-podman-containers.txt) |
+
