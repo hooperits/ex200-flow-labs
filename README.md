@@ -37,19 +37,21 @@ Este proyecto utiliza **Vagrant con Hyper-V** para ofrecer laboratorios rápidos
 
 ---
 
-## 📚 Temas Cubiertos en los Labs
+## 📚 Tabla de Contenidos de los Laboratorios
 
-Este entorno de laboratorios cubre el 100% de los objetivos oficiales del examen RHCSA (EX200):
+A continuación se detalla la lista de laboratorios disponibles. Haz clic en los enlaces para acceder directamente a las instrucciones, validadores, restauradores o pistas de cada reto práctico:
 
-1. **Herramientas Esenciales:** Consola, edición de archivos, comandos básicos y redirecciones.
-2. **Scripts de Automatización:** Fundamentos y prácticas de Shell Scripting en Bash.
-3. **Operación del Sistema:** Control de servicios con systemd, GRUB y recuperación de contraseña de root.
-4. **Usuarios y Grupos:** Gestión de identidades, permisos especiales (SUID, SGID, Sticky Bit) y ACLs.
-5. **Servicios de Red:** Configuración con nmcli, sincronización de hora con chrony y tareas programadas con Cron.
-6. **Seguridad y SELinux:** Gestión de firewalld y modos, contextos y políticas de SELinux.
-7. **Almacenamiento Local:** Gestión de particiones, volúmenes lógicos (LVM) y optimización.
-8. **Sistemas de Archivos en Red:** Montajes estáticos en `/etc/fstab`, NFS, SMB y montajes dinámicos con Autofs.
-9. **Contenedores:** Despliegue de contenedores Rootless y persistencia de servicios mediante systemd con Podman.
+| Módulo | Tema del Laboratorio | Guía de Reto (Challenge) | Evaluador | Restaurador | Pistas |
+| :---: | :--- | :---: | :---: | :---: | :---: |
+| **01** | Herramientas Esenciales | [Ver Reto](labs/01-essential-tools/instructions.md) | [verify.sh](labs/01-essential-tools/verify.sh) | [reset.sh](labs/01-essential-tools/reset.sh) | [hints.md](labs/01-essential-tools/hints.md) |
+| **02** | Shell Scripting | [Ver Reto](labs/02-shell-scripting/instructions.md) | [verify.sh](labs/02-shell-scripting/verify.sh) | [reset.sh](labs/02-shell-scripting/reset.sh) | [hints.md](labs/02-shell-scripting/hints.md) |
+| **03** | Operación de Sistemas | [Ver Reto](labs/03-operating-systems/instructions.md) | [verify.sh](labs/03-operating-systems/verify.sh) | [reset.sh](labs/03-operating-systems/reset.sh) | [hints.md](labs/03-operating-systems/hints.md) |
+| **04** | Usuarios y Grupos | [Ver Reto](labs/04-users-groups/instructions.md) | [verify.sh](labs/04-users-groups/verify.sh) | [reset.sh](labs/04-users-groups/reset.sh) | [hints.md](labs/04-users-groups/hints.md) |
+| **05** | Servicios de Red y Cron | [Ver Reto](labs/05-networking-services/instructions.md) | [verify.sh](labs/05-networking-services/verify.sh) | [reset.sh](labs/05-networking-services/reset.sh) | [hints.md](labs/05-networking-services/hints.md) |
+| **06** | Seguridad y SELinux | [Ver Reto](labs/06-security-selinux/instructions.md) | [verify.sh](labs/06-security-selinux/verify.sh) | [reset.sh](labs/06-security-selinux/reset.sh) | [hints.md](labs/06-security-selinux/hints.md) |
+| **07** | Almacenamiento Local LVM | [Ver Reto](labs/07-local-storage/instructions.md) | [verify.sh](labs/07-local-storage/verify.sh) | [reset.sh](labs/07-local-storage/reset.sh) | [hints.md](labs/07-local-storage/hints.md) |
+| **08** | Sistemas de Archivos de Red | [Ver Reto](labs/08-filesystems-network/instructions.md) | [verify.sh](labs/08-filesystems-network/verify.sh) | [reset.sh](labs/08-filesystems-network/reset.sh) | [hints.md](labs/08-filesystems-network/hints.md) |
+| **09** | Contenedores Podman | [Ver Reto](labs/09-podman-containers/instructions.md) | [verify.sh](labs/09-podman-containers/verify.sh) | [reset.sh](labs/09-podman-containers/reset.sh) | [hints.md](labs/09-podman-containers/hints.md) |
 
 ---
 
