@@ -101,18 +101,18 @@
 **Enhance notes**: Lab 14 demo enhanced with list timers; lab 15 with extra network. Generators run. Lab 13 with /proc check.
 
 ## Detailed Examples (Sample)
-- Lab 10: dnf install/remove, repo config, modules - maps to "Manage software" objective.
-- Lab 11: journalctl -u/-p, rsyslog.conf, Storage=persistent - maps to "Configure logging".
-- Lab 12: ssh-keygen, authorized_keys, sudoers.d, PermitRootLogin - maps to "Manage user access and security".
-- Lab 13: sysctl -w/p, /proc/sys, /etc/sysctl.d/ - maps to "Kernel tuning".
-- Lab 14: .timer/.service, systemctl enable/list-timers - maps to "Manage systemd units and timers".
-- Lab 15: journalctl, systemctl, ip/ss, chmod fixes - maps to "Troubleshoot".
-- Full details to be filled per lab.
+- Lab 10: dnf install/remove, repo config (local-test.repo), modules (nodejs) - maps to "Manage software" objective.
+- Lab 11: journalctl -n/-u/-p/-b, mkdir /var/log/journal + sed Storage=persistent + restart, rsyslog rule + logger - maps to "Configure logging".
+- Lab 12: ssh-keygen + authorized_keys + chmod, /etc/sudoers.d/ + visudo, sed PermitRootLogin no + restart sshd - maps to "Manage user access and security".
+- Lab 13: sysctl -a | grep, sysctl -w (temp), /etc/sysctl.d/ + sysctl -p, /proc/sys/ checks - maps to "Kernel tuning".
+- Lab 14: .service + .timer units, systemctl enable --now + list-timers, disable + daemon-reload - maps to "Manage systemd units and timers".
+- Lab 15: journalctl -u/sshd, ls/chmod fixes, ip addr + ss -tuln, logger + document in challenge/ - maps to "Troubleshoot".
+- Full details to be filled per lab (add links/official refs next).
 
 ## Gaps and Next
-- Full matrix: Add detailed sub-objectives, % coverage (current est ~80%+ with Phase1), links to official EX200.
-- Phase1 instructions complete for 10-15.
-- Next: full Vagrant tests (persistence), expand matrix with per-lab sub-objs, re-audit all, CLI enhancements.
+- Full matrix: Add official EX200 links, more sub-objs per lab, exact % calculations.
+- Phase1 instructions complete for 10-15; detailed examples expanded.
+- Next: full Vagrant tests (persistence), expand matrix further, full re-audit, CLI enhancements.
 - Target: 90%+ with traceability. Update per process.
 
 **Verification**: This matrix will be reviewed in post-task checklists and re-audits.

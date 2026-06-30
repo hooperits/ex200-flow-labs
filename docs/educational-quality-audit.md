@@ -218,10 +218,10 @@ Key completed items (condensed):
 - Lab 14: Now full (detailed timer/service creation, systemctl ops, log doc). Matches demo/verify.
 - Lab 15: Now full (detailed diagnostics, perms, net, doc). Matches.
 - Overall Phase 1: All 6 full (10-15), coverage ~80%+. Verifiers/resets good. No rule violations. Instructions complete for Phase1. Matrix examples expanded. Skeletons regenerated.
-- Matrix work (this turn): Added rough % breakdown by lab (~82% overall est.); sub-objs for new labs noted.
-  - Mini post-task for matrix:
-    - Rule 1 (mapeo): Strengthened with % and details. Pass.
-    - Others: N/A (doc only).
+- Matrix work (this turn): Added rough % breakdown by lab (~82% overall est.); sub-objs for new labs noted. Expanded Detailed Examples with specific commands from instructions (e.g. journalctl filters, sysctl -w/-p, ssh-keygen + sed, etc.).
+  - Post-task for matrix update:
+    1. Mapeo EX200: Yes (detailed mappings + %). Pass.
+    2-7: N/A (doc improvement only).
   - Status: Pass.
 - Recommendation: Full Vagrant validation for persistence, expand matrix with per-lab sub-objs + official links, full re-audit all labs, address demo sims.
 
