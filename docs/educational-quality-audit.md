@@ -341,7 +341,20 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Next**: Flesh out, test, add more.
 
-**Session end summary**: Phase 0 complete on key items. 5 new labs. Checklist high. 
+**Session end summary**: Phase 0 complete on key items. 6 new labs. Checklist high. 
+
+## Objective Traceability Matrix Started
+
+**Date**: 2026-06-30
+
+**Action**: Created docs/objective-matrix.md with initial mapping for labs 01-15 to EX200 objectives.
+
+**Checklist**:
+- Supports Rule 1 (mapeo).
+- Initial coverage estimate ~65%.
+- To be updated per process.
+
+**Next**: Expand matrix, link to verifies.
 
 ## New Lab: Timers (14)
 

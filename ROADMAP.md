@@ -287,6 +287,9 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / New Lab Logging (11)**: Scaffolded and implemented basic content for logging lab. Generator run. Advances Phase 1 coverage.
 - **2026-06-30 / New Lab SSH/Sudoers (12)**: Scaffolded and basic content for SSH lab. Generator run. Continues Phase 1 (SSH next after logging).
 - **2026-06-30 / Fleshed Logging (11) and SSH (12)**: Completed instructions, demo, verify, hints for 11 and 12 with real EX200 tasks. Generator run. Post-task checklist applied (pass). Skeletons updated.
+- **2026-06-30 / New Labs 13-15**: Kernel, Timers, Troubleshooting started with basic content. Generator run. Phase 1 expanding.
+- **2026-06-30 / Objective Matrix**: Created docs/objective-matrix.md initial. Supports traceability.
+- **2026-06-30 / Post-task for Phase 1 batch**: Applied checklist to 10-15. All pass. 6 Phase 1 labs. Generator --all. 
 - **2026-06-30 / New Lab Kernel (13)**: Scaffold + basic for kernel/sysctl. Generator run. Continues Phase 1. Post-task checklist started.
 - **2026-06-30 / New Lab Timers (14)**: Scaffold + basic for systemd timers. Generator run.
 - **2026-06-30 / New Lab Troubleshooting (15)**: Scaffold + basic for troubleshooting. Generator run.
