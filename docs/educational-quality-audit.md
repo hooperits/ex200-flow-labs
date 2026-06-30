@@ -142,6 +142,16 @@ Key completed items (condensed):
 
 ## Recent Supporting Work (selected)
 
+- **Lab 13 (Kernel/sysctl) instructions enhancement (2026-06-30)**: Expanded to detailed steps with exact commands (sysctl -a/grep, -w for temp changes, /etc/sysctl.d/ for persistent, -p, /proc/sys checks, document in challenge). Matches demo sections 1-4 and verify (ip_forward, hostname, sysrq, challenge file).
+  - Post-task checklist:
+    1. Mapeo EX200: Yes (kernel params, sysctl persistent/temp changes).
+    2. Reto real: Yes (real sysctl, /proc, sysctl.d).
+    3. Verificadores: Yes (checks pass; --explain present).
+    4. Persistencia: Taught for /etc/sysctl.d (sim in reset).
+    5. Demo como apoyo: Improved (detailed instructions).
+    6. Reset: Unaffected (shared lib).
+    7. No degradación: Yes.
+  - Status: Pass. Verify passes in current state. Ready for Vagrant.
 - **Lab 14 (Systemd Timers) instructions enhancement (2026-06-30)**: Fleshed out the 4 tasks with detailed sub-steps and specific real commands (create .service/.timer units, systemctl enable --now / is-active / status / list-timers, document in challenge/timer.log, disable + daemon-reload). Aligned with demo sections and verify.
   - Post-task checklist:
     1. Mapeo EX200: Yes (systemd timers and units).
@@ -184,7 +194,7 @@ Key completed items (condensed):
 - Lab 10: Full (package/repo/module/real dnf cmds). Strong.
 - Lab 11 (Logging): Basic+ (journal, rsyslog). Instructions medium; verify has 5 checks + --explain. 
 - Lab 12 (SSH/Sudoers): Basic+ (keys, sudoers). Challenge data present.
-- Lab 13 (Kernel): Medium (sysctl, /proc, /etc/sysctl.conf). Instructions already fairly detailed.
+- Lab 13 (Kernel): Now full (detailed sysctl inspect/temp/persist/validate with exact cmds, /proc, challenge). Instructions enhanced.
 - Lab 14: Now full (detailed timer/service creation, systemctl ops, log doc). Matches demo/verify.
 - Lab 15: Now full (detailed diagnostics, perms, net, doc). Matches.
 - Overall Phase 1: 3 full (10,14,15), coverage improved to ~78%. Verifiers/resets good. No rule violations in recent changes.

@@ -7,23 +7,28 @@ Este reto evaluará tu capacidad para inspeccionar y modificar parámetros del k
 Navega al directorio `/labs/13-kernel-sysctl/` y realiza las siguientes tareas:
 
 1. **Inspeccionar Parámetros del Kernel**:
-   * Lista parámetros con sysctl -a.
-   * Busca parámetros relacionados con networking (net.*).
-   * Muestra valor actual de kernel.hostname.
+   * Ejecuta `sysctl -a | grep -E 'kernel|net.ipv4' | head -5` para listar parámetros clave.
+   * Muestra hostname del kernel: `sysctl kernel.hostname`.
+   * Inspecciona params de red: `sysctl net.ipv4.ip_forward`.
+   * Verifica vía /proc: `cat /proc/sys/kernel/hostname`.
 
 2. **Modificar Parámetros Temporalmente**:
-   * Cambia kernel.hostname temporalmente con sysctl.
-   * Verifica el cambio.
-   * Nota que no persiste (reinicio lo revierte).
+   * Cambia hostname temporalmente: `sudo sysctl -w kernel.hostname=testhost`.
+   * Verifica el cambio: `sysctl kernel.hostname` y `cat /proc/sys/kernel/hostname`.
+   * Restaura: `sudo sysctl -w kernel.hostname=localhost`.
+   * Nota que cambios con -w no persisten tras reinicio.
 
 3. **Hacer Cambios Persistentes**:
-   * Añade o edita /etc/sysctl.conf o /etc/sysctl.d/ con un parámetro (ej. net.ipv4.ip_forward=1).
-   * Aplica con sysctl -p.
-   * Verifica persistencia (simulada, ya que no reinicias).
+   * Añade config persistente: `echo 'net.ipv4.ip_forward = 1' | sudo tee /etc/sysctl.d/99-test.conf`.
+   * Aplica: `sudo sysctl -p /etc/sysctl.d/99-test.conf`.
+   * Verifica: `sysctl net.ipv4.ip_forward`.
+   * Limpia (en reset): remueve el archivo y restaura valor.
 
 4. **Probar y Validar**:
-   * Usa sysctl -w para cambios.
-   * Verifica con cat /proc/sys/...
+   * Usa `sudo sysctl -w kernel.sysrq=1` para test.
+   * Verifica en /proc: `cat /proc/sys/kernel/sysrq`.
+   * Documenta en challenge/sysctl.conf (ej. los parámetros usados).
+   * Verifica con `sysctl` y archivos en /etc/sysctl.d/.
 
 ## Evaluación
 

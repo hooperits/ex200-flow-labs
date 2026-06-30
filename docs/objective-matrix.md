@@ -62,8 +62,8 @@
 - Coverage: Secure access and privilege management.
 
 **Lab 13: Kernel / sysctl**
-- Objectives: Kernel parameters (sysctl); tuning.
-- Coverage: Basic kernel management.
+- Objectives: Kernel parameters (sysctl -a/-w, /etc/sysctl.d/, /proc/sys); tuning.
+- Coverage: Basic kernel management. Instructions now full detailed matching lab 10 (2026-06-30).
 
 **Lab 14: Systemd Timers**
 - Objectives: Systemd units and timers (create .timer/.service, enable, list-timers).

@@ -1,4 +1,4 @@
-# Pistas del Reto: 10-Package-Management
+# Pistas del Reto: 13-Kernel-sysctl
 
 ## 1. Configurar un Repositorio DNF
 - Usa `dnf config-manager --add-repo` o crea manualmente el .repo en /etc/yum.repos.d/
