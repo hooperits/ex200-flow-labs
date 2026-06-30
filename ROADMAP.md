@@ -308,6 +308,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Re-audit Note**: Phase 0/1 summary in audit. Verifiers/resets complete, 6 new labs, matrix started. Ready for Phase 2 full.
 - **2026-06-30 / CLI Enhancement**: Added dynamic lab count to status. 15 total. Integrated progress.json. Exam-simulate stub.
 - **2026-06-30 / Phase 2 Exam Sim Stub**: Added to bin/ex200. Starts timed mode per roadmap. 
+- **2026-06-30 / CLI matrix**: Added 'matrix' command. Tested. 
 - **2026-06-30 / Matrix Expansion**: Sample details added to objective-matrix.md. 
 - **2026-06-30 / Matrix update**: Added 11-14 details. 
 - **2026-06-30 / Session end**: 6 Phase 1 labs started (Package full, others basic). All Phase 0 items advanced (verifiers/resets complete, etc.). Ready for more or re-audit.

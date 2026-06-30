@@ -46,6 +46,14 @@ case "$1" in
     echo "  Would run random verify from labs, score by category."
     echo "  Example: Simulate 5 tasks from different modules."
     ;;
+  matrix)
+    if [ -f "$LABS_DIR/../docs/objective-matrix.md" ]; then
+      echo "Objective Matrix (stub, see docs/objective-matrix.md):"
+      head -20 "$LABS_DIR/../docs/objective-matrix.md"
+    else
+      echo "No matrix file."
+    fi
+    ;;
   *)
     echo "ex200 stub: list | run LAB | verify LAB | status"
     ;;
