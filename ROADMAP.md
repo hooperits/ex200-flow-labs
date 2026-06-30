@@ -52,7 +52,7 @@ Educational Quality Rules and post-task checklist are maintained in AGENTS.md.
 
 ---
 
-## 3. Current State (as of 2026-06-30)
+## 3. Current State (as of 2026-06-30, updated with Phase 0 progress)
 
 ### Strengths
 - Excellent consistent structure across 9 labs (`demo.sh`, `instructions.md`, `verify.sh`, `hints.md`, `reset.sh`, `challenge/`)
@@ -60,24 +60,28 @@ Educational Quality Rules and post-task checklist are maintained in AGENTS.md.
 - Automated non-destructive verifiers with colored output
 - All in Spanish
 - Vagrant + AlmaLinux 9 baseline
+- Shared `lib/demo-common.sh` with `--video` / `--fast` modes (production support without changing default student experience)
+- Video skeleton + Suno prompt generator (`scripts/generate-video-skeleton.sh`)
+- Active post-task Educational Quality Checklist usage (see docs/educational-quality-audit.md)
+- Strict ANTI-LOOP RULE in AGENTS.md (read-first, iteration limits, mandatory run+review)
 
 ### Major Gaps
-- **Coverage**: ~55-65% of EX200 objectives
-- **demo.sh problems** (from alignment analysis):
-  - Heavy use of `sleep 5.0` → videos too long
-  - Excessive "simulamos" + `echo` instead of real execution
-  - Section ordering mismatches with lyrics (notably 01 and 03)
-  - Missing key challenge elements in some demos (e.g., actual GRUB root recovery steps in module 03)
-- Brittle verifiers and incomplete resets
+- **Coverage**: ~55-65% of EX200 objectives (still the main gap)
+- **demo.sh problems** (progress on some, remaining work):
+  - Pacing now controllable via `--video`/`--fast` flags (shared lib) — default remains educational (~5s sleeps)
+  - Some reduction in simulation (e.g. module 07 now uses real pvcreate/vgcreate/lvextend + cleanup)
+  - Section ordering and lyrics alignment started (module 01 re-ordered; 03 partial)
+  - Missing key challenge elements remain in some demos (e.g. full GRUB recovery in 03)
+- Brittle verifiers and incomplete resets (Phase 0 priority)
 - Hyper-V + SMB only (painful for Mac/Linux users)
 - No progress tracking, no exam simulation
 - Code duplication (verify logic repeated 9x)
-- No lyrics sync process
+- No documented lyrics sync process across repos
 
-**Alignment Analysis Summary** (from Option B deep dive):
+**Alignment Analysis Summary** (updated):
 - Modules 02, 04, 05, 06, 09: Good-to-excellent topic match
-- Modules 01, 03, 07, 08: Order, simulation level, or missing challenge coverage issues
-- Universal problem: Pacing and simulation make current demos sub-optimal for RAP video production
+- Modules 01, 03, 07, 08: Partial progress on order/simulation; alignment debt remains highest for video production
+- Generator + checklist now provide better tooling for lyrics sync and quality gates
 
 ---
 
@@ -103,13 +107,13 @@ Equal priority between A and B. Use post-task checklist (AGENTS.md) as guardrail
 **Goal**: Establish solid base for both educational quality and video production with equal priority. Apply Educational Quality Rules (AGENTS.md) after each deliverable.
 
 Key deliverables:
-- Internal `AGENTS.md` with Educational Quality Rules and post-task checklist (done)
-- Shared library: `lib/verify-common.sh` + `lib/reset-common.sh`
-- All scripts: `set -euo pipefail`, consistent shebangs, shellcheck-ready
-- demo.sh improvements with video support (e.g. --video/--fast flags) while preserving default educational experience
-- Standardize section headers for consistent chapter naming (supporting both students and lyrics)
-- Vagrantfile improvements (multi-provider support + better pre-provisioning)
-- Cross-repo sync checklist documented
+- Internal `AGENTS.md` with Educational Quality Rules, post-task checklist and ANTI-LOOP RULE (done + actively used)
+- Shared `lib/demo-common.sh` (demo helpers with --video/--fast; verify/reset libs still pending)
+- demo.sh improvements with video support across all modules (done via shared lib) while preserving default educational experience
+- Video skeleton + Suno prompt generator (done)
+- Standardize section headers for consistent chapter naming (partial progress)
+- Vagrantfile improvements (multi-provider support started)
+- Cross-repo sync checklist documented (pending)
 
 **Success criteria**:
 - All deliverables pass post-task checklist review against the 7 Educational Quality Rules (AGENTS.md)
@@ -227,13 +231,24 @@ Recommended bridges (live in lyrics or hooperits8 folders):
 
 ## 9. Immediate Next Steps (Next 7–14 Days)
 
-1. Apply post-task checklist to all work items going forward (AGENTS.md)
-2. Implement `--video` / `--fast` mode in at least the first 3–4 demos while passing Educational Quality Checklist (start with 01 and 02)
-3. Create a small "Video Script Skeleton" generator script
-4. Produce the alignment fix plan for Module 01 and Module 03 (highest impact) using checklist review
-5. Set up basic multi-provider Vagrant support
-6. Document the exact lyrics update process
-7. Complete initial audit of existing labs against rules (see section on evaluation)
+**Completed / Advanced in recent work:**
+- Apply post-task checklist to work items (now actively used; see latest in docs/educational-quality-audit.md)
+- `--video` / `--fast` mode implemented across **all** demos via shared lib (exceeds original 3-4 target)
+- Video Script Skeleton generator created and in use (`scripts/generate-video-skeleton.sh`)
+- Initial + follow-up audit of labs against rules (extended with checklist review)
+
+**Remaining high priority:**
+1. Produce detailed alignment fix plan + execute for Modules 01 and 03 (highest video/lyrics impact)
+2. Improve verifiers (robustness, `--explain` mode) and resets (more complete/idempotent)
+3. Add first new high-value lab: Package Management & repositories (biggest coverage gap)
+4. Set up / test basic multi-provider Vagrant (VirtualBox + libvirt)
+5. Document the exact lyrics ↔ code sync process (sibling repo)
+6. Re-audit Phase 0 deliverables against the 7 rules + anti-loop process
+
+**Metrics to track going forward**:
+- Post-task checklist pass rate (target >90%)
+- Demo recording time reduction with `--video` mode
+- Lyrics alignment coverage per module
 
 ---
 
@@ -257,5 +272,5 @@ Ready to start executing any phase or specific work item. Just tell me the prior
 
 ---
 
-*Last updated: 2026-06-30*  
+*Last updated: 2026-06-30 (Phase 0 video tooling + governance checkpoint)*
 *Internal document — do not publish strategy details publicly*
