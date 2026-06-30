@@ -70,8 +70,8 @@
 - Coverage: Advanced systemd.
 
 **Lab 15: Troubleshooting**
-- Objectives: Diagnostic tools; resolve common issues (services, storage, network, security).
-- Coverage: Troubleshooting scenarios.
+- Objectives: Diagnostic tools (journalctl, systemctl, ip, ss); resolve common issues (services, permissions, network).
+- Coverage: Troubleshooting scenarios. Enhanced instructions with detailed real-command steps (2026-06-30).
 
 **Lab 11-14 additional**:
 - 11 Logging: journalctl, rsyslog - advanced logging objective.
