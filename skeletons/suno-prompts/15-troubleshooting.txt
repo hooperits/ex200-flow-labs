@@ -15,6 +15,7 @@ ESTROFA: 3. Network Troubleshooting
 - Muestra IP → ip addr show | head -5
 - Prueba conectividad → ping -c 1 127.0.0.1 || true
 - Puertos → ss -tuln | head -3
+- Conexiones activas → ss -tuln | grep LISTEN | head -2
 ESTROFA: 4. Validar y Documentar
 - Genera log de diagnóstico → echo 'Diagnóstico completado' > /tmp/troubleshoot.log
 - Verifica → cat /tmp/troubleshoot.log

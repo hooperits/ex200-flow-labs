@@ -404,6 +404,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Matrix update**: Added CLI test note. 
 
+**CLI tests**: Ran progress and matrix (works). 
+
 ## Re-Audit Phase 0/1 (Continued)
 
 **Date**: 2026-06-30

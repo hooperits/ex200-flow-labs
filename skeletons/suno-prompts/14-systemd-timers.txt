@@ -10,6 +10,7 @@ ESTROFA: 1. Crear una Unidad Timer
 ESTROFA: 2. Probar el Timer
 - Verifica activo → systemctl is-active rhcsa-timer.timer
 - Muestra status → systemctl status rhcsa-timer.timer | head -5
+- Lista timers → systemctl list-timers | grep rhcsa || echo 'Verificación'
 ESTROFA: 3. Configurar Servicio Asociado
 - Verifica servicio → systemctl status rhcsa-timer.service | head -3 || true
 ESTROFA: 4. Validar

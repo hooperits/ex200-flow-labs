@@ -52,7 +52,7 @@
   ls -l /tmp/broken_perm.txt
   ```
 
-[01:24 - 02:00] - ESTROFA 3: 3. Network Troubleshooting
+[01:24 - 02:12] - ESTROFA 3: 3. Network Troubleshooting
 
 - **Muestra IP**
   ```
@@ -69,7 +69,12 @@
   ss -tuln | head -3
   ```
 
-[02:00 - 02:30] - ESTROFA 4: 4. Validar y Documentar
+- **Conexiones activas**
+  ```
+  ss -tuln | grep LISTEN | head -2
+  ```
+
+[02:12 - 02:42] - ESTROFA 4: 4. Validar y Documentar
 
 - **Genera log de diagnóstico**
   ```
@@ -81,7 +86,7 @@
   cat /tmp/troubleshoot.log
   ```
 
-[02:30 - 02:30] - OUTRO / CIERRE
+[02:42 - 02:42] - OUTRO / CIERRE
 
 - Recordatorio final + llamada a practicar el reto
 
@@ -105,6 +110,7 @@ ESTROFA: 3. Network Troubleshooting
 - Muestra IP → ip addr show | head -5
 - Prueba conectividad → ping -c 1 127.0.0.1 || true
 - Puertos → ss -tuln | head -3
+- Conexiones activas → ss -tuln | grep LISTEN | head -2
 ESTROFA: 4. Validar y Documentar
 - Genera log de diagnóstico → echo 'Diagnóstico completado' > /tmp/troubleshoot.log
 - Verifica → cat /tmp/troubleshoot.log

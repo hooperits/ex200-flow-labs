@@ -1,5 +1,5 @@
 # Esqueleto Video / Letras - 13-kernel-sysctl
-# Generado desde: /home/juanca/proys/RHCSA-EX200/labs/13-kernel-sysctl/demo.sh
+# Generado desde: labs/13-kernel-sysctl/demo.sh
 # Fecha: 2026-06-30
 #
 # Instrucciones:
@@ -30,7 +30,7 @@
   sysctl net.ipv4.ip_forward
   ```
 
-[00:36 - 01:12] - ESTROFA 2: 2. Modificar Parámetros Temporalmente
+[00:36 - 01:24] - ESTROFA 2: 2. Modificar Parámetros Temporalmente
 
 - **Cambia hostname temporal**
   ```
@@ -42,12 +42,17 @@
   sysctl kernel.hostname
   ```
 
+- **Muestra /proc**
+  ```
+  cat /proc/sys/kernel/hostname
+  ```
+
 - **Restaura**
   ```
   sudo sysctl -w kernel.hostname=localhost
   ```
 
-[01:12 - 01:48] - ESTROFA 3: 3. Hacer Cambios Persistentes
+[01:24 - 02:00] - ESTROFA 3: 3. Hacer Cambios Persistentes
 
 - **Añade a sysctl.d**
   ```
@@ -64,7 +69,7 @@
   sysctl net.ipv4.ip_forward
   ```
 
-[01:48 - 02:18] - ESTROFA 4: 4. Probar sysctl
+[02:00 - 02:30] - ESTROFA 4: 4. Probar sysctl
 
 - **Usa sysctl -w para test**
   ```
@@ -76,7 +81,7 @@
   cat /proc/sys/kernel/sysrq
   ```
 
-[02:18 - 02:18] - OUTRO / CIERRE
+[02:30 - 02:30] - OUTRO / CIERRE
 
 - Recordatorio final + llamada a practicar el reto
 
@@ -94,6 +99,7 @@ ESTROFA: 1. Inspeccionar Parámetros del Kernel
 ESTROFA: 2. Modificar Parámetros Temporalmente
 - Cambia hostname temporal → sudo sysctl -w kernel.hostname=testhost
 - Verifica cambio → sysctl kernel.hostname
+- Muestra /proc → cat /proc/sys/kernel/hostname
 - Restaura → sudo sysctl -w kernel.hostname=localhost
 ESTROFA: 3. Hacer Cambios Persistentes
 - Añade a sysctl.d → echo 'net.ipv4.ip_forward = 1' | sudo tee /etc/sysctl.d/99-test.conf

@@ -1,5 +1,5 @@
 # Esqueleto Video / Letras - 14-systemd-timers
-# Generado desde: /home/juanca/proys/RHCSA-EX200/labs/14-systemd-timers/demo.sh
+# Generado desde: labs/14-systemd-timers/demo.sh
 # Fecha: 2026-06-30
 #
 # Instrucciones:
@@ -35,7 +35,7 @@
   systemctl list-timers | grep rhcsa || echo 'Verificación'
   ```
 
-[00:48 - 01:18] - ESTROFA 2: 2. Probar el Timer
+[00:48 - 01:24] - ESTROFA 2: 2. Probar el Timer
 
 - **Verifica activo**
   ```
@@ -47,14 +47,19 @@
   systemctl status rhcsa-timer.timer | head -5
   ```
 
-[01:18 - 01:48] - ESTROFA 3: 3. Configurar Servicio Asociado
+- **Lista timers**
+  ```
+  systemctl list-timers | grep rhcsa || echo 'Verificación'
+  ```
+
+[01:24 - 01:54] - ESTROFA 3: 3. Configurar Servicio Asociado
 
 - **Verifica servicio**
   ```
   systemctl status rhcsa-timer.service | head -3 || true
   ```
 
-[01:48 - 02:18] - ESTROFA 4: 4. Validar
+[01:54 - 02:24] - ESTROFA 4: 4. Validar
 
 - **Lista timers activos**
   ```
@@ -66,7 +71,7 @@
   sudo systemctl disable --now rhcsa-timer.timer
   ```
 
-[02:18 - 02:18] - OUTRO / CIERRE
+[02:24 - 02:24] - OUTRO / CIERRE
 
 - Recordatorio final + llamada a practicar el reto
 
@@ -85,6 +90,7 @@ ESTROFA: 1. Crear una Unidad Timer
 ESTROFA: 2. Probar el Timer
 - Verifica activo → systemctl is-active rhcsa-timer.timer
 - Muestra status → systemctl status rhcsa-timer.timer | head -5
+- Lista timers → systemctl list-timers | grep rhcsa || echo 'Verificación'
 ESTROFA: 3. Configurar Servicio Asociado
 - Verifica servicio → systemctl status rhcsa-timer.service | head -3 || true
 ESTROFA: 4. Validar

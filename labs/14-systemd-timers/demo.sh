@@ -34,6 +34,7 @@ sleep 2.0
 clear_section "RHCSA Módulo 14: Systemd Timers - Tema: 2. Probar el Timer"
 run_demo_cmd "Verifica activo" "systemctl is-active rhcsa-timer.timer"
 run_demo_cmd "Muestra status" "systemctl status rhcsa-timer.timer | head -5"
+run_demo_cmd "Lista timers" "systemctl list-timers | grep rhcsa || echo 'Verificación'"
 sleep 2.0
 
 # 3. Configurar Servicio
