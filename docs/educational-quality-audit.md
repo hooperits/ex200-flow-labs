@@ -390,6 +390,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Enhance 13 demo**: Added /proc. Generator. 
 
+**Fix 13 verify**: Correct header and suggestions. Generator. 
+
 **Update for 12**: Added challenge files, verify check, generator. Checklist pass. 
 
 **CLI matrix command**: Added 'matrix' to bin/ex200. Tested (shows matrix header). 
