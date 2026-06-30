@@ -223,6 +223,7 @@ Key completed items (condensed):
     1. Mapeo EX200: Yes (detailed mappings + % + subs). Pass.
     2-7: N/A (doc improvement only).
   - Status: Pass.
+- Original labs re-audit status: Initial scores from top section (e.g. 01:6.5/7 etc.); Phase0 improvements (verifiers, resets, lib) applied. Full re-audit pending detailed re-score.
 - Recommendation: Full Vagrant validation for persistence, expand matrix with per-lab sub-objs + official links, full re-audit all labs, address demo sims.
 
 Post-task: Rules 1-7 pass for enhancements. No conflicts.
