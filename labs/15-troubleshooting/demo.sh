@@ -33,6 +33,7 @@ clear_section "RHCSA Módulo 15: Troubleshooting - Tema: 3. Network Troubleshoot
 run_demo_cmd "Muestra IP" "ip addr show | head -5"
 run_demo_cmd "Prueba conectividad" "ping -c 1 127.0.0.1 || true"
 run_demo_cmd "Puertos" "ss -tuln | head -3"
+run_demo_cmd "Conexiones activas" "ss -tuln | grep LISTEN | head -2"
 sleep 2.0
 
 # 4. Validar

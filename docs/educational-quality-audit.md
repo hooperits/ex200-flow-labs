@@ -380,6 +380,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Final generator --all**: Skeletons for all labs including new 10-15. 
 
+**Enhance 15 demo**: Added extra network command. Generator. 
+
 **Update for 12**: Added challenge files, verify check, generator. Checklist pass. 
 
 **CLI matrix command**: Added 'matrix' to bin/ex200. Tested (shows matrix header). 
