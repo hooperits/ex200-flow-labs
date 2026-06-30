@@ -89,10 +89,10 @@
 - Full details to be filled per lab.
 
 ## Gaps and Next
-- Full matrix: Add detailed sub-objectives, % coverage, links to official docs.
-- Remaining Phase 1/2: Add labs for more (e.g., advanced security if needed), exam sim.
-- Update after each lab change per sync process.
-- Target: 90%+ with traceability.
+- Full matrix: Add detailed sub-objectives, % coverage (current est ~80%+ with Phase1), links to official EX200.
+- Phase1 instructions complete for 10-15.
+- Next: full Vagrant tests (persistence), expand matrix with per-lab sub-objs, re-audit all, CLI enhancements.
+- Target: 90%+ with traceability. Update per process.
 
 **Verification**: This matrix will be reviewed in post-task checklists and re-audits.
 
