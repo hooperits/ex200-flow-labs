@@ -81,6 +81,8 @@
 
 **CLI test note**: bin/ex200 verify 15-troubleshooting --explain works (calls verify, shows troubleshooting suggestions).
 
+**Enhance notes**: Lab 14 demo enhanced with list timers; lab 15 with extra network. Generators run.
+
 ## Detailed Examples (Sample)
 - Lab 10: dnf install/remove, repo config, modules - maps to "Manage software" objective.
 - Lab 13: sysctl -w/p, /proc/sys - maps to "Kernel tuning".
