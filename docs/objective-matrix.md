@@ -119,9 +119,9 @@
 - Full details to be filled per lab (add links/official refs next).
 
 ## Gaps and Next
-- Full matrix: Add official EX200 links, more sub-objs per lab, exact % calculations.
+- Full matrix: Add official EX200 links (e.g. from Red Hat EX200 objectives doc), exact % calcs, more subs.
 - Phase1 instructions complete for 10-15; detailed examples + sub-objs for 01-09 expanded.
-- Next: full Vagrant tests (persistence), expand matrix further (links), full re-audit, CLI enhancements.
+- Next: full Vagrant tests (persistence), expand matrix (links), full re-audit, CLI.
 - Target: 90%+ with traceability. Update per process.
 
 **Verification**: This matrix will be reviewed in post-task checklists and re-audits.
