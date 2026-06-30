@@ -57,7 +57,7 @@
   id vagrant
   ```
 
-[01:36 - 02:36] - ESTROFA 3: 3. Permisos Especiales (SGID y Sticky Bit)
+[01:36 - 02:36] - ESTROFA 3: 3. Permisos Especiales (SGID)
 
 - **Creamos un directorio temporal para pruebas de permisos**
   ```
@@ -84,7 +84,7 @@
   ls -ld docs_temp
   ```
 
-[02:36 - 03:36] - ESTROFA 4: 4. Control de Acceso Fino (ACLs)
+[02:36 - 03:36] - ESTROFA 4: 4. ACLs
 
 - **Creamos un archivo temporal para pruebas de ACLs**
   ```
@@ -132,13 +132,13 @@ ESTROFA: 2. Administración de Grupos
 - Simulamos crear un nuevo grupo de trabajo → echo 'groupadd sysadmins'
 - Verificamos los grupos a los que pertenece el usuario actual → groups
 - Mostramos la pertenencia de un usuario con el comando id → id vagrant
-ESTROFA: 3. Permisos Especiales (SGID y Sticky Bit)
+ESTROFA: 3. Permisos Especiales (SGID)
 - Creamos un directorio temporal para pruebas de permisos → mkdir -p docs_temp
 - Asignamos el bit SGID al directorio (los archivos heredan el grupo) → chmod g+s docs_temp
 - Mostramos los permisos del directorio para visualizar la 's' de SGID → ls -ld docs_temp
 - Asignamos el Sticky Bit a un directorio (solo el dueño borra sus archivos) → chmod +t docs_temp
 - Visualizamos la 't' del Sticky Bit en los permisos de otros → ls -ld docs_temp
-ESTROFA: 4. Control de Acceso Fino (ACLs)
+ESTROFA: 4. ACLs
 - Creamos un archivo temporal para pruebas de ACLs → touch notas_acl.txt
 - Leemos las ACLs por defecto del archivo usando getfacl → getfacl notas_acl.txt
 - Asignamos un permiso de lectura específico a un usuario ficticio con setfacl → setfacl -m u:nobody:r notas_acl.txt

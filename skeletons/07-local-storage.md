@@ -13,7 +13,7 @@
 ### CORO / Intro
 [00:00 - 00:00] - INTRO / GANCHO
 
-[00:00 - 00:48] - ESTROFA 1: 1. Inspección de Discos y Particiones
+[00:00 - 00:48] - ESTROFA 1: 1. Discos y Particiones
 
 - **Listamos todos los dispositivos de bloque y discos instalados**
   ```
@@ -35,7 +35,7 @@
   echo 'fdisk /dev/sdb'   # fdisk es interactivo
   ```
 
-[00:48 - 01:36] - ESTROFA 2: 2. Creación de Physical Volumes, Volume Groups y Logical Volumes
+[00:48 - 01:36] - ESTROFA 2: 2. PV, VG y LV
 
 - **Inicializamos /dev/sdb como Physical Volume (PV)**
   ```
@@ -57,7 +57,7 @@
   sudo lvcreate -L 200M -n lv_demo vg_demo
   ```
 
-[01:36 - 02:36] - ESTROFA 3: 3. Formateo, Montaje y Extensión en Caliente
+[01:36 - 02:36] - ESTROFA 3: 3. Formateo y Montaje
 
 - **Formateamos el LV en XFS**
   ```
@@ -84,7 +84,7 @@
   df -hT /mnt/demo
   ```
 
-[02:36 - 03:24] - ESTROFA 4: 4. Optimización de Espacio mediante LVM VDO
+[02:36 - 03:24] - ESTROFA 4: 4. LVM VDO
 
 - **Ejemplo de creación de volumen VDO (requiere preparación)**
   ```
@@ -117,23 +117,23 @@ Genera un rap técnico y agresivo en español con un flujo chopper de velocidad 
 Estructura: CORO + 4-5 ESTROFAS + OUTRO.
 Incluye estos conceptos clave con sus comandos:
 
-ESTROFA: 1. Inspección de Discos y Particiones
+ESTROFA: 1. Discos y Particiones
 - Listamos todos los dispositivos de bloque y discos instalados → lsblk
 - Mostramos información detallada de los sistemas de archivos montados → df -hT | head -n 6
 - Ejemplo de creación de partición GPT (interactivo) → echo 'gdisk /dev/sdb'   # gdisk es interactivo, se usa en el reto real
 - Ejemplo de creación de partición MBR (interactivo) → echo 'fdisk /dev/sdb'   # fdisk es interactivo
-ESTROFA: 2. Creación de Physical Volumes, Volume Groups y Logical Volumes
+ESTROFA: 2. PV, VG y LV
 - Inicializamos /dev/sdb como Physical Volume (PV) → sudo pvcreate -f /dev/sdb
 - Listamos los PVs activos → sudo pvs
 - Creamos Volume Group (VG) vg_demo → sudo vgcreate -f vg_demo /dev/sdb
 - Creamos Logical Volume (LV) lv_demo de 200M → sudo lvcreate -L 200M -n lv_demo vg_demo
-ESTROFA: 3. Formateo, Montaje y Extensión en Caliente
+ESTROFA: 3. Formateo y Montaje
 - Formateamos el LV en XFS → sudo mkfs.xfs -f /dev/vg_demo/lv_demo
 - Creamos punto de montaje y montamos → sudo mkdir -p /mnt/demo && sudo mount /dev/vg_demo/lv_demo /mnt/demo
 - Mostramos el montaje → df -hT /mnt/demo
 - Extendemos el LV a 400M y redimensionamos FS → sudo lvextend -L 400M -r /dev/vg_demo/lv_demo
 - Verificamos el nuevo tamaño → df -hT /mnt/demo
-ESTROFA: 4. Optimización de Espacio mediante LVM VDO
+ESTROFA: 4. LVM VDO
 - Ejemplo de creación de volumen VDO (requiere preparación) → echo 'sudo lvcreate --type vdo --name vdo_vol -L 1G -V 2G vg_demo'   # VDO optimizado
 - Mostramos LVs → sudo lvs
 - Ejemplo de formateo y montaje VDO → echo 'sudo mkfs.xfs /dev/vg_demo/vdo_vol && sudo mount /dev/vg_demo/vdo_vol /mnt/vdo'

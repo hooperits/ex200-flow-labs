@@ -13,7 +13,7 @@
 ### CORO / Intro
 [00:00 - 00:00] - INTRO / GANCHO
 
-[00:00 - 00:48] - ESTROFA 1: 1. Control de Servicios con systemctl
+[00:00 - 00:48] - ESTROFA 1: 1. Servicios con systemctl
 
 - **Comprobamos el estado del servicio sshd**
   ```
@@ -35,7 +35,7 @@
   systemctl list-units --type=service --state=running | head -n 6
   ```
 
-[00:48 - 01:36] - ESTROFA 2: 2. Gestión de Entornos de Arranque (Targets)
+[00:48 - 01:36] - ESTROFA 2: 2. Targets de Arranque
 
 - **Obtenemos el target predeterminado del sistema**
   ```
@@ -57,7 +57,7 @@
   echo 'systemctl set-default graphical.target'
   ```
 
-[01:36 - 03:12] - ESTROFA 3: 3. Monitoreo y Modificación de Procesos e Inspección de Logs con journalctl
+[01:36 - 03:12] - ESTROFA 3: 3. Procesos y Logs (journalctl)
 
 - **Listamos procesos ordenados por consumo de recursos**
   ```
@@ -99,7 +99,7 @@
   sudo journalctl -b -n 4 --no-pager
   ```
 
-[03:12 - 04:48] - ESTROFA 4: 4. Recuperación de root con rd.break en GRUB
+[03:12 - 04:48] - ESTROFA 4: 4. Recuperación root (rd.break)
 
 - **Interrumpimos el arranque presionando e en el menú de GRUB**
   ```
@@ -152,17 +152,17 @@ Genera un rap técnico y agresivo en español con un flujo chopper de velocidad 
 Estructura: CORO + 4-5 ESTROFAS + OUTRO.
 Incluye estos conceptos clave con sus comandos:
 
-ESTROFA: 1. Control de Servicios con systemctl
+ESTROFA: 1. Servicios con systemctl
 - Comprobamos el estado del servicio sshd → systemctl status sshd | head -n 5
 - Verificamos si un servicio está habilitado para el arranque → systemctl is-enabled sshd
 - Verificamos si un servicio está actualmente activo → systemctl is-active sshd
 - Listamos todos los servicios cargados en el sistema → systemctl list-units --type=service --state=running | head -n 6
-ESTROFA: 2. Gestión de Entornos de Arranque (Targets)
+ESTROFA: 2. Targets de Arranque
 - Obtenemos el target predeterminado del sistema → systemctl get-default
 - Listamos los targets disponibles actualmente → systemctl list-units --type=target | head -n 6
 - Simulamos cómo cambiar el target a modo consola (multi-user.target) → echo 'systemctl set-default multi-user.target'
 - Simulamos cómo cambiar el target a modo gráfico (graphical.target) → echo 'systemctl set-default graphical.target'
-ESTROFA: 3. Monitoreo y Modificación de Procesos e Inspección de Logs con journalctl
+ESTROFA: 3. Procesos y Logs (journalctl)
 - Listamos procesos ordenados por consumo de recursos → ps aux --sort=-%cpu | head -n 5
 - Buscamos un proceso específico por su nombre usando pgrep → pgrep -l systemd | head -n 4
 - Mostramos la prioridad 'nice' de los procesos en ejecución → ps -el | head -n 5
@@ -171,7 +171,7 @@ ESTROFA: 3. Monitoreo y Modificación de Procesos e Inspección de Logs con jour
 - Filtramos los logs de un servicio específico como sshd → sudo journalctl -u sshd -n 4 --no-pager
 - Filtramos los logs mostrando únicamente errores importantes con '-p err' → sudo journalctl -p err -n 4 --no-pager
 - Mostramos los logs generados desde el arranque actual usando '-b' → sudo journalctl -b -n 4 --no-pager
-ESTROFA: 4. Recuperación de root con rd.break en GRUB
+ESTROFA: 4. Recuperación root (rd.break)
 - Interrumpimos el arranque presionando e en el menú de GRUB → echo 'Presiona e para editar la entrada'
 - Agregamos rd.break al final de la línea que empieza con linux → echo 'Añade rd.break'
 - Boot con Ctrl+X o F10 → echo 'Continúa el arranque'

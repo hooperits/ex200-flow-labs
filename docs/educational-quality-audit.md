@@ -225,6 +225,10 @@ Key completed items (condensed):
   - Status: Pass.
 - Original labs re-audit status: Initial scores from top section (e.g. 01:6.5/7 etc.); Phase0 improvements (verifiers, resets, lib) applied. Full re-audit pending detailed re-score.
   - Example: Lab 01 re-check (current): Strong on tools/perms (Rule 2/3/5 good post instructions); minor sim in demo but overall pass per matrix 92%. Matrix subs/refs added.
+- Header standardization (this turn): Standardized clear_section titles across all 15 demos to consistent short format "RHCSA Módulo XX: ShortName - Tema: N. Action" for reliable video chapters. Regenerated skeletons.
+  - Post-task: Supports Rule 7 (video without degrading education), Rule 1 (consistent). Pass.
+- Vagrant improvements (this turn): Enhanced multi-provider support (added libvirt nested + 9p synced, usage comments, consistent configs for vbox/hyperv/libvirt). 
+  - Post-task: Supports Phase 0 multi-provider (Rule 4 persistence via real VM). Pass.
 - Vagrant test plan note: Run `vagrant up`; for each lab: ./reset.sh; perform tasks from instructions; ./verify.sh --explain; check persistence (reboot sim). Focus on LVM, storage, network labs first.
 - Recommendation: Full Vagrant validation, expand matrix (links), full re-audit, address demo sims.
 

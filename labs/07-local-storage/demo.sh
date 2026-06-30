@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/../../lib/demo-common.sh"
 
 # 1. Particionamiento y Discos
-clear_section "RHCSA Módulo 07: Administración de Almacenamiento Local - Tema: 1. Inspección de Discos y Particiones"
+clear_section "RHCSA Módulo 07: Almacenamiento Local - Tema: 1. Discos y Particiones"
 run_demo_cmd "Listamos todos los dispositivos de bloque y discos instalados" "lsblk"
 run_demo_cmd "Mostramos información detallada de los sistemas de archivos montados" "df -hT | head -n 6"
 run_demo_cmd "Ejemplo de creación de partición GPT (interactivo)" "echo 'gdisk /dev/sdb'   # gdisk es interactivo, se usa en el reto real"
@@ -21,7 +21,7 @@ run_demo_cmd "Ejemplo de creación de partición MBR (interactivo)" "echo 'fdisk
 sleep 2.0
 
 # 2. Creación de Componentes LVM - ahora con ejecución real
-clear_section "RHCSA Módulo 07: Administración de Almacenamiento Local - Tema: 2. Creación de Physical Volumes, Volume Groups y Logical Volumes"
+clear_section "RHCSA Módulo 07: Almacenamiento Local - Tema: 2. PV, VG y LV"
 run_demo_cmd "Inicializamos /dev/sdb como Physical Volume (PV)" "sudo pvcreate -f /dev/sdb"
 run_demo_cmd "Listamos los PVs activos" "sudo pvs"
 run_demo_cmd "Creamos Volume Group (VG) vg_demo" "sudo vgcreate -f vg_demo /dev/sdb"
@@ -29,7 +29,7 @@ run_demo_cmd "Creamos Logical Volume (LV) lv_demo de 200M" "sudo lvcreate -L 200
 sleep 2.0
 
 # 3. Formateo, Montaje y Extensión - ejecución real
-clear_section "RHCSA Módulo 07: Administración de Almacenamiento Local - Tema: 3. Formateo, Montaje y Extensión en Caliente"
+clear_section "RHCSA Módulo 07: Almacenamiento Local - Tema: 3. Formateo y Montaje"
 run_demo_cmd "Formateamos el LV en XFS" "sudo mkfs.xfs -f /dev/vg_demo/lv_demo"
 run_demo_cmd "Creamos punto de montaje y montamos" "sudo mkdir -p /mnt/demo && sudo mount /dev/vg_demo/lv_demo /mnt/demo"
 run_demo_cmd "Mostramos el montaje" "df -hT /mnt/demo"
@@ -38,7 +38,7 @@ run_demo_cmd "Verificamos el nuevo tamaño" "df -hT /mnt/demo"
 sleep 2.0
 
 # 4. LVM VDO - mantenemos ejemplo ya que requiere configuración especial
-clear_section "RHCSA Módulo 07: Administración de Almacenamiento Local - Tema: 4. Optimización de Espacio mediante LVM VDO"
+clear_section "RHCSA Módulo 07: Almacenamiento Local - Tema: 4. LVM VDO"
 run_demo_cmd "Ejemplo de creación de volumen VDO (requiere preparación)" "echo 'sudo lvcreate --type vdo --name vdo_vol -L 1G -V 2G vg_demo'   # VDO optimizado"
 run_demo_cmd "Mostramos LVs" "sudo lvs"
 run_demo_cmd "Ejemplo de formateo y montaje VDO" "echo 'sudo mkfs.xfs /dev/vg_demo/vdo_vol && sudo mount /dev/vg_demo/vdo_vol /mnt/vdo'"

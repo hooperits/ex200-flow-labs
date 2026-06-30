@@ -1,5 +1,20 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
+#
+# Multi-provider Vagrant for RHCSA-EX200 labs
+# Usage examples:
+#   vagrant up                    # default provider (depends on env)
+#   vagrant up --provider=virtualbox
+#   vagrant up --provider=libvirt
+#   vagrant up --provider=hyperv
+#   vagrant up --provider=libvirt --no-parallel
+#
+# Requirements:
+# - VirtualBox: common
+# - libvirt: on Linux, vagrant-libvirt plugin
+# - Hyper-V: on Windows, enable in features
+#
+# Labs synced to /labs inside guest.
 
 Vagrant.configure("2") do |config|
   config.vm.box = "almalinux/9"
@@ -27,6 +42,7 @@ Vagrant.configure("2") do |config|
   config.vm.provider "libvirt" do |lv|
     lv.memory = "2048"
     lv.cpus = 2
+    lv.nested = true
   end
 
   # Mount the local labs/ directory to /labs inside the guest VM
@@ -39,6 +55,11 @@ Vagrant.configure("2") do |config|
   # Hyper-V specific synced folder override (SMB)
   config.vm.provider "hyperv" do |h, override|
     override.vm.synced_folder "./labs", "/labs", type: "smb", smb_username: "vagrant", smb_password: "vagrant"
+  end
+
+  # Libvirt specific synced folder (use 9p for better Linux compatibility)
+  config.vm.provider "libvirt" do |lv, override|
+    override.vm.synced_folder "./labs", "/labs", type: "9p", accessmode: "mapped"
   end
 
   # Provisioning (runs for all providers)

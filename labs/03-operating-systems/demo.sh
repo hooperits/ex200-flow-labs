@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/../../lib/demo-common.sh"
 
 # 1. systemctl para servicios
-clear_section "RHCSA Módulo 03: Operación del Sistema en Ejecución - Tema: 1. Control de Servicios con systemctl"
+clear_section "RHCSA Módulo 03: Operación del Sistema - Tema: 1. Servicios con systemctl"
 run_demo_cmd "Comprobamos el estado del servicio sshd" "systemctl status sshd | head -n 5"
 run_demo_cmd "Verificamos si un servicio está habilitado para el arranque" "systemctl is-enabled sshd"
 run_demo_cmd "Verificamos si un servicio está actualmente activo" "systemctl is-active sshd"
@@ -21,7 +21,7 @@ run_demo_cmd "Listamos todos los servicios cargados en el sistema" "systemctl li
 sleep 2.0
 
 # 2. Control de Targets
-clear_section "RHCSA Módulo 03: Operación del Sistema en Ejecución - Tema: 2. Gestión de Entornos de Arranque (Targets)"
+clear_section "RHCSA Módulo 03: Operación del Sistema - Tema: 2. Targets de Arranque"
 run_demo_cmd "Obtenemos el target predeterminado del sistema" "systemctl get-default"
 run_demo_cmd "Listamos los targets disponibles actualmente" "systemctl list-units --type=target | head -n 6"
 run_demo_cmd "Simulamos cómo cambiar el target a modo consola (multi-user.target)" "echo 'systemctl set-default multi-user.target' (comando de demostración)"
@@ -29,7 +29,7 @@ run_demo_cmd "Simulamos cómo cambiar el target a modo gráfico (graphical.targe
 sleep 2.0
 
 # 3. Gestión de Procesos e Inspección de Logs (agrupado para alineación con letras)
-clear_section "RHCSA Módulo 03: Operación del Sistema en Ejecución - Tema: 3. Monitoreo y Modificación de Procesos e Inspección de Logs con journalctl"
+clear_section "RHCSA Módulo 03: Operación del Sistema - Tema: 3. Procesos y Logs (journalctl)"
 run_demo_cmd "Listamos procesos ordenados por consumo de recursos" "ps aux --sort=-%cpu | head -n 5"
 run_demo_cmd "Buscamos un proceso específico por su nombre usando pgrep" "pgrep -l systemd | head -n 4"
 run_demo_cmd "Mostramos la prioridad 'nice' de los procesos en ejecución" "ps -el | head -n 5"
@@ -41,7 +41,7 @@ run_demo_cmd "Mostramos los logs generados desde el arranque actual usando '-b'"
 sleep 2.0
 
 # 4. Recuperación de root con rd.break en GRUB (alineado con estructura de letras)
-clear_section "RHCSA Módulo 03: Operación del Sistema en Ejecución - Tema: 4. Recuperación de root con rd.break en GRUB"
+clear_section "RHCSA Módulo 03: Operación del Sistema - Tema: 4. Recuperación root (rd.break)"
 run_demo_cmd "Interrumpimos el arranque presionando e en el menú de GRUB" "echo 'Presiona e para editar la entrada'"
 run_demo_cmd "Agregamos rd.break al final de la línea que empieza con linux" "echo 'Añade rd.break'"
 run_demo_cmd "Boot con Ctrl+X o F10" "echo 'Continúa el arranque'"
