@@ -217,7 +217,7 @@ Key completed items (condensed):
 - Lab 13 (Kernel): Now full (detailed sysctl inspect/temp/persist/validate with exact cmds, /proc, challenge). Instructions enhanced.
 - Lab 14: Now full (detailed timer/service creation, systemctl ops, log doc). Matches demo/verify.
 - Lab 15: Now full (detailed diagnostics, perms, net, doc). Matches.
-- Overall Phase 1: All 6 full (10-15), coverage ~80%+. Verifiers/resets good. No rule violations. Instructions complete for Phase1.
+- Overall Phase 1: All 6 full (10-15), coverage ~80%+. Verifiers/resets good. No rule violations. Instructions complete for Phase1. Matrix examples expanded.
 - Recommendation: Full Vagrant validation for persistence, expand objective-matrix details + %, re-audit all labs, address any remaining demo sim.
 
 Post-task: Rules 1-7 pass for enhancements. No conflicts.

@@ -85,7 +85,11 @@
 
 ## Detailed Examples (Sample)
 - Lab 10: dnf install/remove, repo config, modules - maps to "Manage software" objective.
-- Lab 13: sysctl -w/p, /proc/sys - maps to "Kernel tuning".
+- Lab 11: journalctl -u/-p, rsyslog.conf, Storage=persistent - maps to "Configure logging".
+- Lab 12: ssh-keygen, authorized_keys, sudoers.d, PermitRootLogin - maps to "Manage user access and security".
+- Lab 13: sysctl -w/p, /proc/sys, /etc/sysctl.d/ - maps to "Kernel tuning".
+- Lab 14: .timer/.service, systemctl enable/list-timers - maps to "Manage systemd units and timers".
+- Lab 15: journalctl, systemctl, ip/ss, chmod fixes - maps to "Troubleshoot".
 - Full details to be filled per lab.
 
 ## Gaps and Next
