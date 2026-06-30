@@ -52,16 +52,21 @@ Vagrant.configure("2") do |config|
   # - libvirt: 9p or nfs
   config.vm.synced_folder "./labs", "/labs"
 
-  # Hyper-V specific synced folder override (SMB)
+  # Mount shared lib/ so demo.sh can source ../../lib/demo-common.sh from inside /labs/XX/
+  config.vm.synced_folder "./lib", "/labs/lib"
+
+  # Hyper-V specific synced folder overrides (SMB)
   # Note: Do NOT hardcode smb_username/smb_password here.
   # Let Vagrant use the current Windows user's credentials (run PowerShell as Administrator).
   config.vm.provider "hyperv" do |h, override|
     override.vm.synced_folder "./labs", "/labs", type: "smb"
+    override.vm.synced_folder "./lib", "/labs/lib", type: "smb"
   end
 
-  # Libvirt specific synced folder (use 9p for better Linux compatibility)
+  # Libvirt specific synced folder overrides (use 9p for better Linux compatibility)
   config.vm.provider "libvirt" do |lv, override|
     override.vm.synced_folder "./labs", "/labs", type: "9p", accessmode: "mapped"
+    override.vm.synced_folder "./lib", "/labs/lib", type: "9p", accessmode: "mapped"
   end
 
   # Provisioning (runs for all providers)
