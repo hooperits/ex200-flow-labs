@@ -73,6 +73,12 @@
 - Objectives: Diagnostic tools; resolve common issues (services, storage, network, security).
 - Coverage: Troubleshooting scenarios.
 
+**Lab 11-14 additional**:
+- 11 Logging: journalctl, rsyslog - advanced logging objective.
+- 12 SSH: keys, sudoers - secure access.
+- 13 Kernel: sysctl - parameters/tuning.
+- 14 Timers: systemd timers - advanced units.
+
 ## Detailed Examples (Sample)
 - Lab 10: dnf install/remove, repo config, modules - maps to "Manage software" objective.
 - Lab 13: sysctl -w/p, /proc/sys - maps to "Kernel tuning".
