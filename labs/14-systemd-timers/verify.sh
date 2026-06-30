@@ -27,7 +27,7 @@ print_result() {
         echo -e "[ ${RED}FAILED${NC} ] $test_name - $message"
         FAILED_TESTS=$((FAILED_TESTS + 1))
         if $EXPLAIN_MODE; then
-            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md. Usa 'dnf repolist', 'rpm -q', 'createrepo' para depurar."
+            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md. Usa 'systemctl list-timers', 'systemctl status', 'cat timer.log' para depurar timers."
         fi
     fi
 }
@@ -38,7 +38,7 @@ if $EXPLAIN_MODE; then
 fi
 
 echo -e "${CYAN}================================================================${NC}"
-echo -e "${CYAN}         Evaluador de Reto: Módulo 10 - Gestión de Paquetes     ${NC}"
+echo -e "${CYAN}         Evaluador de Reto: Módulo 14 - Systemd Timers          ${NC}"
 echo -e "${CYAN}================================================================${NC}"
 echo
 
@@ -61,6 +61,13 @@ if systemctl list-timers | grep -q rhcsa; then
     print_result "Timer activo" "SUCCESS" "Timer listado."
 else
     print_result "Timer activo" "FAIL" "No se detectó timer activo."
+fi
+
+# 4. Validar timer log
+if [ -f "$CHALLENGE_DIR/timer.log" ]; then
+    print_result "Timer log" "SUCCESS" "Timer execution log in challenge."
+else
+    print_result "Timer log" "FAIL" "No timer log."
 fi
 
 echo
