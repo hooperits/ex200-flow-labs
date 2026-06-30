@@ -290,6 +290,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / New Lab Kernel (13)**: Scaffold + basic for kernel/sysctl. Generator run. Continues Phase 1. Post-task checklist started.
 - **2026-06-30 / New Lab Timers (14)**: Scaffold + basic for systemd timers. Generator run.
 - **2026-06-30 / Final gen and summary**: Generator --all. 5 new labs (10-14). Phase 0 complete (verifiers, resets, Vagrant, sync, re-audit). Checklist ~100%. 
+- **2026-06-30 / Session end**: 5 Phase 1 labs started (Package full, others basic). All Phase 0 items advanced (verifiers/resets complete, etc.). Ready for more or re-audit. 
 - **2026-06-30 / Session Summary**: Verifiers complete (all labs), resets shared complete (all), 3 new labs (10 full, 11/12 basic), sync/Vagrant done, re-audits. Phase 0/1 advanced per plan. Checklist pass ~100% for tasks. 
 - Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
 
