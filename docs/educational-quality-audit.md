@@ -396,6 +396,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Fix 12 verify**: Correct header and suggestions. Generator. 
 
+**CLI test 12**: Ran verify (correct header). 
+
 **CLI matrix command**: Added 'matrix' to bin/ex200. Tested (shows matrix header). 
 
 **Test**: Ran ./bin/ex200 matrix and status (works, shows data). 

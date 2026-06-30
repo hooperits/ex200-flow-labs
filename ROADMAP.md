@@ -307,6 +307,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Lab 12 enhancement**: Challenge files, verify, generator. 
 - **2026-06-30 / Lab 11 enhancement**: Fixed verify, challenge, generator. 
 - **2026-06-30 / Fix 12 verify**: Correct header/suggestions. Generator. 
+- **2026-06-30 / CLI test 12**: Ran verify. 
 - **2026-06-30 / Final generator**: --all run for all labs. 
 - **2026-06-30 / Session continue**: 6 Phase 1 labs (10-15: Package full, others basic). Phase 0 complete (verifiers all, resets shared all, etc.).
 - **2026-06-30 / Post-task for Phase 1 batch**: Applied full checklist to labs 10-15. Generator --all. All pass. Skeletons updated. Quality verified. 
