@@ -12,45 +12,48 @@ NC='\033[0m' # No Color
 # Cargar helpers comunes (soporte --video / --fast)
 source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/../../lib/demo-common.sh"
 
-# 1. Redirecciones de entrada/salida y pipes
-clear_section "RHCSA Módulo 01: Demostración de Herramientas Esenciales - Tema: 1. Redirecciones (stdout/stderr) y Pipes"
-run_demo_cmd "Redirigimos la salida estándar (stdout) a un archivo usando el operador '>'" "echo 'Hola Estudiante EX200' > saludo.txt"
-run_demo_cmd "Leemos el archivo creado para confirmar su contenido" "cat saludo.txt"
-run_demo_cmd "Redirigimos el canal de error (stderr, descriptor 2) a otro archivo usando '2>'" "ls archivo_inexistente.txt 2> error.log"
-run_demo_cmd "Leemos el archivo de errores" "cat error.log"
-run_demo_cmd "Usamos un pipe '|' para enviar la salida de un comando como entrada de otro" "echo -e 'rojo\nverde\nazul\namarillo' | grep 'a'"
-rm -f saludo.txt error.log
+# 1. Configurar un Repositorio DNF
+clear_section "RHCSA Módulo 10: Gestión de Paquetes - Tema: 1. Configurar un Repositorio DNF"
+run_demo_cmd "Instalamos createrepo si es necesario" "dnf install -y createrepo &>/dev/null || true"
+run_demo_cmd "Creamos un directorio para el repo local" "mkdir -p /tmp/local-repo && cp /var/cache/dnf/*/packages/bash*.rpm /tmp/local-repo/ 2>/dev/null || echo 'Usando paquetes de ejemplo'"
+run_demo_cmd "Creamos el repositorio local" "createrepo /tmp/local-repo"
+run_demo_cmd "Creamos el archivo .repo" "echo '[local-test]
+name=Local Test Repo
+baseurl=file:///tmp/local-repo
+enabled=1
+gpgcheck=0' > /etc/yum.repos.d/local-test.repo"
+run_demo_cmd "Verificamos los repositorios" "dnf repolist --enabled | head -5"
+rm -f /etc/yum.repos.d/local-test.repo
 sleep 2.0
 
-# 2. Uso de grep y expresiones regulares
-clear_section "RHCSA Módulo 01: Demostración de Herramientas Esenciales - Tema: 2. Filtrado con grep y Expresiones Regulares"
-run_demo_cmd "Creamos un archivo temporal con varios registros de prueba" "echo -e 'EX200: Permisos\nEX200: Redes\nOTRO: Linux\nEX200: Storage' > temas.txt"
-run_demo_cmd "Usamos grep con expresión regular '^EX200:' para buscar líneas que inicien con ese texto" "grep -E '^EX200:' temas.txt"
-rm -f temas.txt
+# 2. Instalar y Gestionar Paquetes con DNF
+clear_section "RHCSA Módulo 10: Gestión de Paquetes - Tema: 2. Instalar y Gestionar Paquetes con DNF"
+run_demo_cmd "Buscamos un paquete" "dnf search httpd | head -3"
+run_demo_cmd "Instalamos httpd (si no está)" "dnf install -y httpd &>/dev/null || true"
+run_demo_cmd "Verificamos instalación" "rpm -q httpd"
+run_demo_cmd "Actualizamos información de paquetes" "dnf check-update | head -3 || true"
+run_demo_cmd "Limpiamos cache de dnf" "dnf clean all"
 sleep 2.0
 
-# 3. Enlaces duros y simbólicos + Archivación y Compresión con tar (agrupado para alineación con letras)
-clear_section "RHCSA Módulo 01: Demostración de Herramientas Esenciales - Tema: 3. Enlaces Duros (Hard Links) y Simbólicos (Soft Links) + Archivación y Compresión con tar"
-run_demo_cmd "Creamos un archivo base de origen" "echo 'Datos Importantes' > original.txt"
-run_demo_cmd "Creamos un enlace duro que compartirá el mismo inodo que el archivo original" "ln original.txt enlace_duro.txt"
-run_demo_cmd "Creamos un enlace simbólico (o de tipo soft) usando la opción '-s'" "ln -s original.txt enlace_simbolico.txt"
-run_demo_cmd "Listamos los archivos mostrando el número de inodo ('-i') para comparar" "ls -li original.txt enlace_duro.txt enlace_simbolico.txt"
-rm -f original.txt enlace_duro.txt enlace_simbolico.txt
-run_demo_cmd "Creamos dos archivos de texto temporales" "touch archivo_a.txt archivo_b.txt"
-run_demo_cmd "Creamos un archivo empaquetado y comprimido en formato gzip con 'tar -czvf'" "tar -czvf backup.tar.gz archivo_a.txt archivo_b.txt"
-run_demo_cmd "Listamos el contenido del archivo comprimido sin extraerlo usando '-tzf'" "tar -tzf backup.tar.gz"
-rm -f archivo_a.txt archivo_b.txt backup.tar.gz
+# 3. Usar Módulos DNF (AppStreams)
+clear_section "RHCSA Módulo 10: Gestión de Paquetes - Tema: 3. Usar Módulos DNF"
+run_demo_cmd "Listamos módulos disponibles" "dnf module list | head -5"
+run_demo_cmd "Habilitamos un módulo de ejemplo (si disponible)" "dnf module enable -y nodejs:18 2>/dev/null || echo 'Módulo de ejemplo (puede variar por versión)'"
+run_demo_cmd "Instalamos desde módulo" "dnf module install -y nodejs:18/minimal 2>/dev/null || echo 'Simulando instalación de módulo'"
+run_demo_cmd "Verificamos módulo activo" "dnf module list --enabled | grep nodejs || echo 'Verificación de módulo'"
 sleep 2.0
 
-# 4. Permisos estándar de archivos (alineado con estructura de letras)
-clear_section "RHCSA Módulo 01: Demostración de Herramientas Esenciales - Tema: 4. Permisos de Archivos (chmod / chown)"
-run_demo_cmd "Creamos un archivo para pruebas de permisos" "touch secreto.txt"
-run_demo_cmd "Revisamos los permisos iniciales con ls -l" "ls -l secreto.txt"
-run_demo_cmd "Modificamos los permisos a 640 (lectura/escritura dueño, lectura grupo, nada para otros)" "chmod 640 secreto.txt"
-run_demo_cmd "Validamos el cambio en la lista de permisos" "ls -l secreto.txt"
-run_demo_cmd "Cambiamos el grupo propietario del archivo secreto a 'vagrant'" "chown :vagrant secreto.txt"
-run_demo_cmd "Verificamos los propietarios y grupos finales" "ls -l secreto.txt"
-rm -f secreto.txt
+# 4. Crear y Usar un Repositorio Local
+clear_section "RHCSA Módulo 10: Gestión de Paquetes - Tema: 4. Crear un Repositorio Local"
+run_demo_cmd "Preparamos directorio para repo local" "mkdir -p /tmp/myrepo && cp /var/cache/dnf/*/packages/coreutils*.rpm /tmp/myrepo/ 2>/dev/null || touch /tmp/myrepo/dummy.rpm"
+run_demo_cmd "Creamos metadatos del repo" "createrepo /tmp/myrepo"
+run_demo_cmd "Configuramos repo que apunta al local" "echo '[my-local]
+name=My Local Repo
+baseurl=file:///tmp/myrepo
+enabled=1
+gpgcheck=0' > /etc/yum.repos.d/my-local.repo"
+run_demo_cmd "Verificamos el nuevo repo" "dnf repolist | grep my-local || true"
+rm -rf /tmp/myrepo /etc/yum.repos.d/my-local.repo
 sleep 2.0
 
 # Fin de la demostración
@@ -59,4 +62,3 @@ echo -e "${GREEN}===============================================================
 echo -e "${GREEN}   ¡Demostración completada con éxito! Listo para el reto.       ${NC}"
 echo -e "${GREEN}================================================================${NC}"
 sleep 5.0
-

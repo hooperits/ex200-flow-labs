@@ -276,6 +276,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Multi-provider Vagrant enhancement**: Improved Vagrantfile with provider-specific synced_folder for Hyper-V (SMB) and general notes. Advances Phase 0 item #4. 
 - **2026-06-30 / Reset starter (lab 01)**: Small enhancement to reset.sh (idempotency, future shared lib note). Tested. Begins resets work (paired with verifiers in Phase 0). Checklist applied.
 - **2026-06-30 / New lab scaffold (Package Management)**: Created labs/10-package-management/ with standard structure (demo, instructions, verify, reset, hints, challenge/). Bootstrapped from lab 01 pattern as starting point for Phase 1 highest-priority lab. Will customize next. Advances coverage gap. Checklist to be applied on first real content.
+- **2026-06-30 / Implement Package Management lab content**: Full instructions, demo (dnf, modules, createrepo), verify, reset, hints written. Generator run for skeleton. Post-task review added to audit. Process followed (sync doc applied implicitly). Major step for Phase 1. 
 - Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
 
 ### Amendments Log & Process

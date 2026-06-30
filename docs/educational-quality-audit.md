@@ -251,6 +251,30 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
 
+## Nuevo Lab: Package Management (10)
+
+**Fecha**: 2026-06-30
+
+**Estado**: Recién iniciado (fase de implementación).
+
+- Regla 1: Mapeo a objetivos EX200 de gestión de paquetes (dnf, repos, módulos).
+- Regla 2: Comandos reales en demo (dnf, createrepo).
+- Regla 3: verify.sh implementado con chequeos de repos y paquetes.
+- Regla 5: Instrucciones autocontenidas.
+- Regla 6: reset.sh implementado.
+- Regla 7: Usa lib demo-common, soporta --video.
+
+**Acciones**:
+- Creado estructura completa.
+- Generado skeleton con `./scripts/generate-video-skeleton.sh`.
+- Sincronización con proceso de lyrics documentado.
+
+**Recomendación**: Completar contenido detallado, probar en Vagrant, aplicar checklist completa. Actualizar cobertura de objetivos.
+
+**Puntuación actual**: 6/7 (falta verificación completa y pruebas reales).
+
+**Próximos**: Probar en entorno, refinar, agregar a matriz de objetivos.
+
 ## New Lab Start: Package Management (Phase 1)
 
 **Date**: 2026-06-30

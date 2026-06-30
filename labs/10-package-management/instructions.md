@@ -1,23 +1,30 @@
-# Reto Práctico: Herramientas Esenciales del Examen EX200
+# Reto Práctico: Gestión de Paquetes y Repositorios para el Examen EX200
 
-Este reto evaluará tu capacidad para utilizar comandos básicos de manipulación de archivos, filtros, enlaces y permisos en Rocky Linux 9.
+Este reto evaluará tu capacidad para configurar repositorios, gestionar paquetes con DNF, usar módulos y crear repositorios locales en AlmaLinux 9 / RHEL 9.
 
 ## Objetivos del Reto
 
-Navega al directorio `/labs/01-essential-tools/` y realiza las siguientes tareas en el subdirectorio `challenge/`:
+Navega al directorio `/labs/10-package-management/` y realiza las siguientes tareas en el subdirectorio `challenge/`:
 
-1. **Creación de Enlaces**:
-   * Crea un **enlace simbólico (soft link)** llamado `soft_link_ref` que apunte al archivo `original_data.txt`.
-   * Crea un **enlace duro (hard link)** llamado `hard_link_ref` que apunte al archivo `original_data.txt`.
+1. **Configurar un Repositorio DNF**:
+   * Crea un archivo de repositorio en `/etc/yum.repos.d/local-test.repo`.
+   * Configura el repositorio para apuntar a un servidor local (usa el export NFS simulado en /srv/nfs_export o un path local).
+   * Habilita el repositorio y verifica con `dnf repolist`.
 
-2. **Permisos y Propietarios**:
-   * Crea un archivo vacío llamado `secure_perm.txt` dentro de `challenge/`.
-   * Configura sus permisos para que sean exactamente `640` (`rw-r-----`), es decir: lectura/escritura para el dueño, lectura para el grupo y ningún permiso para otros.
-   * Modifica el grupo propietario del archivo `secure_perm.txt` para que pertenezca al grupo `vagrant`.
+2. **Instalar y Gestionar Paquetes**:
+   * Instala el paquete `httpd` usando `dnf`.
+   * Actualiza el paquete `bash` si hay actualizaciones disponibles.
+   * Elimina el paquete `httpd` después de la instalación (simula limpieza).
 
-3. **Filtrado con grep**:
-   * Realiza una búsqueda mediante `grep` en el archivo `original_data.txt` para extraer todas las líneas que comiencen exactamente con el patrón `EX200:` (respetando mayúsculas y minúsculas).
-   * Redirige el resultado de la salida estándar (stdout) para guardarlo en un archivo llamado `grep_result.txt` dentro de `challenge/`.
+3. **Usar Módulos DNF (AppStream)**:
+   * Lista los módulos disponibles con `dnf module list`.
+   * Habilita e instala un módulo (ej. `nodejs:18` o `python39` según disponibilidad).
+   * Verifica la instalación del módulo.
+
+4. **Crear un Repositorio Local**:
+   * Usa `createrepo` para crear un repositorio local en `challenge/local-repo` a partir de algunos RPMs descargados o copiados (usa paquetes existentes como `bash` o simula con archivos).
+   * Configura un repo que apunte a ese directorio local.
+   * Verifica que se pueda instalar un paquete desde él.
 
 ## Evaluación
 
