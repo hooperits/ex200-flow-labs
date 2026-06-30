@@ -53,8 +53,10 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder "./labs", "/labs"
 
   # Hyper-V specific synced folder override (SMB)
+  # Note: Do NOT hardcode smb_username/smb_password here.
+  # Let Vagrant use the current Windows user's credentials (run PowerShell as Administrator).
   config.vm.provider "hyperv" do |h, override|
-    override.vm.synced_folder "./labs", "/labs", type: "smb", smb_username: "vagrant", smb_password: "vagrant"
+    override.vm.synced_folder "./labs", "/labs", type: "smb"
   end
 
   # Libvirt specific synced folder (use 9p for better Linux compatibility)
