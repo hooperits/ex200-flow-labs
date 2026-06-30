@@ -251,6 +251,34 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
 
+## Verifier --explain Backports (Labs 02,04,05,08)
+
+**Date**: 2026-06-30
+
+**Change**: Added --explain to labs 02,04,05,08.
+
+**Checklist**:
+- Rule 3 improved.
+
+**Executed**:
+- Tested.
+
+Now 01,02,03,04,05,07,08,10 (8/9) with --explain. Only lab 06 and 09 left.
+
+## Verifier --explain Backports (Labs 02 and 08)
+
+**Date**: 2026-06-30
+
+**Change**: Added --explain to labs/02-shell-scripting/verify.sh and labs/08-filesystems-network/verify.sh.
+
+**Checklist**:
+- Improves Rule 3 (verifiers confiables) with actionable feedback on failures.
+- No impact on education or video.
+
+**Executed**:
+- Tested --explain (header + suggestions).
+- Now labs 01,02,03,07,08,10 upgraded (6/9).
+
 ## Verifier --explain for new lab 10
 
 **Date**: 2026-06-30
