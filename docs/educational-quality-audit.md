@@ -218,7 +218,7 @@ Key completed items (condensed):
 - Lab 14: Now full (detailed timer/service creation, systemctl ops, log doc). Matches demo/verify.
 - Lab 15: Now full (detailed diagnostics, perms, net, doc). Matches.
 - Overall Phase 1: All 6 full (10-15), coverage ~83% (from matrix table). Verifiers/resets good. No rule violations. Instructions complete for Phase1. Matrix examples expanded. Skeletons regenerated.
-- Matrix work (this turn): Added official refs/links notes to Detailed Examples for labs 10-15 (e.g. "Manage software", "Configure logging", "Kernel tuning"). Gaps updated.
+- Matrix work (this turn): Added official refs/links notes to Detailed Examples for labs 10-15 and 01-03 (e.g. "Manage software", "Configure logging", "Kernel tuning", "Use essential tools").
   - Post-task for matrix update:
     1. Mapeo EX200: Yes (added official objective refs + links notes). Pass.
     2-7: N/A (doc improvement only).

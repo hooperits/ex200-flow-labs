@@ -34,16 +34,19 @@
 - Objectives: Use essential tools (grep, find, tar, etc.); file permissions/links; redirection/pipes.
 - Coverage: High for basic system tools.
   - Sub: grep/find/tar, chmod/chown/links, > >> | , stat/readlink (from lab instructions).
+  - Ref: Red Hat EX200 "Use essential tools" objective.
 
 **Lab 02: Shell Scripting**
 - Objectives: Write simple scripts; use loops, conditionals, variables.
 - Coverage: Shell scripting basics.
   - Sub: bash basics, for/while, if/else, variables, #!/bin/bash (basic coverage).
+  - Ref: Red Hat EX200 "Write simple shell scripts" (basic).
 
 **Lab 03: Operating Systems**
 - Objectives: Manage services (systemctl); targets; processes; logs (journalctl); boot recovery (rd.break, chroot).
 - Coverage: System operation and recovery.
   - Sub: systemctl, targets, journalctl, processes (ps/kill); GRUB recovery noted as partial.
+  - Ref: Red Hat EX200 "Manage system services and processes".
 
 **Lab 04: Users and Groups**
 - Objectives: Manage users/groups; permissions (ACLs, SGID).
@@ -120,8 +123,8 @@
 
 ## Gaps and Next
 - Full matrix: Add full official EX200 links (e.g. access.redhat.com), exact % calcs.
-- Phase1 instructions complete for 10-15; detailed examples + sub-objs for 01-09 + official refs for 10-15 expanded.
-- Next: full Vagrant tests (persistence), expand matrix further (links for old labs), full re-audit, CLI.
+- Phase1 instructions complete for 10-15; detailed examples + sub-objs for 01-09 + official refs for 01-03,10-15 expanded.
+- Next: full Vagrant tests (persistence), expand matrix further (links), full re-audit, CLI.
 - Target: 90%+ with traceability. Update per process.
 
 **Verification**: This matrix will be reviewed in post-task checklists and re-audits.
