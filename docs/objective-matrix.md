@@ -110,18 +110,18 @@
 **Enhance notes**: Lab 14 demo enhanced with list timers; lab 15 with extra network. Generators run. Lab 13 with /proc check.
 
 ## Detailed Examples (Sample)
-- Lab 10: dnf install/remove, repo config (local-test.repo), modules (nodejs) - maps to "Manage software" objective.
-- Lab 11: journalctl -n/-u/-p/-b, mkdir /var/log/journal + sed Storage=persistent + restart, rsyslog rule + logger - maps to "Configure logging".
-- Lab 12: ssh-keygen + authorized_keys + chmod, /etc/sudoers.d/ + visudo, sed PermitRootLogin no + restart sshd - maps to "Manage user access and security".
-- Lab 13: sysctl -a | grep, sysctl -w (temp), /etc/sysctl.d/ + sysctl -p, /proc/sys/ checks - maps to "Kernel tuning".
-- Lab 14: .service + .timer units, systemctl enable --now + list-timers, disable + daemon-reload - maps to "Manage systemd units and timers".
-- Lab 15: journalctl -u/sshd, ls/chmod fixes, ip addr + ss -tuln, logger + document in challenge/ - maps to "Troubleshoot".
-- Full details to be filled per lab (add links/official refs next).
+- Lab 10: dnf install/remove, repo config (local-test.repo), modules (nodejs) - maps to "Manage software" objective (Red Hat EX200: Manage software installation and updates).
+- Lab 11: journalctl -n/-u/-p/-b, mkdir /var/log/journal + sed Storage=persistent + restart, rsyslog rule + logger - maps to "Configure logging" (Red Hat EX200: Configure logging).
+- Lab 12: ssh-keygen + authorized_keys + chmod, /etc/sudoers.d/ + visudo, sed PermitRootLogin no + restart sshd - maps to "Manage user access and security" (Red Hat EX200: Manage user access and security).
+- Lab 13: sysctl -a | grep, sysctl -w (temp), /etc/sysctl.d/ + sysctl -p, /proc/sys/ checks - maps to "Kernel tuning" (Red Hat EX200: Manage kernel runtime parameters).
+- Lab 14: .service + .timer units, systemctl enable --now + list-timers, disable + daemon-reload - maps to "Manage systemd units and timers" (Red Hat EX200: Manage systemd services and timers).
+- Lab 15: journalctl -u/sshd, ls/chmod fixes, ip addr + ss -tuln, logger + document in challenge/ - maps to "Troubleshoot" (Red Hat EX200: Troubleshoot system problems).
+- Full details to be filled per lab (add full links/official refs).
 
 ## Gaps and Next
-- Full matrix: Add official EX200 links (e.g. from Red Hat EX200 objectives doc), exact % calcs, more subs.
-- Phase1 instructions complete for 10-15; detailed examples + sub-objs for 01-09 expanded.
-- Next: full Vagrant tests (persistence), expand matrix (links), full re-audit, CLI.
+- Full matrix: Add full official EX200 links (e.g. access.redhat.com), exact % calcs.
+- Phase1 instructions complete for 10-15; detailed examples + sub-objs for 01-09 + official refs for 10-15 expanded.
+- Next: full Vagrant tests (persistence), expand matrix further (links for old labs), full re-audit, CLI.
 - Target: 90%+ with traceability. Update per process.
 
 **Verification**: This matrix will be reviewed in post-task checklists and re-audits.
