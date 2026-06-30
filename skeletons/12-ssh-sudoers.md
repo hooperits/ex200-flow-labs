@@ -1,5 +1,5 @@
 # Esqueleto Video / Letras - 12-ssh-sudoers
-# Generado desde: /home/juanca/proys/RHCSA-EX200/labs/12-ssh-sudoers/demo.sh
+# Generado desde: labs/12-ssh-sudoers/demo.sh
 # Fecha: 2026-06-30
 #
 # Instrucciones:
