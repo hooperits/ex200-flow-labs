@@ -1,5 +1,5 @@
 # Esqueleto Video / Letras - 15-troubleshooting
-# Generado desde: labs/15-troubleshooting/demo.sh
+# Generado desde: /home/juanca/proys/RHCSA-EX200/labs/15-troubleshooting/demo.sh
 # Fecha: 2026-06-30
 #
 # Instrucciones:
@@ -13,7 +13,7 @@
 ### CORO / Intro
 [00:00 - 00:00] - INTRO / GANCHO
 
-[00:00 - 00:36] - ESTROFA 1: 1. Diagnosticar Servicio Fallido
+[00:00 - 00:48] - ESTROFA 1: 1. Diagnosticar Servicio Fallido
 
 - **Simula servicio fallido**
   ```
@@ -30,7 +30,12 @@
   systemctl status sshd | head -5
   ```
 
-[00:36 - 01:24] - ESTROFA 2: 2. Resolver Permisos
+- **Journal logs**
+  ```
+  journalctl -n 2 --no-pager | tail -2 || true
+  ```
+
+[00:48 - 01:36] - ESTROFA 2: 2. Resolver Permisos
 
 - **Crea archivo con mal permiso**
   ```
@@ -52,7 +57,7 @@
   ls -l /tmp/broken_perm.txt
   ```
 
-[01:24 - 02:12] - ESTROFA 3: 3. Network Troubleshooting
+[01:36 - 02:24] - ESTROFA 3: 3. Network Troubleshooting
 
 - **Muestra IP**
   ```
@@ -74,7 +79,7 @@
   ss -tuln | grep LISTEN | head -2
   ```
 
-[02:12 - 02:42] - ESTROFA 4: 4. Validar y Documentar
+[02:24 - 02:54] - ESTROFA 4: 4. Validar y Documentar
 
 - **Genera log de diagnóstico**
   ```
@@ -86,7 +91,7 @@
   cat /tmp/troubleshoot.log
   ```
 
-[02:42 - 02:42] - OUTRO / CIERRE
+[02:54 - 02:54] - OUTRO / CIERRE
 
 - Recordatorio final + llamada a practicar el reto
 
@@ -101,6 +106,7 @@ ESTROFA: 1. Diagnosticar Servicio Fallido
 - Simula servicio fallido → echo 'Simulando servicio roto' 
 - Usa journalctl para diagnosticar → journalctl -u sshd --no-pager | tail -5 || true
 - Status servicio → systemctl status sshd | head -5
+- Journal logs → journalctl -n 2 --no-pager | tail -2 || true
 ESTROFA: 2. Resolver Permisos
 - Crea archivo con mal permiso → touch /tmp/broken_perm.txt && chmod 000 /tmp/broken_perm.txt
 - Diagnostica → ls -l /tmp/broken_perm.txt

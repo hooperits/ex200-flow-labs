@@ -1,5 +1,5 @@
 # Esqueleto Video / Letras - 13-kernel-sysctl
-# Generado desde: labs/13-kernel-sysctl/demo.sh
+# Generado desde: /home/juanca/proys/RHCSA-EX200/labs/13-kernel-sysctl/demo.sh
 # Fecha: 2026-06-30
 #
 # Instrucciones:

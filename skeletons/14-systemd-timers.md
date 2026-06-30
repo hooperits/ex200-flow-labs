@@ -1,5 +1,5 @@
 # Esqueleto Video / Letras - 14-systemd-timers
-# Generado desde: labs/14-systemd-timers/demo.sh
+# Generado desde: /home/juanca/proys/RHCSA-EX200/labs/14-systemd-timers/demo.sh
 # Fecha: 2026-06-30
 #
 # Instrucciones:

@@ -6,6 +6,7 @@ ESTROFA: 1. Diagnosticar Servicio Fallido
 - Simula servicio fallido → echo 'Simulando servicio roto' 
 - Usa journalctl para diagnosticar → journalctl -u sshd --no-pager | tail -5 || true
 - Status servicio → systemctl status sshd | head -5
+- Journal logs → journalctl -n 2 --no-pager | tail -2 || true
 ESTROFA: 2. Resolver Permisos
 - Crea archivo con mal permiso → touch /tmp/broken_perm.txt && chmod 000 /tmp/broken_perm.txt
 - Diagnostica → ls -l /tmp/broken_perm.txt
