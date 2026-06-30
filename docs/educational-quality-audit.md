@@ -225,6 +225,7 @@ Key completed items (condensed):
   - Status: Pass.
 - Recommendation: Full Vagrant validation for persistence, expand matrix with per-lab sub-objs + official links, full re-audit all labs, address demo sims.
 - Original labs re-audit status: Initial scores from top section (e.g. 01:6.5/7 etc.); Phase0 improvements (verifiers, resets, lib) applied. Full re-audit pending detailed re-score.
+  - Example: Lab 01 re-check (current): Strong on tools/perms (Rule 2/3/5 good post instructions); minor sim in demo but overall pass per matrix 92%.
 - Recommendation: Full Vagrant validation for persistence, expand matrix with per-lab sub-objs + official links, full re-audit all labs, address demo sims.
 - Vagrant test plan note: Run `vagrant up`; for each lab: ./reset.sh; perform tasks from instructions; ./verify.sh --explain; check persistence (reboot sim). Focus on LVM, storage, network labs first.
 
