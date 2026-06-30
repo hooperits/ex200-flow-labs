@@ -48,26 +48,32 @@
 **Lab 04: Users and Groups**
 - Objectives: Manage users/groups; permissions (ACLs, SGID).
 - Coverage: User/group management.
+  - Sub: useradd/usermod, group, chown/chmod, ACLs (setfacl/getfacl), SGID.
 
 **Lab 05: Networking Services**
 - Objectives: Configure networking (nmcli); hostname; time sync (chrony); cron.
 - Coverage: Basic networking and services.
+  - Sub: nmcli, hostnamectl, chrony, crontab.
 
 **Lab 06: Security - SELinux**
 - Objectives: Manage SELinux (getenforce, setenforce, semanage, restorecon); Booleans; contexts.
 - Coverage: SELinux management.
+  - Sub: getenforce/setenforce, semanage, restorecon, booleans.
 
 **Lab 07: Local Storage**
 - Objectives: Manage partitions (fdisk/gdisk); LVM (pv/vg/lvcreate, extend); filesystems (mkfs, mount); VDO.
 - Coverage: Storage management (LVM focus).
+  - Sub: pvcreate/vgcreate/lvcreate/lvextend, mkfs.xfs, mount, vdo, fstab.
 
 **Lab 08: Filesystems and Network Storage**
 - Objectives: Configure fstab (UUID); autofs; NFS/SMB mounts.
 - Coverage: Filesystem mounting and network storage.
+  - Sub: blkid/UUID, fstab, autofs, NFS/SMB.
 
 **Lab 09: Podman Containers**
 - Objectives: Manage containers (podman); rootless; systemd integration (linger, user services).
 - Coverage: Container management with Podman.
+  - Sub: podman run/ps/exec, rootless, systemd user services.
 
 **Lab 10: Package Management**
 - Objectives: Manage packages (dnf/yum); repositories; modules (AppStreams).
@@ -114,8 +120,8 @@
 
 ## Gaps and Next
 - Full matrix: Add official EX200 links, more sub-objs per lab, exact % calculations.
-- Phase1 instructions complete for 10-15; detailed examples expanded.
-- Next: full Vagrant tests (persistence), expand matrix further, full re-audit, CLI enhancements.
+- Phase1 instructions complete for 10-15; detailed examples + sub-objs for 01-09 expanded.
+- Next: full Vagrant tests (persistence), expand matrix further (links), full re-audit, CLI enhancements.
 - Target: 90%+ with traceability. Update per process.
 
 **Verification**: This matrix will be reviewed in post-task checklists and re-audits.

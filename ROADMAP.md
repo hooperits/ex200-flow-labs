@@ -272,7 +272,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 ### Current Execution Log (latest first; compacted per Context Management rules)
 
-- **2026-06-30 / Matrix expansion**: Added rough % table + expanded Detailed Examples (labs 10-15) + sub-objs for 01-03. Gaps/Next updated. Post-task in audit. Improves Rule 1.
+- **2026-06-30 / Matrix expansion**: Added rough % table + expanded Detailed Examples (10-15) + sub-objs for 01-09. Gaps updated. Post-task in audit. Improves Rule 1.
 - **2026-06-30 / Lab 15 instructions full flesh**: Expanded instructions.md with detailed, specific EX200 commands for each of 4 tasks (journalctl filters, systemctl, ip/ss, permissions chmod, logger, log documentation in challenge/). Matches demo sections and verify checks. Improves Rules 1,2,5. Post-task checklist applied.
 - **2026-06-30 / docs(agents): add Context Management & Turn Governance (commit 5a1a263)**: Added the 5 mandatory rules as a new section in AGENTS.md (with same weight as ANTI-LOOP). Updated warning banner and ROADMAP Execution Cycle. Directly targets repeated "response truncated by max_tokens" errors.
 - **2026-06-30 / Context hygiene + compaction (this pass)**: Proactively compacted ROADMAP.md (massive log) and educational-quality-audit.md per new rule #1. Kept strategic state, Execution Process, recent valuable milestones + concise summaries. Removed heavy duplication from repeated continues/re-audits.
