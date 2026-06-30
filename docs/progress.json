@@ -1,0 +1,14 @@
+{
+  "labs": 15,
+  "phase0": {
+    "verifiers": "complete",
+    "resets": "complete",
+    "vagrant": "enhanced",
+    "sync": "documented"
+  },
+  "phase1": {
+    "new_labs": 6,
+    "coverage_est": "70%"
+  },
+  "last_updated": "2026-06-30"
+}

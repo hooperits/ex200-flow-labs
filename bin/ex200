@@ -30,10 +30,15 @@ case "$1" in
     ;;
   status)
     LAB_COUNT=$(ls -1 "$LABS_DIR" | grep -E '^[0-9]+-' | wc -l)
-    echo "RHCSA EX200 Progress (stub):"
-    echo "  Phase 0: Verifiers/Resets complete (all 9)"
-    echo "  Phase 1: 6 new labs started (10-15); total labs: $LAB_COUNT"
-    echo "  Coverage est: ~70%"
+    if [ -f "$LABS_DIR/../docs/progress.json" ]; then
+      echo "RHCSA EX200 Progress (from docs/progress.json):"
+      cat "$LABS_DIR/../docs/progress.json"
+    else
+      echo "RHCSA EX200 Progress (stub):"
+      echo "  Phase 0: Verifiers/Resets complete (all 9)"
+      echo "  Phase 1: 6 new labs started (10-15); total labs: $LAB_COUNT"
+      echo "  Coverage est: ~70%"
+    fi
     ;;
   *)
     echo "ex200 stub: list | run LAB | verify LAB | status"
