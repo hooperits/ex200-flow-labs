@@ -51,17 +51,20 @@
 **Lab 04: Users and Groups**
 - Objectives: Manage users/groups; permissions (ACLs, SGID).
 - Coverage: User/group management.
-  - Sub: useradd/usermod, group, chown/chmod, ACLs (setfacl/getfacl), SGID.
+  - Sub: useradd/usermod/groupadd, chown/chmod, setfacl/getfacl, SGID bits (from lab tasks).
+  - Ref: Red Hat EX200 "Manage users and groups".
 
 **Lab 05: Networking Services**
 - Objectives: Configure networking (nmcli); hostname; time sync (chrony); cron.
 - Coverage: Basic networking and services.
-  - Sub: nmcli, hostnamectl, chrony, crontab.
+  - Sub: nmcli con add/mod, hostnamectl, chronyc, crontab -e (from instructions).
+  - Ref: Red Hat EX200 "Configure networking and system services".
 
 **Lab 06: Security - SELinux**
 - Objectives: Manage SELinux (getenforce, setenforce, semanage, restorecon); Booleans; contexts.
 - Coverage: SELinux management.
-  - Sub: getenforce/setenforce, semanage, restorecon, booleans.
+  - Sub: getenforce/setenforce, semanage fcontext/boolean, restorecon, getsebool/setsebool (typical lab).
+  - Ref: Red Hat EX200 "Manage SELinux".
 
 **Lab 07: Local Storage**
 - Objectives: Manage partitions (fdisk/gdisk); LVM (pv/vg/lvcreate, extend); filesystems (mkfs, mount); VDO.
