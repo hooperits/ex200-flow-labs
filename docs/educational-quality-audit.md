@@ -386,6 +386,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Test**: Ran ./bin/ex200 matrix and status (works, shows data). 
 
+**CLI progress command**: Added 'progress'. Tested. 
+
 ## Re-Audit Phase 0/1 (Continued)
 
 **Date**: 2026-06-30

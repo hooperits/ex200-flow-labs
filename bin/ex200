@@ -54,6 +54,14 @@ case "$1" in
       echo "No matrix file."
     fi
     ;;
+  progress)
+    if [ -f "$LABS_DIR/../docs/progress.json" ]; then
+      echo "Progress (from json):"
+      cat "$LABS_DIR/../docs/progress.json"
+    else
+      echo "No progress file."
+    fi
+    ;;
   *)
     echo "ex200 stub: list | run LAB | verify LAB | status"
     ;;
