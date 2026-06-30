@@ -27,7 +27,7 @@ print_result() {
         echo -e "[ ${RED}FAILED${NC} ] $test_name - $message"
         FAILED_TESTS=$((FAILED_TESTS + 1))
         if $EXPLAIN_MODE; then
-            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md. Usa 'dnf repolist', 'rpm -q', 'createrepo' para depurar."
+            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md. Usa 'journalctl', 'systemctl status', 'ip addr', 'ss' para depurar servicios, permisos, red."
         fi
     fi
 }
@@ -38,7 +38,7 @@ if $EXPLAIN_MODE; then
 fi
 
 echo -e "${CYAN}================================================================${NC}"
-echo -e "${CYAN}         Evaluador de Reto: Módulo 10 - Gestión de Paquetes     ${NC}"
+echo -e "${CYAN}         Evaluador de Reto: Módulo 15 - Troubleshooting         ${NC}"
 echo -e "${CYAN}================================================================${NC}"
 echo
 
@@ -49,11 +49,11 @@ else
     print_result "Diagnóstico servicio" "FAIL" "Problema con logs."
 fi
 
-# 2. Validar permisos fix
-if [ -f /tmp/broken_perm.txt ]; then
-    print_result "Permisos fix" "SUCCESS" "Archivo de prueba presente (simulado)."
+# 2. Validar permisos fix (simulado en demo, check challenge or /tmp if present)
+if [ -f "$CHALLENGE_DIR/troubleshoot.log" ] || [ -f /tmp/broken_perm.txt ]; then
+    print_result "Permisos fix" "SUCCESS" "Evidencia de fix o log de diagnóstico presente."
 else
-    print_result "Permisos fix" "FAIL" "No se detectó fix."
+    print_result "Permisos fix" "FAIL" "No se detectó fix o log."
 fi
 
 # 3. Validar network

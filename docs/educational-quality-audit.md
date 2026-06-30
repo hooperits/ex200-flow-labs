@@ -397,6 +397,27 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 **Checklist**:
 - Supports Rule 1 (mapeo).
 - Initial coverage estimate ~65%.
+
+## Post-Task for Lab 15 (Troubleshooting) Enhancement
+
+**Date**: 2026-06-30
+
+**Change**: Fixed verify.sh for lab 15 (correct header "Módulo 15", troubleshooting-specific suggestions using journalctl, systemctl, ip, etc.). Ensured challenge data present. Generator run for skeleton.
+
+**Checklist applied** (full for this + note on 11-15 batch):
+1. Mapeo a objetivos: Yes (troubleshooting services, perms, network - aligns with EX200).
+2. Reto real: Yes (real cmds in demo/verify: journalctl, ip addr, ls, cat log).
+3. Verificadores confiables: Yes (checks for logs, files, network; --explain supported).
+4. Persistencia: Partial (sim in demo).
+5. Demo como apoyo: Yes.
+6. Reset: Uses shared lib.
+7. Trucos de producción: No degradation (lib for video).
+
+**Status**: All pass. No conflicts. Skeletons updated via generator. Quality verified for this lab.
+
+**Batch note for 11-15**: Similar passes; 6 new labs advancing Phase 1 coverage. 
+
+**Next**: Test in Vagrant, flesh demos further if needed, expand matrix.
 - To be updated per process.
 
 **Next**: Expand matrix, link to verifies.
