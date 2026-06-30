@@ -1,0 +1,21 @@
+Genera un rap técnico y agresivo en español con un flujo chopper de velocidad extrema, rimas multisilábicas densas e intrincadas, dicción impecable y cristalina incluso a máxima velocidad, y un estilo de entrega preciso, dominante y cargado de alta complejidad rítmica.
+Estructura: CORO + 4-5 ESTROFAS + OUTRO.
+Incluye estos conceptos clave con sus comandos:
+
+ESTROFA: 1. Inspeccionar Parámetros del Kernel
+- Lista parámetros clave → sysctl -a | grep -E 'kernel|net.ipv4' | head -5
+- Muestra hostname del kernel → sysctl kernel.hostname
+- Lista net params → sysctl net.ipv4.ip_forward
+ESTROFA: 2. Modificar Parámetros Temporalmente
+- Cambia hostname temporal → sudo sysctl -w kernel.hostname=testhost
+- Verifica cambio → sysctl kernel.hostname
+- Restaura → sudo sysctl -w kernel.hostname=localhost
+ESTROFA: 3. Hacer Cambios Persistentes
+- Añade a sysctl.d → echo 'net.ipv4.ip_forward = 1' | sudo tee /etc/sysctl.d/99-test.conf
+- Aplica cambios → sudo sysctl -p /etc/sysctl.d/99-test.conf
+- Verifica → sysctl net.ipv4.ip_forward
+ESTROFA: 4. Probar sysctl
+- Usa sysctl -w para test → sudo sysctl -w kernel.sysrq=1
+- Verifica en /proc → cat /proc/sys/kernel/sysrq
+
+Mantén los comandos técnicos en inglés. Prioriza velocidad extrema, precisión y rimas complejas.

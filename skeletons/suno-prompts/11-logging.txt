@@ -1,0 +1,24 @@
+Genera un rap técnico y agresivo en español con un flujo chopper de velocidad extrema, rimas multisilábicas densas e intrincadas, dicción impecable y cristalina incluso a máxima velocidad, y un estilo de entrega preciso, dominante y cargado de alta complejidad rítmica.
+Estructura: CORO + 4-5 ESTROFAS + OUTRO.
+Incluye estos conceptos clave con sus comandos:
+
+ESTROFA: 1. Inspeccionar Logs con journalctl
+- Mostramos logs recientes → journalctl -n 5 --no-pager
+- Filtramos por servicio sshd → journalctl -u sshd -n 3 --no-pager
+- Filtramos errores → journalctl -p err -n 3 --no-pager
+- Logs desde boot actual → journalctl -b -n 3 --no-pager
+ESTROFA: 2. Configurar Persistencia de Logs
+- Creamos dir journal si necesario → sudo mkdir -p /var/log/journal
+- Configuramos journald persistente → sudo sed -i 's/#Storage=.*/Storage=persistent/' /etc/systemd/journald.conf || echo 'Edit manual si necesario'
+- Reiniciamos journald → sudo systemctl restart systemd-journald
+- Verificamos persistencia → ls /var/log/journal/ || echo 'Verificación'
+ESTROFA: 3. Configurar rsyslog
+- Añadimos regla rsyslog para test → echo 'local0.* /var/log/rhcsa-test.log' | sudo tee -a /etc/rsyslog.conf
+- Reiniciamos rsyslog → sudo systemctl restart rsyslog
+- Generamos log de prueba → logger -p local0.info 'RHCSA test log entry'
+- Verificamos en rsyslog → cat /var/log/rhcsa-test.log || echo 'Verificación'
+ESTROFA: 4. Probar Logs
+- Generamos más logs → logger 'RHCSA final test'
+- Verificamos en journal → journalctl -n 2 --no-pager | grep -i rhcsa || echo 'Check'
+
+Mantén los comandos técnicos en inglés. Prioriza velocidad extrema, precisión y rimas complejas.

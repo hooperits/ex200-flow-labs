@@ -1,0 +1,22 @@
+Genera un rap técnico y agresivo en español con un flujo chopper de velocidad extrema, rimas multisilábicas densas e intrincadas, dicción impecable y cristalina incluso a máxima velocidad, y un estilo de entrega preciso, dominante y cargado de alta complejidad rítmica.
+Estructura: CORO + 4-5 ESTROFAS + OUTRO.
+Incluye estos conceptos clave con sus comandos:
+
+ESTROFA: 1. Diagnosticar Servicio Fallido
+- Simula servicio fallido → echo 'Simulando servicio roto' 
+- Usa journalctl para diagnosticar → journalctl -u sshd --no-pager | tail -5 || true
+- Status servicio → systemctl status sshd | head -5
+ESTROFA: 2. Resolver Permisos
+- Crea archivo con mal permiso → touch /tmp/broken_perm.txt && chmod 000 /tmp/broken_perm.txt
+- Diagnostica → ls -l /tmp/broken_perm.txt
+- Arregla → chmod 644 /tmp/broken_perm.txt
+- Verifica → ls -l /tmp/broken_perm.txt
+ESTROFA: 3. Network Troubleshooting
+- Muestra IP → ip addr show | head -5
+- Prueba conectividad → ping -c 1 127.0.0.1 || true
+- Puertos → ss -tuln | head -3
+ESTROFA: 4. Validar y Documentar
+- Genera log de diagnóstico → echo 'Diagnóstico completado' > /tmp/troubleshoot.log
+- Verifica → cat /tmp/troubleshoot.log
+
+Mantén los comandos técnicos en inglés. Prioriza velocidad extrema, precisión y rimas complejas.

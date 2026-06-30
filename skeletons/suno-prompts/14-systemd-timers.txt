@@ -1,0 +1,19 @@
+Genera un rap técnico y agresivo en español con un flujo chopper de velocidad extrema, rimas multisilábicas densas e intrincadas, dicción impecable y cristalina incluso a máxima velocidad, y un estilo de entrega preciso, dominante y cargado de alta complejidad rítmica.
+Estructura: CORO + 4-5 ESTROFAS + OUTRO.
+Incluye estos conceptos clave con sus comandos:
+
+ESTROFA: 1. Crear una Unidad Timer
+- Crea servicio de ejemplo → echo '[Unit]
+- Crea timer → echo '[Unit]
+- Habilita timer → sudo systemctl enable --now rhcsa-timer.timer
+- Lista timers → systemctl list-timers | grep rhcsa || echo 'Verificación'
+ESTROFA: 2. Probar el Timer
+- Verifica activo → systemctl is-active rhcsa-timer.timer
+- Muestra status → systemctl status rhcsa-timer.timer | head -5
+ESTROFA: 3. Configurar Servicio Asociado
+- Verifica servicio → systemctl status rhcsa-timer.service | head -3 || true
+ESTROFA: 4. Validar
+- Lista timers activos → systemctl list-timers --all | head -3
+- Deshabilita → sudo systemctl disable --now rhcsa-timer.timer
+
+Mantén los comandos técnicos en inglés. Prioriza velocidad extrema, precisión y rimas complejas.
