@@ -234,3 +234,19 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 **Result**: Full pass. This makes future roadmap execution more systematic and auditable. Added entry to execution log.
 
 **Impact**: Now all changes will have an explicit, repeatable sync path. Reduces risk of lyrics drift.
+
+## Verifier --explain Backport (Lab 01)
+
+**Date**: 2026-06-30
+
+**Change**: Added --explain + suggestions to labs/01-essential-tools/verify.sh.
+
+**Checklist**:
+- Improves Rule 3 (verifiers confiables) with better feedback.
+- No impact on other rules or student/video experience.
+
+**Executed**:
+- Tested --explain output.
+- Now 01, 03, and 07 have the improvement.
+
+**Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
