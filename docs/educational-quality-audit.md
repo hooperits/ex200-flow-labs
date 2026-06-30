@@ -251,6 +251,26 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
 
+## Shared Reset Helpers Backports (Labs 01,03,08)
+
+**Date**: 2026-06-30
+
+**Change**: Backported lib/reset-common.sh to labs 01,03,08 (in addition to previous 07,10).
+
+**Checklist**:
+- Rule 6 (Reset limpio y repeatable): Improved consistency and safety.
+- Rule 2 (real commands) in cleanups.
+
+**Executed**:
+- Updated resets to source helpers and use safe_remove/unmount/log where applicable.
+- Tested (helpers loaded and called).
+
+**Checklist applied** (for this batch):
+- Rule 6: Improved.
+- Full post-task review passed (see plan cycle).
+
+**Next**: Backport to remaining labs (02,04,05,06,09) for full Phase 0 coverage.
+
 ## Phase 0/1 Progress Summary (End of Session)
 
 **Date**: 2026-06-30
