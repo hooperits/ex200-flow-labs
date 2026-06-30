@@ -311,11 +311,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 12**: Ran verify. 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -328,12 +332,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -352,12 +360,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -370,12 +382,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -400,12 +416,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -418,12 +438,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -442,12 +466,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -460,12 +488,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -496,12 +528,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -514,12 +550,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -538,12 +578,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -556,12 +600,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -586,12 +634,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -604,12 +656,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -628,12 +684,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -646,12 +706,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -688,6 +752,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -695,6 +761,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -706,6 +774,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -713,6 +783,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -730,6 +802,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -737,6 +811,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -748,6 +824,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -755,6 +833,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -778,6 +858,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -785,6 +867,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -796,6 +880,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -803,6 +889,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -820,6 +908,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -827,6 +917,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -838,6 +930,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -845,6 +939,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -874,6 +970,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -881,6 +979,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -892,6 +992,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -899,6 +1001,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -916,6 +1020,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -923,6 +1029,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -934,6 +1042,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -941,6 +1051,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -964,6 +1076,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -971,6 +1085,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -982,6 +1098,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -989,6 +1107,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -1006,6 +1126,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1013,6 +1135,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -1024,6 +1148,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1031,6 +1157,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -1072,12 +1200,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1090,12 +1222,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1114,12 +1250,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1132,12 +1272,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1162,12 +1306,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1180,12 +1328,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1204,12 +1356,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1222,12 +1378,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1258,12 +1418,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1276,12 +1440,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1300,12 +1468,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1318,12 +1490,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1348,12 +1524,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1366,12 +1546,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1390,12 +1574,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1408,12 +1596,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1450,12 +1642,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1468,12 +1664,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1492,12 +1692,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1510,12 +1714,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1540,12 +1748,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1558,12 +1770,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1582,12 +1798,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1600,12 +1820,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1636,12 +1860,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1654,12 +1882,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1678,12 +1910,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1696,12 +1932,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1726,12 +1966,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1744,12 +1988,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1768,12 +2016,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1786,12 +2038,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1841,11 +2097,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1859,11 +2119,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1883,11 +2147,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1901,11 +2169,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1931,11 +2203,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1949,11 +2225,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1973,11 +2253,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -1991,11 +2275,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2027,11 +2315,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2045,11 +2337,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2069,11 +2365,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2087,11 +2387,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2117,11 +2421,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2135,11 +2443,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2159,11 +2471,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2177,11 +2493,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2218,12 +2538,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2236,12 +2560,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2260,12 +2588,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2278,12 +2610,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2308,12 +2644,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2326,12 +2666,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2350,12 +2694,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2368,12 +2716,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2404,12 +2756,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2422,12 +2778,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2446,12 +2806,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2464,12 +2828,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2494,12 +2862,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2512,12 +2884,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2536,12 +2912,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2554,6 +2934,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2561,6 +2943,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2602,6 +2986,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2609,6 +2995,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2620,6 +3008,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2627,6 +3017,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2644,6 +3036,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2651,6 +3045,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2662,6 +3058,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2669,6 +3067,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2692,6 +3092,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2699,6 +3101,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2710,6 +3114,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2717,6 +3123,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2734,6 +3142,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2741,6 +3151,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2752,6 +3164,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2759,6 +3173,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2788,6 +3204,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2795,6 +3213,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2806,6 +3226,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2813,6 +3235,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2830,6 +3254,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2837,6 +3263,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2848,6 +3276,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2855,6 +3285,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2878,6 +3310,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2885,6 +3319,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2896,6 +3332,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2903,6 +3341,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2920,6 +3360,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2927,6 +3369,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2938,6 +3382,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2945,6 +3391,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2980,6 +3428,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -2987,6 +3437,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -2998,6 +3450,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3005,6 +3459,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3022,6 +3478,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3029,6 +3487,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3040,6 +3500,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3047,6 +3509,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3070,6 +3534,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3077,6 +3543,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3088,6 +3556,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3095,6 +3565,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3112,6 +3584,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3119,6 +3593,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3130,6 +3606,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3137,6 +3615,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3166,6 +3646,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3173,6 +3655,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3184,6 +3668,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3191,6 +3677,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3208,6 +3696,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3215,6 +3705,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3226,6 +3718,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3233,6 +3727,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3256,6 +3752,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3263,6 +3761,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3274,6 +3774,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3281,6 +3783,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3298,6 +3802,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3305,6 +3811,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3316,6 +3824,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3323,6 +3833,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3380,6 +3892,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3387,6 +3901,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3398,6 +3914,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3405,6 +3923,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3422,6 +3942,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3429,6 +3951,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3440,6 +3964,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3447,6 +3973,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3470,6 +3998,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3477,6 +4007,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3488,6 +4020,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3495,6 +4029,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3512,6 +4048,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3519,6 +4057,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3530,6 +4070,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3537,6 +4079,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3566,6 +4110,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3573,6 +4119,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3584,6 +4132,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3591,6 +4141,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3608,6 +4160,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3615,6 +4169,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3626,6 +4182,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3633,6 +4191,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3656,6 +4216,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3663,6 +4225,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3674,6 +4238,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3681,6 +4247,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3698,6 +4266,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3705,6 +4275,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3716,6 +4288,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3723,6 +4297,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3758,6 +4334,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3765,6 +4343,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3776,6 +4356,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3783,6 +4365,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3800,6 +4384,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3807,6 +4393,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3818,6 +4406,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3825,6 +4415,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3848,6 +4440,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3855,6 +4449,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3866,6 +4462,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3873,6 +4471,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3890,6 +4490,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3897,6 +4499,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3908,6 +4512,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3915,6 +4521,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3944,6 +4552,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3951,6 +4561,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3962,6 +4574,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3969,6 +4583,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -3986,6 +4602,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -3993,6 +4611,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4004,6 +4624,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4011,6 +4633,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4034,6 +4658,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4041,6 +4667,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4052,6 +4680,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4059,6 +4689,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4076,6 +4708,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4083,6 +4717,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4094,6 +4730,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4101,6 +4739,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4142,6 +4782,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4149,6 +4791,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4160,6 +4804,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4167,6 +4813,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4184,6 +4832,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4191,6 +4841,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4202,6 +4854,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4209,6 +4863,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4232,6 +4888,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4239,6 +4897,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4250,6 +4910,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4257,6 +4919,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4274,6 +4938,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4281,6 +4947,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4292,6 +4960,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4299,6 +4969,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4328,6 +5000,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4335,6 +5009,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4346,6 +5022,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4353,6 +5031,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4370,6 +5050,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4377,6 +5059,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4388,6 +5072,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4395,6 +5081,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4418,6 +5106,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4425,6 +5115,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4436,6 +5128,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4443,6 +5137,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4460,6 +5156,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4467,6 +5165,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4478,6 +5178,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4485,6 +5187,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4520,6 +5224,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4527,6 +5233,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4538,6 +5246,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4545,6 +5255,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4562,6 +5274,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4569,6 +5283,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4580,6 +5296,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4587,6 +5305,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4610,6 +5330,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4617,6 +5339,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4628,6 +5352,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4635,6 +5361,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4652,6 +5380,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4659,6 +5389,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4670,6 +5402,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4677,6 +5411,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4706,6 +5442,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4713,6 +5451,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4724,6 +5464,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4731,6 +5473,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4748,6 +5492,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4755,6 +5501,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4766,6 +5514,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4773,6 +5523,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4796,6 +5548,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4803,6 +5557,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4814,6 +5570,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4821,6 +5579,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -4839,11 +5599,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4856,12 +5620,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4910,12 +5678,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4928,12 +5700,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4952,12 +5728,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -4970,12 +5750,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5000,12 +5784,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5018,12 +5806,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5042,12 +5834,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5060,12 +5856,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5096,12 +5896,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5114,12 +5918,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5138,12 +5946,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5156,12 +5968,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5186,12 +6002,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5204,12 +6024,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5228,12 +6052,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5246,12 +6074,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5288,12 +6120,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5306,12 +6142,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5330,12 +6170,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5348,12 +6192,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5378,12 +6226,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5396,12 +6248,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5420,12 +6276,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5438,12 +6298,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5474,12 +6338,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5492,12 +6360,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5516,12 +6388,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5534,12 +6410,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5564,12 +6444,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5582,12 +6466,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5606,12 +6494,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5624,12 +6516,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5672,12 +6568,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5690,12 +6590,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5714,12 +6618,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5732,12 +6640,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5762,12 +6674,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5780,12 +6696,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5804,12 +6724,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5822,12 +6746,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5858,12 +6786,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5876,12 +6808,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5900,12 +6836,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5918,12 +6858,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5948,12 +6892,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5966,12 +6914,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -5990,12 +6942,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6008,12 +6964,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6050,12 +7010,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6068,12 +7032,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6092,12 +7060,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6110,12 +7082,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6140,12 +7116,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6158,12 +7138,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6182,12 +7166,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6200,12 +7188,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6236,12 +7228,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6254,12 +7250,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6278,12 +7278,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6296,12 +7300,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6326,12 +7334,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6344,12 +7356,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6368,12 +7384,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6387,11 +7407,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6453,11 +7477,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6471,11 +7499,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6495,11 +7527,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6513,11 +7549,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6543,11 +7583,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6561,11 +7605,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6585,11 +7633,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6603,11 +7655,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6639,11 +7695,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6657,11 +7717,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6681,11 +7745,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6699,11 +7767,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6729,11 +7801,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6747,11 +7823,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6771,11 +7851,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6789,11 +7873,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6831,11 +7919,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6849,11 +7941,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6873,11 +7969,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6891,11 +7991,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6921,11 +8025,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6939,11 +8047,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6963,11 +8075,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -6981,11 +8097,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7017,11 +8137,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7035,11 +8159,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7059,11 +8187,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7077,11 +8209,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7107,11 +8243,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7125,11 +8265,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7149,11 +8293,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7167,11 +8315,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7215,11 +8367,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7233,11 +8389,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7257,11 +8417,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7275,11 +8439,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7305,11 +8473,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7323,11 +8495,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7347,11 +8523,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7365,11 +8545,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7401,11 +8585,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7419,11 +8607,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7443,11 +8635,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7461,11 +8657,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7491,11 +8691,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7509,11 +8713,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7533,11 +8741,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7551,11 +8763,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7593,11 +8809,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7611,11 +8831,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7635,11 +8859,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7653,11 +8881,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7683,11 +8915,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7701,11 +8937,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7725,11 +8965,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7743,11 +8987,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7779,11 +9027,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7797,11 +9049,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7821,11 +9077,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7839,11 +9099,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7869,11 +9133,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7887,11 +9155,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7911,12 +9183,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -7928,12 +9204,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -7982,12 +9262,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8000,12 +9284,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8024,12 +9312,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8042,12 +9334,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8072,12 +9368,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8090,12 +9390,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8114,12 +9418,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8132,12 +9440,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8168,12 +9480,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8186,12 +9502,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8210,12 +9530,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8228,12 +9552,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8258,12 +9586,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8276,12 +9608,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8300,12 +9636,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8318,12 +9658,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8360,12 +9704,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8378,12 +9726,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8402,12 +9754,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8420,12 +9776,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8450,12 +9810,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8468,12 +9832,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8492,12 +9860,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8510,12 +9882,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8546,12 +9922,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8564,12 +9944,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8588,12 +9972,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8606,12 +9994,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8636,12 +10028,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8654,12 +10050,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8678,12 +10078,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8696,12 +10100,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8744,12 +10152,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8762,12 +10174,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8786,12 +10202,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8804,12 +10224,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8834,12 +10258,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8852,12 +10280,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8876,12 +10308,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8894,12 +10330,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8930,12 +10370,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8948,12 +10392,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8972,12 +10420,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -8990,12 +10442,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9020,12 +10476,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9038,12 +10498,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9062,12 +10526,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9080,12 +10548,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9122,12 +10594,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9140,12 +10616,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9164,12 +10644,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9182,12 +10666,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9212,12 +10700,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9230,12 +10722,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9254,12 +10750,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9272,12 +10772,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9308,12 +10812,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9326,12 +10834,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9350,12 +10862,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9368,12 +10884,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9398,12 +10918,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9416,12 +10940,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9440,12 +10968,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9458,6 +10990,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9465,6 +10999,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9523,6 +11059,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9530,6 +11068,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9541,6 +11081,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9548,6 +11090,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9565,6 +11109,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9572,6 +11118,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9583,6 +11131,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9590,6 +11140,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9613,6 +11165,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9620,6 +11174,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9631,6 +11187,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9638,6 +11196,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9655,6 +11215,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9662,6 +11224,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9673,6 +11237,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9680,6 +11246,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9709,6 +11277,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9716,6 +11286,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9727,6 +11299,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9734,6 +11308,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9751,6 +11327,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9758,6 +11336,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9769,6 +11349,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9776,6 +11358,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9799,6 +11383,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9806,6 +11392,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9817,6 +11405,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9824,6 +11414,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9841,6 +11433,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9848,6 +11442,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9859,6 +11455,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9866,6 +11464,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9901,6 +11501,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9908,6 +11510,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9919,6 +11523,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9926,6 +11532,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9943,6 +11551,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9950,6 +11560,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9961,6 +11573,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9968,6 +11582,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -9991,6 +11607,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -9998,6 +11616,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10009,6 +11629,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10016,6 +11638,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10033,6 +11657,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10040,6 +11666,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10051,6 +11679,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10058,6 +11688,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10087,6 +11719,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10094,6 +11728,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10105,6 +11741,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10112,6 +11750,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10129,6 +11769,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10136,6 +11778,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10147,6 +11791,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10154,6 +11800,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10177,6 +11825,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10184,6 +11834,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10195,6 +11847,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10202,6 +11856,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10219,6 +11875,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10226,6 +11884,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10237,6 +11897,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10244,6 +11906,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10285,6 +11949,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10292,6 +11958,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10303,6 +11971,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10310,6 +11980,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10327,6 +11999,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10334,6 +12008,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10345,6 +12021,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10352,6 +12030,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10375,6 +12055,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10382,6 +12064,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10393,6 +12077,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10400,6 +12086,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10417,6 +12105,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10424,6 +12114,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10435,6 +12127,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10442,6 +12136,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10471,6 +12167,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10478,6 +12176,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10489,6 +12189,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10496,6 +12198,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10513,6 +12217,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10520,6 +12226,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10531,6 +12239,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10538,6 +12248,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10561,6 +12273,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10568,6 +12282,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10579,6 +12295,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10586,6 +12304,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10603,6 +12323,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10610,6 +12332,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10621,6 +12345,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10628,6 +12354,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10663,6 +12391,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10670,6 +12400,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10681,6 +12413,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10688,6 +12422,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10705,6 +12441,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10712,6 +12450,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10723,6 +12463,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10730,6 +12472,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10753,6 +12497,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10760,6 +12506,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10771,6 +12519,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10778,6 +12528,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10795,6 +12547,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10802,6 +12556,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10813,6 +12569,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10820,6 +12578,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10849,6 +12609,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10856,6 +12618,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10867,6 +12631,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10874,6 +12640,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10891,6 +12659,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10898,6 +12668,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10909,6 +12681,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10916,6 +12690,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10939,6 +12715,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10946,6 +12724,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10957,6 +12737,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10964,6 +12746,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -10981,6 +12765,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -10988,6 +12774,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
@@ -11000,11 +12788,15 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 
+- **2026-06-30 / CLI test 12**: Ran verify. 
+
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11053,12 +12845,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11071,12 +12867,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11095,12 +12895,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11113,12 +12917,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11143,12 +12951,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11161,12 +12973,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11185,12 +13001,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11203,12 +13023,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11239,12 +13063,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11257,12 +13085,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11281,12 +13113,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11299,12 +13135,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11329,12 +13169,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11347,12 +13191,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11371,12 +13219,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11389,12 +13241,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11431,12 +13287,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11449,12 +13309,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11473,12 +13337,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11491,12 +13359,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11521,12 +13393,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11539,12 +13415,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11563,12 +13443,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11581,12 +13465,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11617,12 +13505,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11635,12 +13527,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11659,12 +13555,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11677,12 +13577,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11707,12 +13611,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11725,12 +13633,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11749,12 +13661,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11767,12 +13683,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11815,12 +13735,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11833,12 +13757,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11857,12 +13785,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11875,12 +13807,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11905,12 +13841,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11923,12 +13863,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11947,12 +13891,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -11965,12 +13913,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12001,12 +13953,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12019,12 +13975,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12043,12 +14003,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12061,12 +14025,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12091,12 +14059,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12109,12 +14081,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12133,12 +14109,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12151,12 +14131,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12193,12 +14177,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12211,12 +14199,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12235,12 +14227,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12253,12 +14249,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12283,12 +14283,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12301,12 +14305,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12325,12 +14333,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12343,12 +14355,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12379,12 +14395,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12397,12 +14417,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12421,12 +14445,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12439,12 +14467,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12469,12 +14501,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12487,12 +14523,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12511,12 +14551,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
@@ -12529,12 +14573,16 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
 - **2026-06-30 / CLI test 13**: Ran verify. 
 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 12**: Ran verify. 
 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 
