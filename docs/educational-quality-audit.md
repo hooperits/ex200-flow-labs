@@ -251,6 +251,18 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
 
+## New Lab: Logging (11)
+
+**Date**: 2026-06-30
+
+**State**: Scaffold + basic content implemented (journalctl, persistence, rsyslog).
+
+- Follows pattern, real commands.
+- Generator run.
+- Checklist partial (good start).
+
+**Next**: Full test, enhance.
+
 ## Shared Reset Helpers Starter (updated lab 07)
 
 **Date**: 2026-06-30

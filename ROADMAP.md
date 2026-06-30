@@ -281,7 +281,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Verifier --explain for lab 10**: Added to new lab. Now 4 labs upgraded (01,03,07,10).
 - **2026-06-30 / Verifier --explain Backports (02,04,05,08)**: Extended to labs 02,04,05,08. Now 8 labs with --explain (all except 06,09). Phase 0 verifiers almost complete. Checklist applied.
 - **2026-06-30 / Verifier --explain Complete**: Added to 06 and 09. All 9 labs upgraded with --explain. Phase 0 verifiers improvement done.
-- **2026-06-30 / Shared Reset Helpers**: Created lib/reset-common.sh with helpers. Updated lab 10 and 07 resets to use it. Tested. 
+- **2026-06-30 / Shared Reset Helpers**: Created lib/reset-common.sh with helpers. Updated lab 10 and 07 resets to use it. Tested.
+- **2026-06-30 / New Lab Logging (11)**: Scaffolded and implemented basic content for logging lab. Generator run. Advances Phase 1 coverage. 
 - Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
 
 ### Amendments Log & Process
