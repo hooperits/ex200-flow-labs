@@ -57,7 +57,7 @@
   echo 'systemctl set-default graphical.target'
   ```
 
-[01:36 - 02:24] - ESTROFA 3: 3. Monitoreo y Modificación de Procesos
+[01:36 - 03:12] - ESTROFA 3: 3. Monitoreo y Modificación de Procesos e Inspección de Logs con journalctl
 
 - **Listamos procesos ordenados por consumo de recursos**
   ```
@@ -79,8 +79,6 @@
   echo 'renice -n 5 -p 1234'
   ```
 
-[02:24 - 03:12] - ESTROFA 4: 4. Inspección de Logs con journalctl
-
 - **Mostramos las últimas 5 líneas del log del sistema**
   ```
   sudo journalctl -n 5 --no-pager
@@ -101,7 +99,7 @@
   sudo journalctl -b -n 4 --no-pager
   ```
 
-[03:12 - 04:48] - ESTROFA 5: 5. Recuperación de root con rd.break en GRUB
+[03:12 - 04:48] - ESTROFA 4: 4. Recuperación de root con rd.break en GRUB
 
 - **Interrumpimos el arranque presionando e en el menú de GRUB**
   ```
@@ -164,17 +162,16 @@ ESTROFA: 2. Gestión de Entornos de Arranque (Targets)
 - Listamos los targets disponibles actualmente → systemctl list-units --type=target | head -n 6
 - Simulamos cómo cambiar el target a modo consola (multi-user.target) → echo 'systemctl set-default multi-user.target'
 - Simulamos cómo cambiar el target a modo gráfico (graphical.target) → echo 'systemctl set-default graphical.target'
-ESTROFA: 3. Monitoreo y Modificación de Procesos
+ESTROFA: 3. Monitoreo y Modificación de Procesos e Inspección de Logs con journalctl
 - Listamos procesos ordenados por consumo de recursos → ps aux --sort=-%cpu | head -n 5
 - Buscamos un proceso específico por su nombre usando pgrep → pgrep -l systemd | head -n 4
 - Mostramos la prioridad 'nice' de los procesos en ejecución → ps -el | head -n 5
 - Simulamos cómo cambiar la prioridad de un proceso con renice → echo 'renice -n 5 -p 1234'
-ESTROFA: 4. Inspección de Logs con journalctl
 - Mostramos las últimas 5 líneas del log del sistema → sudo journalctl -n 5 --no-pager
 - Filtramos los logs de un servicio específico como sshd → sudo journalctl -u sshd -n 4 --no-pager
 - Filtramos los logs mostrando únicamente errores importantes con '-p err' → sudo journalctl -p err -n 4 --no-pager
 - Mostramos los logs generados desde el arranque actual usando '-b' → sudo journalctl -b -n 4 --no-pager
-ESTROFA: 5. Recuperación de root con rd.break en GRUB
+ESTROFA: 4. Recuperación de root con rd.break en GRUB
 - Interrumpimos el arranque presionando e en el menú de GRUB → echo 'Presiona e para editar la entrada'
 - Agregamos rd.break al final de la línea que empieza con linux → echo 'Añade rd.break'
 - Boot con Ctrl+X o F10 → echo 'Continúa el arranque'

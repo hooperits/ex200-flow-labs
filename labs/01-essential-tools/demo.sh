@@ -29,25 +29,21 @@ run_demo_cmd "Usamos grep con expresión regular '^EX200:' para buscar líneas q
 rm -f temas.txt
 sleep 2.0
 
-# 3. Enlaces duros y simbólicos (reordenado para mejor alineación con letras)
-clear_section "RHCSA Módulo 01: Demostración de Herramientas Esenciales - Tema: 3. Enlaces Duros (Hard Links) y Simbólicos (Soft Links)"
+# 3. Enlaces duros y simbólicos + Archivación y Compresión con tar (agrupado para alineación con letras)
+clear_section "RHCSA Módulo 01: Demostración de Herramientas Esenciales - Tema: 3. Enlaces Duros (Hard Links) y Simbólicos (Soft Links) + Archivación y Compresión con tar"
 run_demo_cmd "Creamos un archivo base de origen" "echo 'Datos Importantes' > original.txt"
 run_demo_cmd "Creamos un enlace duro que compartirá el mismo inodo que el archivo original" "ln original.txt enlace_duro.txt"
 run_demo_cmd "Creamos un enlace simbólico (o de tipo soft) usando la opción '-s'" "ln -s original.txt enlace_simbolico.txt"
 run_demo_cmd "Listamos los archivos mostrando el número de inodo ('-i') para comparar" "ls -li original.txt enlace_duro.txt enlace_simbolico.txt"
 rm -f original.txt enlace_duro.txt enlace_simbolico.txt
-sleep 2.0
-
-# 4. Compresión y archivado con tar (reordenado)
-clear_section "RHCSA Módulo 01: Demostración de Herramientas Esenciales - Tema: 4. Archivación y Compresión con tar"
 run_demo_cmd "Creamos dos archivos de texto temporales" "touch archivo_a.txt archivo_b.txt"
 run_demo_cmd "Creamos un archivo empaquetado y comprimido en formato gzip con 'tar -czvf'" "tar -czvf backup.tar.gz archivo_a.txt archivo_b.txt"
 run_demo_cmd "Listamos el contenido del archivo comprimido sin extraerlo usando '-tzf'" "tar -tzf backup.tar.gz"
 rm -f archivo_a.txt archivo_b.txt backup.tar.gz
 sleep 2.0
 
-# 5. Permisos estándar de archivos
-clear_section "RHCSA Módulo 01: Demostración de Herramientas Esenciales - Tema: 5. Permisos de Archivos (chmod / chown)"
+# 4. Permisos estándar de archivos (alineado con estructura de letras)
+clear_section "RHCSA Módulo 01: Demostración de Herramientas Esenciales - Tema: 4. Permisos de Archivos (chmod / chown)"
 run_demo_cmd "Creamos un archivo para pruebas de permisos" "touch secreto.txt"
 run_demo_cmd "Revisamos los permisos iniciales con ls -l" "ls -l secreto.txt"
 run_demo_cmd "Modificamos los permisos a 640 (lectura/escritura dueño, lectura grupo, nada para otros)" "chmod 640 secreto.txt"

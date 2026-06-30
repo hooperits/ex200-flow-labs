@@ -128,3 +128,15 @@ Archivo generado como parte de evaluación C. Actualizar después de cambios.
 **Conclusión**: Los cambios cumplen bien las reglas, especialmente la #5 y #7. El diseño de la biblioteca prioriza preservar la experiencia educativa por defecto mientras habilita producción de video de alta calidad.
 
 **Riesgo documentado**: Ninguno crítico. Se recomienda aplicar esta checklist después de cada entrega significativa.
+
+## Alineación Demo ↔ Letras (Módulos 01 y 03)
+
+**Trabajo realizado**:
+- Módulo 01: Agrupados enlaces + tar en una sola sección clara (ESTROFA 3 en esqueleto) para coincidir con la estructura de letras (ESTROFA 3: "Enlaces y Compresión con tar"). Secciones ahora 1:1 con 4 ESTROFAS principales de las letras.
+- Módulo 03: Agrupados procesos + logs en una sección (ESTROFA 3), GRUB como ESTROFA 4. Ahora coincide exactamente con las 4 ESTROFAS de las letras (systemctl, targets, procesos/logs, GRUB).
+- Títulos de clear_section ajustados para que el generador produzca ESTROFAS con nombres alineados.
+- Ejecutado generator después de cambios estructurales. Ver esqueletos actualizados.
+
+Esto mejora la sincronización para producción de video/rap sin degradar el valor educativo (comandos reales mantenidos, demo default intacto).
+
+**Siguientes para alineación**: Revisar otros módulos si letras tienen estructuras diferentes; actualizar letras si necesario (en repo sibling).

@@ -52,7 +52,7 @@
   grep -E '^EX200:' temas.txt
   ```
 
-[01:30 - 02:18] - ESTROFA 3: 3. Enlaces Duros (Hard Links) y Simbólicos (Soft Links)
+[01:30 - 02:54] - ESTROFA 3: 3. Enlaces Duros (Hard Links) y Simbólicos (Soft Links) + Archivación y Compresión con tar
 
 - **Creamos un archivo base de origen**
   ```
@@ -74,8 +74,6 @@
   ls -li original.txt enlace_duro.txt enlace_simbolico.txt
   ```
 
-[02:18 - 02:54] - ESTROFA 4: 4. Archivación y Compresión con tar
-
 - **Creamos dos archivos de texto temporales**
   ```
   touch archivo_a.txt archivo_b.txt
@@ -91,7 +89,7 @@
   tar -tzf backup.tar.gz
   ```
 
-[02:54 - 04:06] - ESTROFA 5: 5. Permisos de Archivos (chmod / chown)
+[02:54 - 04:06] - ESTROFA 4: 4. Permisos de Archivos (chmod / chown)
 
 - **Creamos un archivo para pruebas de permisos**
   ```
@@ -143,16 +141,15 @@ ESTROFA: 1. Redirecciones (stdout/stderr) y Pipes
 ESTROFA: 2. Filtrado con grep y Expresiones Regulares
 - Creamos un archivo temporal con varios registros de prueba → echo -e 'EX200: Permisos\nEX200: Redes\nOTRO: Linux\nEX200: Storage' > temas.txt
 - Usamos grep con expresión regular '^EX200:' para buscar líneas que inicien con ese texto → grep -E '^EX200:' temas.txt
-ESTROFA: 3. Enlaces Duros (Hard Links) y Simbólicos (Soft Links)
+ESTROFA: 3. Enlaces Duros (Hard Links) y Simbólicos (Soft Links) + Archivación y Compresión con tar
 - Creamos un archivo base de origen → echo 'Datos Importantes' > original.txt
 - Creamos un enlace duro que compartirá el mismo inodo que el archivo original → ln original.txt enlace_duro.txt
 - Creamos un enlace simbólico (o de tipo soft) usando la opción '-s' → ln -s original.txt enlace_simbolico.txt
 - Listamos los archivos mostrando el número de inodo ('-i') para comparar → ls -li original.txt enlace_duro.txt enlace_simbolico.txt
-ESTROFA: 4. Archivación y Compresión con tar
 - Creamos dos archivos de texto temporales → touch archivo_a.txt archivo_b.txt
 - Creamos un archivo empaquetado y comprimido en formato gzip con 'tar -czvf' → tar -czvf backup.tar.gz archivo_a.txt archivo_b.txt
 - Listamos el contenido del archivo comprimido sin extraerlo usando '-tzf' → tar -tzf backup.tar.gz
-ESTROFA: 5. Permisos de Archivos (chmod / chown)
+ESTROFA: 4. Permisos de Archivos (chmod / chown)
 - Creamos un archivo para pruebas de permisos → touch secreto.txt
 - Revisamos los permisos iniciales con ls -l → ls -l secreto.txt
 - Modificamos los permisos a 640 (lectura/escritura dueño, lectura grupo, nada para otros) → chmod 640 secreto.txt

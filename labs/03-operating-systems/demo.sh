@@ -28,24 +28,20 @@ run_demo_cmd "Simulamos cómo cambiar el target a modo consola (multi-user.targe
 run_demo_cmd "Simulamos cómo cambiar el target a modo gráfico (graphical.target)" "echo 'systemctl set-default graphical.target' (comando de demostración)"
 sleep 2.0
 
-# 3. Gestión de Procesos
-clear_section "RHCSA Módulo 03: Operación del Sistema en Ejecución - Tema: 3. Monitoreo y Modificación de Procesos"
+# 3. Gestión de Procesos e Inspección de Logs (agrupado para alineación con letras)
+clear_section "RHCSA Módulo 03: Operación del Sistema en Ejecución - Tema: 3. Monitoreo y Modificación de Procesos e Inspección de Logs con journalctl"
 run_demo_cmd "Listamos procesos ordenados por consumo de recursos" "ps aux --sort=-%cpu | head -n 5"
 run_demo_cmd "Buscamos un proceso específico por su nombre usando pgrep" "pgrep -l systemd | head -n 4"
 run_demo_cmd "Mostramos la prioridad 'nice' de los procesos en ejecución" "ps -el | head -n 5"
 run_demo_cmd "Simulamos cómo cambiar la prioridad de un proceso con renice" "echo 'renice -n 5 -p 1234' (ejemplo de renice)"
-sleep 2.0
-
-# 4. Lectura de Logs con journalctl
-clear_section "RHCSA Módulo 03: Operación del Sistema en Ejecución - Tema: 4. Inspección de Logs con journalctl"
 run_demo_cmd "Mostramos las últimas 5 líneas del log del sistema" "sudo journalctl -n 5 --no-pager"
 run_demo_cmd "Filtramos los logs de un servicio específico como sshd" "sudo journalctl -u sshd -n 4 --no-pager"
 run_demo_cmd "Filtramos los logs mostrando únicamente errores importantes con '-p err'" "sudo journalctl -p err -n 4 --no-pager"
 run_demo_cmd "Mostramos los logs generados desde el arranque actual usando '-b'" "sudo journalctl -b -n 4 --no-pager"
 sleep 2.0
 
-# 5. Recuperación de contraseña de root (pasos para el reto)
-clear_section "RHCSA Módulo 03: Operación del Sistema en Ejecución - Tema: 5. Recuperación de root con rd.break en GRUB"
+# 4. Recuperación de root con rd.break en GRUB (alineado con estructura de letras)
+clear_section "RHCSA Módulo 03: Operación del Sistema en Ejecución - Tema: 4. Recuperación de root con rd.break en GRUB"
 run_demo_cmd "Interrumpimos el arranque presionando e en el menú de GRUB" "echo 'Presiona e para editar la entrada'"
 run_demo_cmd "Agregamos rd.break al final de la línea que empieza con linux" "echo 'Añade rd.break'"
 run_demo_cmd "Boot con Ctrl+X o F10" "echo 'Continúa el arranque'"
