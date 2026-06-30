@@ -33,14 +33,17 @@
 **Lab 01: Essential Tools**
 - Objectives: Use essential tools (grep, find, tar, etc.); file permissions/links; redirection/pipes.
 - Coverage: High for basic system tools.
+  - Sub: grep/find/tar, chmod/chown/links, > >> | , stat/readlink (from lab instructions).
 
 **Lab 02: Shell Scripting**
 - Objectives: Write simple scripts; use loops, conditionals, variables.
 - Coverage: Shell scripting basics.
+  - Sub: bash basics, for/while, if/else, variables, #!/bin/bash (basic coverage).
 
 **Lab 03: Operating Systems**
 - Objectives: Manage services (systemctl); targets; processes; logs (journalctl); boot recovery (rd.break, chroot).
 - Coverage: System operation and recovery.
+  - Sub: systemctl, targets, journalctl, processes (ps/kill); GRUB recovery noted as partial.
 
 **Lab 04: Users and Groups**
 - Objectives: Manage users/groups; permissions (ACLs, SGID).
