@@ -309,6 +309,24 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 - No video degradation (uses lib).
 - All pass. No conflicts. Generator run for alignment.
 
+## New Lab: Kernel (13)
+
+**Date**: 2026-06-30
+
+**State**: Scaffold + basic content (sysctl, kernel params).
+
+- Real sysctl commands.
+- Generator run.
+
+**Checklist**:
+- Mapeo: Yes to kernel/sysctl EX200.
+- Real: Yes.
+- Verifiers: Basic checks.
+- Pass initial. Generator done.
+
+**Post-task for 13**:
+- All rules initial pass. Real commands. 
+
 ## New Lab: Logging (11)
 
 **Date**: 2026-06-30
