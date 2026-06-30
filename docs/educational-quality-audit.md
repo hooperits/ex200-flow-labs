@@ -230,6 +230,7 @@ Key completed items (condensed):
 - Vagrant improvements (this turn): Enhanced multi-provider support (added libvirt nested + 9p synced, usage comments, consistent configs for vbox/hyperv/libvirt). 
   - Post-task: Supports Phase 0 multi-provider (Rule 4 persistence via real VM). Pass.
 - Vagrant test plan note: Run `vagrant up`; for each lab: ./reset.sh; perform tasks from instructions; ./verify.sh --explain; check persistence (reboot sim). Focus on LVM, storage, network labs first.
-- Recommendation: Full Vagrant validation, expand matrix (links), full re-audit, address demo sims.
+- Recommendation: Full Vagrant validation + testing, expand matrix (links), full re-audit all, address any demo sims.
+- Phase 0 headers + Vagrant: Standardized all clear_section (01-15); Vagrantfile enhanced with full providers + comments. Post-task passed.
 
 Post-task: Rules 1-7 pass for enhancements. No conflicts.

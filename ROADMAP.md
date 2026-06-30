@@ -109,12 +109,12 @@ Equal priority between A and B. Use post-task checklist (AGENTS.md) as guardrail
 
 Key deliverables:
 - Internal `AGENTS.md` with Educational Quality Rules, post-task checklist and ANTI-LOOP RULE (done + actively used)
-- Shared `lib/demo-common.sh` (demo helpers with --video/--fast; verify/reset libs still pending)
+- Shared `lib/demo-common.sh` (demo helpers with --video/--fast; verify/reset libs complete)
 - demo.sh improvements with video support across all modules (done via shared lib) while preserving default educational experience
 - Video skeleton + Suno prompt generator (done)
-- Standardize section headers for consistent chapter naming (partial progress)
-- Vagrantfile improvements (multi-provider support started)
-- Cross-repo sync checklist documented (pending)
+- Standardize section headers for consistent chapter naming (done)
+- Vagrantfile improvements (multi-provider support enhanced)
+- Cross-repo sync checklist documented (done)
 
 **Success criteria**:
 - All deliverables pass post-task checklist review against the 7 Educational Quality Rules (AGENTS.md)
@@ -304,9 +304,9 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - All amendments must pass checklist themselves before integration.
 
 ### Phase 0 Execution Status
-- Foundation items largely complete (AGENTS, lib, generator, some alignment).
-- Remaining (see list above): verifiers/resets, full multi-provider, sync doc, re-audit.
-- Next action per log: Re-audit + begin verifiers for low-score labs.
+- Foundation items largely complete (AGENTS, lib/demo+reset-common, generator, headers standardized, multi-provider Vagrant enhanced, sync doc).
+- Remaining for full 100%: final Vagrant testing across providers, full re-audit of Phase 0.
+- Next action per log: Vagrant validation + complete re-audit.
 
 ---
 
