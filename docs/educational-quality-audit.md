@@ -271,7 +271,7 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Next**: Backport to remaining labs (02,04,05,06,09) for full Phase 0 coverage.
 
-**Update**: Backported to 02 and 09 as well. Now using shared reset in 01,02,03,07,08,09,10 (7/9). Phase 0 resets good progress.
+**Update**: Backported to 02 and 09 as well. Now using shared reset in 01,02,03,04,05,06,07,08,09,10 (all 9!). Phase 0 resets complete for shared lib. Checklist applied.
 
 ## Phase 0/1 Progress Summary (End of Session)
 

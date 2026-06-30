@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Reset system state for Module 05
+# Load common reset helpers
+source "$(cd "$(dirname "$0")" && pwd)/../../lib/reset-common.sh" 2>/dev/null || true
 
 echo "Restableciendo el entorno del laboratorio de redes y cron..."
 
@@ -14,10 +15,13 @@ sudo hostnamectl set-hostname localhost &>/dev/null
 CONN_NAME=$(nmcli -t -f DEVICE,NAME connection show --active | grep -E "^(eth1|enp0s8|enp0s9):" | cut -d: -f2 | head -n 1)
 
 if [ -n "$CONN_NAME" ]; then
-    echo "Restaurando conexión '$CONN_NAME' a DHCP..."
+    reset_log "Restaurando conexión '$CONN_NAME' a DHCP..."
     sudo nmcli connection modify "$CONN_NAME" ipv4.addresses "" ipv4.gateway "" ipv4.dns "" ipv4.method auto &>/dev/null
     sudo nmcli connection up "$CONN_NAME" &>/dev/null
 fi
+
+reset_log "El entorno del laboratorio ha sido restaurado."
+exit 0
 
 # 3. Restore chrony.conf by removing pool.ntp.org line
 if [ -f "/etc/chrony.conf" ]; then
