@@ -73,6 +73,11 @@
 - Objectives: Diagnostic tools; resolve common issues (services, storage, network, security).
 - Coverage: Troubleshooting scenarios.
 
+## Detailed Examples (Sample)
+- Lab 10: dnf install/remove, repo config, modules - maps to "Manage software" objective.
+- Lab 13: sysctl -w/p, /proc/sys - maps to "Kernel tuning".
+- Full details to be filled per lab.
+
 ## Gaps and Next
 - Full matrix: Add detailed sub-objectives, % coverage, links to official docs.
 - Remaining Phase 1/2: Add labs for more (e.g., advanced security if needed), exam sim.
