@@ -251,6 +251,18 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
 
+## Shared Reset Helpers Starter (updated lab 07)
+
+**Date**: 2026-06-30
+
+**Change**: Backported lib/reset-common.sh to lab 07 reset.
+
+**Checklist**:
+- Rule 6 improved.
+
+**Executed**:
+- Tested (helpers used, some sudo expected in non-Vagrant).
+
 ## Shared Reset Helpers Starter
 
 **Date**: 2026-06-30
