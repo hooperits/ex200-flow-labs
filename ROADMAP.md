@@ -310,6 +310,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Fix 12 verify**: Correct header/suggestions. Generator. 
 - **2026-06-30 / CLI test 12**: Ran verify. 
 - **2026-06-30 / CLI test 11**: Ran verify. 
+
+- **2026-06-30 / CLI test 11**: Ran verify. 
 - **2026-06-30 / CLI test 11**: Ran verify. 
 - **2026-06-30 / Final generator**: --all run for all labs. 
 - **2026-06-30 / Session continue**: 6 Phase 1 labs (10-15: Package full, others basic). Phase 0 complete (verifiers all, resets shared all, etc.).
