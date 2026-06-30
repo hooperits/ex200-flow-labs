@@ -251,6 +251,19 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
 
+## Verifier --explain Complete (All 9 Labs)
+
+**Date**: 2026-06-30
+
+**Change**: Added --explain to labs 06 and 09. All 9 labs now have --explain mode for better verifier feedback.
+
+**Checklist**:
+- Major improvement to Rule 3 across the board.
+
+**Executed**:
+- Tested on remaining.
+- Phase 0 verifiers: complete for this improvement.
+
 ## Verifier --explain Backports (Labs 02,04,05,08)
 
 **Date**: 2026-06-30
