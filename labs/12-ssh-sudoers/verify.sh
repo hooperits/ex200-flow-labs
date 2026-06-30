@@ -70,6 +70,13 @@ else
     print_result "Sudoers sintaxis" "FAIL" "Problema en sudoers."
 fi
 
+# 5. Validar challenge files
+if [ -f "$CHALLENGE_DIR/authorized_keys" ] && [ -f "$CHALLENGE_DIR/sudoers" ]; then
+    print_result "Challenge files" "SUCCESS" "SSH/sudoers evidence in challenge."
+else
+    print_result "Challenge files" "FAIL" "Missing challenge files."
+fi
+
 echo
 echo -e "${CYAN}================================================================${NC}"
 if [ $FAILED_TESTS -eq 0 ]; then
