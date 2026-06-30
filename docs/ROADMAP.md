@@ -43,8 +43,9 @@ For the complete internal strategic roadmap (including production pipeline detai
 
 ## Current Status (June 2026)
 
-- 9 solid foundational labs
-- Strong "demo → practice → verify → reset" flow
+- 9 solid foundational labs + 6 new labs started (10-15: Package Management, Logging, SSH/Sudoers, Kernel/sysctl, Systemd Timers, Troubleshooting)
+- Strong "demo → practice → verify → reset" flow (shared lib, --explain in verifiers, shared resets)
+- Improved verifiers/resets, multi-provider Vagrant, objective matrix initial
 - Work in progress on video production support (for higher quality demonstrations) and multi-environment compatibility
 
 We are actively working on making the labs more complete, the verifiers more reliable, and the overall experience closer to the real exam.
