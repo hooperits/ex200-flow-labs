@@ -40,6 +40,12 @@ case "$1" in
       echo "  Coverage est: ~70%"
     fi
     ;;
+  exam-simulate)
+    echo "Exam Simulation Mode (stub):"
+    echo "  Timed 2.5h mixed tasks (not implemented)."
+    echo "  Would run random verify from labs, score by category."
+    echo "  Example: Simulate 5 tasks from different modules."
+    ;;
   *)
     echo "ex200 stub: list | run LAB | verify LAB | status"
     ;;

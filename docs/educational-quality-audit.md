@@ -368,7 +368,7 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 - Supports Phase 2.
 - Basic, to be expanded.
 
-**Verification**: Executable. Tested (status, list). Matrix expanded sample. Enhanced with lab count. Progress.json integrated. 
+**Verification**: Executable. Tested (status, list). Matrix expanded sample. Enhanced with lab count. Progress.json integrated. Exam-simulate stub added. 
 
 **Session end summary**: Phase 0 complete on key items. 6 new labs. Checklist high. 
 
