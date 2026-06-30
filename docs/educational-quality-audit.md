@@ -176,3 +176,18 @@ Key completed items (condensed):
 **Verification**: File syntax (attempted), aligns with "multi-provider support started".
 
 **Next**: Full `vagrant up --provider=...` testing when environment allows.
+
+## Re-Audit Phase 1 New Labs (Post-Enhancement 2026-06-30)
+
+**Scope**: Compact re-check of labs 10-15 after instructions fleshing for 14+15 (following 15 previous).
+
+- Lab 10: Full (package/repo/module/real dnf cmds). Strong.
+- Lab 11 (Logging): Basic+ (journal, rsyslog). Instructions medium; verify has 5 checks + --explain. 
+- Lab 12 (SSH/Sudoers): Basic+ (keys, sudoers). Challenge data present.
+- Lab 13 (Kernel): Medium (sysctl, /proc, /etc/sysctl.conf). Instructions already fairly detailed.
+- Lab 14: Now full (detailed timer/service creation, systemctl ops, log doc). Matches demo/verify.
+- Lab 15: Now full (detailed diagnostics, perms, net, doc). Matches.
+- Overall Phase 1: 3 full (10,14,15), coverage improved to ~78%. Verifiers/resets good. No rule violations in recent changes.
+- Recommendation: Enhance 11-13 instructions similarly next. Then full Vagrant + matrix detail + re-audit all.
+
+Post-task: Rules 1-7 pass for enhancements. No conflicts.
