@@ -382,6 +382,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Enhance 15 demo**: Added extra network command. Generator. 
 
+**Enhance 14 demo**: Added list timers command. Generator. 
+
 **Update for 12**: Added challenge files, verify check, generator. Checklist pass. 
 
 **CLI matrix command**: Added 'matrix' to bin/ex200. Tested (shows matrix header). 

@@ -297,6 +297,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Lab 15 post-task**: Fixed verify suggestions, generator run, checklist applied (pass). Batch for 11-15 verified. 
 - **2026-06-30 / Lab 14 fix**: Fixed verify, generator. Checklist. 
 - **2026-06-30 / Lab 15 test**: Ran verify --explain (works, correct suggestions). 
+- **2026-06-30 / Lab 14 enhance**: Added command, generator. 
 - **2026-06-30 / Lab 13 enhancement**: Challenge data, verify, generator. 
 - **2026-06-30 / Lab 15 demo enhance**: Added command, generator. 
 - **2026-06-30 / Lab 12 enhancement**: Challenge files, verify, generator. 
