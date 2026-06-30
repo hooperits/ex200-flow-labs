@@ -36,8 +36,8 @@ case "$1" in
     else
       echo "RHCSA EX200 Progress (stub):"
       echo "  Phase 0: Verifiers/Resets complete (all 9)"
-      echo "  Phase 1: 6 new labs started (10-15); total labs: $LAB_COUNT"
-      echo "  Coverage est: ~70%"
+      echo "  Phase 1: 6 new labs full detailed instructions (10-15); total labs: $LAB_COUNT"
+      echo "  Coverage est: ~80%+"
     fi
     ;;
   exam-simulate)

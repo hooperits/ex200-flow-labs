@@ -10,7 +10,7 @@
   "phase1": {
     "new_labs": 6,
     "labs_10-15": "All 6 Phase1 labs (10-15) now full detailed instructions matching lab 10 depth",
-    "coverage_est": "75%"
+    "coverage_est": "80%+"
   },
   "phase2": {
     "cli_stub": "bin/ex200 (list/run/verify/status/exam-simulate)",
