@@ -289,6 +289,17 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Next**: Complete resets backport, full test new labs, add more labs (e.g. SSH), re-audit.
 
+## New Lab: SSH/Sudoers (12)
+
+**Date**: 2026-06-30
+
+**State**: Scaffold + basic content implemented (SSH keys, sudoers, sshd).
+
+- Follows pattern.
+- Generator run.
+
+**Checklist note**: Good mapping to EX200 SSH/sudo objectives.
+
 ## New Lab: Logging (11)
 
 **Date**: 2026-06-30
