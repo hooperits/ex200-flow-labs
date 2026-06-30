@@ -30,10 +30,18 @@ Vagrant.configure("2") do |config|
   end
 
   # Mount the local labs/ directory to /labs inside the guest VM
-  # Default type works for most providers; SMB is Hyper-V specific
+  # Provider-specific handling for best compatibility:
+  # - Hyper-V: SMB (default on Windows)
+  # - VirtualBox: vboxsf (or rsync fallback)
+  # - libvirt: 9p or nfs
   config.vm.synced_folder "./labs", "/labs"
 
-  # Provisioning to ensure correct script execution permissions on mount
+  # Hyper-V specific synced folder override (SMB)
+  config.vm.provider "hyperv" do |h, override|
+    override.vm.synced_folder "./labs", "/labs", type: "smb", smb_username: "vagrant", smb_password: "vagrant"
+  end
+
+  # Provisioning (runs for all providers)
   config.vm.provision "shell", inline: <<-SHELL
     echo "Setting executable permissions on all lab scripts..."
     chmod +x /labs/**/*.sh 2>/dev/null || true

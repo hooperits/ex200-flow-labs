@@ -250,3 +250,17 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 - Now 01, 03, and 07 have the improvement.
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
+
+## Multi-Provider Vagrant Improvement (Phase 0)
+
+**Date**: 2026-06-30
+
+**Change**: Enhanced Vagrantfile with explicit Hyper-V SMB synced folder and comments for VirtualBox/libvirt compatibility. Supports real disk testing across environments.
+
+**Checklist**:
+- Rule 4 (persistencia): Better supports real state testing on secondary disk.
+- Rule 7: Helps video recording on different host OS without degrading.
+
+**Verification**: File syntax (attempted), aligns with "multi-provider support started".
+
+**Next**: Full `vagrant up --provider=...` testing when environment allows.
