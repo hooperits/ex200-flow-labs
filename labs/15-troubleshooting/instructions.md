@@ -4,20 +4,31 @@ Este reto evaluará tu capacidad para diagnosticar y resolver problemas comunes 
 
 ## Objetivos del Reto
 
-Navega al directorio `/labs/15-troubleshooting/` y realiza las siguientes tareas:
+Navega al directorio `/labs/15-troubleshooting/` y realiza las siguientes tareas en el subdirectorio `challenge/` donde corresponda:
 
 1. **Diagnosticar Servicio Fallido**:
-   * Usa systemctl status y journalctl para un servicio fallido simulado.
-   * Identifica causa.
+   * Ejecuta `systemctl status sshd` para ver el estado actual.
+   * Usa `journalctl -u sshd -n 20 --no-pager` para inspeccionar logs recientes del servicio.
+   * Filtra con `journalctl -p err -n 10 --no-pager` para errores.
+   * Identifica la causa del problema (simulado vía datos en challenge/ si aplica) y anota en `challenge/troubleshoot.log`.
 
 2. **Resolver Permisos**:
-   * Arregla permisos en un archivo o dir roto (simulado).
+   * Crea o identifica un archivo con permisos rotos (ej. `touch /tmp/broken_perm.txt && chmod 000 /tmp/broken_perm.txt`).
+   * Diagnostica con `ls -l /tmp/broken_perm.txt` y `stat`.
+   * Arregla los permisos (ej. `chmod 644 /tmp/broken_perm.txt`).
+   * Verifica el fix y documenta el comando usado en el log de diagnóstico.
 
 3. **Network Troubleshooting**:
-   * Usa ip, ping, ss para diagnosticar.
+   * Usa `ip addr show` para inspeccionar interfaces.
+   * Prueba conectividad local con `ping -c 1 127.0.0.1`.
+   * Lista puertos y conexiones: `ss -tuln | head -10` y `ss -tuln | grep LISTEN`.
+   * Identifica problemas de red (ej. servicios escuchando) y registra hallazgos.
 
-4. **Validar**:
-   * Documenta pasos en challenge/.
+4. **Probar, Validar y Documentar**:
+   * Genera un log de prueba: `logger 'RHCSA troubleshooting test'`.
+   * Verifica con `journalctl -n 5 --no-pager | grep -i rhcsa || true`.
+   * Crea un resumen completo de diagnóstico en `challenge/troubleshoot.log` (incluye comandos usados y conclusiones).
+   * Ejecuta `./verify.sh` para confirmar.
 
 ## Evaluación
 
