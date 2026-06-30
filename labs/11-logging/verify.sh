@@ -63,6 +63,13 @@ else
     print_result "Log de Prueba" "FAIL" "No se detectaron logs de prueba."
 fi
 
+# 4. Validar journal restart or config
+if systemctl is-active systemd-journald &>/dev/null; then
+    print_result "Journald activo" "SUCCESS" "systemd-journald está activo."
+else
+    print_result "Journald activo" "FAIL" "systemd-journald no activo."
+fi
+
 echo
 echo -e "${CYAN}================================================================${NC}"
 if [ $FAILED_TESTS -eq 0 ]; then

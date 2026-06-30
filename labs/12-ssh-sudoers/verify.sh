@@ -63,6 +63,13 @@ else
     print_result "SSHD restringido" "FAIL" "Config no actualizada."
 fi
 
+# 4. Validar sudo syntax
+if sudo visudo -c &>/dev/null; then
+    print_result "Sudoers sintaxis" "SUCCESS" "sudoers config válida."
+else
+    print_result "Sudoers sintaxis" "FAIL" "Problema en sudoers."
+fi
+
 echo
 echo -e "${CYAN}================================================================${NC}"
 if [ $FAILED_TESTS -eq 0 ]; then

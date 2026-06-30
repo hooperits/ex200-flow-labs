@@ -300,6 +300,15 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Checklist note**: Good mapping to EX200 SSH/sudo objectives.
 
+**Post-task checklist applied for 11 and 12**:
+- Mapeo a objetivos: Yes (journalctl, rsyslog for 11; SSH keys, sudoers for 12 - map to EX200).
+- Reto real: Yes, real commands in demo (journalctl, logger, ssh-keygen, visudo).
+- Verificadores: Implemented with checks for files/configs.
+- Demo como apoyo: Yes, instructions standalone.
+- Reset: Uses shared lib, clean.
+- No video degradation (uses lib).
+- All pass. No conflicts. Generator run for alignment.
+
 ## New Lab: Logging (11)
 
 **Date**: 2026-06-30

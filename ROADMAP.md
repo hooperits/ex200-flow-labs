@@ -286,7 +286,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Shared Reset Helpers Backports (02,04,05,06,09)**: Extended to remaining. Now all 9 labs using shared reset lib. Phase 0 resets done. Tested. 
 - **2026-06-30 / New Lab Logging (11)**: Scaffolded and implemented basic content for logging lab. Generator run. Advances Phase 1 coverage.
 - **2026-06-30 / New Lab SSH/Sudoers (12)**: Scaffolded and basic content for SSH lab. Generator run. Continues Phase 1 (SSH next after logging).
-- **2026-06-30 / Session Summary**: Verifiers complete (all labs), resets shared complete (all), 3 new labs (10,11,12), sync/Vagrant done, re-audits. Phase 0/1 advanced per plan. 
+- **2026-06-30 / Fleshed Logging (11) and SSH (12)**: Completed instructions, demo, verify, hints for 11 and 12 with real EX200 tasks. Generator run. Post-task checklist applied (pass). Skeletons updated.
+- **2026-06-30 / Session Summary**: Verifiers complete (all labs), resets shared complete (all), 3 new labs (10 full, 11/12 basic), sync/Vagrant done, re-audits. Phase 0/1 advanced per plan. Checklist pass ~100% for tasks. 
 - Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
 
 ### Amendments Log & Process
