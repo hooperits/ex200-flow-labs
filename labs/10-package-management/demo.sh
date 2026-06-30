@@ -10,7 +10,7 @@ MAGENTA='\033[0;35m'
 NC='\033[0m' # No Color
 
 # Cargar helpers comunes (soporte --video / --fast)
-source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/../../lib/demo-common.sh"
+source "/labs/lib/demo-common.sh"
 
 # 1. Configurar un Repositorio DNF
 clear_section "RHCSA Módulo 10: Gestión de Paquetes - Tema: 1. Configurar un Repositorio DNF"
