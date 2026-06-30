@@ -384,6 +384,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **CLI matrix command**: Added 'matrix' to bin/ex200. Tested (shows matrix header). 
 
+**Test**: Ran ./bin/ex200 matrix and status (works, shows data). 
+
 **Session end summary**: Phase 0 complete on key items. 6 new labs. Checklist high. All verifiers/resets done. 5 Phase 1 labs. CLI/Phase 2 stub. Matrix started. 
 
 ## Re-Audit Phase 0/1 (Final for Session)
