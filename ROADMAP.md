@@ -237,14 +237,16 @@ Recommended bridges (live in lyrics or hooperits8 folders):
 - `--video` / `--fast` mode implemented across **all** demos via shared lib (exceeds original 3-4 target)
 - Video Script Skeleton generator created and in use (`scripts/generate-video-skeleton.sh`)
 - Initial + follow-up audit of labs against rules (extended with checklist review)
+- Phase 1 new labs 10-15: all instructions full detailed (matching lab 10 quality). Coverage ~80%+.
+- CLI stub enhanced for status/matrix.
 
 **Remaining high priority:**
-1. Produce detailed alignment fix plan + execute for Modules 01 and 03 (highest video/lyrics impact)
-2. Improve verifiers (robustness, `--explain` mode) and resets (more complete/idempotent)
-3. Add first new high-value lab: Package Management & repositories (biggest coverage gap)
-4. Set up / test basic multi-provider Vagrant (VirtualBox + libvirt)
-5. Document the exact lyrics ↔ code sync process (sibling repo)
-6. Re-audit Phase 0 deliverables against the 7 rules + anti-loop process
+1. Full Vagrant multi-provider test + persistence verification for all labs.
+2. Expand objective-matrix with detailed sub-objectives, % per lab, official links.
+3. Re-audit all labs (Phase 0+1) against 7 rules + update audit/ROADMAP.
+4. Address remaining demo sims and alignment for old modules (01,03 etc).
+5. Enhance CLI (progress tracking, exam-sim).
+6. Follow lyrics sync for any demo/instructions changes (sibling repo).
 
 **Metrics to track going forward**:
 - Post-task checklist pass rate (target >90%)
