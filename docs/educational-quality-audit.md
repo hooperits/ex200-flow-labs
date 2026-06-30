@@ -327,7 +327,31 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 **Post-task for 13**:
 - All rules initial pass. Real commands.
 
-**Final verification**: Generator --all run. All new labs (10-13) have skeletons. Phase 1 coverage increasing. 
+**Final verification**: Generator --all run. All new labs (10-14) have skeletons. Phase 1 coverage increasing (Package, Logging, SSH, Kernel, Timers).
+
+## New Lab: Timers (14)
+
+**Date**: 2026-06-30
+
+**State**: Scaffold + basic (systemd timers).
+
+- Real systemctl/timer commands.
+- Generator done.
+
+**Checklist**: Pass initial. 
+
+## New Lab: Timers (14)
+
+**Date**: 2026-06-30
+
+**State**: Scaffold + basic (systemd timers, units).
+
+- Real systemctl.
+- Generator done.
+
+**Checklist**:
+- Mapeo to EX200 systemd.
+- Pass. 
 
 ## New Lab: Logging (11)
 
