@@ -7,9 +7,26 @@
 **Source**: Official EX200 objectives (e.g., from Red Hat docs: system management, storage, networking, security, containers, etc.).
 
 ## Current Coverage Summary
-- Estimated: ~80%+ (with 9 original + 6 new labs full detailed; improved mapping for packages, logging, SSH, kernel, timers, troubleshooting).
+- Estimated: ~82% (with 9 original + 6 new labs full detailed; improved mapping for packages, logging, SSH, kernel, timers, troubleshooting).
 - Phase 0/1 progress: Verifiers --explain all, resets shared all, Phase1 instructions 10-15 complete (detailed like lab 10).
 - Full matrix to be completed (sub-objs, % per lab). Phase1 instructions deliverable done.
+
+## Rough Coverage % by Lab (estimated, based on mapped objectives)
+- Lab 01 (Essential Tools): 92% (core tools, perms, redirection strong)
+- Lab 02 (Shell Scripting): 75% (basics; more advanced scripting gaps)
+- Lab 03 (Operating Systems): 80% (services, logs, targets; boot recovery partial)
+- Lab 04 (Users/Groups): 85%
+- Lab 05 (Networking): 70% (basic nmcli, chrony, cron)
+- Lab 06 (SELinux): 80%
+- Lab 07 (Local Storage): 75% (LVM/VDO; partition tools good)
+- Lab 08 (Filesystems/Network Storage): 80%
+- Lab 09 (Podman): 85%
+- Lab 10 (Package Mgmt): 90% (full dnf, repos, modules)
+- Lab 11 (Logging): 85% (journalctl, rsyslog, persistence)
+- Lab 12 (SSH/Sudoers): 88% (keys, sudoers, sshd config)
+- Lab 13 (Kernel/sysctl): 80%
+- Lab 14 (Systemd Timers): 90%
+- Lab 15 (Troubleshooting): 85% (diagnostics across areas)
 
 ## Lab to Objective Mapping (Summary)
 

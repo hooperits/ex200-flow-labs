@@ -218,6 +218,11 @@ Key completed items (condensed):
 - Lab 14: Now full (detailed timer/service creation, systemctl ops, log doc). Matches demo/verify.
 - Lab 15: Now full (detailed diagnostics, perms, net, doc). Matches.
 - Overall Phase 1: All 6 full (10-15), coverage ~80%+. Verifiers/resets good. No rule violations. Instructions complete for Phase1. Matrix examples expanded. Skeletons regenerated.
-- Recommendation: Full Vagrant validation for persistence, expand objective-matrix details + %, re-audit all labs, address any remaining demo sim.
+- Matrix work (this turn): Added rough % breakdown by lab (~82% overall est.); sub-objs for new labs noted.
+  - Mini post-task for matrix:
+    - Rule 1 (mapeo): Strengthened with % and details. Pass.
+    - Others: N/A (doc only).
+  - Status: Pass.
+- Recommendation: Full Vagrant validation for persistence, expand matrix with per-lab sub-objs + official links, full re-audit all labs, address demo sims.
 
 Post-task: Rules 1-7 pass for enhancements. No conflicts.
