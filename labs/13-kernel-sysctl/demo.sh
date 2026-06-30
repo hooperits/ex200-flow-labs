@@ -23,6 +23,7 @@ sleep 2.0
 clear_section "RHCSA Módulo 13: Kernel y sysctl - Tema: 2. Modificar Parámetros Temporalmente"
 run_demo_cmd "Cambia hostname temporal" "sudo sysctl -w kernel.hostname=testhost"
 run_demo_cmd "Verifica cambio" "sysctl kernel.hostname"
+run_demo_cmd "Muestra /proc" "cat /proc/sys/kernel/hostname"
 run_demo_cmd "Restaura" "sudo sysctl -w kernel.hostname=localhost"
 sleep 2.0
 

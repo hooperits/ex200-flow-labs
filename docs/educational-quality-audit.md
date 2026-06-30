@@ -378,6 +378,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Update for 11**: Fixed verify, added challenge, generator. Checklist pass. 
 
+**Enhance 13 demo**: Added /proc check. Generator. 
+
 **Final generator --all**: Skeletons for all labs including new 10-15. 
 
 **Enhance 15 demo**: Added extra network command. Generator. 
