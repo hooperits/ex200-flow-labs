@@ -8,6 +8,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.network "private_network", ip: "192.168.56.10"
 
+  # Hyper-V (Windows)
   config.vm.provider "hyperv" do |h|
     h.enable_virtualization_extensions = true
     h.vmname = "RHCSA-EX200-flow-labs"
@@ -15,9 +16,22 @@ Vagrant.configure("2") do |config|
     h.cpus = 2
   end
 
+  # VirtualBox (macOS, Linux, Windows)
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048"
+    vb.cpus = 2
+    vb.name = "RHCSA-EX200-flow-labs"
+  end
+
+  # Libvirt / KVM (Linux)
+  config.vm.provider "libvirt" do |lv|
+    lv.memory = "2048"
+    lv.cpus = 2
+  end
+
   # Mount the local labs/ directory to /labs inside the guest VM
-  # Using SMB (native Windows sharing for Hyper-V)
-  config.vm.synced_folder "./labs", "/labs", type: "smb"
+  # Default type works for most providers; SMB is Hyper-V specific
+  config.vm.synced_folder "./labs", "/labs"
 
   # Provisioning to ensure correct script execution permissions on mount
   config.vm.provision "shell", inline: <<-SHELL

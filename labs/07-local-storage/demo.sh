@@ -9,72 +9,42 @@ CYAN='\033[0;36m'
 MAGENTA='\033[0;35m'
 NC='\033[0m' # No Color
 
-# Helper for simulated typing
-type_text() {
-    local text="$1"
-    local delay="${2:-0.03}"
-    for ((i=0; i<${#text}; i++)); do
-        echo -n -e "${text:$i:1}"
-        sleep "$delay"
-    done
-    echo
-}
-
-# Helper to show a command being typed and then execute it
-run_demo_cmd() {
-    local cmd="$2"
-    echo -e "${MAGENTA}➔ Explicación:${NC} ${YELLOW}$1${NC}"
-    sleep 1.0
-    echo -n -e "${BLUE}vagrant@localhost:~$ ${NC}"
-    type_text "$cmd" 0.03
-    sleep 0.8
-    eval "$cmd"
-    echo
-    sleep 5.0
-}
-
-# Helper to clean terminal and show section header
-clear_section() {
-    clear
-    echo -e "${CYAN}================================================================${NC}"
-    echo -e "${CYAN}    RHCSA Módulo 07: Administración de Almacenamiento Local     ${NC}"
-    echo -e "${CYAN}    Tema: $1${NC}"
-    echo -e "${CYAN}================================================================${NC}"
-    echo
-    sleep 2.0
-}
+# Cargar helpers comunes (soporte --video / --fast)
+source "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/../../lib/demo-common.sh"
 
 # 1. Particionamiento y Discos
-clear_section "1. Inspección de Discos y Particiones"
+clear_section "RHCSA Módulo 07: Administración de Almacenamiento Local - Tema: 1. Inspección de Discos y Particiones"
 run_demo_cmd "Listamos todos los dispositivos de bloque y discos instalados" "lsblk"
 run_demo_cmd "Mostramos información detallada de los sistemas de archivos montados" "df -hT | head -n 6"
-run_demo_cmd "Simulamos crear una partición GPT usando gdisk" "echo 'gdisk /dev/sdb' (ejemplo interactivo de gdisk)"
-run_demo_cmd "Simulamos crear una partición MBR usando fdisk" "echo 'fdisk /dev/sdb' (ejemplo interactivo de fdisk)"
+run_demo_cmd "Ejemplo de creación de partición GPT (interactivo)" "echo 'gdisk /dev/sdb'   # gdisk es interactivo, se usa en el reto real"
+run_demo_cmd "Ejemplo de creación de partición MBR (interactivo)" "echo 'fdisk /dev/sdb'   # fdisk es interactivo"
 sleep 2.0
 
-# 2. Creación de Componentes LVM
-clear_section "2. Creación de Physical Volumes, Volume Groups y Logical Volumes"
-run_demo_cmd "Simulamos inicializar un Physical Volume (PV)" "echo 'pvcreate /dev/sdb1' (ejemplo de pvcreate)"
-run_demo_cmd "Listamos los PVs activos en el sistema" "sudo pvs 2>/dev/null || echo '(Requiere privilegios de root para LVM)'"
-run_demo_cmd "Simulamos crear un Volume Group (VG)" "echo 'vgcreate vg_labs /dev/sdb1' (ejemplo de vgcreate)"
-run_demo_cmd "Simulamos crear un Logical Volume (LV) de 1GB" "echo 'lvcreate -L 1G -n lv_docs vg_labs' (ejemplo de lvcreate)"
+# 2. Creación de Componentes LVM - ahora con ejecución real
+clear_section "RHCSA Módulo 07: Administración de Almacenamiento Local - Tema: 2. Creación de Physical Volumes, Volume Groups y Logical Volumes"
+run_demo_cmd "Inicializamos /dev/sdb como Physical Volume (PV)" "sudo pvcreate -f /dev/sdb"
+run_demo_cmd "Listamos los PVs activos" "sudo pvs"
+run_demo_cmd "Creamos Volume Group (VG) vg_demo" "sudo vgcreate -f vg_demo /dev/sdb"
+run_demo_cmd "Creamos Logical Volume (LV) lv_demo de 200M" "sudo lvcreate -L 200M -n lv_demo vg_demo"
 sleep 2.0
 
-# 3. Formateo, Montaje y Extensión
-clear_section "3. Formateo, Montaje y Extensión en Caliente"
-run_demo_cmd "Simulamos formatear el volumen lógico en XFS" "echo 'mkfs.xfs /dev/vg_labs/lv_docs' (ejemplo de mkfs)"
-run_demo_cmd "Simulamos montar el volumen de manera persistente en /etc/fstab" "echo '/dev/vg_labs/lv_docs /mnt/docs xfs defaults 0 0' (ejemplo de fstab)"
-run_demo_cmd "Simulamos extender el volumen lógico a 2GB y su filesystem a la vez" "echo 'lvextend -L 2G -r /dev/vg_labs/lv_docs' (ejemplo de lvextend)"
-run_demo_cmd "Mostramos las propiedades detalladas de un VG existente" "sudo vgs 2>/dev/null || echo '(Requiere root para LVM)'"
+# 3. Formateo, Montaje y Extensión - ejecución real
+clear_section "RHCSA Módulo 07: Administración de Almacenamiento Local - Tema: 3. Formateo, Montaje y Extensión en Caliente"
+run_demo_cmd "Formateamos el LV en XFS" "sudo mkfs.xfs -f /dev/vg_demo/lv_demo"
+run_demo_cmd "Creamos punto de montaje y montamos" "sudo mkdir -p /mnt/demo && sudo mount /dev/vg_demo/lv_demo /mnt/demo"
+run_demo_cmd "Mostramos el montaje" "df -hT /mnt/demo"
+run_demo_cmd "Extendemos el LV a 400M y redimensionamos FS" "sudo lvextend -L 400M -r /dev/vg_demo/lv_demo"
+run_demo_cmd "Verificamos el nuevo tamaño" "df -hT /mnt/demo"
 sleep 2.0
 
-# 4. LVM VDO (Virtual Data Optimizer)
-clear_section "4. Optimización de Espacio mediante LVM VDO"
-run_demo_cmd "Simulamos crear un volumen VDO con deduplicación y compresión activa" "echo 'lvcreate --type vdo --name vdo_vol -L 4G -V 8G vg_labs' (ejemplo de vdo)"
-run_demo_cmd "Mostramos el estado y estadísticas de los volúmenes lógicos" "sudo lvs 2>/dev/null || echo '(Requiere root para LVM)'"
-run_demo_cmd "Visualizamos la información de montaje y tamaño en caliente" "sudo mount | grep -E '(docs|vdo)' || echo '(No hay montajes LVM activos)'"
-run_demo_cmd "Simulamos cómo recargar las tablas de LVM si cambiamos discos" "echo 'vgscan && pvscan' (ejemplo de scan)"
-sleep 2.0
+# 4. LVM VDO - mantenemos ejemplo ya que requiere configuración especial
+clear_section "RHCSA Módulo 07: Administración de Almacenamiento Local - Tema: 4. Optimización de Espacio mediante LVM VDO"
+run_demo_cmd "Ejemplo de creación de volumen VDO (requiere preparación)" "echo 'sudo lvcreate --type vdo --name vdo_vol -L 1G -V 2G vg_demo'   # VDO optimizado"
+run_demo_cmd "Mostramos LVs" "sudo lvs"
+run_demo_cmd "Ejemplo de formateo y montaje VDO" "echo 'sudo mkfs.xfs /dev/vg_demo/vdo_vol && sudo mount /dev/vg_demo/vdo_vol /mnt/vdo'"
+
+# Limpieza al final del demo (para dejar el entorno limpio)
+run_demo_cmd "Desmontamos y limpiamos para el demo" "sudo umount /mnt/demo 2>/dev/null; sudo lvremove -f /dev/vg_demo/lv_demo 2>/dev/null; sudo vgremove -f vg_demo 2>/dev/null; sudo pvremove -f /dev/sdb 2>/dev/null; sudo rm -rf /mnt/demo"
 
 # Fin de la demostración
 clear

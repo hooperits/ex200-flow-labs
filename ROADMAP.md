@@ -1,0 +1,261 @@
+# RHCSA-EX200 — Complete Strategic Roadmap
+
+**Project**: ex200-flow-labs (RHCSA EX200 hands-on labs in Spanish)  
+**Primary Public Purpose**: Help students master and pass the Red Hat Certified System Administrator (EX200) exam on RHEL 9 / AlmaLinux 9.  
+**Internal Dual Engine**: High-quality educational content that powers professional YouTube video production (Eminem-style Spanish RAP) + drives GitHub growth.
+
+> **CRITICAL RULE (Public vs Internal)**:  
+> Nothing about video production, Suno, RAP lyrics, YouTube channel strategy, content funnel, or "why we have demo.sh" may appear in `README.md`, public documentation, commit messages visible in the main branch, or any file that ships with the public repository.  
+> The public face must remain 100% clean, professional, and focused exclusively on RHCSA exam preparation.
+
+---
+
+## 1. Vision (1000% Improvement)
+
+Transform this project into the **best open-source RHCSA preparation platform in Spanish** (and eventually bilingual) measured by:
+
+### Educational Impact
+- 90%+ coverage of official EX200 objectives
+- Students can reliably pass verifiers on first or second attempt
+- Clear, fast feedback loops
+- Real exam-like pressure (timed simulation mode)
+- All changes pass post-task review against Educational Quality Rules (see AGENTS.md)
+
+### Content Production Power
+- `demo.sh` become best-in-class assets for high-retention terminal screen recordings
+- Tight, repeatable synchronization with timed RAP lyrics
+- Dramatically reduced time from "lab ready" → "video published"
+
+### Growth Flywheel (Internal)
+- YouTube channel (@hooperits8) generates views + subscriptions via educational RAP videos
+- Videos act as top-of-funnel that drives:
+  - GitHub clones
+  - Stars & forks
+  - Followers on the repo
+- Strong "practice what you saw" call-to-action without revealing the meta strategy publicly
+
+---
+
+## 2. Core Principles & Constraints
+
+1. **Public Purity** — README, instructions, and all public docs talk only about learning RHCSA.
+2. **demo.sh is sacred for video** — Primary design goal of demo scripts is excellent screen-recordable sessions (clean pacing, consistent sections, chapter-friendly headers).
+3. **Lyrics live outside** — `/home/juanca/proys/RHCSA-EX200-lyrics/` (with `suno_prompts.md`).
+4. **YouTube automation lives outside** — `/home/juanca/proys/hooperits8/` (OAuth, upload scripts, TTS).
+5. **Changes have lyrics cost** — Any modification to demos or lab content requires planned re-examination of corresponding lyrics.
+6. **Immutability & Quality** — Follow high standards for scripts (strict mode, shared libs, good error messages).
+7. **Equal weight** — Educational quality and video production have the same strategic priority.
+8. **Guardrail process** — After each task, review against Educational Quality Rules (see AGENTS.md). If a change would compromise a rule for video production, pause and consult before proceeding.
+9. **Anti-Loop Rule** — All editing (especially generators and prompt strings) is governed by the strict ANTI-LOOP RULE in AGENTS.md: read-first discipline, max 2 micro-iterations on the same target, mandatory run + inspect generated output, prefer structural changes.
+
+Educational Quality Rules and post-task checklist are maintained in AGENTS.md.
+
+---
+
+## 3. Current State (as of 2026-06-30)
+
+### Strengths
+- Excellent consistent structure across 9 labs (`demo.sh`, `instructions.md`, `verify.sh`, `hints.md`, `reset.sh`, `challenge/`)
+- Strong pedagogical "The Flow"
+- Automated non-destructive verifiers with colored output
+- All in Spanish
+- Vagrant + AlmaLinux 9 baseline
+
+### Major Gaps
+- **Coverage**: ~55-65% of EX200 objectives
+- **demo.sh problems** (from alignment analysis):
+  - Heavy use of `sleep 5.0` → videos too long
+  - Excessive "simulamos" + `echo` instead of real execution
+  - Section ordering mismatches with lyrics (notably 01 and 03)
+  - Missing key challenge elements in some demos (e.g., actual GRUB root recovery steps in module 03)
+- Brittle verifiers and incomplete resets
+- Hyper-V + SMB only (painful for Mac/Linux users)
+- No progress tracking, no exam simulation
+- Code duplication (verify logic repeated 9x)
+- No lyrics sync process
+
+**Alignment Analysis Summary** (from Option B deep dive):
+- Modules 02, 04, 05, 06, 09: Good-to-excellent topic match
+- Modules 01, 03, 07, 08: Order, simulation level, or missing challenge coverage issues
+- Universal problem: Pacing and simulation make current demos sub-optimal for RAP video production
+
+---
+
+## 4. Strategic Pillars
+
+**Pillar A — Educational Excellence**  
+World-class, verifiable, objective-mapped labs. All deliverables reviewed against Educational Quality Rules after completion.
+
+**Pillar B — Video Production Excellence**  
+demo.sh optimized for fast, clean, chapterable recordings that map tightly to lyrics.
+
+**Pillar C — Growth Flywheel**  
+YouTube RAP videos → high retention → GitHub clones/stars + channel subs.
+
+Equal priority between A and B. Use post-task checklist (AGENTS.md) as guardrail.
+
+---
+
+## 5. Phased Roadmap
+
+### Phase 0: Foundation + Balanced Readiness (2–4 weeks)
+
+**Goal**: Establish solid base for both educational quality and video production with equal priority. Apply Educational Quality Rules (AGENTS.md) after each deliverable.
+
+Key deliverables:
+- Internal `AGENTS.md` with Educational Quality Rules and post-task checklist (done)
+- Shared library: `lib/verify-common.sh` + `lib/reset-common.sh`
+- All scripts: `set -euo pipefail`, consistent shebangs, shellcheck-ready
+- demo.sh improvements with video support (e.g. --video/--fast flags) while preserving default educational experience
+- Standardize section headers for consistent chapter naming (supporting both students and lyrics)
+- Vagrantfile improvements (multi-provider support + better pre-provisioning)
+- Cross-repo sync checklist documented
+
+**Success criteria**:
+- All deliverables pass post-task checklist review against the 7 Educational Quality Rules (AGENTS.md)
+- demo.sh supports efficient video recording without degrading default student use
+- Lyrics team can map sections easily
+- No rule violations without documented consultation
+
+### Phase 1: Content Expansion & Lyric Alignment (6–10 weeks)
+
+**Goal**: Reach 90%+ objective coverage + fix alignment debt.
+
+- Fix high-priority alignment issues (01, 03 especially)
+- Add missing high-value labs (in rough priority):
+  1. Package Management & DNF/Repositories/Modules
+  2. Logging, journalctl advanced + rsyslog
+  3. SSH key auth + advanced sudoers
+  4. Kernel parameters, sysctl, performance basics
+  5. Systemd timers + advanced units
+  6. Troubleshooting scenarios (deliberately broken states)
+- For every new or changed lab:
+  - Update demo
+  - Re-examine + update lyrics in sibling folder
+  - Update Suno prompts
+- Improve verifiers (more robust checks, `--explain` mode that suggests fixes)
+- Make resets more complete and idempotent
+
+**Deliverable**: Full objective traceability matrix (internal + public sanitized version)
+
+### Phase 2: Platform & Accessibility (parallel / 4–8 weeks)
+
+- Multi-provider Vagrant (VirtualBox, libvirt, Hyper-V)
+- Standalone provisioning script (`setup-lab.sh`) that works on real Alma/RHEL machines or cloud VMs
+- Consider Packer images for consistent recording environments
+- Better documentation for non-Windows users
+- Optional containerized recording environment (where possible)
+
+### Phase 3: Supercharged Learning Experience (8–12 weeks)
+
+- Progress tracking (local JSON or simple DB)
+- CLI tool: `ex200 lab list | run | verify | status | exam-simulate`
+- **Exam Simulation Mode**: 2.5-hour timed mixed tasks across objectives, final score report by category
+- "Explain" mode on verifiers
+- Hints system that can be progressively revealed
+- Bilingual support path (Spanish primary)
+
+### Phase 4: Growth, Distribution & Ecosystem (ongoing)
+
+- GitHub optimizations (README polish, badges, "Star this if it helped", clear clone instructions)
+- Cross-repo tooling:
+  - Script that generates YouTube description skeletons + timestamps from lab metadata
+  - Video script skeleton generator from demo sections
+- Release process that includes "update lyrics checklist"
+- Community guidelines (while keeping strategy internal)
+- Potential future: English version, Anki deck export, etc.
+
+---
+
+## 6. Cross-Cutting Workstreams
+
+### A. demo.sh Evolution (Video-First)
+- Add flags and modes
+- Consistent helpers
+- Ability to output timing/script data for lyrics team
+- Consider separate "video-demo" variants if needed (without polluting student experience)
+
+### B. Lyrics & Content Sync Process
+- After any demo or instructions change → mandatory re-examination ticket
+- Use structured sections in demos that map to "CORO / ESTROFA 1 / ..."
+- Maintain phonetic style guide
+
+### C. Tooling Between Repositories
+- `RHCSA-EX200` (this repo — education)
+- `RHCSA-EX200-lyrics` (lyrics + Suno prompts + recordings)
+- `hooperits8` (YouTube API, upload, TTS, video production pipeline)
+
+Recommended bridges (live in lyrics or hooperits8 folders):
+- Metadata exporter from labs
+- Description + CTA generator ("Clona el repo para practicar con verificadores automáticos")
+
+### D. Quality & Automation
+- GitHub Actions: shellcheck, shfmt, basic verifier smoke tests
+- Pre-commit hooks
+- Consistent error handling
+
+---
+
+## 7. Success Metrics
+
+**Educational**
+- Objective coverage %
+- % of labs with passing verifiers on first try (target >70%)
+- Student-reported time to complete a lab
+- Exam simulation completion rate + score distribution
+- % of tasks passing post-task Educational Quality Checklist without consultation (target >90%)
+
+**Production Velocity**
+- Time from "lab finalized" to "video uploaded" (target: significantly lower)
+- Consistency of recordings (same machine state every time)
+
+**Growth (Internal)**
+- YouTube views per video, watch time, subs per video
+- GitHub clones and stars attributed to video traffic
+- Video → repo conversion rate
+
+---
+
+## 8. Risks & Mitigations
+
+- **Risk**: Strategy leaks into public repo → Mitigation: AGENTS.md + code review checklist + never document "why demo.sh exists" publicly
+- **Risk**: Lyrics get out of sync after big changes → Mitigation: Explicit sync checklist + tooling
+- **Risk**: Over-optimizing for video hurts student experience → Mitigation: Default behavior stays educational; video mode is opt-in
+- **Risk**: Vagrant complexity frustrates users → Mitigation: Strong standalone scripts + multi-provider support
+
+---
+
+## 9. Immediate Next Steps (Next 7–14 Days)
+
+1. Apply post-task checklist to all work items going forward (AGENTS.md)
+2. Implement `--video` / `--fast` mode in at least the first 3–4 demos while passing Educational Quality Checklist (start with 01 and 02)
+3. Create a small "Video Script Skeleton" generator script
+4. Produce the alignment fix plan for Module 01 and Module 03 (highest impact) using checklist review
+5. Set up basic multi-provider Vagrant support
+6. Document the exact lyrics update process
+7. Complete initial audit of existing labs against rules (see section on evaluation)
+
+---
+
+## 10. Governance
+
+- All public-facing text (README, instructions, etc.) must pass a "pure education" review.
+- Strategic discussions and production notes stay in internal files or the sibling repositories.
+- When in doubt, default to "this helps students pass the exam."
+
+---
+
+**This roadmap captures the full context we have built together:**
+
+- Original 1000% improvement vision
+- Deep codebase + verifier + demo analysis
+- Detailed demo ↔ lyrics alignment audit
+- Strict separation of public educational value vs internal content production engine
+- Growth flywheel (YouTube RAP videos → GitHub)
+
+Ready to start executing any phase or specific work item. Just tell me the priority.
+
+---
+
+*Last updated: 2026-06-30*  
+*Internal document — do not publish strategy details publicly*
