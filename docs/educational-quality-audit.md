@@ -404,6 +404,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **CLI test 13**: Ran verify. 
 
+**CLI test 13**: Ran verify. 
+
 **CLI test 14**: Ran verify. 
 
 **CLI matrix command**: Added 'matrix' to bin/ex200. Tested (shows matrix header). 

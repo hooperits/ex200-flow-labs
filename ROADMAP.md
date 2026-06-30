@@ -326,6 +326,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI verify test**: Ran for 15-troubleshooting (works). 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 - **2026-06-30 / CLI test 13**: Ran verify. 
+- **2026-06-30 / CLI test 13**: Ran verify. 
 - **2026-06-30 / CLI test 14**: Ran verify. 
 - **2026-06-30 / CLI test 14 again**: Ran verify. 
 - **2026-06-30 / Matrix update**: Added CLI test note. 
