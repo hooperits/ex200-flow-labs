@@ -142,6 +142,16 @@ Key completed items (condensed):
 
 ## Recent Supporting Work (selected)
 
+- **Lab 14 (Systemd Timers) instructions enhancement (2026-06-30)**: Fleshed out the 4 tasks with detailed sub-steps and specific real commands (create .service/.timer units, systemctl enable --now / is-active / status / list-timers, document in challenge/timer.log, disable + daemon-reload). Aligned with demo sections and verify.
+  - Post-task checklist:
+    1. Mapeo EX200: Yes (systemd timers and units).
+    2. Reto real: Yes (actual systemctl and unit file creation).
+    3. Verificadores: Yes (existing verify; --explain present).
+    4. Persistencia: Partial (units taught as real config).
+    5. Demo como apoyo: Improved (instructions detailed/self-contained).
+    6. Reset: Unaffected.
+    7. No degradación: Yes.
+  - Status: Pass. Ready for Vagrant test.
 - **Lab 15 (Troubleshooting) instructions enhancement (2026-06-30)**: Fleshed out the 4 tasks with detailed sub-steps and specific real commands (journalctl filters, systemctl status, ip/ss diagnostics, chmod fixes, logger, document in challenge/troubleshoot.log). Aligned with demo sections and verify. 
   - Post-task checklist:
     1. Mapeo EX200: Yes (troubleshooting diagnostics, services, network, permissions).

@@ -7,20 +7,25 @@ Este reto evaluará tu capacidad para crear y gestionar systemd timers y unidade
 Navega al directorio `/labs/14-systemd-timers/` y realiza las siguientes tareas:
 
 1. **Crear una Unidad Timer**:
-   * Crea un timer en /etc/systemd/system/ para ejecutar un comando cada minuto.
-   * Habilita e inicia el timer.
+   * Crea un archivo de servicio en `/etc/systemd/system/rhcsa-timer.service` con un oneshot que ejecuta un comando de prueba (ej. echo).
+   * Crea el timer unit `/etc/systemd/system/rhcsa-timer.timer` con OnCalendar para cada minuto y Persistent=true.
+   * Habilita e inicia el timer con `systemctl enable --now rhcsa-timer.timer`.
+   * Lista timers con `systemctl list-timers | grep rhcsa`.
 
 2. **Probar el Timer**:
-   * Verifica que el timer está activo.
-   * Usa systemctl list-timers.
+   * Verifica estado con `systemctl is-active rhcsa-timer.timer`.
+   * Muestra status detallado: `systemctl status rhcsa-timer.timer | head -5`.
+   * Confirma en lista de timers: `systemctl list-timers | grep rhcsa`.
 
 3. **Configurar Servicio Asociado**:
-   * Crea un servicio simple que el timer active.
-   * Verifica ejecución.
+   * Asegura que el servicio asociado (rhcsa-timer.service) está correctamente referenciado por el timer.
+   * Verifica que el servicio se activa vía timer: `systemctl status rhcsa-timer.service`.
+   * Genera ejecución (puede requerir esperar o trigger manual si aplica).
 
-4. **Validar**:
-   * Lista timers activos.
-   * Deshabilita después.
+4. **Validar y Documentar**:
+   * Lista todos los timers activos: `systemctl list-timers --all`.
+   * Documenta la ejecución en `challenge/timer.log` (incluye timestamp y comandos usados).
+   * Deshabilita y limpia: `systemctl disable --now rhcsa-timer.timer`, remueve unidades y `systemctl daemon-reload`.
 
 ## Evaluación
 

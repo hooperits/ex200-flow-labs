@@ -66,8 +66,8 @@
 - Coverage: Basic kernel management.
 
 **Lab 14: Systemd Timers**
-- Objectives: Systemd units and timers.
-- Coverage: Advanced systemd.
+- Objectives: Systemd units and timers (create .timer/.service, enable, list-timers).
+- Coverage: Advanced systemd. Instructions enhanced with detailed commands (2026-06-30).
 
 **Lab 15: Troubleshooting**
 - Objectives: Diagnostic tools (journalctl, systemctl, ip, ss); resolve common issues (services, permissions, network).
