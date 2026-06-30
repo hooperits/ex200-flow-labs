@@ -17,6 +17,7 @@ clear_section "RHCSA Módulo 15: Troubleshooting - Tema: 1. Diagnosticar Servici
 run_demo_cmd "Simula servicio fallido" "echo 'Simulando servicio roto' "
 run_demo_cmd "Usa journalctl para diagnosticar" "journalctl -u sshd --no-pager | tail -5 || true"
 run_demo_cmd "Status servicio" "systemctl status sshd | head -5"
+run_demo_cmd "Journal logs" "journalctl -n 2 --no-pager | tail -2 || true"
 sleep 2.0
 
 # 2. Resolver Permisos

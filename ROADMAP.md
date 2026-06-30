@@ -304,6 +304,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Enhance 13 demo**: /proc. 
 - **2026-06-30 / Fix 13 verify**: Correct header/suggestions. Generator. 
 - **2026-06-30 / Lab 15 demo enhance**: Added command, generator. 
+- **2026-06-30 / Lab 15 demo enhance2**: Added journal logs. Generator. 
 - **2026-06-30 / Lab 12 enhancement**: Challenge files, verify, generator. 
 - **2026-06-30 / Lab 11 enhancement**: Fixed verify, challenge, generator. 
 - **2026-06-30 / Fix 12 verify**: Correct header/suggestions. Generator. 

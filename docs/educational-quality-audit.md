@@ -384,6 +384,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Enhance 15 demo**: Added extra network command. Generator. 
 
+**Enhance 15 demo**: Added journal logs command. Generator. 
+
 **Enhance 14 demo**: Added list timers command. Generator. 
 
 **Matrix update**: Added enhance notes. 
