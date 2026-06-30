@@ -28,8 +28,8 @@ When making improvements (especially to demo.sh, new labs, or command accuracy):
 
 All public-facing text must stay 100% focused on helping students pass the RHCSA EX200.
 
-> **⚠️ BEFORE ANY EDITS: Read "ANTI-LOOP RULE (MANDATORY)" below.**  
-> It governs all work on generators, prompts, and repetitive changes. Violating read-first + run-and-show is a process failure.
+> **⚠️ BEFORE ANY EDITS: Read "ANTI-LOOP RULE (MANDATORY)" and "Context Management & Turn Governance" below.**  
+> These rules govern context health, edit discipline, generator usage, and turn scoping. Violating read-first, run-and-show, or turn-size discipline is a process failure.
 
 ## Reglas de Calidad Educativa
 
@@ -142,6 +142,49 @@ Have I shown generated output since last edit?      → No → Run script before
 **Enforcement**: This rule has the same weight as the Educational Quality Rules. Violating the read-first or run-and-show discipline is considered a process failure.
 
 This rule exists so we spend tokens on real improvements (structure, features, correctness, new labs) instead of prompt synonym ping-pong.
+
+## Context Management & Turn Governance (Preventing max_tokens Truncation)
+
+**Purpose**: This codebase has repeatedly hit "Turn failed in XmYs: Internal error: 'response truncated by max_tokens'". Root causes are massive accumulated context (especially ROADMAP.md and audit files) plus overly broad turns that require huge planned responses.
+
+These rules are **mandatory** with the same enforcement weight as the ANTI-LOOP RULE. They extend "6. Session Hygiene & Documentation".
+
+### The 5 Rules
+
+1. **Kill the context bloat first (highest impact)**
+   - Proactively and regularly compact `ROADMAP.md` and `docs/educational-quality-audit.md`.
+   - Keep only the current authoritative state summary + a short, recent execution log. Remove or archive duplicated re-audit sections, "continue" blocks, and repeated post-task entries.
+   - Use these documents strictly as external long-term memory — never require the full history to stay in active context.
+
+2. **Shrink every turn dramatically**
+   - Scope each turn to **one lab at most**, and preferably to a **single file or single logical change** (example: "enhance only the verify.sh + test it with --explain for lab 12").
+   - Never initiate or accept a turn whose natural scope is "finish the remaining Phase 1 labs + full re-audit + matrix + roadmap update".
+   - Explicit scoping in requests is required.
+
+3. **Commit early and often**
+   - Create a conventional commit after nearly every coherent unit of work (a lab section, a generator run + review, a focused doc update).
+   - Clean working tree + frequent commits dramatically reduce the uncommitted state the model must track.
+
+4. **Strictly follow the ANTI-LOOP RULE on every edit**
+   - Re-read the exact target text (`read_file` preferred) immediately before any `search_replace` or write.
+   - Hard limit of **2** consecutive micro-rephrasings on the same string or section. On the 3rd attempt: stop editing and run the affected generator/script, then read + present the real output.
+   - Always prefer structural or generator-level changes over synonym/wording micro-edits.
+
+5. **Use external memory and precise references**
+   - Reference specific locations instead of re-explaining the whole project: "update the Execution Log entry for this task", "see objective-matrix.md for lab 13", "read labs/11-logging/verify.sh header".
+   - Leverage `todo_write`, small plan files, and targeted `read_file` (with offset/limit) heavily.
+   - Replace vague "continue" / "keep going" with one tightly-scoped next action.
+
+### Warning Signs You Are Heading for Truncation
+
+- ROADMAP.md or educational-quality-audit.md have grown substantially since the last compaction.
+- Planning to touch 3+ labs, run a full re-audit, or perform broad multi-phase updates in one response.
+- Repeated urge to re-summarize full project history or previous "continue" work.
+- Multiple consecutive broad "continue" style interactions without intermediate commits or bloat cleanup.
+
+**Enforcement**: When any of the above signals appear, the agent **must** pause, reduce scope immediately, perform context hygiene if needed, or ask the user for a narrower directive. Treating this as optional is a process failure.
+
+These rules exist so we can do sustained, high-quality work across many sessions without the model hitting hard token walls.
 
 ## Política de Idioma (Público objetivo: hablantes de español)
 
