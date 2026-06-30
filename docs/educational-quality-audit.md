@@ -378,6 +378,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Update for 11**: Fixed verify, added challenge, generator. Checklist pass. 
 
+**Final generator --all**: Skeletons for all labs including new 10-15. 
+
 **Update for 12**: Added challenge files, verify check, generator. Checklist pass. 
 
 **Session end summary**: Phase 0 complete on key items. 6 new labs. Checklist high. All verifiers/resets done. 5 Phase 1 labs. CLI/Phase 2 stub. Matrix started. 
