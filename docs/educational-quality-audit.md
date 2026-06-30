@@ -325,7 +325,9 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 - Pass initial. Generator done.
 
 **Post-task for 13**:
-- All rules initial pass. Real commands. 
+- All rules initial pass. Real commands.
+
+**Final verification**: Generator --all run. All new labs (10-13) have skeletons. Phase 1 coverage increasing. 
 
 ## New Lab: Logging (11)
 
