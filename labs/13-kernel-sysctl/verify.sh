@@ -63,6 +63,13 @@ else
     print_result "Kernel param" "FAIL" "Problema con kernel param."
 fi
 
+# 4. Validar challenge config
+if [ -f "$CHALLENGE_DIR/sysctl.conf" ]; then
+    print_result "Challenge config" "SUCCESS" "sysctl config in challenge."
+else
+    print_result "Challenge config" "FAIL" "No config."
+fi
+
 echo
 echo -e "${CYAN}================================================================${NC}"
 if [ $FAILED_TESTS -eq 0 ]; then
