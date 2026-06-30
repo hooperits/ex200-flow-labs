@@ -54,8 +54,8 @@
 - Coverage: Package and repo management.
 
 **Lab 11: Logging**
-- Objectives: Manage logs (journalctl); rsyslog config; persistence.
-- Coverage: Advanced logging.
+- Objectives: Manage logs (journalctl filters, -b, -p, -u); rsyslog config; journald persistent (Storage=persistent).
+- Coverage: Advanced logging. Instructions now full detailed (2026-06-30).
 
 **Lab 12: SSH, Keys & Sudoers**
 - Objectives: SSH keys (ssh-keygen, authorized_keys), sudoers.d, sshd_config restrict (PermitRootLogin).
