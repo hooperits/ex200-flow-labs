@@ -74,8 +74,8 @@ sleep 2.0
 
 # 4. Lectura de Logs con journalctl
 clear_section "4. Inspección de Logs con journalctl"
-run_demo_cmd "Mostramos las últimas 5 líneas del log del sistema" "sudo journalctl -n 5"
-run_demo_cmd "Filtramos los logs de un servicio específico como sshd" "sudo journalctl -u sshd -n 4"
+run_demo_cmd "Mostramos las últimas 5 líneas del log del sistema" "sudo journalctl -n 5 --no-pager"
+run_demo_cmd "Filtramos los logs de un servicio específico como sshd" "sudo journalctl -u sshd -n 4 --no-pager"
 run_demo_cmd "Filtramos los logs mostrando únicamente errores importantes con '-p err'" "sudo journalctl -p err -n 4 --no-pager"
 run_demo_cmd "Mostramos los logs generados desde el arranque actual usando '-b'" "sudo journalctl -b -n 4 --no-pager"
 sleep 2.0
