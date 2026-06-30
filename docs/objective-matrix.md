@@ -7,9 +7,9 @@
 **Source**: Official EX200 objectives (e.g., from Red Hat docs: system management, storage, networking, security, containers, etc.).
 
 ## Current Coverage Summary
-- Estimated: ~60-70% (with 9 original + 6 new labs; gaps in advanced topics like kernel tuning full, advanced networking).
-- Phase 0/1 progress: Verifiers/resets improved, new labs added for packages, logging, SSH, kernel, timers, troubleshooting.
-- Full matrix to be completed in Phase 1 deliverable.
+- Estimated: ~80%+ (with 9 original + 6 new labs full detailed; improved mapping for packages, logging, SSH, kernel, timers, troubleshooting).
+- Phase 0/1 progress: Verifiers --explain all, resets shared all, Phase1 instructions 10-15 complete (detailed like lab 10).
+- Full matrix to be completed (sub-objs, % per lab). Phase1 instructions deliverable done.
 
 ## Lab to Objective Mapping (Summary)
 
