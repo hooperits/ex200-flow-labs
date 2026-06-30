@@ -406,6 +406,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **CLI test for 14**: Ran verify for 14 (works, shows header). 
 
+**CLI test 13**: Ran verify (correct header). 
+
 **CLI test 14**: Ran verify. 
 
 **Matrix update**: Added CLI test note. 
