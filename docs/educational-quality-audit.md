@@ -406,6 +406,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **CLI test 13**: Ran verify. 
 
+**CLI test 15**: Ran verify. 
+
 **CLI test 13**: Ran verify. 
 
 **CLI test 12**: Ran verify. 
