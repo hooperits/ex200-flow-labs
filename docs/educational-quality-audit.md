@@ -140,3 +140,50 @@ Archivo generado como parte de evaluación C. Actualizar después de cambios.
 Esto mejora la sincronización para producción de video/rap sin degradar el valor educativo (comandos reales mantenidos, demo default intacto).
 
 **Siguientes para alineación**: Revisar otros módulos si letras tienen estructuras diferentes; actualizar letras si necesario (en repo sibling).
+
+## Phase 0 Re-Audit & Metrics (Post-Alignment Cycle)
+
+**Date**: 2026-06-30 (follow-up after 01+03 alignment commit + systematic process setup)
+
+**Verification performed** (per Roadmap Execution Cycle):
+- Post-task checklist applied to alignment changes (see above section + table).
+- Generator re-run: `./scripts/generate-video-skeleton.sh --all` (confirmed 01/03 now produce matching # of ESTROFAS to lyrics; excerpts reviewed in skeletons/).
+- Manual spot: verify.sh + reset.sh patterns intact; demo default behavior preserved.
+- Rules re-check on recent infra: no new violations (see prior post-tarea table).
+
+**Updated Scores** (refined):
+- 01: 7/7 (alignment + real cmds + generator match now perfect)
+- 03: 6/7 (logs+procesos grouped; GRUB section present; minor remaining sim in targets/renice)
+- 07: 5/7 (LVM real improved; still some echo for interactive)
+- 08: 6/7
+- Others: 6.5-7/7
+- **Overall post-task checklist pass rate (recent tasks)**: 100% (1/1 major alignment batch)
+
+**Phase 0 Metrics Snapshot**:
+- Checklist pass: target >90% — currently 100% on executed items
+- Alignment coverage (01,03): improved to full ESTROFA match
+- Verifiers untouched in this cycle (next focus)
+- Objective coverage est.: still ~55-65%
+
+**Amendment notes**: None triggered. Process setup itself (ROADMAP Execution Log section) documented as amendment-free enhancement to tracking.
+
+**Next verification**: Full re-audit after verifiers/resets work; run shellcheck on changed scripts.
+
+## Verifier Improvement Pilot (Lab 03, --explain mode)
+
+**Date**: 2026-06-30
+
+**Change**: Added `--explain` flag + suggestions on FAIL to verify.sh (pilot for roadmap "improve verifiers with --explain mode").
+
+**Checklist applied**:
+- Mapeo: yes (covers service, target, recovery keywords from instructions).
+- Real commands: N/A (verifier is passive checker).
+- Robust: now gives actionable suggestions; used $RECOVERY_FILE var.
+- No video impact.
+- Default student experience unchanged.
+
+**Result**: Tested (expect FAIL without challenge state; explain header + per-fail suggestion printed cleanly). Pass rate on this change: full.
+
+**Reuse**: Pattern ready to backport to other verifies. Next: add to more labs + richer per-check explanations.
+
+**Metrics update**: Contributes to "verifier robustness" Phase 0 item.

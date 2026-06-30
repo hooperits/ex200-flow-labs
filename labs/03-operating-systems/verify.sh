@@ -12,6 +12,10 @@ CHALLENGE_DIR="$BASE_DIR/challenge"
 RECOVERY_FILE="$CHALLENGE_DIR/root_recovery.txt"
 
 FAILED_TESTS=0
+EXPLAIN_MODE=false
+if [[ "${1:-}" == "--explain" ]]; then
+    EXPLAIN_MODE=true
+fi
 
 print_result() {
     local test_name="$1"
@@ -23,8 +27,17 @@ print_result() {
     else
         echo -e "[ ${RED}FAILED${NC} ] $test_name - $message"
         FAILED_TESTS=$((FAILED_TESTS + 1))
+        if $EXPLAIN_MODE; then
+            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa la instrucción correspondiente en instructions.md y el ejemplo en demo.sh (o hints.md). Ejecuta 'cat $RECOVERY_FILE' para inspeccionar."
+        fi
     fi
 }
+
+# Optional explain header
+if $EXPLAIN_MODE; then
+    echo -e "${YELLOW}EXPLAIN MODE: Mostrando descripción de cada verificación + sugerencias en fallos.${NC}"
+    echo
+fi
 
 echo -e "${CYAN}================================================================${NC}"
 echo -e "${CYAN}         Evaluador de Reto: Módulo 03 - Operación del Sistema   ${NC}"

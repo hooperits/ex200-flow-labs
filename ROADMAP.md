@@ -252,6 +252,46 @@ Recommended bridges (live in lyrics or hooperits8 folders):
 
 ---
 
+## Execution Process, Log & Amendments
+
+This section operationalizes the phased roadmap using guardrails from AGENTS.md.
+
+**Roadmap Execution Cycle** (apply to every task):
+1. Pre: Read current ROADMAP state + relevant audit section + AGENTS checklist + anti-loop rule.
+2. Execute using reuse (lib/demo-common.sh, generator, per-lab verify/reset patterns); structural changes preferred.
+3. Post (mandatory): Fill Post-Task Educational Quality Checklist (see AGENTS.md). Run tests (verify.sh, reset.sh, generator if demo touched). Update audit + skeletons.
+4. If verification gap or new insight: Create "Amendment Proposal" (documented below).
+5. Update metrics, this log, next steps.
+6. Commit referencing checklist/alignment/amendment.
+
+**Cross-cutting**: Lyrics sync cost (re-examine sibling after demo/instructions change); 1:1 section alignment; public purity.
+
+### Current Execution Log (latest first)
+- **2026-06-30 / Alignment 01+03 (commit 6bebb49)**: Structural merge of sections to match lyric ESTROFAS count/order. 01: links+tar combined (now 4 ESTROFAS). 03: procesos+logs combined, GRUB as 4. Titles updated. Generator run + reviewed. Checklist applied in audit. Pass rate contribution: high for alignment (rule 7). No rule conflicts.
+- **2026-06-30 / Phase 0 Re-audit + Process Setup (this edit)**: Added "Execution Process, Log & Amendments" section + cycle description to ROADMAP. Extended audit with Phase 0 re-audit + metrics snapshot (checklist 100%, alignment improved). Ran full generator post-changes. No amendments needed. Metrics table initialized. Followed full cycle + anti-loop. Ready for verifiers work.
+- **2026-06-30 / Verifier --explain Pilot (lab 03)**: Added --explain + suggestions to verify.sh (reuses print_result). Tested output. Documented in audit as Phase 0 verifier improvement. Checklist passed. Reusable for other labs.
+- Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
+
+### Amendments Log & Process
+- **Proposal format** (add here or in audit): ID, Trigger (verification result), Description, Affected rules/metrics, Proposed change, Checklist status on proposal, Decision.
+- Example template entry:
+  ```
+  - [YYYY-MM-DD] Amendment N: <title>
+    Trigger: <e.g. audit score 4.5/7 on rule 2>
+    Why: <evidence>
+    Impact: ...
+    Proposal: ...
+    Status: Proposed / Approved / Integrated (see commit XXX)
+  ```
+- All amendments must pass checklist themselves before integration.
+
+### Phase 0 Execution Status
+- Foundation items largely complete (AGENTS, lib, generator, some alignment).
+- Remaining (see list above): verifiers/resets, full multi-provider, sync doc, re-audit.
+- Next action per log: Re-audit + begin verifiers for low-score labs.
+
+---
+
 ## 10. Governance
 
 - All public-facing text (README, instructions, etc.) must pass a "pure education" review.
@@ -272,5 +312,5 @@ Ready to start executing any phase or specific work item. Just tell me the prior
 
 ---
 
-*Last updated: 2026-06-30 (Phase 0 video tooling + governance checkpoint)*
+*Last updated: 2026-06-30 (systematic execution process activated + Phase 0 verifier pilot)*
 *Internal document — do not publish strategy details publicly*
