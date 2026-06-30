@@ -251,6 +251,20 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
 
+## Shared Reset Helpers Starter
+
+**Date**: 2026-06-30
+
+**Change**: Created lib/reset-common.sh with helpers (log, safe_remove, etc.). Updated lab 10 reset to source it.
+
+**Checklist**:
+- Rule 6 (Reset limpio) improved with shared, consistent cleanup.
+- Rule 2 (real commands) in cleanup.
+
+**Executed**:
+- Tested reset.
+- Demonstrates Phase 0 shared libs progress.
+
 ## Verifier --explain Complete (All 9 Labs)
 
 **Date**: 2026-06-30
