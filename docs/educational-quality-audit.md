@@ -225,5 +225,6 @@ Key completed items (condensed):
   - Status: Pass.
 - Original labs re-audit status: Initial scores from top section (e.g. 01:6.5/7 etc.); Phase0 improvements (verifiers, resets, lib) applied. Full re-audit pending detailed re-score.
 - Recommendation: Full Vagrant validation for persistence, expand matrix with per-lab sub-objs + official links, full re-audit all labs, address demo sims.
+- Vagrant test plan note: Run `vagrant up`; for each lab: ./reset.sh; perform tasks from instructions; ./verify.sh --explain; check persistence (reboot sim). Focus on LVM, storage, network labs first.
 
 Post-task: Rules 1-7 pass for enhancements. No conflicts.
