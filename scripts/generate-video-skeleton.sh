@@ -41,7 +41,7 @@ OUTRO_SECONDS=20
 # - Very dense, complex multisyllabic rhymes
 # - Impeccable diction and clarity even at top speed
 # - Technical, precise, aggressive delivery with high rhythmic complexity
-SUNO_STYLE="Genera un rap agresivo en español con un flujo chopper de velocidad máxima, rimas multisilábicas muy densas y complejas, dicción impecable incluso a alta velocidad y un estilo técnico, preciso y agresivo con gran complejidad rítmica y alto nivel técnico."
+SUNO_STYLE="Genera un rap técnico y agresivo en español con un flujo chopper de velocidad extrema, rimas multisilábicas densas e intrincadas, dicción impecable y cristalina incluso a máxima velocidad, y un estilo de entrega preciso, dominante y cargado de alta complejidad rítmica."
 SUNO_CLOSING="Mantén los comandos técnicos en inglés. Prioriza velocidad extrema, precisión y rimas complejas."
 
 generate_skeleton() {

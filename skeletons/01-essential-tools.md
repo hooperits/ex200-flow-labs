@@ -130,7 +130,7 @@
 Tiempo total estimado del video: ~4 minutos
 
 ## Prompt listo para Suno AI (copia y pega)
-Genera un rap agresivo en español con un flujo chopper de velocidad máxima, rimas multisilábicas muy densas y complejas, dicción impecable incluso a alta velocidad y un estilo técnico, preciso y agresivo con gran complejidad rítmica y alto nivel técnico.
+Genera un rap técnico y agresivo en español con un flujo chopper de velocidad extrema, rimas multisilábicas densas e intrincadas, dicción impecable y cristalina incluso a máxima velocidad, y un estilo de entrega preciso, dominante y cargado de alta complejidad rítmica.
 Estructura: CORO + 4-5 ESTROFAS + OUTRO.
 Incluye estos conceptos clave con sus comandos:
 

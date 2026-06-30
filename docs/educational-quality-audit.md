@@ -104,3 +104,27 @@
 **Puntuación de cumplimiento (aprox., con cambios)**: 01: 6.5/7, 03: 5/7, 07: 4.5/7, 08: 5.5/7. Otros ~6.5/7.
 
 Archivo generado como parte de evaluación C. Actualizar después de cambios.
+
+## Revisión Post-Tarea: Herramientas de Video + Gobernanza (Jun 2026)
+
+**Cambios auditados**:
+- `lib/demo-common.sh` (nueva biblioteca compartida)
+- Refactor de los 9 `demo.sh` para usar la lib + flags `--video` / `--fast`
+- `scripts/generate-video-skeleton.sh` (mejora estructural del generador)
+- Actualización mayor de `AGENTS.md` (incorporación de ANTI-LOOP RULE + checklist existente)
+
+### Evaluación contra las 7 Reglas
+
+| # | Rule | Status | Notas |
+|---|------|--------|-------|
+| 1 | Mapeo a objetivos | ✅ Bueno | Los cambios no alteran los objetivos EX200 cubiertos. Mejoran la capacidad de demostrarlos en video. |
+| 2 | Reto real | ✅ Bueno | `run_demo_cmd` ejecuta comandos reales vía `eval`. Módulo 07 mejorado con LVM real. Algunas simulaciones intencionales (gdisk/fdisk interactivos) se mantienen justificadas. |
+| 3 | Verificadores confiables | ➖ Sin cambio | Esta iteración no tocó los `verify.sh`. Pendiente para Fase 0. |
+| 4 | Persistencia | ➖ N/A | No aplica a este trabajo de infraestructura de demos. |
+| 5 | Demo como apoyo | ✅ Excelente | Comportamiento por defecto (sin flags) mantiene sleeps educativos (~5s). Los modos `--video`/`--fast` son explícitamente opt-in. El estudiante puede ignorar los flags. |
+| 6 | Reset limpio | ➖ Sin cambio | No se modificaron los reset.sh en esta tanda. |
+| 7 | Trucos de producción | ✅ Excelente | La implementación separa claramente el modo por defecto (educativo) del modo video. Ninguna optimización de video degrada la experiencia estándar. El generador es tooling interno. |
+
+**Conclusión**: Los cambios cumplen bien las reglas, especialmente la #5 y #7. El diseño de la biblioteca prioriza preservar la experiencia educativa por defecto mientras habilita producción de video de alta calidad.
+
+**Riesgo documentado**: Ninguno crítico. Se recomienda aplicar esta checklist después de cada entrega significativa.
