@@ -273,7 +273,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Verifier --explain Extension (lab 07)**: Backported same --explain logic to lab 07 (LVM/VDO checks). Ran + verified explain output + normal mode. Applied post-task checklist (passes). Extended audit. Logical next after 03 pilot for Phase 0 verifier robustness.
 - **2026-06-30 / Document lyrics ↔ code sync process**: Created `docs/lyrics-sync-process.md` with systematic 9-step checklist. Ties directly to AGENTS rules (1:1 alignment, "changes have lyrics cost"), generator, execution cycle, and cross-repo handoff. Ran generator as part of process execution. Updated logs and audit. Closes pending Phase 0 item #5. Checklist applied (see audit).
 - **2026-06-30 / Verifier --explain (lab 01)**: Backported --explain to first lab for consistency. Tested. 3 labs now upgraded (01,03,07). Advances verifier robustness systematically. Checklist passed.
-- **2026-06-30 / Multi-provider Vagrant enhancement**: Improved Vagrantfile with provider-specific synced_folder for Hyper-V (SMB) and general notes. Advances Phase 0 item #4. Basic ruby -c check passed. Checklist will be applied on full test.
+- **2026-06-30 / Multi-provider Vagrant enhancement**: Improved Vagrantfile with provider-specific synced_folder for Hyper-V (SMB) and general notes. Advances Phase 0 item #4. 
+- **2026-06-30 / Reset starter (lab 01)**: Small enhancement to reset.sh (idempotency, future shared lib note). Tested. Begins resets work (paired with verifiers in Phase 0). Checklist applied.
 - Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
 
 ### Amendments Log & Process

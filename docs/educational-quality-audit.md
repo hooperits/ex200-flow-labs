@@ -251,6 +251,21 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
 
+## Reset Improvement Starter (Lab 01)
+
+**Date**: 2026-06-30
+
+**Change**: Enhanced reset.sh with better formatting, idempotency notes, and placeholder for future shared lib/reset-common.sh.
+
+**Checklist**:
+- Rule 6 (Reset limpio y repeatable): Improved clarity and safety.
+- Aligns with "Make resets more complete and idempotent".
+
+**Executed**:
+- Tested run (clean output, no errors).
+
+This starts the resets improvement thread in Phase 0. Pattern can be applied to other labs.
+
 ## Multi-Provider Vagrant Improvement (Phase 0)
 
 **Date**: 2026-06-30
