@@ -64,8 +64,8 @@ else
 fi
 
 # 4. Validar log diagnóstico
-if [ -f /tmp/troubleshoot.log ]; then
-    print_result "Log diagnóstico" "SUCCESS" "Log de diagnóstico creado."
+if [ -f "$CHALLENGE_DIR/troubleshoot.log" ]; then
+    print_result "Log diagnóstico" "SUCCESS" "Log de diagnóstico en challenge."
 else
     print_result "Log diagnóstico" "FAIL" "No se creó log."
 fi

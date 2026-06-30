@@ -409,6 +409,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 - Mapeo to EX200 systemd.
 - Pass. 
 
+**Update for 15**: Added challenge data, verify check. Generator run. 
+
 ## New Lab: Logging (11)
 
 **Date**: 2026-06-30
