@@ -251,6 +251,18 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
 
+## New Lab Start: Package Management (Phase 1)
+
+**Date**: 2026-06-30
+
+**Action**: Scaffolded labs/10-package-management/ (standard files + challenge dir). First step toward adding the top coverage gap lab.
+
+**Checklist note**: Structure follows existing (will apply full 7-rule review on content addition).
+
+**Verification**: Dir created, files present. Generator can be run once demo is filled. 
+
+This begins systematic Phase 1 work after Phase 0 foundations.
+
 ## Reset Improvement Starter (Lab 01)
 
 **Date**: 2026-06-30
