@@ -392,6 +392,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **CLI verify test**: Ran ./bin/ex200 verify 15-troubleshooting --explain (calls the lab's verify, shows output as expected). 
 
+**Matrix update**: Added CLI test note. 
+
 ## Re-Audit Phase 0/1 (Continued)
 
 **Date**: 2026-06-30
