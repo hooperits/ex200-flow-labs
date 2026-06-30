@@ -27,7 +27,7 @@ print_result() {
         echo -e "[ ${RED}FAILED${NC} ] $test_name - $message"
         FAILED_TESTS=$((FAILED_TESTS + 1))
         if $EXPLAIN_MODE; then
-            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md. Usa 'dnf repolist', 'rpm -q', 'createrepo' para depurar."
+            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md. Usa 'journalctl', 'systemctl', 'cat /etc/rsyslog.conf', 'logger' para depurar logs."
         fi
     fi
 }
@@ -38,7 +38,7 @@ if $EXPLAIN_MODE; then
 fi
 
 echo -e "${CYAN}================================================================${NC}"
-echo -e "${CYAN}         Evaluador de Reto: Módulo 10 - Gestión de Paquetes     ${NC}"
+echo -e "${CYAN}         Evaluador de Reto: Módulo 11 - Logging                 ${NC}"
 echo -e "${CYAN}================================================================${NC}"
 echo
 
@@ -68,6 +68,13 @@ if systemctl is-active systemd-journald &>/dev/null; then
     print_result "Journald activo" "SUCCESS" "systemd-journald está activo."
 else
     print_result "Journald activo" "FAIL" "systemd-journald no activo."
+fi
+
+# 5. Validar test log in challenge
+if [ -f "$CHALLENGE_DIR/test.log" ]; then
+    print_result "Test log" "SUCCESS" "Test log in challenge."
+else
+    print_result "Test log" "FAIL" "No test log."
 fi
 
 echo
