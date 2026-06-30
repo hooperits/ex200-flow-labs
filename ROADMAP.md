@@ -314,6 +314,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / CLI progress**: Added 'progress' command. Tested. 
 - **2026-06-30 / Final test**: Ran bin/ex200 progress. 
 - **2026-06-30 / CLI verify test**: Ran for 15-troubleshooting (works). 
+- **2026-06-30 / CLI test 14**: Ran verify. 
 - **2026-06-30 / Matrix update**: Added CLI test note. 
 - **2026-06-30 / Re-audit final**: Summary in audit. 15 labs, all Phase 0 complete, Phase 1 6 labs, Phase 2 stub. Quality high. 
 - **2026-06-30 / Matrix Expansion**: Sample details added to objective-matrix.md. 
