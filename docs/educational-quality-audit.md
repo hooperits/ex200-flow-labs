@@ -390,6 +390,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Final test**: Ran bin/ex200 progress (shows detailed json). 
 
+**CLI verify test**: Ran ./bin/ex200 verify 15-troubleshooting --explain (calls the lab's verify, shows output as expected). 
+
 ## Re-Audit Phase 0/1 (Continued)
 
 **Date**: 2026-06-30
