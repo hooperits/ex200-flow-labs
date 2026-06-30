@@ -370,6 +370,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Verification**: Executable. Tested (status, list). Matrix expanded sample. Enhanced with lab count. Progress.json integrated. Exam-simulate stub added. Progress.json updated with detailed status. Matrix expanded with 11-14. 
 
+**Sample verification run**: Tested lab 10 verify --explain (shows suggestions, as expected without full Vagrant setup). Pattern consistent. 
+
 **Session end summary**: Phase 0 complete on key items. 6 new labs. Checklist high. All verifiers/resets done. 5 Phase 1 labs. CLI/Phase 2 stub. Matrix started. 
 
 ## Re-Audit Phase 0/1 (Final for Session)

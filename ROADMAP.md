@@ -308,6 +308,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Re-audit**: Final summary in audit. 15 labs, high quality. 
 - **2026-06-30 / Continue**: Lab 15 challenge added. 6 Phase 1. CLI enhanced with progress. Matrix expanded. 15 total labs. 
 - **2026-06-30 / Progress tracking update**: docs/progress.json detailed with phases. CLI integrated. 
+- **2026-06-30 / Sample verification**: Ran lab 10 verify --explain (works). 
 - **2026-06-30 / Session Summary**: Verifiers complete (all labs), resets shared complete (all), 3 new labs (10 full, 11/12 basic), sync/Vagrant done, re-audits. Phase 0/1 advanced per plan. Checklist pass ~100% for tasks. 
 - Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
 
