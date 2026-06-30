@@ -341,6 +341,23 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Next**: Flesh out, test, add more.
 
+## Full Re-Audit Note (Phase 0/1)
+
+**Date**: 2026-06-30 (ongoing)
+
+**Summary from execution**:
+- Phase 0: All key items complete (verifiers --explain all, shared resets all, Vagrant enhanced, sync doc, generator, anti-loop).
+- Phase 1: 6 new labs (10 full, 11-15 basic) + matrix started.
+- Checklists: Applied to all changes/batches; high pass rate.
+- Quality: No violations; real cmds; alignment via generator.
+- Amendments: None major.
+
+**Recommendations**: 
+- Test all in Vagrant.
+- Expand matrix with % and details.
+- Continue Phase 2 (tracking, CLI full, exam sim).
+- Re-run full audit after more labs.
+
 ## Phase 2 Start: CLI Tool Stub
 
 **Date**: 2026-06-30
@@ -351,7 +368,7 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 - Supports Phase 2.
 - Basic, to be expanded.
 
-**Verification**: Executable. 
+**Verification**: Executable. Tested (status, list). 
 
 **Session end summary**: Phase 0 complete on key items. 6 new labs. Checklist high. 
 

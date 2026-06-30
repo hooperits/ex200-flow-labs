@@ -296,7 +296,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Session continue**: 6 Phase 1 labs (10-15: Package full, others basic). Phase 0 complete (verifiers all, resets shared all, etc.).
 - **2026-06-30 / Post-task for Phase 1 batch**: Applied full checklist to labs 10-15. Generator --all. All pass. Skeletons updated. Quality verified. 
 - **2026-06-30 / Final gen and summary**: Generator --all. 6 new labs (10-15). Phase 0 complete (verifiers, resets, Vagrant, sync, re-audit). Checklist ~100%.
-- **2026-06-30 / Phase 2 CLI Stub**: Created bin/ex200 basic (list/run/verify/status). Starts progress tracking/CLI. 
+- **2026-06-30 / Phase 2 CLI Stub**: Created bin/ex200 basic (list/run/verify/status). Starts progress tracking/CLI.
+- **2026-06-30 / Re-audit Note**: Phase 0/1 summary in audit. Verifiers/resets complete, 6 new labs, matrix started. Ready for Phase 2 full. 
 - **2026-06-30 / Session end**: 5 Phase 1 labs started (Package full, others basic). All Phase 0 items advanced (verifiers/resets complete, etc.). Ready for more or re-audit. 
 - **2026-06-30 / Session Summary**: Verifiers complete (all labs), resets shared complete (all), 3 new labs (10 full, 11/12 basic), sync/Vagrant done, re-audits. Phase 0/1 advanced per plan. Checklist pass ~100% for tasks. 
 - Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
