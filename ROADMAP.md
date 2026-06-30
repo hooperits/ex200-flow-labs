@@ -66,17 +66,18 @@ Educational Quality Rules and post-task checklist are maintained in AGENTS.md.
 - Strict ANTI-LOOP RULE in AGENTS.md (read-first, iteration limits, mandatory run+review)
 
 ### Major Gaps
-- **Coverage**: ~55-65% of EX200 objectives (still the main gap)
+- **Coverage**: ~80%+ of EX200 objectives (Phase1 complete for 10-15 detailed instructions; original 9 good).
 - **demo.sh problems** (progress on some, remaining work):
   - Pacing now controllable via `--video`/`--fast` flags (shared lib) — default remains educational (~5s sleeps)
   - Some reduction in simulation (e.g. module 07 now uses real pvcreate/vgcreate/lvextend + cleanup)
   - Section ordering and lyrics alignment started (module 01 re-ordered; 03 partial)
   - Missing key challenge elements remain in some demos (e.g. full GRUB recovery in 03)
-- Brittle verifiers and incomplete resets (Phase 0 priority)
+- Brittle verifiers and incomplete resets (Phase 0 priority, but verifiers --explain all, resets shared all)
 - Hyper-V + SMB only (painful for Mac/Linux users)
-- No progress tracking, no exam simulation
+- No progress tracking full, no exam simulation (CLI stub exists)
 - Code duplication (verify logic repeated 9x)
-- No documented lyrics sync process across repos
+- No documented lyrics sync process across repos (doc exists, follow in changes)
+- Phase1 instructions for new labs 10-15 now full detailed (like lab 10).
 
 **Alignment Analysis Summary** (updated):
 - Modules 02, 04, 05, 06, 09: Good-to-excellent topic match
