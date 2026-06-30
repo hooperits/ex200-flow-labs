@@ -187,3 +187,25 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 **Reuse**: Pattern ready to backport to other verifies. Next: add to more labs + richer per-check explanations.
 
 **Metrics update**: Contributes to "verifier robustness" Phase 0 item.
+
+## Verifier --explain Extension (Lab 07)
+
+**Date**: 2026-06-30
+
+**Change**: Backported --explain + suggestions to labs/07-local-storage/verify.sh (LVM/VDO checks). Consistent with lab 03 pilot.
+
+**Checklist applied** (post-task):
+- Mapeo a objetivos: Sí (PV/VG/LV, xfs, VDO, extend).
+- Reto real: Verifier checks real LVM state (no sim in checks).
+- Verificadores: Mejorado con modo explain para debugging.
+- No impacto en video/default student (verifier separate).
+- Demo como apoyo: Preservado.
+
+**Verification executed**:
+- Ran `./verify.sh --explain` (header + suggestions on all FAILs due to no Vagrant LVM).
+- Normal mode unchanged.
+- No generator needed (no demo change).
+
+**Result**: Pattern working. Pass rate on this task: full. Reusable for remaining labs.
+
+**Next in cycle**: Backport to 1-2 more labs or enhance resets next. Update ROADMAP log.

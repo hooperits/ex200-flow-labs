@@ -8,6 +8,10 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 FAILED_TESTS=0
+EXPLAIN_MODE=false
+if [[ "${1:-}" == "--explain" ]]; then
+    EXPLAIN_MODE=true
+fi
 
 print_result() {
     local test_name="$1"
@@ -19,8 +23,17 @@ print_result() {
     else
         echo -e "[ ${RED}FAILED${NC} ] $test_name - $message"
         FAILED_TESTS=$((FAILED_TESTS + 1))
+        if $EXPLAIN_MODE; then
+            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md y demo.sh. Usa 'sudo vgs/lvs', 'df -T /mnt/docs', 'mountpoint' para depurar."
+        fi
     fi
 }
+
+# Optional explain header
+if $EXPLAIN_MODE; then
+    echo -e "${YELLOW}EXPLAIN MODE: Mostrando descripción de cada verificación + sugerencias en fallos.${NC}"
+    echo
+fi
 
 echo -e "${CYAN}================================================================${NC}"
 echo -e "${CYAN}         Evaluador de Reto: Módulo 07 - Almacenamiento Local    ${NC}"

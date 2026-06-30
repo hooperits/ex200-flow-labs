@@ -270,6 +270,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Alignment 01+03 (commit 6bebb49)**: Structural merge of sections to match lyric ESTROFAS count/order. 01: links+tar combined (now 4 ESTROFAS). 03: procesos+logs combined, GRUB as 4. Titles updated. Generator run + reviewed. Checklist applied in audit. Pass rate contribution: high for alignment (rule 7). No rule conflicts.
 - **2026-06-30 / Phase 0 Re-audit + Process Setup (this edit)**: Added "Execution Process, Log & Amendments" section + cycle description to ROADMAP. Extended audit with Phase 0 re-audit + metrics snapshot (checklist 100%, alignment improved). Ran full generator post-changes. No amendments needed. Metrics table initialized. Followed full cycle + anti-loop. Ready for verifiers work.
 - **2026-06-30 / Verifier --explain Pilot (lab 03)**: Added --explain + suggestions to verify.sh (reuses print_result). Tested output. Documented in audit as Phase 0 verifier improvement. Checklist passed. Reusable for other labs.
+- **2026-06-30 / Verifier --explain Extension (lab 07)**: Backported same --explain logic to lab 07 (LVM/VDO checks). Ran + verified explain output + normal mode. Applied post-task checklist (passes). Extended audit. Logical next after 03 pilot for Phase 0 verifier robustness.
 - Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
 
 ### Amendments Log & Process
@@ -312,5 +313,5 @@ Ready to start executing any phase or specific work item. Just tell me the prior
 
 ---
 
-*Last updated: 2026-06-30 (systematic execution process activated + Phase 0 verifier pilot)*
+*Last updated: 2026-06-30 (systematic execution + verifier --explain extended to 03+07)*
 *Internal document — do not publish strategy details publicly*
