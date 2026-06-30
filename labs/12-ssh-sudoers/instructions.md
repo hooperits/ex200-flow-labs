@@ -7,23 +7,27 @@ Este reto evaluará tu capacidad para configurar SSH con claves, gestionar usuar
 Navega al directorio `/labs/12-ssh-sudoers/` y realiza las siguientes tareas:
 
 1. **Configurar Autenticación por Claves SSH**:
-   * Genera un par de claves SSH para el usuario vagrant.
-   * Copia la clave pública a authorized_keys.
-   * Verifica conexión sin password (usa ssh-copy-id o manual).
+   * Genera par de claves: `ssh-keygen -t rsa -f /tmp/id_rsa_test -N '' -q`.
+   * Crea dir y perms: `mkdir -p ~/.ssh && chmod 700 ~/.ssh`.
+   * Copia pub: `cat /tmp/id_rsa_test.pub >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys`.
+   * Verifica: `ls -l ~/.ssh/authorized_keys`.
 
 2. **Configurar sudoers**:
-   * Crea un archivo en /etc/sudoers.d/ para dar permisos a un grupo.
-   * Añade una regla para que un usuario ejecute comandos sin password.
-   * Verifica con sudo -l.
+   * Crea sudoers.d para grupo: `echo '%wheel ALL=(ALL) NOPASSWD: ALL' | sudo tee /etc/sudoers.d/wheel-nopasswd`.
+   * Verifica sintaxis: `sudo visudo -c -f /etc/sudoers.d/wheel-nopasswd`.
+   * Prueba: `sudo -l | head -3`.
 
 3. **Restringir Acceso SSH**:
-   * Edita /etc/ssh/sshd_config para permitir solo usuarios específicos o deshabilitar root login.
-   * Reinicia sshd.
-   * Verifica configuración.
+   * Backup: `sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak`.
+   * Edita para deshabilitar root: `sudo sed -i 's/#PermitRootLogin.*/PermitRootLogin no/' /etc/ssh/sshd_config`.
+   * Reinicia: `sudo systemctl restart sshd || echo 'Verifica'`.
+   * Verifica: `grep PermitRootLogin /etc/ssh/sshd_config`.
 
 4. **Probar y Validar**:
-   * Prueba acceso SSH.
-   * Prueba sudo.
+   * Verifica id: `id vagrant`.
+   * Prueba sudo sim: `sudo -u vagrant echo 'test' || true`.
+   * Documenta evidencia usando challenge/authorized_keys y challenge/sudoers como referencia.
+   * Verifica sintaxis general: `sudo visudo -c`.
 
 ## Evaluación
 

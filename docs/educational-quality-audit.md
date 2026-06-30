@@ -142,6 +142,16 @@ Key completed items (condensed):
 
 ## Recent Supporting Work (selected)
 
+- **Lab 12 (SSH/Sudoers) instructions enhancement (2026-06-30)**: Expanded to detailed steps with exact commands (ssh-keygen, mkdir/chmod authorized_keys, echo to sudoers.d + visudo -c, sed on sshd_config + restart + grep, id/sudo test, challenge files ref). Matches 4 demo sections and verify (authorized_keys, sudoers.d, PermitRootLogin, visudo, challenge).
+  - Post-task checklist:
+    1. Mapeo EX200: Yes (SSH keys, sudoers, sshd config).
+    2. Reto real: Yes (ssh-keygen, visudo, sed, systemctl).
+    3. Verificadores: Yes (--explain present; checks match).
+    4. Persistencia: N/A or config files.
+    5. Demo como apoyo: Improved (detailed instructions).
+    6. Reset: Unaffected.
+    7. No degradación: Yes.
+  - Status: Pass (challenge passes; others need setup). Ready for Vagrant.
 - **Lab 13 (Kernel/sysctl) instructions enhancement (2026-06-30)**: Expanded to detailed steps with exact commands (sysctl -a/grep, -w for temp changes, /etc/sysctl.d/ for persistent, -p, /proc/sys checks, document in challenge). Matches demo sections 1-4 and verify (ip_forward, hostname, sysrq, challenge file).
   - Post-task checklist:
     1. Mapeo EX200: Yes (kernel params, sysctl persistent/temp changes).
@@ -193,7 +203,7 @@ Key completed items (condensed):
 
 - Lab 10: Full (package/repo/module/real dnf cmds). Strong.
 - Lab 11 (Logging): Basic+ (journal, rsyslog). Instructions medium; verify has 5 checks + --explain. 
-- Lab 12 (SSH/Sudoers): Basic+ (keys, sudoers). Challenge data present.
+- Lab 12 (SSH/Sudoers): Now full (detailed SSH keygen/authorized, sudoers.d, sshd_config restrict, tests). Instructions enhanced.
 - Lab 13 (Kernel): Now full (detailed sysctl inspect/temp/persist/validate with exact cmds, /proc, challenge). Instructions enhanced.
 - Lab 14: Now full (detailed timer/service creation, systemctl ops, log doc). Matches demo/verify.
 - Lab 15: Now full (detailed diagnostics, perms, net, doc). Matches.

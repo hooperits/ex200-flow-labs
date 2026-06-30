@@ -58,8 +58,8 @@
 - Coverage: Advanced logging.
 
 **Lab 12: SSH, Keys & Sudoers**
-- Objectives: SSH config (keys, sshd_config); sudoers; user access.
-- Coverage: Secure access and privilege management.
+- Objectives: SSH keys (ssh-keygen, authorized_keys), sudoers.d, sshd_config restrict (PermitRootLogin).
+- Coverage: Secure access and privilege management. Instructions now full detailed (2026-06-30).
 
 **Lab 13: Kernel / sysctl**
 - Objectives: Kernel parameters (sysctl -a/-w, /etc/sysctl.d/, /proc/sys); tuning.

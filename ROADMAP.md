@@ -269,7 +269,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 
 ### Current Execution Log (latest first; compacted per Context Management rules)
 
-- **2026-06-30 / Lab 13 instructions full flesh**: Expanded instructions.md for kernel/sysctl with detailed steps (sysctl -a/-w, /etc/sysctl.d/, -p, /proc checks, challenge doc). Matches demo/verify. Post-task applied. Now 4/6 Phase1 full detailed (10,13,14,15). Re-audit note updated. Improves Rules 1,2,5.
+- **2026-06-30 / Lab 12 instructions full flesh**: Expanded instructions.md for SSH/Sudoers with detailed cmds (ssh-keygen + authorized_keys, sudoers.d + visudo, sshd_config sed + restart, tests, challenge ref). Matches demo/verify. Post-task + re-audit updated. Now 5/6 Phase1 full (10,12-15); only 11 basic+. Improves 1,2,5.
 - **2026-06-30 / Lab 15 instructions full flesh**: Expanded instructions.md with detailed, specific EX200 commands for each of 4 tasks (journalctl filters, systemctl, ip/ss, permissions chmod, logger, log documentation in challenge/). Matches demo sections and verify checks. Improves Rules 1,2,5. Post-task checklist applied.
 - **2026-06-30 / docs(agents): add Context Management & Turn Governance (commit 5a1a263)**: Added the 5 mandatory rules as a new section in AGENTS.md (with same weight as ANTI-LOOP). Updated warning banner and ROADMAP Execution Cycle. Directly targets repeated "response truncated by max_tokens" errors.
 - **2026-06-30 / Context hygiene + compaction (this pass)**: Proactively compacted ROADMAP.md (massive log) and educational-quality-audit.md per new rule #1. Kept strategic state, Execution Process, recent valuable milestones + concise summaries. Removed heavy duplication from repeated continues/re-audits.
