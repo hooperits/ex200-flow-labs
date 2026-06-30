@@ -271,6 +271,7 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Phase 0 Re-audit + Process Setup (this edit)**: Added "Execution Process, Log & Amendments" section + cycle description to ROADMAP. Extended audit with Phase 0 re-audit + metrics snapshot (checklist 100%, alignment improved). Ran full generator post-changes. No amendments needed. Metrics table initialized. Followed full cycle + anti-loop. Ready for verifiers work.
 - **2026-06-30 / Verifier --explain Pilot (lab 03)**: Added --explain + suggestions to verify.sh (reuses print_result). Tested output. Documented in audit as Phase 0 verifier improvement. Checklist passed. Reusable for other labs.
 - **2026-06-30 / Verifier --explain Extension (lab 07)**: Backported same --explain logic to lab 07 (LVM/VDO checks). Ran + verified explain output + normal mode. Applied post-task checklist (passes). Extended audit. Logical next after 03 pilot for Phase 0 verifier robustness.
+- **2026-06-30 / Document lyrics ↔ code sync process**: Created `docs/lyrics-sync-process.md` with systematic 9-step checklist. Ties directly to AGENTS rules (1:1 alignment, "changes have lyrics cost"), generator, execution cycle, and cross-repo handoff. Ran generator as part of process execution. Updated logs and audit. Closes pending Phase 0 item #5. Checklist applied (see audit).
 - Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
 
 ### Amendments Log & Process
@@ -313,5 +314,5 @@ Ready to start executing any phase or specific work item. Just tell me the prior
 
 ---
 
-*Last updated: 2026-06-30 (systematic execution + verifier --explain extended to 03+07)*
+*Last updated: 2026-06-30 (systematic execution + verifier improvements + lyrics sync process doc)*
 *Internal document — do not publish strategy details publicly*

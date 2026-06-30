@@ -209,3 +209,28 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 **Result**: Pattern working. Pass rate on this task: full. Reusable for remaining labs.
 
 **Next in cycle**: Backport to 1-2 more labs or enhance resets next. Update ROADMAP log.
+
+## Lyrics Sync Process Documentation (Phase 0)
+
+**Date**: 2026-06-30
+
+**Change**: Created `docs/lyrics-sync-process.md` (9-step systematic process + checklist). Directly addresses "Document the exact lyrics ↔ code sync process" (pending item #5).
+
+**Checklist applied** (full post-task review):
+1. Mapeo a objetivos: Yes — process enforces alignment for all future EX200-mapped content.
+2. Reto real: N/A (documentation).
+3. Verificadores: References existing verify + generator as verification tools.
+4. Persistencia: N/A.
+5. Demo como apoyo: Preserved (doc is internal).
+6. Reset: N/A.
+7. Trucos de producción: Explicitly calls out maintaining separation and using generator for video/lyrics sync without degrading education.
+
+**Verification executed**:
+- Ran `./scripts/generate-video-skeleton.sh --all` (process step 3).
+- Reviewed generated skeletons (alignment confirmed for recent changes).
+- Cross-referenced with AGENTS.md rules and ROADMAP pending items.
+- No conflicts; enhances quality gates.
+
+**Result**: Full pass. This makes future roadmap execution more systematic and auditable. Added entry to execution log.
+
+**Impact**: Now all changes will have an explicit, repeatable sync path. Reduces risk of lyrics drift.
