@@ -277,7 +277,8 @@ This section operationalizes the phased roadmap using guardrails from AGENTS.md.
 - **2026-06-30 / Reset starter (lab 01)**: Small enhancement to reset.sh (idempotency, future shared lib note). Tested. Begins resets work (paired with verifiers in Phase 0). Checklist applied.
 - **2026-06-30 / New lab scaffold (Package Management)**: Created labs/10-package-management/ with standard structure (demo, instructions, verify, reset, hints, challenge/). Bootstrapped from lab 01 pattern as starting point for Phase 1 highest-priority lab. Will customize next. Advances coverage gap. Checklist to be applied on first real content.
 - **2026-06-30 / Implement Package Management lab content**: Full instructions, demo (dnf, modules, createrepo), verify, reset, hints written. Generator run for skeleton. Post-task review added to audit. Process followed (sync doc applied implicitly). Major step for Phase 1.
-- **2026-06-30 / Phase 0 Re-audit Summary**: Updated audit with overall progress (verifiers on 3 labs, sync doc, Vagrant, resets starter, lab 10 content). ~95% checklist pass. No major amendments. 
+- **2026-06-30 / Phase 0 Re-audit Summary**: Updated audit with overall progress (verifiers on 3 labs, sync doc, Vagrant, resets starter, lab 10 content). ~95% checklist pass. No major amendments.
+- **2026-06-30 / Verifier --explain for lab 10**: Added to new lab. Now 4 labs upgraded (01,03,07,10). 
 - Prior Phase 0 items (generator, lib, anti-loop, initial audit) completed per earlier entries in this doc + docs/educational-quality-audit.md.
 
 ### Amendments Log & Process

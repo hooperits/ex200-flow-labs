@@ -251,6 +251,18 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Result**: Consistent pattern established across multiple labs. Good step toward more robust verifiers.
 
+## Verifier --explain for new lab 10
+
+**Date**: 2026-06-30
+
+**Change**: Added --explain to lab 10 verify.
+
+**Checklist**: Good.
+
+**Executed**: Tested.
+
+Now 4 labs with improved verifiers.
+
 ## Nuevo Lab: Package Management (10)
 
 **Fecha**: 2026-06-30
