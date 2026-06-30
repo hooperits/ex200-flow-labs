@@ -1,0 +1,40 @@
+#!/bin/bash
+# Simple ex200 CLI stub (Phase 2 start)
+# Usage: ex200 list | run LAB | verify LAB | status
+
+LABS_DIR="/home/juanca/proys/RHCSA-EX200/labs"
+
+case "$1" in
+  list)
+    echo "Available labs:"
+    ls -1 "$LABS_DIR" | grep -E '^[0-9]+-' | sed 's/^/  /'
+    ;;
+  run)
+    if [ -z "$2" ]; then echo "Usage: ex200 run LAB"; exit 1; fi
+    LAB="$2"
+    if [ -d "$LABS_DIR/$LAB" ]; then
+      echo "Running demo for $LAB (use --video for production)..."
+      "$LABS_DIR/$LAB/demo.sh" "$@"
+    else
+      echo "Lab $LAB not found"
+    fi
+    ;;
+  verify)
+    if [ -z "$2" ]; then echo "Usage: ex200 verify LAB"; exit 1; fi
+    LAB="$2"
+    if [ -f "$LABS_DIR/$LAB/verify.sh" ]; then
+      "$LABS_DIR/$LAB/verify.sh" "$@"
+    else
+      echo "No verify for $LAB"
+    fi
+    ;;
+  status)
+    echo "RHCSA EX200 Progress (stub):"
+    echo "  Phase 0: Verifiers/Resets complete"
+    echo "  Phase 1: 6 new labs started (10-15)"
+    echo "  Coverage est: ~70%"
+    ;;
+  *)
+    echo "ex200 stub: list | run LAB | verify LAB | status"
+    ;;
+esac
