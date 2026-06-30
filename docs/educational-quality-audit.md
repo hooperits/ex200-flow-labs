@@ -327,7 +327,7 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 **Post-task for 13**:
 - All rules initial pass. Real commands.
 
-**Final verification**: Generator --all run. All new labs (10-14) have skeletons. Phase 1 coverage increasing (Package, Logging, SSH, Kernel, Timers).
+**Final verification**: Generator --all run. All new labs (10-15) have skeletons. Phase 1 coverage increasing (Package, Logging, SSH, Kernel, Timers, Troubleshooting).
 
 **Session end summary**: Phase 0 complete on key items. 5 new labs. Checklist high. 
 
