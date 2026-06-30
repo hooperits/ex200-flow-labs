@@ -27,7 +27,7 @@ print_result() {
         echo -e "[ ${RED}FAILED${NC} ] $test_name - $message"
         FAILED_TESTS=$((FAILED_TESTS + 1))
         if $EXPLAIN_MODE; then
-            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md. Usa 'dnf repolist', 'rpm -q', 'createrepo' para depurar."
+            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md. Usa 'ls -l ~/.ssh', 'cat /etc/sudoers.d', 'grep PermitRootLogin /etc/ssh/sshd_config' para depurar."
         fi
     fi
 }
@@ -38,7 +38,7 @@ if $EXPLAIN_MODE; then
 fi
 
 echo -e "${CYAN}================================================================${NC}"
-echo -e "${CYAN}         Evaluador de Reto: Módulo 10 - Gestión de Paquetes     ${NC}"
+echo -e "${CYAN}         Evaluador de Reto: Módulo 12 - SSH/Sudoers             ${NC}"
 echo -e "${CYAN}================================================================${NC}"
 echo
 

@@ -394,6 +394,8 @@ Esto mejora la sincronización para producción de video/rap sin degradar el val
 
 **Update for 12**: Added challenge files, verify check, generator. Checklist pass. 
 
+**Fix 12 verify**: Correct header and suggestions. Generator. 
+
 **CLI matrix command**: Added 'matrix' to bin/ex200. Tested (shows matrix header). 
 
 **Test**: Ran ./bin/ex200 matrix and status (works, shows data). 
