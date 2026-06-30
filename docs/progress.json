@@ -1,14 +1,22 @@
 {
   "labs": 15,
   "phase0": {
-    "verifiers": "complete",
-    "resets": "complete",
-    "vagrant": "enhanced",
-    "sync": "documented"
+    "verifiers": "complete (all 9 with --explain)",
+    "resets": "complete (shared lib in all)",
+    "vagrant": "enhanced (multi-provider)",
+    "sync": "documented and followed",
+    "generator": "used for all new labs"
   },
   "phase1": {
     "new_labs": 6,
-    "coverage_est": "70%"
+    "labs_10-15": "Package full, Logging/SSH/Kernel/Timers/Troubleshooting basic+content",
+    "coverage_est": "75%"
   },
-  "last_updated": "2026-06-30"
+  "phase2": {
+    "cli_stub": "bin/ex200 (list/run/verify/status/exam-simulate)",
+    "progress_tracking": "docs/progress.json",
+    "matrix": "docs/objective-matrix.md initial"
+  },
+  "last_updated": "2026-06-30",
+  "checklist_pass_recent": "high (~100%)"
 }
