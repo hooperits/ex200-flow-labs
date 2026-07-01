@@ -61,9 +61,9 @@ Vagrant.configure("2") do |config|
   # Let Vagrant use the current Windows user's credentials (run PowerShell as Administrator).
   config.vm.provider "hyperv" do |h, override|
     override.vm.synced_folder "./labs", "/labs", type: "smb",
-      mount_options: ["file_mode=0644", "dir_mode=0755", "noperm"]
+      mount_options: ["file_mode=0755", "dir_mode=0755", "noperm"]
     override.vm.synced_folder "./lib", "/labs/lib", type: "smb",
-      mount_options: ["file_mode=0644", "dir_mode=0755", "noperm"]
+      mount_options: ["file_mode=0755", "dir_mode=0755", "noperm"]
   end
 
   # Libvirt specific synced folder overrides (use 9p for better Linux compatibility)
@@ -78,7 +78,7 @@ Vagrant.configure("2") do |config|
   # - Package names for SELinux tools remain similar
   config.vm.provision "shell", inline: <<-SHELL
     echo "Setting executable permissions on all lab scripts..."
-    chmod +x /labs/**/*.sh 2>/dev/null || true
+    find /labs -name '*.sh' -type f -exec chmod +x {} + 2>/dev/null || true
 
     echo "Installing required packages for RHCSA labs (RHEL 10)..."
     dnf install -y policycoreutils-python-utils autofs nfs-utils &>/dev/null
