@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Load common reset helpers
-source "$(cd "$(dirname "$0")" && pwd)/../../lib/reset-common.sh" 2>/dev/null || true
+source "/labs/lib/reset-common.sh" 2>/dev/null || true
 
 BASE_DIR="$(cd "$(dirname "$0")" && pwd)"
 CHALLENGE_DIR="$BASE_DIR/challenge"

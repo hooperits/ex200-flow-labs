@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Load common reset helpers
-source "$(cd "$(dirname "$0")" && pwd)/../../lib/reset-common.sh" 2>/dev/null || true
+source "/labs/lib/reset-common.sh" 2>/dev/null || true
 
 echo "Restableciendo el entorno del laboratorio de montajes y autofs..."
 
