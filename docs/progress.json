@@ -17,6 +17,12 @@
     "progress_tracking": "docs/progress.json",
     "matrix": "docs/objective-matrix.md initial"
   },
-  "last_updated": "2026-06-30 (Phase1 complete + matrix expanded with subs/refs)",
-  "checklist_pass_recent": "high (~100%)"
+  "last_updated": "2026-07-01 (RHEL 10 migration - Fase 1 started: base box updated to almalinux/10)",
+  "checklist_pass_recent": "high (~100%)",
+  "rhel10_migration": {
+    "current_phase": "1 - Infraestructura Base",
+    "box": "almalinux/10",
+    "labs_count_note": "14 (Lab 09 Podman to be removed)",
+    "status": "Vagrantfile updated, provisioning review pending"
+  }
 }

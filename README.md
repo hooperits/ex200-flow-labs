@@ -16,7 +16,7 @@
 </div>
 
 <p align="center">
-  <a href="https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam">
+  <a href="https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam">
     <img src="https://img.shields.io/badge/Exam-RHCSA%20EX200-red?style=for-the-badge&logo=redhat" alt="RHCSA EX200" />
   </a>
   <a href="https://almalinux.org/">
@@ -330,7 +330,7 @@ cd /labs/XX-...
 - **Matriz de Objetivos EX200**: `docs/objective-matrix.md` — mapeo detallado de los laboratorios a los objetivos oficiales del examen.
 - **Cobertura actual**: ~83% de los objetivos del EX200.
 - **Documentación interna del proyecto**: Consulta `AGENTS.md` (reglas de calidad educativa).
-- **Examen oficial**: [Red Hat EX200](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam)
+- **Examen oficial**: [Red Hat EX200](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam)
 
 ---
 

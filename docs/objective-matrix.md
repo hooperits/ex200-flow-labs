@@ -1,32 +1,40 @@
-# RHCSA EX200 Objective Traceability Matrix (Initial)
+# RHCSA EX200 Objective Traceability Matrix - RHEL 10
 
-**Purpose**: Map labs to official Red Hat EX200 objectives (RHEL 9 / AlmaLinux 9). This supports 90%+ coverage goal and verification of educational quality (Rule 1).
+**Purpose**: Map labs to official Red Hat EX200 objectives (RHEL 10 / AlmaLinux 10). This supports 90%+ coverage goal and verification of educational quality (Rule 1).
 
-**Status**: Initial draft (2026-06-30). Based on current labs 01-15. To be expanded with full details, percentages, and updates after each lab.
+**Status**: En migración a RHEL 10 (2026-07-01). 
+- Basado en objetivos oficiales EX200 para RHEL 10.
+- **Cambio importante**: "Manage containers" (Podman) fue **eliminado** de los objetivos del EX200 (se movió a examen separado).
+- Lab 09 será removido o reemplazado en esta migración.
+- Flatpak agregado al área de "Manage software".
 
-**Source**: Official EX200 objectives (e.g., from Red Hat docs: system management, storage, networking, security, containers, etc.).
+**Source**: Official EX200 objectives from Red Hat (exam page + objective lists 2026).
 
-## Current Coverage Summary
-- Estimated: ~83% (avg from per-lab table; 9 original + 6 new labs full detailed; improved mapping for packages, logging, SSH, kernel, timers, troubleshooting).
-- Phase 0/1 progress: Verifiers --explain all, resets shared all, Phase1 instructions 10-15 complete (detailed like lab 10).
-- Full matrix to be completed (sub-objs, % per lab). Phase1 instructions deliverable done.
+## Current Coverage Summary (en migración RHEL 10)
+- **Objetivo**: ≥ 90% de los objetivos oficiales EX200 para RHEL 10.
+- **Nota clave**: Lab 09 (Podman) será removido porque el objetivo de contenedores fue eliminado del EX200.
+- Cobertura actual en proceso de re-evaluación.
+- Phase 0 completada: Decisiones tomadas (ver docs/RHEL10-decisions.md).
+- Fase 1 en progreso: Actualización de infraestructura.
 
-## Rough Coverage % by Lab (estimated, based on mapped objectives)
-- Lab 01 (Essential Tools): 92% (core tools, perms, redirection strong)
-- Lab 02 (Shell Scripting): 75% (basics; more advanced scripting gaps)
-- Lab 03 (Operating Systems): 80% (services, logs, targets; boot recovery partial)
-- Lab 04 (Users/Groups): 85%
-- Lab 05 (Networking): 70% (basic nmcli, chrony, cron)
-- Lab 06 (SELinux): 80%
-- Lab 07 (Local Storage): 75% (LVM/VDO; partition tools good)
-- Lab 08 (Filesystems/Network Storage): 80%
-- Lab 09 (Podman): 85%
-- Lab 10 (Package Mgmt): 90% (full dnf, repos, modules)
-- Lab 11 (Logging): 85% (journalctl, rsyslog, persistence)
-- Lab 12 (SSH/Sudoers): 88% (keys, sudoers, sshd config)
-- Lab 13 (Kernel/sysctl): 80%
-- Lab 14 (Systemd Timers): 90%
-- Lab 15 (Troubleshooting): 85% (diagnostics across areas)
+## Rough Coverage % by Lab (RHEL 10 - estimado en progreso)
+- Lab 01 (Essential Tools): ~92%
+- Lab 02 (Shell Scripting): ~75%
+- Lab 03 (Operating Systems): ~80%
+- Lab 04 (Users/Groups): ~85%
+- Lab 05 (Networking): ~70%
+- Lab 06 (SELinux): ~80%
+- Lab 07 (Local Storage): ~75%
+- Lab 08 (Filesystems/Network Storage): ~80%
+- **Lab 09 (Podman)**: **Removido** (objetivo de contenedores eliminado del EX200)
+- Lab 10 (Package Mgmt): ~90% (actualizar a dnf5 + Flatpak)
+- Lab 11 (Logging): ~85%
+- Lab 12 (SSH/Sudoers): ~88%
+- Lab 13 (Kernel/sysctl): ~80%
+- Lab 14 (Systemd Timers): ~90%
+- Lab 15 (Troubleshooting): ~85%
+
+**Nota**: Las coberturas serán recalculadas durante la migración.
 
 ## Lab to Objective Mapping (Summary)
 
@@ -77,13 +85,13 @@
   - Sub: blkid/UUID, fstab, autofs, NFS/SMB.
 
 **Lab 09: Podman Containers**
-- Objectives: Manage containers (podman); rootless; systemd integration (linger, user services).
-- Coverage: Container management with Podman.
-  - Sub: podman run/ps/exec, rootless, systemd user services.
+- **Estado**: Removido del proyecto para la versión RHEL 10.
+- Razón: El objetivo "Manage containers" fue eliminado de los objetivos oficiales del EX200 (RHEL 10).
+- Decisión (Fase 0): No se incluirá en la cobertura principal del EX200.
 
 **Lab 10: Package Management**
-- Objectives: Manage packages (dnf/yum); repositories; modules (AppStreams).
-- Coverage: Package and repo management.
+- Objectives: Manage software (dnf5, repositorios, RPM, Flatpak).
+- Coverage: En proceso de actualización para dnf5 + Flatpak (RHEL 10).
 
 **Lab 11: Logging**
 - Objectives: Manage logs (journalctl filters, -b, -p, -u); rsyslog config; journald persistent (Storage=persistent).
@@ -115,21 +123,24 @@
 
 **Enhance notes**: Lab 14 demo enhanced with list timers; lab 15 with extra network. Generators run. Lab 13 with /proc check.
 
-## Detailed Examples (Sample)
-- Lab 10: dnf install/remove, repo config (local-test.repo), modules (nodejs) - maps to "Manage software" objective (Red Hat EX200: Manage software installation and updates).
-- Lab 11: journalctl -n/-u/-p/-b, mkdir /var/log/journal + sed Storage=persistent + restart, rsyslog rule + logger - maps to "Configure logging" (Red Hat EX200: Configure logging).
-- Lab 12: ssh-keygen + authorized_keys + chmod, /etc/sudoers.d/ + visudo, sed PermitRootLogin no + restart sshd - maps to "Manage user access and security" (Red Hat EX200: Manage user access and security).
-- Lab 13: sysctl -a | grep, sysctl -w (temp), /etc/sysctl.d/ + sysctl -p, /proc/sys/ checks - maps to "Kernel tuning" (Red Hat EX200: Manage kernel runtime parameters).
-- Lab 14: .service + .timer units, systemctl enable --now + list-timers, disable + daemon-reload - maps to "Manage systemd units and timers" (Red Hat EX200: Manage systemd services and timers).
-- Lab 15: journalctl -u/sshd, ls/chmod fixes, ip addr + ss -tuln, logger + document in challenge/ - maps to "Troubleshoot" (Red Hat EX200: Troubleshoot system problems).
-- Full details to be filled per lab (add full links/official refs).
+## Detailed Examples (Sample) - Actualizando a RHEL 10
+- Lab 10: dnf5 / Flatpak / repos - maps to "Manage software" (incluye Flatpak en RHEL 10).
+- Lab 11: journalctl -n/-u/-p/-b ... - maps to logging.
+- Lab 12: SSH + sudoers.
+- Lab 13: sysctl.
+- Lab 14: systemd timers.
+- Lab 15: Troubleshooting.
+- **Lab 09 removido** (ver decisiones).
+- Full update pending durante migración.
 
-## Gaps and Next
-- Full matrix: Add full official EX200 links (e.g. access.redhat.com), exact % calcs.
-- Phase1 instructions complete for 10-15; detailed examples + sub-objs for 01-09 + official refs for 01-03,10-15 expanded.
-- Next: full Vagrant tests (persistence), expand matrix further (links), full re-audit, CLI.
-- Target: 90%+ with traceability. Update per process.
+## Gaps and Next (RHEL 10 Migration)
+- Actualizar matriz completa para RHEL 10 objetivos.
+- Remover referencias a contenedores como objetivo EX200.
+- Agregar Flatpak en Manage software.
+- Phase 0 completada: Decisiones en docs/RHEL10-decisions.md.
+- Siguiente: Fase 1 (infraestructura Vagrant + AlmaLinux 10).
+- Target: 90%+ cobertura objetivos oficiales EX200 RHEL 10.
 
-**Verification**: This matrix will be reviewed in post-task checklists and re-audits.
+**Verification**: Esta matriz será revisada en cada fase de la migración.
 
-*Update this after each major lab or Phase.*
+*Actualizado el 2026-07-01 durante Fase 0.*

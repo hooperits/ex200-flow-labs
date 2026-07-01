@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 #
-# Multi-provider Vagrant for RHCSA-EX200 labs
+# Multi-provider Vagrant for RHCSA-EX200 labs (RHEL 10 / AlmaLinux 10)
 # Usage examples:
 #   vagrant up                    # default provider (depends on env)
 #   vagrant up --provider=virtualbox
@@ -15,9 +15,10 @@
 # - Hyper-V: on Windows, enable in features
 #
 # Labs synced to /labs inside guest.
+# Base image: almalinux/10 (RHEL 10 compatible)
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "almalinux/9"
+  config.vm.box = "almalinux/10"
 
   config.vm.disk :disk, size: "5GB", name: "secondary_disk"
 
@@ -70,11 +71,14 @@ Vagrant.configure("2") do |config|
   end
 
   # Provisioning (runs for all providers)
+  # RHEL 10 / AlmaLinux 10 notes:
+  # - dnf now uses dnf5 under the hood (compatible for most commands)
+  # - Package names for SELinux tools remain similar
   config.vm.provision "shell", inline: <<-SHELL
     echo "Setting executable permissions on all lab scripts..."
     chmod +x /labs/**/*.sh 2>/dev/null || true
 
-    echo "Installing required packages for RHCSA labs..."
+    echo "Installing required packages for RHCSA labs (RHEL 10)..."
     dnf install -y policycoreutils-python-utils autofs nfs-utils &>/dev/null
 
     echo "Configuring local simulated NFS server..."
