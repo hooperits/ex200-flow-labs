@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 source "/labs/lib/demo-common.sh"
 
 # 1. Diagnosticar Servicio
-clear_section "RHCSA Módulo 15: Troubleshooting - Tema: 1. Diagnosticar Servicio Fallido"
+clear_section "RHCSA Módulo 15: Troubleshooting (RHEL 10) - Tema: 1. Diagnosticar Servicio Fallido"
 run_demo_cmd "Simula servicio fallido" "echo 'Simulando servicio roto' "
 run_demo_cmd "Usa journalctl para diagnosticar" "journalctl -u sshd --no-pager | tail -5 || true"
 run_demo_cmd "Status servicio" "systemctl status sshd | head -5"
@@ -21,7 +21,7 @@ run_demo_cmd "Journal logs" "journalctl -n 2 --no-pager | tail -2 || true"
 sleep 2.0
 
 # 2. Resolver Permisos
-clear_section "RHCSA Módulo 15: Troubleshooting - Tema: 2. Resolver Permisos"
+clear_section "RHCSA Módulo 15: Troubleshooting (RHEL 10) - Tema: 2. Resolver Permisos"
 run_demo_cmd "Crea archivo con mal permiso" "touch /tmp/broken_perm.txt && chmod 000 /tmp/broken_perm.txt"
 run_demo_cmd "Diagnostica" "ls -l /tmp/broken_perm.txt"
 run_demo_cmd "Arregla" "chmod 644 /tmp/broken_perm.txt"
@@ -30,7 +30,7 @@ rm -f /tmp/broken_perm.txt
 sleep 2.0
 
 # 3. Network Troubleshooting
-clear_section "RHCSA Módulo 15: Troubleshooting - Tema: 3. Network Troubleshooting"
+clear_section "RHCSA Módulo 15: Troubleshooting (RHEL 10) - Tema: 3. Network Troubleshooting"
 run_demo_cmd "Muestra IP" "ip addr show | head -5"
 run_demo_cmd "Prueba conectividad" "ping -c 1 127.0.0.1 || true"
 run_demo_cmd "Puertos" "ss -tuln | head -3"
@@ -38,7 +38,7 @@ run_demo_cmd "Conexiones activas" "ss -tuln | grep LISTEN | head -2"
 sleep 2.0
 
 # 4. Validar
-clear_section "RHCSA Módulo 15: Troubleshooting - Tema: 4. Validar y Documentar"
+clear_section "RHCSA Módulo 15: Troubleshooting (RHEL 10) - Tema: 4. Validar y Documentar"
 run_demo_cmd "Genera log de diagnóstico" "echo 'Diagnóstico completado' > /tmp/troubleshoot.log"
 run_demo_cmd "Verifica" "cat /tmp/troubleshoot.log"
 rm -f /tmp/troubleshoot.log

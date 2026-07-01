@@ -27,7 +27,7 @@ print_result() {
         echo -e "[ ${RED}FAILED${NC} ] $test_name - $message"
         FAILED_TESTS=$((FAILED_TESTS + 1))
         if $EXPLAIN_MODE; then
-            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md. Usa 'dnf repolist', 'rpm -q', 'createrepo' para depurar."
+            echo -e "    ${YELLOW}SUGGESTION:${NC} Revisa instructions.md. Usa 'dnf repolist', 'flatpak list', 'createrepo' para depurar."
         fi
     fi
 }
@@ -38,7 +38,7 @@ if $EXPLAIN_MODE; then
 fi
 
 echo -e "${CYAN}================================================================${NC}"
-echo -e "${CYAN}         Evaluador de Reto: Módulo 10 - Gestión de Paquetes     ${NC}"
+echo -e "${CYAN}      Evaluador de Reto: Módulo 10 - Gestión de Paquetes (RHEL 10)     ${NC}"
 echo -e "${CYAN}================================================================${NC}"
 echo
 
@@ -49,25 +49,39 @@ else
     print_result "Archivo Repo local-test" "FAIL" "No se encontró /etc/yum.repos.d/local-test.repo"
 fi
 
-# 2. Validar instalación de httpd (o rastro)
+# 2. Validar instalación de httpd
 if rpm -q httpd &>/dev/null; then
     print_result "Paquete httpd instalado" "SUCCESS" "httpd está instalado."
 else
     print_result "Paquete httpd instalado" "FAIL" "httpd no está instalado (o fue removido)."
 fi
 
-# 3. Validar módulo nodejs habilitado (o similar)
-if dnf module list --enabled | grep -q nodejs; then
-    print_result "Módulo DNF nodejs" "SUCCESS" "Módulo nodejs aparece habilitado."
+# 3. Validar Flatpak instalado y con remote
+if command -v flatpak &>/dev/null && flatpak remote-list | grep -q flathub; then
+    print_result "Flatpak + Flathub" "SUCCESS" "flatpak instalado y Flathub agregado."
 else
-    print_result "Módulo DNF nodejs" "FAIL" "No se detectó módulo nodejs habilitado."
+    print_result "Flatpak + Flathub" "FAIL" "flatpak no está instalado o falta Flathub."
 fi
 
-# 4. Validar repo my-local o local repo en challenge
-if [ -f /etc/yum.repos.d/my-local.repo ] || [ -d "$CHALLENGE_DIR/local-repo" ]; then
-    print_result "Repo Local Creado" "SUCCESS" "Se detectó repo local o archivo de config."
+# 4. Validar al menos una app de Flatpak instalada
+if flatpak list &>/dev/null && [ "$(flatpak list | wc -l)" -gt 0 ]; then
+    print_result "Aplicación Flatpak instalada" "SUCCESS" "Se detectó al menos una app Flatpak."
 else
-    print_result "Repo Local Creado" "FAIL" "No se encontró repo local configurado."
+    print_result "Aplicación Flatpak instalada" "FAIL" "No se detectó ninguna aplicación Flatpak instalada."
+fi
+
+# 5. Validar módulo habilitado
+if dnf module list --enabled 2>/dev/null | grep -qE 'nodejs|python|httpd'; then
+    print_result "Módulo DNF habilitado" "SUCCESS" "Al menos un módulo aparece habilitado."
+else
+    print_result "Módulo DNF habilitado" "FAIL" "No se detectó módulo habilitado."
+fi
+
+# 6. Validar repo local en challenge/
+if [ -d "$CHALLENGE_DIR/local-repo" ] && [ -f "$CHALLENGE_DIR/local-repo/repodata/repomd.xml" ]; then
+    print_result "Repositorio Local creado" "SUCCESS" "Se encontró challenge/local-repo con metadatos."
+else
+    print_result "Repositorio Local creado" "FAIL" "No se encontró repo local con repodata en challenge/."
 fi
 
 echo

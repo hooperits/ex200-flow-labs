@@ -1,6 +1,8 @@
 # Reto Práctico: Seguridad del Sistema, Cortafuegos y SELinux (Módulo 06)
 
-Este reto evalúa tu capacidad para gestionar la seguridad del sistema en Rocky/AlmaLinux 9 mediante la configuración de políticas en el cortafuegos `firewalld` y el ajuste fino de contextos y booleanos en `SELinux`.
+Este reto evalúa tu capacidad para gestionar la seguridad del sistema en AlmaLinux 10 / RHEL 10 mediante la configuración de políticas en el cortafuegos `firewalld` y el ajuste fino de contextos y booleanos en `SELinux`.
+
+**Nota RHEL 10**: firewalld y semanage son muy similares. Algunas políticas de SELinux son más estrictas por defecto.
 
 ## Objetivos del Reto
 

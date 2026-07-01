@@ -104,6 +104,20 @@ else
     print_result "Filtrado de Archivos Exitoso" "FAIL" "Se obtuvo código $EXIT_CODE_4 en vez de 0, o los archivos listados son incorrectos ('$STDOUT_4')."
 fi
 
+# 5. Verificar uso de dnf en script (integración RHEL 10)
+if grep -q "dnf list" "$SCRIPT_FILE" 2>/dev/null || grep -q "dnf " "$SCRIPT_FILE" 2>/dev/null; then
+    print_result "Integración DNF (RHEL 10)" "SUCCESS" "El script utiliza comandos dnf para integración con herramientas RHEL 10."
+else
+    print_result "Integración DNF (RHEL 10)" "FAIL" "El script no integra dnf como se requiere."
+fi
+
+# 6. Verificar uso de array y función (elementos avanzados)
+if grep -q "declare -a\|array" "$SCRIPT_FILE" 2>/dev/null && grep -q "function \|()" "$SCRIPT_FILE" 2>/dev/null; then
+    print_result "Elementos Avanzados (Array + Función)" "SUCCESS" "El script usa array y función como se requiere en RHEL 10."
+else
+    print_result "Elementos Avanzados (Array + Función)" "FAIL" "Falta uso de array o función en el script."
+fi
+
 # Limpiar directorio de pruebas dinámico
 rm -rf "$TEST_DIR"
 

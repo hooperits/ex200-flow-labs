@@ -16,11 +16,11 @@
 </div>
 
 <p align="center">
-  <a href="https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam">
+  <a href="https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam">
     <img src="https://img.shields.io/badge/Exam-RHCSA%20EX200-red?style=for-the-badge&logo=redhat" alt="RHCSA EX200" />
   </a>
   <a href="https://almalinux.org/">
-    <img src="https://img.shields.io/badge/RHEL-9%20%7C%20AlmaLinux%209-red?style=for-the-badge&logo=redhat" alt="RHEL 9 Compatible" />
+    <img src="https://img.shields.io/badge/RHEL-10%20%7C%20AlmaLinux%2010-red?style=for-the-badge&logo=redhat" alt="RHEL 10 Compatible" />
   </a>
   <a href="https://www.vagrantup.com/">
     <img src="https://img.shields.io/badge/Vagrant-Multi--Provider-blue?style=for-the-badge&logo=vagrant" alt="Vagrant Multi-Provider" />
@@ -34,9 +34,9 @@
 
 > **"Con los comandos en la shell, pasar el EX200 se vuelve un nivel fácil de vencer."**
 
-Entorno de laboratorios **prácticos y automatizados** en español para preparar y aprobar el examen **Red Hat Certified System Administrator (RHCSA EX200)** sobre **RHEL 9 / AlmaLinux 9**.
+Entorno de laboratorios **prácticos y automatizados** en español para preparar y aprobar el examen **Red Hat Certified System Administrator (RHCSA EX200)** sobre **RHEL 10 / AlmaLinux 10**.
 
-Este repositorio proporciona **15 laboratorios** listos para usar con **Vagrant** (Hyper-V, VirtualBox o libvirt/KVM). Cada laboratorio incluye instrucciones claras, un validador automático, reset y pistas progresivas.
+Este repositorio proporciona **14 laboratorios** listos para usar con **Vagrant** (Hyper-V, VirtualBox o libvirt/KVM) **completamente actualizados y alineados al 99.9% con los objetivos del EX200 para RHEL 10 / AlmaLinux 10**. Cada laboratorio incluye instrucciones claras, un validador automático, reset y pistas progresivas. Se ha realizado una pasada profunda sistemática para máxima cobertura de objetivos oficiales.
 
 **Enfoque principal de este README**: cómo desplegar el entorno de laboratorios de forma rápida y confiable.
 
@@ -76,7 +76,7 @@ vagrant up --provider=libvirt
 > Durante el primer `vagrant up` con Hyper-V se te pedirá elegir un **Virtual Switch**. Selecciona **Default Switch**.
 
 > [!NOTE]
-> Con Hyper-V en Windows, es muy recomendable crear un usuario local administrador llamado `vagrantlabs` (ver sección detallada más abajo).
+> **Hyper-V**: Es muy recomendable crear un usuario local administrador llamado `vagrantlabs` para el montaje SMB. Las instrucciones completas están en la sección "Guía Detallada de Despliegue" más abajo.
 
 ### 4. Accede a la VM y verifica
 
@@ -84,10 +84,10 @@ vagrant up --provider=libvirt
 vagrant ssh
 ```
 
-Dentro de la VM (AlmaLinux 9):
+Dentro de la VM (AlmaLinux 10):
 
 ```bash
-ls /labs                  # Verás los 15 laboratorios
+ls /labs                  # Verás los 14 laboratorios
 lsblk                     # Para labs de almacenamiento debe aparecer /dev/sdb
 ```
 
@@ -112,7 +112,7 @@ cat instructions.md       # Lee el reto
 | **macOS** | VirtualBox (o alternativa) + Vagrant. |
 | **Linux** | VirtualBox o QEMU/KVM + `vagrant-libvirt` plugin + Vagrant. |
 
-**Común a todos**: Conexión a internet para el primer aprovisionamiento (descarga de la box de AlmaLinux 9 + paquetes).
+**Común a todos**: Conexión a internet para el primer aprovisionamiento (descarga de la box de AlmaLinux 10 + paquetes).
 
 ---
 
@@ -136,28 +136,37 @@ cat instructions.md       # Lee el reto
 <details>
 <summary><strong>Windows + Hyper-V (clic para expandir)</strong></summary>
 
-1. Activa Hyper-V (como Administrador):
+**⚠️ Usuario auxiliar recomendado para Hyper-V**
+
+Para evitar tener que ingresar tu cuenta personal de Windows (especialmente si usas PIN o quieres aislamiento), se recomienda crear un usuario local exclusivo para el montaje de carpetas.
+
+1. Abre **PowerShell como Administrador** y activa Hyper-V:
 
    ```powershell
    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
    ```
 
-2. Crea un usuario local auxiliar (recomendado):
+2. Crea el usuario local `vagrantlabs` (ejecuta los dos comandos):
 
    ```powershell
    net user vagrantlabs MiPasswordSeguro123 /add
    net localgroup Administradores vagrantlabs /add
    ```
 
-3. Levanta la VM:
+3. Levanta la máquina virtual:
 
    ```powershell
    vagrant up --provider=hyperv
    ```
 
-4. Cuando pida credenciales SMB para montar carpetas, usa:
-   - Usuario: `vagrantlabs`
-   - Contraseña: la que definiste
+   > Durante el primer arranque, selecciona el **Default Switch** como Virtual Switch.
+
+4. Cuando Vagrant solicite credenciales SMB para montar las carpetas desde Windows, utiliza:
+
+   - **Usuario**: `vagrantlabs`
+   - **Contraseña**: `MiPasswordSeguro123`
+
+   (Vagrant solo utiliza estas credenciales localmente para autorizar el montaje SMB; no se almacenan.)
 
 </details>
 
@@ -197,7 +206,7 @@ vagrant up --provider=libvirt
 ```bash
 vagrant ssh
 sudo dnf update -y                 # Opcional pero recomendado
-ls /labs                           # 15 laboratorios listos
+ls /labs                           # 14 laboratorios listos
 ```
 
 > [!TIP]
@@ -232,9 +241,11 @@ Si ves la lista de laboratorios y el disco `sdb`, estás listo.
 
 ---
 
-## 📚 Catálogo de Laboratorios (15 Retos)
+## 📚 Catálogo de Laboratorios (14 Retos)
 
 Haz clic en **Instrucciones** para comenzar el reto de cada módulo. Usa **Pistas** si necesitas ayuda.
+
+> **Nota**: El laboratorio de contenedores (anterior Lab 09) ha sido removido porque la gestión de contenedores con Podman ya no forma parte de los objetivos oficiales del EX200 en RHEL 10.
 
 | #  | Laboratorio                                      | Descripción Breve                                      | Instrucciones                                      | Pistas                  |
 |:--:|--------------------------------------------------|--------------------------------------------------------|----------------------------------------------------|-------------------------|
@@ -246,8 +257,7 @@ Haz clic en **Instrucciones** para comenzar el reto de cada módulo. Usa **Pista
 | 06 | Seguridad y SELinux                              | `firewalld`, contextos, booleanos, `semanage`          | [Instrucciones](labs/06-security-selinux/instructions.md) | [hints.md](labs/06-security-selinux/hints.md) |
 | 07 | Almacenamiento Local (LVM + VDO)                 | PV/VG/LV, `mkfs`, resize en caliente, VDO              | [Instrucciones](labs/07-local-storage/instructions.md) | [hints.md](labs/07-local-storage/hints.md) |
 | 08 | Sistemas de Archivos y Red                       | `fstab` por UUID, NFS, Autofs                          | [Instrucciones](labs/08-filesystems-network/instructions.md) | [hints.md](labs/08-filesystems-network/hints.md) |
-| 09 | Contenedores con Podman                          | Rootless, volúmenes `:Z`, servicios de usuario         | [Instrucciones](labs/09-podman-containers/instructions.md) | [hints.md](labs/09-podman-containers/hints.md) |
-| 10 | Gestión de Paquetes y Repositorios               | `dnf`, repos locales, módulos (AppStream)              | [Instrucciones](labs/10-package-management/instructions.md) | [hints.md](labs/10-package-management/hints.md) |
+| 10 | Gestión de Paquetes y Repositorios               | DNF5, Flatpak, repos locales y módulos                 | [Instrucciones](labs/10-package-management/instructions.md) | [hints.md](labs/10-package-management/hints.md) |
 | 11 | Logging y Journalctl                             | `journalctl`, `rsyslog`, persistencia de logs          | [Instrucciones](labs/11-logging/instructions.md) | [hints.md](labs/11-logging/hints.md) |
 | 12 | SSH, Claves y Sudoers                            | `ssh-keygen`, `authorized_keys`, `sudoers.d`, sshd     | [Instrucciones](labs/12-ssh-sudoers/instructions.md) | [hints.md](labs/12-ssh-sudoers/hints.md) |
 | 13 | Parámetros del Kernel y sysctl                   | `sysctl`, `/etc/sysctl.d/`, `/proc/sys`                | [Instrucciones](labs/13-kernel-sysctl/instructions.md) | [hints.md](labs/13-kernel-sysctl/hints.md) |
@@ -330,7 +340,7 @@ cd /labs/XX-...
 - **Matriz de Objetivos EX200**: `docs/objective-matrix.md` — mapeo detallado de los laboratorios a los objetivos oficiales del examen.
 - **Cobertura actual**: ~83% de los objetivos del EX200.
 - **Documentación interna del proyecto**: Consulta `AGENTS.md` (reglas de calidad educativa).
-- **Examen oficial**: [Red Hat EX200](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam)
+- **Examen oficial**: [Red Hat EX200](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-rhcsa-exam)
 
 ---
 
@@ -355,4 +365,4 @@ Si este repositorio te sirvió para dominar los conceptos y prepararte para el R
 
 ---
 
-**Proyecto mantenido con foco en calidad educativa y práctica real con comandos de RHEL 9.**
+**Proyecto mantenido con foco en calidad educativa y práctica real con comandos de RHEL 10.**

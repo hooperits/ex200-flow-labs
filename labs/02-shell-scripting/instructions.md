@@ -1,6 +1,8 @@
 # Reto Práctico: Creación de Script en Bash (Módulo 02)
 
-Este reto evalúa tu capacidad para automatizar tareas en Rocky/AlmaLinux 9 utilizando Shell Scripting en Bash.
+Este reto evalúa tu capacidad para automatizar tareas en AlmaLinux 10 / RHEL 10 utilizando Shell Scripting en Bash.
+
+**Nota RHEL 10**: Bash y herramientas de scripting son las mismas. dnf5 puede usarse en scripts si es necesario.
 
 ## Objetivos del Reto
 
@@ -22,6 +24,15 @@ Escribe un script en Bash llamado `file_filter.sh` dentro del directorio `challe
 
 4. **Éxito**:
    * Si el script procesó y listó los archivos exitosamente, debe finalizar con el **código de salida `0`**.
+
+5. **Uso de herramientas RHEL 10**:
+   * Dentro del script, utiliza `dnf list` o una herramienta similar para listar paquetes disponibles y filtrar por nombre (como ejemplo de integración con RHEL 10 tools).
+   * Muestra el conteo de archivos encontrados usando expansión de variables.
+
+6. **Elementos Avanzados de Scripting (RHEL 10)**:
+   * Usa un array para almacenar los archivos encontrados.
+   * Implementa una función interna para el filtrado.
+   * Maneja errores con `set -e` o traps para mayor robustez (práctica recomendada en RHEL).
 
 ## Evaluación
 

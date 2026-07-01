@@ -1,6 +1,8 @@
 # Reto Práctico: Gestión de Usuarios y Grupos (Módulo 04)
 
-Este reto evalúa tu capacidad para gestionar cuentas de usuario, grupos de trabajo, aplicar permisos especiales (como SGID) y definir reglas de acceso fino usando ACLs en Rocky/AlmaLinux 9.
+Este reto evalúa tu capacidad para gestionar cuentas de usuario, grupos de trabajo, aplicar permisos especiales (como SGID) y definir reglas de acceso fino usando ACLs en AlmaLinux 10 / RHEL 10.
+
+**Nota RHEL 10**: Comandos de usuarios y ACLs son idénticos.
 
 ## Objetivos del Reto
 

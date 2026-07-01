@@ -97,6 +97,13 @@ else
     print_result "Volumen Optimizado LVM VDO" "FAIL" "No se encontró el volumen vdo_vol."
 fi
 
+# 5. Verificar Swap (adicional RHEL 10)
+if swapon --show | grep -q lv_swap; then
+    print_result "Swap LV" "SUCCESS" "LV de swap configurado y activo."
+else
+    print_result "Swap LV" "FAIL" "No se detectó swap LV activo."
+fi
+
 echo
 echo -e "${CYAN}================================================================${NC}"
 if [ $FAILED_TESTS -eq 0 ]; then

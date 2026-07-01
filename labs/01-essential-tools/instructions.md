@@ -1,6 +1,8 @@
 # Reto Práctico: Herramientas Esenciales del Examen EX200
 
-Este reto evaluará tu capacidad para utilizar comandos básicos de manipulación de archivos, filtros, enlaces y permisos en Rocky Linux 9.
+Este reto evaluará tu capacidad para utilizar comandos básicos de manipulación de archivos, filtros, enlaces y permisos en AlmaLinux 10 / RHEL 10.
+
+**Nota RHEL 10**: La mayoría de comandos son idénticos a RHEL 9. dnf ahora es DNF5 por defecto (mismo comportamiento en la mayoría de casos).
 
 ## Objetivos del Reto
 

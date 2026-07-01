@@ -1,5 +1,5 @@
 # MASTER: Esqueletos de toda la serie RHCSA EX200
-# Generado: 2026-06-30
+# Generado: 2026-07-01
 
 Este archivo resume la estructura recomendada para la serie completa de videos/raps.
 

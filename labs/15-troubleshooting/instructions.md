@@ -1,6 +1,8 @@
 # Reto Práctico: Troubleshooting Escenarios para el Examen EX200
 
-Este reto evaluará tu capacidad para diagnosticar y resolver problemas comunes en AlmaLinux 9 / RHEL 9.
+Este reto evaluará tu capacidad para diagnosticar y resolver problemas comunes en AlmaLinux 10 / RHEL 10.
+
+**Nota RHEL 10**: Las herramientas de diagnóstico (journalctl, ip, ss, etc.) son las mismas.
 
 ## Objetivos del Reto
 

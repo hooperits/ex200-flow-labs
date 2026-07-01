@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 source "/labs/lib/demo-common.sh"
 
 # 1. Configuración de Firewalld
-clear_section "RHCSA Módulo 06: Seguridad y SELinux - Tema: 1. Firewall (firewalld)"
+clear_section "RHCSA Módulo 06: Seguridad y SELinux (RHEL 10) - Tema: 1. Firewall (firewalld)"
 run_demo_cmd "Listamos el estado de las reglas activas del firewall" "sudo firewall-cmd --list-all | head -n 8"
 run_demo_cmd "Obtenemos la zona por defecto asignada actualmente" "sudo firewall-cmd --get-default-zone"
 run_demo_cmd "Simulamos añadir el servicio http de forma permanente" "echo 'firewall-cmd --permanent --add-service=http' (ejemplo de firewall-cmd)"
@@ -21,7 +21,7 @@ run_demo_cmd "Simulamos aplicar los cambios en caliente usando reload" "echo 'fi
 sleep 2.0
 
 # 2. Modos y Estados de SELinux
-clear_section "RHCSA Módulo 06: Seguridad y SELinux - Tema: 2. Modos de SELinux"
+clear_section "RHCSA Módulo 06: Seguridad y SELinux (RHEL 10) - Tema: 2. Modos de SELinux"
 run_demo_cmd "Verificamos si SELinux está activo y en qué modo" "getenforce"
 run_demo_cmd "Mostramos los parámetros detallados de estado de SELinux" "sestatus | head -n 6"
 run_demo_cmd "Visualizamos los contextos de seguridad de archivos en /etc" "ls -dZ /etc | head -n 4"
@@ -29,7 +29,7 @@ run_demo_cmd "Simulamos cambiar el modo activo temporalmente a Permissive" "echo
 sleep 2.0
 
 # 3. Contextos de SELinux (Archivos y Puertos)
-clear_section "RHCSA Módulo 06: Seguridad y SELinux - Tema: 3. Contextos SELinux"
+clear_section "RHCSA Módulo 06: Seguridad y SELinux (RHEL 10) - Tema: 3. Contextos SELinux"
 run_demo_cmd "Visualizamos los contextos del directorio raíz actual" "ls -lZ / | head -n 6"
 run_demo_cmd "Simulamos registrar una regla de contexto de seguridad para Apache" "echo 'semanage fcontext -a -t httpd_sys_content_t \"/var/www/html(/.*)?\"' (ejemplo de fcontext)"
 run_demo_cmd "Simulamos forzar la reescritura del contexto del archivo" "echo 'restorecon -R -v /var/www/html' (ejemplo de restorecon)"
@@ -37,7 +37,7 @@ run_demo_cmd "Simulamos habilitar un puerto no estándar en SELinux" "echo 'sema
 sleep 2.0
 
 # 4. Booleanos de SELinux
-clear_section "RHCSA Módulo 06: Seguridad y SELinux - Tema: 4. Booleanos SELinux"
+clear_section "RHCSA Módulo 06: Seguridad y SELinux (RHEL 10) - Tema: 4. Booleanos SELinux"
 run_demo_cmd "Buscamos algunos booleanos relacionados con servicios web" "getsebool -a | grep httpd | head -n 4"
 run_demo_cmd "Mostramos el estado actual de un booleano en particular" "getsebool httpd_enable_homedirs"
 run_demo_cmd "Simulamos cambiar el valor de un booleano de forma permanente con -P" "echo 'setsebool -P httpd_enable_homedirs on' (ejemplo de setsebool)"

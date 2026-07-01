@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 source "/labs/lib/demo-common.sh"
 
 # 1. Redirecciones de entrada/salida y pipes
-clear_section "RHCSA Módulo 01: Herramientas Esenciales - Tema: 1. Redirecciones y Pipes"
+clear_section "RHCSA Módulo 01: Herramientas Esenciales (RHEL 10) - Tema: 1. Redirecciones y Pipes"
 run_demo_cmd "Redirigimos la salida estándar (stdout) a un archivo usando el operador '>'" "echo 'Hola Estudiante EX200' > saludo.txt"
 run_demo_cmd "Leemos el archivo creado para confirmar su contenido" "cat saludo.txt"
 run_demo_cmd "Redirigimos el canal de error (stderr, descriptor 2) a otro archivo usando '2>'" "ls archivo_inexistente.txt 2> error.log"
@@ -23,14 +23,14 @@ rm -f saludo.txt error.log
 sleep 2.0
 
 # 2. Uso de grep y expresiones regulares
-clear_section "RHCSA Módulo 01: Herramientas Esenciales - Tema: 2. Filtrado con grep"
+clear_section "RHCSA Módulo 01: Herramientas Esenciales (RHEL 10) - Tema: 2. Filtrado con grep"
 run_demo_cmd "Creamos un archivo temporal con varios registros de prueba" "echo -e 'EX200: Permisos\nEX200: Redes\nOTRO: Linux\nEX200: Storage' > temas.txt"
 run_demo_cmd "Usamos grep con expresión regular '^EX200:' para buscar líneas que inicien con ese texto" "grep -E '^EX200:' temas.txt"
 rm -f temas.txt
 sleep 2.0
 
 # 3. Enlaces duros y simbólicos + Archivación y Compresión con tar (agrupado para alineación con letras)
-clear_section "RHCSA Módulo 01: Herramientas Esenciales - Tema: 3. Enlaces y tar"
+clear_section "RHCSA Módulo 01: Herramientas Esenciales (RHEL 10) - Tema: 3. Enlaces y tar"
 run_demo_cmd "Creamos un archivo base de origen" "echo 'Datos Importantes' > original.txt"
 run_demo_cmd "Creamos un enlace duro que compartirá el mismo inodo que el archivo original" "ln original.txt enlace_duro.txt"
 run_demo_cmd "Creamos un enlace simbólico (o de tipo soft) usando la opción '-s'" "ln -s original.txt enlace_simbolico.txt"
@@ -43,7 +43,7 @@ rm -f archivo_a.txt archivo_b.txt backup.tar.gz
 sleep 2.0
 
 # 4. Permisos estándar de archivos (alineado con estructura de letras)
-clear_section "RHCSA Módulo 01: Herramientas Esenciales - Tema: 4. Permisos (chmod/chown)"
+clear_section "RHCSA Módulo 01: Herramientas Esenciales (RHEL 10) - Tema: 4. Permisos (chmod/chown)"
 run_demo_cmd "Creamos un archivo para pruebas de permisos" "touch secreto.txt"
 run_demo_cmd "Revisamos los permisos iniciales con ls -l" "ls -l secreto.txt"
 run_demo_cmd "Modificamos los permisos a 640 (lectura/escritura dueño, lectura grupo, nada para otros)" "chmod 640 secreto.txt"

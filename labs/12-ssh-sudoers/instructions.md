@@ -1,6 +1,8 @@
 # Reto Práctico: SSH, Claves y Sudoers para el Examen EX200
 
-Este reto evaluará tu capacidad para configurar SSH con claves, gestionar usuarios con sudoers y controlar acceso en AlmaLinux 9 / RHEL 9.
+Este reto evaluará tu capacidad para configurar SSH con claves, gestionar usuarios con sudoers y controlar acceso en AlmaLinux 10 / RHEL 10.
+
+**Nota RHEL 10**: sshd y sudoers funcionan igual. Las políticas de crypto pueden ser más estrictas.
 
 ## Objetivos del Reto
 

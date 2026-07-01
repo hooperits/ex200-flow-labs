@@ -1,6 +1,6 @@
 # Esqueleto Video / Letras - 02-shell-scripting
 # Generado desde: /home/juanca/proys/RHCSA-EX200/labs/02-shell-scripting/demo.sh
-# Fecha: 2026-06-30
+# Fecha: 2026-07-01
 #
 # Instrucciones:
 # - Alinea con las letras en RHCSA-EX200-lyrics/.

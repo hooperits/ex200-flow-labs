@@ -1,7 +1,7 @@
 # RHCSA-EX200 — Complete Strategic Roadmap
 
 **Project**: ex200-flow-labs (RHCSA EX200 hands-on labs in Spanish)  
-**Primary Public Purpose**: Help students master and pass the Red Hat Certified System Administrator (EX200) exam on RHEL 9 / AlmaLinux 9.  
+**Primary Public Purpose**: Help students master and pass the Red Hat Certified System Administrator (EX200) exam on RHEL 10 / AlmaLinux 10.  
 **Internal Dual Engine**: High-quality educational content that powers professional YouTube video production (Eminem-style Spanish RAP) + drives GitHub growth.
 
 > **CRITICAL RULE (Public vs Internal)**:  
@@ -59,7 +59,7 @@ Educational Quality Rules and post-task checklist are maintained in AGENTS.md.
 - Strong pedagogical "The Flow"
 - Automated non-destructive verifiers with colored output
 - All in Spanish
-- Vagrant + AlmaLinux 9 baseline
+- Vagrant + AlmaLinux 10 baseline
 - Shared `lib/demo-common.sh` with `--video` / `--fast` modes (production support without changing default student experience)
 - Video skeleton + Suno prompt generator (`scripts/generate-video-skeleton.sh`)
 - Active post-task Educational Quality Checklist usage (see docs/educational-quality-audit.md)

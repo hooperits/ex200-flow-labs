@@ -1,6 +1,8 @@
 # Reto Práctico: Parámetros del Kernel y sysctl para el Examen EX200
 
-Este reto evaluará tu capacidad para inspeccionar y modificar parámetros del kernel con sysctl en AlmaLinux 9 / RHEL 9.
+Este reto evaluará tu capacidad para inspeccionar y modificar parámetros del kernel con sysctl en AlmaLinux 10 / RHEL 10.
+
+**Nota RHEL 10**: sysctl y /proc/sys son los mismos. Kernel es 6.12.
 
 ## Objetivos del Reto
 
