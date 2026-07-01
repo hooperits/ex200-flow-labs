@@ -27,6 +27,9 @@
   </a>
   <img src="https://img.shields.io/badge/Labs-15-success?style=for-the-badge" alt="15 Laboratorios" />
   <img src="https://img.shields.io/badge/Idioma-Espa%C3%B1ol-green?style=for-the-badge" alt="Español" />
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" alt="License: MIT" />
+  </a>
 </p>
 
 > **"Con los comandos en la shell, pasar el EX200 se vuelve un nivel fácil de vencer."**
@@ -328,6 +331,15 @@ cd /labs/XX-...
 - **Cobertura actual**: ~83% de los objetivos del EX200.
 - **Documentación interna del proyecto**: Consulta `AGENTS.md` (reglas de calidad educativa).
 - **Examen oficial**: [Red Hat EX200](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam)
+
+---
+
+## 📜 Licencia
+
+Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+
+**Descargo de responsabilidad**: Este es un proyecto educativo independiente y **no está afiliado, respaldado ni aprobado por Red Hat, Inc.**  
+Los nombres «Red Hat», «RHCSA», «RHEL», «EX200» y otros términos relacionados son marcas registradas de Red Hat, Inc. Su uso en este repositorio es únicamente con fines descriptivos y educativos.
 
 ---
 
