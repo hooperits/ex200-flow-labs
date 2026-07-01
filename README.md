@@ -279,7 +279,7 @@ graph TD
 
 1. Lee el reto completo (`cat instructions.md`).
 2. Realiza las tareas indicadas (normalmente dentro de `challenge/`).
-3. Ejecuta `./verify.sh` para autoevaluarte.
+3. Ejecuta `./verify.sh` (o `./verify.sh --explain` para más detalles) para autoevaluarte.
 4. Si falla, consulta `hints.md` de forma progresiva o usa `reset.sh` para empezar limpio.
 5. `demo.sh` sirve para ver los comandos en acción (no es obligatorio).
 
@@ -291,8 +291,24 @@ Dentro de la VM siempre trabajarás en `/labs`:
 
 ```bash
 cd /labs/07-local-storage
-./verify.sh --explain     # Muchos verificadores tienen modo explicativo
+./verify.sh              # Validación normal
+./verify.sh --explain    # Modo explicativo (muestra sugerencias al fallar)
 ```
+
+### Parámetros de los scripts
+
+Cada laboratorio incluye tres scripts principales. Estos son los parámetros que aceptan:
+
+| Script       | Comando                        | Parámetros soportados              | Descripción |
+|--------------|--------------------------------|------------------------------------|-----------|
+| `verify.sh`  | `./verify.sh`                  | `--explain`                        | Valida tu solución. Con `--explain` muestra sugerencias detalladas cuando falla una prueba. |
+| `demo.sh`    | `./demo.sh`                    | `--fast`, `--video`                | Muestra los comandos en acción. `--fast` reduce pausas. `--video` está optimizado para grabación (muy rápido y limpio). |
+| `reset.sh`   | `./reset.sh`                   | *(ninguno)*                        | Restaura el laboratorio a su estado inicial limpio. No acepta parámetros. |
+
+**Notas importantes:**
+- Siempre ejecuta estos scripts **dentro del directorio del laboratorio** (`cd /labs/XX-nombre-lab`).
+- `demo.sh` es opcional (solo para ver ejemplos). Puedes completar los retos usando solo `instructions.md` + `hints.md`.
+- Estos flags son consistentes en **todos** los laboratorios.
 
 Desde el host puedes reprovisionar o recargar:
 
