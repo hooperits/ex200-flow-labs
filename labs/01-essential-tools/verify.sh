@@ -70,8 +70,8 @@ fi
 
 # 3. Validación de Permisos y Propietario de secure_perm.txt
 if [ -f "$CHALLENGE_DIR/secure_perm.txt" ]; then
-    PERMS="$(stat -c "%a" "$CHALLENGE_DIR/secure_perm.txt")"
-    GROUP="$(stat -c "%G" "$CHALLENGE_DIR/secure_perm.txt")"
+    PERMS="$(stat -c "%a" "$CHALLENGE_DIR/secure_perm.txt" 2>/dev/null | sed 's/^0*//')"
+    GROUP="$(stat -c "%G" "$CHALLENGE_DIR/secure_perm.txt" 2>/dev/null)"
     
     if [ "$PERMS" = "640" ]; then
         print_result "Permisos 640" "SUCCESS" "Los permisos de 'secure_perm.txt' están configurados exactamente a 640."

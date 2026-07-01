@@ -60,8 +60,10 @@ Vagrant.configure("2") do |config|
   # Note: Do NOT hardcode smb_username/smb_password here.
   # Let Vagrant use the current Windows user's credentials (run PowerShell as Administrator).
   config.vm.provider "hyperv" do |h, override|
-    override.vm.synced_folder "./labs", "/labs", type: "smb"
-    override.vm.synced_folder "./lib", "/labs/lib", type: "smb"
+    override.vm.synced_folder "./labs", "/labs", type: "smb",
+      mount_options: ["file_mode=0644", "dir_mode=0755", "noperm"]
+    override.vm.synced_folder "./lib", "/labs/lib", type: "smb",
+      mount_options: ["file_mode=0644", "dir_mode=0755", "noperm"]
   end
 
   # Libvirt specific synced folder overrides (use 9p for better Linux compatibility)
