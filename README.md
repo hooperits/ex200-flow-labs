@@ -14,187 +14,335 @@
                         ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝                         
 </pre>
 </div>
+
 <p align="center">
   <a href="https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam">
-    <img src="https://img.shields.io/badge/Exam-RHCSA%20EX200-red?style=for-the-badge&logo=redhat" alt="RHCSA-EX200" />
+    <img src="https://img.shields.io/badge/Exam-RHCSA%20EX200-red?style=for-the-badge&logo=redhat" alt="RHCSA EX200" />
   </a>
   <a href="https://almalinux.org/">
-    <img src="https://img.shields.io/badge/RHEL-9%20Compatible-red?style=for-the-badge&logo=redhat" alt="RHEL-Version" />
+    <img src="https://img.shields.io/badge/RHEL-9%20%7C%20AlmaLinux%209-red?style=for-the-badge&logo=redhat" alt="RHEL 9 Compatible" />
   </a>
   <a href="https://www.vagrantup.com/">
-    <img src="https://img.shields.io/badge/Environment-Vagrant%20%2B%20Hyper--V-blue?style=for-the-badge&logo=vagrant" alt="Vagrant" />
+    <img src="https://img.shields.io/badge/Vagrant-Multi--Provider-blue?style=for-the-badge&logo=vagrant" alt="Vagrant Multi-Provider" />
   </a>
-  <a href="https://github.com/github/spec-kit">
-    <img src="https://img.shields.io/badge/Language-Espa%C3%B1ol-green?style=for-the-badge" alt="Language" />
-  </a>
+  <img src="https://img.shields.io/badge/Labs-15-success?style=for-the-badge" alt="15 Laboratorios" />
+  <img src="https://img.shields.io/badge/Idioma-Espa%C3%B1ol-green?style=for-the-badge" alt="Español" />
 </p>
 
 > **"Con los comandos en la shell, pasar el EX200 se vuelve un nivel fácil de vencer."**
 
-`ex200-flow-labs` es un entorno interactivo y automatizado de aprendizaje diseñado en español para dominar el examen **Red Hat Certified System Administrator (RHCSA EX200)** basado en **Red Hat Enterprise Linux 9 (RHEL 9)**. 
+Entorno de laboratorios **prácticos y automatizados** en español para preparar y aprobar el examen **Red Hat Certified System Administrator (RHCSA EX200)** sobre **RHEL 9 / AlmaLinux 9**.
 
-Este proyecto utiliza **Vagrant con Hyper-V** para ofrecer laboratorios rápidos y aislados orientados a la práctica interactiva para el examen de certificación.
+Este repositorio proporciona **15 laboratorios** listos para usar con **Vagrant** (Hyper-V, VirtualBox o libvirt/KVM). Cada laboratorio incluye instrucciones claras, un validador automático, reset y pistas progresivas.
 
----
-
-## 📚 Tabla de Contenidos de los Laboratorios
-
-A continuación se detalla la lista de laboratorios disponibles. Haz clic en los enlaces para acceder directamente a las instrucciones, validadores, restauradores o pistas de cada reto práctico:
-
-| Módulo | Tema del Laboratorio | Objetivos Evaluados (Resumen) | Guía de Reto (Challenge) | Evaluador | Restaurador | Pistas |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| **01** | Herramientas Esenciales | Enlaces blandos/duros, permisos octales `640`, filtros de texto con `grep` y `regex`. | [Ver Reto](labs/01-essential-tools/instructions.md) | [verify.sh](labs/01-essential-tools/verify.sh) | [reset.sh](labs/01-essential-tools/reset.sh) | [hints.md](labs/01-essential-tools/hints.md) |
-| **02** | Shell Scripting | Variables, aritmética `$((A+B))`, condicionales `if/elif/else`, bucles `for/while` y control de parámetros. | [Ver Reto](labs/02-shell-scripting/instructions.md) | [verify.sh](labs/02-shell-scripting/verify.sh) | [reset.sh](labs/02-shell-scripting/reset.sh) | [hints.md](labs/02-shell-scripting/hints.md) |
-| **03** | Operación de Sistemas | Archivos de servicio de systemd (`.service`), cambio de targets predeterminados y restauración de contraseña de root en GRUB (`rd.break`). | [Ver Reto](labs/03-operating-systems/instructions.md) | [verify.sh](labs/03-operating-systems/verify.sh) | [reset.sh](labs/03-operating-systems/reset.sh) | [hints.md](labs/03-operating-systems/hints.md) |
-| **04** | Usuarios y Grupos | Creación de identidades, shells no interactivas (`/sbin/nologin`), permisos colaborativos SGID (`2770`) y ACLs (`setfacl`). | [Ver Reto](labs/04-users-groups/instructions.md) | [verify.sh](labs/04-users-groups/verify.sh) | [reset.sh](labs/04-users-groups/reset.sh) | [hints.md](labs/04-users-groups/hints.md) |
-| **05** | Servicios de Red y Cron | Configuración de hostname, asignación de IP estática con `nmcli`, sincronización NTP con `chronyd` y tareas automatizadas en `crontab`. | [Ver Reto](labs/05-networking-services/instructions.md) | [verify.sh](labs/05-networking-services/verify.sh) | [reset.sh](labs/05-networking-services/reset.sh) | [hints.md](labs/05-networking-services/hints.md) |
-| **06** | Seguridad y SELinux | Reglas permanentes y puertos en `firewalld`, cambio y restauración de contextos de archivos (`restorecon`/`semanage`) y booleanos de SELinux. | [Ver Reto](labs/06-security-selinux/instructions.md) | [verify.sh](labs/06-security-selinux/verify.sh) | [reset.sh](labs/06-security-selinux/reset.sh) | [hints.md](labs/06-security-selinux/hints.md) |
-| **07** | Almacenamiento Local LVM | Inicialización de PVs, creación y redimensionamiento en caliente de VG/LV, formateo XFS/ext4 y volumen optimizado VDO. | [Ver Reto](labs/07-local-storage/instructions.md) | [verify.sh](labs/07-local-storage/verify.sh) | [reset.sh](labs/07-local-storage/reset.sh) | [hints.md](labs/07-local-storage/hints.md) |
-| **08** | Sistemas de Archivos de Red | Montaje local persistente por UUID en `fstab`, montajes automáticos bajo demanda de NFS mediante mapas de Autofs. | [Ver Reto](labs/08-filesystems-network/instructions.md) | [verify.sh](labs/08-filesystems-network/verify.sh) | [reset.sh](labs/08-filesystems-network/reset.sh) | [hints.md](labs/08-filesystems-network/hints.md) |
-| **09** | Contenedores Podman | Búsqueda y descarga de imágenes ubi9, inicio de contenedores en modo rootless con volumen local persistente (`:Z`), y servicios persistentes de usuario. | [Ver Reto](labs/09-podman-containers/instructions.md) | [verify.sh](labs/09-podman-containers/verify.sh) | [reset.sh](labs/09-podman-containers/reset.sh) | [hints.md](labs/09-podman-containers/hints.md) |
+**Enfoque principal de este README**: cómo desplegar el entorno de laboratorios de forma rápida y confiable.
 
 ---
 
-## ⚡ El Flujo de Estudio ("The Flow")
+## 🚀 Quickstart (5-10 minutos)
 
-Cada laboratorio cuenta con una metodología estricta de cinco pasos estructurada bajo principios de desarrollo ágil:
+Sigue estos pasos para tener tu primera máquina virtual lista y poder comenzar cualquier laboratorio.
 
-```mermaid
-graph TD
-    A[1. Entender: demo.sh] --> B[2. Practicar: instructions.md]
-    B --> C[3. Evaluar: verify.sh]
-    C -- FAILED --> D[Pistas: hints.md / Reiniciar: reset.sh]
-    D --> B
-    C -- PASSED --> E[¡Siguiente Tema!]
-```
+### 1. Clona el repositorio
 
-1.  **`demo.sh` (La Demo Visual):** Corre el script de tutorial animado dentro de la VM para ver los comandos en acción.
-2.  **`instructions.md` (El Reto):** Lee las directrices del challenge redactadas en español (pero conservando comandos en inglés).
-3.  **`verify.sh` (El Validador):** Ejecuta el validador automatizado para autoevaluar tu entrega. Te dará un reporte visual de `PASSED`/`FAILED` sin alterar tus configuraciones.
-4.  **`reset.sh` (El Reinicio):** ¿Cometiste un error crítico? Ejecuta el reset para limpiar la práctica y volver a empezar.
-5.  **`hints.md` (Las Pistas):** Consulta pistas progresivas si te encuentras estancado.
-
----
-
-## 🚀 Guía de Inicio Rápido (Paso a Paso)
-
-Sigue este flujo cronológico ordenado para configurar tu entorno y ejecutar tu primer laboratorio en menos de 10 minutos.
-
-### Paso 1: Clonar el proyecto
-Primero, abre la terminal de **PowerShell** en tu Windows 10/11 y clona este repositorio en un directorio local de tu disco físico (por ejemplo, `C:\proys\`):
-```powershell
-# Nota: Requiere tener Git para Windows instalado
+```bash
 git clone https://github.com/hooperits/ex200-flow-labs.git
 cd ex200-flow-labs
 ```
 
-### Paso 2: Activar Hyper-V en Windows
-Hyper-V es la tecnología nativa de virtualización de Windows. Para activarla:
-1. Con la consola de **PowerShell** aún abierta, asegúrate de ejecutarla con privilegios de **Administrador**.
-2. Copia y ejecuta el siguiente comando:
+### 2. Instala Vagrant + proveedor de virtualización
+
+- **Windows**: Instala [Vagrant](https://www.vagrantup.com/downloads) + activa Hyper-V o instala VirtualBox.
+- **macOS**: `brew install --cask vagrant virtualbox` (o usa UTM + libvirt si prefieres).
+- **Linux**: `sudo dnf install -y vagrant` o usa tu gestor de paquetes + VirtualBox o `vagrant-libvirt`.
+
+### 3. Levanta la máquina virtual
+
+```powershell
+# Windows (PowerShell como Administrador recomendado para Hyper-V)
+vagrant up --provider=hyperv
+
+# macOS / Linux con VirtualBox (recomendado para la mayoría)
+vagrant up --provider=virtualbox
+
+# Linux con KVM/libvirt
+vagrant up --provider=libvirt
+```
+
+> [!IMPORTANT]
+> Durante el primer `vagrant up` con Hyper-V se te pedirá elegir un **Virtual Switch**. Selecciona **Default Switch**.
+
+> [!NOTE]
+> Con Hyper-V en Windows, es muy recomendable crear un usuario local administrador llamado `vagrantlabs` (ver sección detallada más abajo).
+
+### 4. Accede a la VM y verifica
+
+```powershell
+vagrant ssh
+```
+
+Dentro de la VM (AlmaLinux 9):
+
+```bash
+ls /labs                  # Verás los 15 laboratorios
+lsblk                     # Para labs de almacenamiento debe aparecer /dev/sdb
+```
+
+### 5. Elige un laboratorio y comienza
+
+```bash
+cd /labs/01-essential-tools
+cat instructions.md       # Lee el reto
+# ... realiza los cambios necesarios en el directorio challenge/ ...
+./verify.sh               # Valida tu solución
+```
+
+¡Listo! Repite con cualquier otro módulo.
+
+---
+
+## 📋 Requisitos Previos
+
+| Plataforma | Requisitos |
+|------------|------------|
+| **Windows 10/11** | Hyper-V activado **o** VirtualBox instalado. PowerShell. Git. |
+| **macOS** | VirtualBox (o alternativa) + Vagrant. |
+| **Linux** | VirtualBox o QEMU/KVM + `vagrant-libvirt` plugin + Vagrant. |
+
+**Común a todos**: Conexión a internet para el primer aprovisionamiento (descarga de la box de AlmaLinux 9 + paquetes).
+
+---
+
+## 🖥️ Proveedores Soportados
+
+| Proveedor     | Host recomendado       | Notas clave                                                                 | Comando recomendado                  | Dificultad inicial |
+|---------------|------------------------|-----------------------------------------------------------------------------|--------------------------------------|--------------------|
+| **Hyper-V**   | Windows 10/11 Pro/Enterprise | Requiere usuario local con permisos de Administrador para montaje SMB. Muy rápido en Windows. | `vagrant up --provider=hyperv`      | Media (credenciales) |
+| **VirtualBox**| Windows, macOS, Linux  | Más universal. Fácil de usar. Recomendado si no estás atado a Hyper-V.     | `vagrant up --provider=virtualbox`  | Baja               |
+| **libvirt**   | Linux (Fedora, Ubuntu, etc.) | Excelente rendimiento. Requiere plugin `vagrant-libvirt` y privilegios.   | `vagrant up --provider=libvirt`     | Media (setup inicial) |
+
+**Recomendación**:
+- Windows → prueba primero **VirtualBox** si no quieres complicarte con el usuario local.
+- Quieres máxima integración Windows → usa **Hyper-V**.
+- Linux → **libvirt** o VirtualBox.
+
+---
+
+## 🔧 Guía Detallada de Despliegue
+
+<details>
+<summary><strong>Windows + Hyper-V (clic para expandir)</strong></summary>
+
+1. Activa Hyper-V (como Administrador):
+
    ```powershell
    Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
    ```
-3. Si el sistema te solicita reiniciar para aplicar los cambios, acepta y reinicia tu equipo.
 
-### Paso 3: Instalar Vagrant
-Vagrant creará y gestionará la máquina virtual de forma automática:
-1. Descarga el instalador oficial de [Vagrant para Windows](https://www.vagrantup.com/downloads) (arquitectura AMD64/x86_64).
-2. Ejecuta el archivo descargado y completa el asistente haciendo clic en "Next" hasta finalizar.
+2. Crea un usuario local auxiliar (recomendado):
 
-### Paso 4: Encender la Máquina Virtual
-Para evitar ingresar tu cuenta personal de Windows (o si inicias sesión con PIN y no recuerdas tu contraseña), crearemos un usuario local auxiliar en Windows exclusivo para la compartición de archivos del laboratorio:
-
-1. Abre tu terminal de **PowerShell** con privilegios de **Administrador** (requerido por Hyper-V).
-2. Crea el usuario local `vagrantlabs` ejecutando los siguientes dos comandos:
    ```powershell
    net user vagrantlabs MiPasswordSeguro123 /add
    net localgroup Administradores vagrantlabs /add
    ```
-3. Inicia la máquina virtual de estudio (AlmaLinux 9) ejecutando:
+
+3. Levanta la VM:
+
    ```powershell
    vagrant up --provider=hyperv
    ```
 
-> [!IMPORTANT]
-> **1. Selección del Switch Virtual en Hyper-V**:
-> Durante el arranque, Vagrant te solicitará elegir un **Virtual Switch** (Switch Virtual). 
-> * **Recomendación**: Elige el número de opción correspondiente a **`Default Switch`**.
-> * **Por qué**: Este switch interno de Windows viene preconfigurado con asignación de IP automática (DHCP) y traducción de red (NAT), lo que asegura que tu máquina virtual obtenga salida a Internet para el aprovisionamiento y que Vagrant pueda comunicarse con ella vía SSH.
+4. Cuando pida credenciales SMB para montar carpetas, usa:
+   - Usuario: `vagrantlabs`
+   - Contraseña: la que definiste
 
-> [!NOTE]
-> **2. Credenciales de Windows (SMB)**:
-> Al montar las carpetas, Vagrant te pedirá un usuario y contraseña. Utiliza la cuenta de servicio local que acabas de crear:
-> * **Username (usuario)**: `vagrantlabs`
-> * **Password (contraseña)**: `MiPasswordSeguro123`
-> *(Nota: Vagrant no almacena tus credenciales en ningún sitio; solo las pasa localmente a Windows para autorizar el montaje de la carpeta de red hacia la VM).*
+</details>
 
+<details>
+<summary><strong>macOS + VirtualBox</strong></summary>
 
-### Paso 5: Acceder a la VM y Ejecutar el Lab
-1. Conéctate a la consola de la máquina virtual vía SSH:
-   ```powershell
-   vagrant ssh
-   ```
-2. Dentro de la máquina (que es un entorno Linux puro de AlmaLinux 9), navega al directorio del laboratorio y entra en el módulo que desees practicar (por ejemplo, el módulo 01):
-   ```bash
-   cd /labs/01-essential-tools/
-   ```
-3. Ejecuta la demostración animada en español para ver los comandos en acción:
-   ```bash
-   ./demo.sh
-   ```
-4. Lee las instrucciones del reto práctico:
-   ```bash
-   cat instructions.md
-   ```
-5. Realiza los cambios necesarios en el subdirectorio `challenge/` para resolver el reto (puedes ver pistas progresivas con `cat hints.md`).
-6. Valida si tu solución es correcta ejecutando el validador automático no destructivo:
-   ```bash
-   ./verify.sh
-   ```
-7. Si deseas volver a practicar desde cero, limpia el entorno ejecutando:
-   ```bash
-   ./reset.sh
-   ```
+```bash
+brew install --cask virtualbox vagrant
+vagrant up --provider=virtualbox
+vagrant ssh
+```
+
+</details>
+
+<details>
+<summary><strong>Linux + VirtualBox o libvirt</strong></summary>
+
+**VirtualBox** (simple):
+
+```bash
+sudo dnf install -y VirtualBox vagrant   # o equivalente en tu distro
+vagrant up --provider=virtualbox
+```
+
+**libvirt/KVM**:
+
+```bash
+sudo dnf install -y vagrant vagrant-libvirt libvirt qemu
+vagrant plugin install vagrant-libvirt
+vagrant up --provider=libvirt
+```
+
+</details>
+
+### Pasos comunes después de `vagrant up`
+
+```bash
+vagrant ssh
+sudo dnf update -y                 # Opcional pero recomendado
+ls /labs                           # 15 laboratorios listos
+```
 
 > [!TIP]
-> **Sincronización de Archivos**:
-> Si realizas cambios en las instrucciones o scripts de la carpeta `./labs/` en el host (Windows) con tu editor de código (como VS Code), puedes sincronizarlos con la máquina virtual en cualquier momento ejecutando desde PowerShell en Windows:
+> Si editas archivos en tu máquina host (VS Code, etc.), sincronízalos con:
 > ```powershell
+> # Desde el host
 > vagrant provision
 > ```
 
 ---
 
-## 🔧 Resolución de Problemas Comunes (FAQ)
+## ✅ Verifica que tu Entorno Está Listo
 
-### 1. ¿Por qué obtengo un error `command not found` al ejecutar herramientas como `semanage` o `autofs`?
-Asegúrate de que el aprovisionamiento inicial de Vagrant se haya ejecutado por completo. Si iniciaste la máquina sin conexión a Internet o se omitió el paso, puedes forzar la instalación de los paquetes requeridos ejecutando desde PowerShell en Windows:
+Ejecuta dentro de la VM:
+
+```bash
+# 1. ¿Existen los laboratorios?
+ls /labs | head -5
+
+# 2. ¿Hay disco secundario para LVM/VDO?
+lsblk | grep sdb
+
+# 3. ¿Están instalados paquetes básicos de los laboratorios?
+rpm -q policycoreutils-python-utils autofs nfs-utils
+
+# 4. Prueba un verificador (no destructivo)
+cd /labs/01-essential-tools
+./verify.sh
+```
+
+Si ves la lista de laboratorios y el disco `sdb`, estás listo.
+
+---
+
+## 📚 Catálogo de Laboratorios (15 Retos)
+
+Haz clic en **Instrucciones** para empezar el reto de cada módulo. Los demás archivos son de apoyo.
+
+| #  | Laboratorio                                      | Descripción Breve                                      | Instrucciones                  | Demo (apoyo)              | Validar             | Reset              | Pistas            |
+|:--:|--------------------------------------------------|--------------------------------------------------------|--------------------------------|---------------------------|---------------------|--------------------|-------------------|
+| 01 | Herramientas Esenciales                          | Enlaces, permisos octales, `grep`, redirecciones       | [Instrucciones](labs/01-essential-tools/instructions.md) | [demo.sh](labs/01-essential-tools/demo.sh) | [verify.sh](labs/01-essential-tools/verify.sh) | [reset.sh](labs/01-essential-tools/reset.sh) | [hints.md](labs/01-essential-tools/hints.md) |
+| 02 | Shell Scripting                                  | Variables, condicionales, bucles, parámetros           | [Instrucciones](labs/02-shell-scripting/instructions.md) | [demo.sh](labs/02-shell-scripting/demo.sh) | [verify.sh](labs/02-shell-scripting/verify.sh) | [reset.sh](labs/02-shell-scripting/reset.sh) | [hints.md](labs/02-shell-scripting/hints.md) |
+| 03 | Operación del Sistema                            | systemd, targets, recuperación de contraseña (rd.break)| [Instrucciones](labs/03-operating-systems/instructions.md) | [demo.sh](labs/03-operating-systems/demo.sh) | [verify.sh](labs/03-operating-systems/verify.sh) | [reset.sh](labs/03-operating-systems/reset.sh) | [hints.md](labs/03-operating-systems/hints.md) |
+| 04 | Usuarios y Grupos                                | Cuentas, `nologin`, SGID, ACLs (`setfacl`)             | [Instrucciones](labs/04-users-groups/instructions.md) | [demo.sh](labs/04-users-groups/demo.sh) | [verify.sh](labs/04-users-groups/verify.sh) | [reset.sh](labs/04-users-groups/reset.sh) | [hints.md](labs/04-users-groups/hints.md) |
+| 05 | Red, NTP y Cron                                  | Hostname, `nmcli` estático, `chronyd`, `crontab`       | [Instrucciones](labs/05-networking-services/instructions.md) | [demo.sh](labs/05-networking-services/demo.sh) | [verify.sh](labs/05-networking-services/verify.sh) | [reset.sh](labs/05-networking-services/reset.sh) | [hints.md](labs/05-networking-services/hints.md) |
+| 06 | Seguridad y SELinux                              | `firewalld`, contextos, booleanos, `semanage`          | [Instrucciones](labs/06-security-selinux/instructions.md) | [demo.sh](labs/06-security-selinux/demo.sh) | [verify.sh](labs/06-security-selinux/verify.sh) | [reset.sh](labs/06-security-selinux/reset.sh) | [hints.md](labs/06-security-selinux/hints.md) |
+| 07 | Almacenamiento Local (LVM + VDO)                 | PV/VG/LV, `mkfs`, resize en caliente, VDO              | [Instrucciones](labs/07-local-storage/instructions.md) | [demo.sh](labs/07-local-storage/demo.sh) | [verify.sh](labs/07-local-storage/verify.sh) | [reset.sh](labs/07-local-storage/reset.sh) | [hints.md](labs/07-local-storage/hints.md) |
+| 08 | Sistemas de Archivos y Red                       | `fstab` por UUID, NFS, Autofs                          | [Instrucciones](labs/08-filesystems-network/instructions.md) | [demo.sh](labs/08-filesystems-network/demo.sh) | [verify.sh](labs/08-filesystems-network/verify.sh) | [reset.sh](labs/08-filesystems-network/reset.sh) | [hints.md](labs/08-filesystems-network/hints.md) |
+| 09 | Contenedores con Podman                          | Rootless, volúmenes `:Z`, servicios de usuario         | [Instrucciones](labs/09-podman-containers/instructions.md) | [demo.sh](labs/09-podman-containers/demo.sh) | [verify.sh](labs/09-podman-containers/verify.sh) | [reset.sh](labs/09-podman-containers/reset.sh) | [hints.md](labs/09-podman-containers/hints.md) |
+| 10 | Gestión de Paquetes y Repositorios               | `dnf`, repos locales, módulos (AppStream)              | [Instrucciones](labs/10-package-management/instructions.md) | [demo.sh](labs/10-package-management/demo.sh) | [verify.sh](labs/10-package-management/verify.sh) | [reset.sh](labs/10-package-management/reset.sh) | [hints.md](labs/10-package-management/hints.md) |
+| 11 | Logging y Journalctl                             | `journalctl`, `rsyslog`, persistencia de logs          | [Instrucciones](labs/11-logging/instructions.md) | [demo.sh](labs/11-logging/demo.sh) | [verify.sh](labs/11-logging/verify.sh) | [reset.sh](labs/11-logging/reset.sh) | [hints.md](labs/11-logging/hints.md) |
+| 12 | SSH, Claves y Sudoers                            | `ssh-keygen`, `authorized_keys`, `sudoers.d`, sshd     | [Instrucciones](labs/12-ssh-sudoers/instructions.md) | [demo.sh](labs/12-ssh-sudoers/demo.sh) | [verify.sh](labs/12-ssh-sudoers/verify.sh) | [reset.sh](labs/12-ssh-sudoers/reset.sh) | [hints.md](labs/12-ssh-sudoers/hints.md) |
+| 13 | Parámetros del Kernel y sysctl                   | `sysctl`, `/etc/sysctl.d/`, `/proc/sys`                | [Instrucciones](labs/13-kernel-sysctl/instructions.md) | [demo.sh](labs/13-kernel-sysctl/demo.sh) | [verify.sh](labs/13-kernel-sysctl/verify.sh) | [reset.sh](labs/13-kernel-sysctl/reset.sh) | [hints.md](labs/13-kernel-sysctl/hints.md) |
+| 14 | Systemd Timers                                   | `.timer` + `.service`, `systemctl`, `list-timers`      | [Instrucciones](labs/14-systemd-timers/instructions.md) | [demo.sh](labs/14-systemd-timers/demo.sh) | [verify.sh](labs/14-systemd-timers/verify.sh) | [reset.sh](labs/14-systemd-timers/reset.sh) | [hints.md](labs/14-systemd-timers/hints.md) |
+| 15 | Troubleshooting                                  | Diagnóstico de servicios, permisos, red y logs         | [Instrucciones](labs/15-troubleshooting/instructions.md) | [demo.sh](labs/15-troubleshooting/demo.sh) | [verify.sh](labs/15-troubleshooting/verify.sh) | [reset.sh](labs/15-troubleshooting/reset.sh) | [hints.md](labs/15-troubleshooting/hints.md) |
+
+> **Consejo**: Los retos están diseñados para resolverse principalmente con `instructions.md` + `hints.md`. El archivo `demo.sh` es material de apoyo visual.
+
+---
+
+## 🔄 El Flujo de Estudio Recomendado
+
+```mermaid
+graph TD
+    A[1. Entender el reto<br/>instructions.md] --> B[2. Practicar<br/>Editar en challenge/]
+    B --> C[3. Validar<br/>./verify.sh]
+    C -- Falló --> D[Pistas: hints.md<br/>o Reiniciar: reset.sh]
+    D --> B
+    C -- PASSED --> E[¡Siguiente laboratorio!]
+```
+
+1. Lee el reto completo (`cat instructions.md`).
+2. Realiza las tareas indicadas (normalmente dentro de `challenge/`).
+3. Ejecuta `./verify.sh` para autoevaluarte.
+4. Si falla, consulta `hints.md` de forma progresiva o usa `reset.sh` para empezar limpio.
+5. `demo.sh` sirve para ver los comandos en acción (no es obligatorio).
+
+---
+
+## 🛠️ Uso Diario
+
+Dentro de la VM siempre trabajarás en `/labs`:
+
+```bash
+cd /labs/07-local-storage
+./verify.sh --explain     # Muchos verificadores tienen modo explicativo
+```
+
+Desde el host puedes reprovisionar o recargar:
+
+```powershell
+vagrant provision
+vagrant reload
+```
+
+---
+
+## ❓ Resolución de Problemas Comunes (Deploy)
+
+### No aparece el disco `/dev/sdb` (labs 07 y 08)
+```powershell
+vagrant reload
+# o
+vagrant destroy -f && vagrant up
+```
+
+### Error de credenciales SMB (Hyper-V)
+Asegúrate de haber creado el usuario `vagrantlabs` como Administrador y de usar exactamente esas credenciales cuando Vagrant las pida.
+
+### `command not found` para `semanage`, `autofs`, etc.
+El aprovisionamiento no terminó o no había internet. Ejecuta:
 ```powershell
 vagrant provision
 ```
-O bien de forma manual dentro de la VM (`vagrant ssh`):
+
+### Ejecuto `./verify.sh` en Windows/WSL y falla todo
+**Todos los comandos y verificadores deben ejecutarse dentro de la VM** (`vagrant ssh`).
+
+### La VM no tiene internet
+Verifica que elegiste el **Default Switch** (Hyper-V) o que tu proveedor tenga NAT/configurado correctamente.
+
+### Quiero empezar de cero un laboratorio específico
 ```bash
-sudo dnf install -y policycoreutils-python-utils autofs nfs-utils
+cd /labs/XX-...
+./reset.sh
 ```
 
-### 2. ¿Cómo soluciono errores de montaje SMB/credenciales al hacer `vagrant up`?
-Si Vagrant te solicita credenciales de Windows y falla la conexión de red compartida:
-1. Asegúrate de haber creado el usuario local `vagrantlabs` como Administrador tal como se indica en el **Paso 4**.
-2. Verifica que las políticas de red local de tu máquina no estén bloqueando el tráfico SMB (puerto `445`).
+---
 
-### 3. Ejecuto los evaluadores (`verify.sh`) en mi terminal local de Windows o WSL y fallan todas las pruebas
-Los validadores de este laboratorio están diseñados para auditar configuraciones a nivel de kernel y servicios de Red Hat Enterprise Linux 9 (`AlmaLinux 9`). **Debes ejecutar todos los comandos del reto y evaluadores dentro de la máquina virtual** habiendo accedido previamente a través de:
-```powershell
-vagrant ssh
-```
+## 📖 Recursos Adicionales
 
-### 4. ¿Cómo identifico si el disco secundario de LVM está disponible?
-Para los laboratorios de almacenamiento (Módulo 07 y 08), el entorno Vagrant aprovisiona un disco virtual de 5GB conectado a `/dev/sdb`. Puedes confirmar su existencia ejecutando:
-```bash
-lsblk
-```
-Si por alguna razón no aparece listado el disco `sdb`, puedes recargar la VM apagándola e iniciándola nuevamente con:
-```powershell
-vagrant reload
-```
+- **Matriz de Objetivos EX200**: `docs/objective-matrix.md` — mapeo detallado de los laboratorios a los objetivos oficiales del examen.
+- **Cobertura actual**: ~83% de los objetivos del EX200.
+- **Documentación interna del proyecto**: Consulta `AGENTS.md` (reglas de calidad educativa).
+- **Examen oficial**: [Red Hat EX200](https://www.redhat.com/en/services/training/ex200-red-hat-certified-system-administrator-exam)
+
+---
+
+## ⭐ ¿Te ayudó a prepararte?
+
+Si este repositorio te sirvió para dominar los conceptos y prepararte para el RHCSA EX200:
+
+- ⭐ **Dale una estrella** al repositorio
+- Comparte tu experiencia
+- Abre issues con sugerencias o errores encontrados
+
+¡Éxito en tu examen!
+
+---
+
+**Proyecto mantenido con foco en calidad educativa y práctica real con comandos de RHEL 9.**
