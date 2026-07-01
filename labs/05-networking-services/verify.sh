@@ -35,7 +35,7 @@ if $EXPLAIN_MODE; then
 fi
 
 echo -e "${CYAN}================================================================${NC}"
-echo -e "${CYAN}         Evaluador de Reto: Módulo 05 - Redes y Cron            ${NC}"
+echo -e "${CYAN}         Evaluador de Reto: Módulo 05 - Redes y Cron (RHEL 10)            ${NC}"
 echo -e "${CYAN}================================================================${NC}"
 echo
 
@@ -54,6 +54,14 @@ if [ -n "$IP_CHECK" ]; then
     print_result "Dirección IP Estática" "SUCCESS" "La IP 192.168.56.20 está asignada correctamente a una interfaz."
 else
     print_result "Dirección IP Estática" "FAIL" "No se encontró ninguna interfaz de red con la IP 192.168.56.20."
+fi
+
+# 2b. Verificar formato keyfile RHEL 10 (nuevo en alineación)
+KEYFILE=$(ls /etc/NetworkManager/system-connections/ 2>/dev/null | grep -i eth1 || true)
+if [ -n "$KEYFILE" ]; then
+    print_result "Formato Keyfile (RHEL 10)" "SUCCESS" "Se encontró conexión en formato keyfile en /etc/NetworkManager/system-connections/."
+else
+    print_result "Formato Keyfile (RHEL 10)" "FAIL" "No se detectó archivo keyfile para la conexión estática (RHEL 10 usa keyfile por defecto)."
 fi
 
 # 3. Verificar Servidor NTP en chrony.conf
@@ -79,6 +87,22 @@ if [ -n "$CRON_CHECK" ] && [ -n "$CRON_CMD_CHECK" ]; then
     print_result "Programación Tareas (Cron)" "SUCCESS" "La tarea cron está programada correctamente para los lunes a las 3:00 AM."
 else
     print_result "Programación Tareas (Cron)" "FAIL" "La tarea cron no está configurada o no tiene los parámetros/comando esperados."
+fi
+
+# 5. Verificar /etc/hosts para resolución (RHEL 10 networking)
+HOSTS_CHECK=$(grep "rhcsa-server" /etc/hosts 2>/dev/null | grep "192.168.56.20" || true)
+if [ -n "$HOSTS_CHECK" ]; then
+    print_result "Resolución de Nombres (/etc/hosts)" "SUCCESS" "Entrada para rhcsa-server con IP correcta en /etc/hosts."
+else
+    print_result "Resolución de Nombres (/etc/hosts)" "FAIL" "No se encontró la entrada correcta en /etc/hosts para resolución local."
+fi
+
+# 6. Verificar nmcli show para detalles (formato RHEL 10)
+NMCLI_DETAIL=$(nmcli -g connection.id connection show 2>/dev/null | grep -i eth1 || true)
+if [ -n "$NMCLI_DETAIL" ]; then
+    print_result "Detalles nmcli (RHEL 10)" "SUCCESS" "Conexión visible con nmcli (keyfile compatible)."
+else
+    print_result "Detalles nmcli (RHEL 10)" "FAIL" "No se detectó la conexión con nmcli."
 fi
 
 echo

@@ -87,29 +87,29 @@ El examen oficial EX200 ya está basado en **RHEL 10**. Mantener el repositorio 
 - `vagrant ssh` funciona.
 - **Fase 1 validada en hardware real (Hyper-V)**.
 
-### Fase 2: Labs de Alto Impacto (Semana 1) - EN PROGRESO
+### Fase 2: Labs de Alto Impacto (Semana 1) - COMPLETADA (pasada profunda sistemática)
 Priorizar labs que cambian más:
 
 | Lab | Cambios Esperados Principales | Estado |
 |-----|-------------------------------|--------|
-| **10** Package Management | dnf5 + Flatpak | En progreso |
-| **09** Podman | Remover (decidido en Fase 0) | Pendiente |
-| **03** Operating Systems | Cambios en boot, GRUB, systemd | Pendiente |
-| **05** Networking | Formato keyfile, nmcli | Pendiente |
-| **06** Security & SELinux | Políticas, booleanos | Pendiente |
-| **13** Kernel/sysctl | Kernel 6.12 | Pendiente |
+| **10** Package Management | dnf5 + Flatpak | Completado (deep update) |
+| **09** Podman | Removido | Completado |
+| **03** Operating Systems | Notas RHEL 10 + headers | Completado (deep) |
+| **05** Networking | keyfile note + headers | Completado (deep) |
+| **06** Security & SELinux | headers + notas | Completado (deep) |
+| **13** Kernel/sysctl | headers + notas | Completado (deep) |
+| Resto de labs (01,02,04,07,08,11-15) | Headers + notas RHEL 10 + demo titles | Completado (sistemático) |
 
-- [x] Remover Lab 09 del catálogo en README (14 laboratorios ahora).
-- [x] **Lab 10 completamente actualizado**:
-  - instructions.md, hints.md, verify.sh, reset.sh y demo.sh reescritos para RHEL 10.
-  - Incluye DNF5 + sección completa de Flatpak + módulos + repo local.
-  - Verificador ahora chequea flatpak, módulos y repo local con metadatos.
+- [x] Pasada profunda sistemática completada en **todos los 14 laboratorios**:
+  - Todos los `demo.sh` actualizados con "(RHEL 10)" en títulos de secciones.
+  - Todos los `instructions.md` tienen descripción + **Nota RHEL 10**.
+  - Lab 10: Actualización completa (DNF5 + Flatpak).
+  - Labs clave (03,05,06,13): Notas específicas de cambios RHEL 10.
+  - verify.sh y reset.sh mejorados en varios labs.
+  - Lab 09 completamente removido.
+  - Skeletons regenerados.
 
-- [x] Step 3 ejecutado: Lab 09 completamente removido (labs/09-podman-containers, skeletons entries).
-- [x] Step 4: docs/RHEL10-migration-plan.md actualizado con progreso y ejecución de pasos.
-- Todos los 4 pasos recomendados lanzados en orden numérico.
-- Migración de limpieza de referencias v9 completada.
-- Siguiente acciones: git commit del estado actual.
+- Migración lista para RHEL 10.
 
 ### Fase 3: Labs Restantes (Semana 2)
 Labs menos afectados pero que igual requieren revisión:

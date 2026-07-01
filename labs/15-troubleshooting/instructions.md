@@ -2,6 +2,8 @@
 
 Este reto evaluará tu capacidad para diagnosticar y resolver problemas comunes en AlmaLinux 10 / RHEL 10.
 
+**Nota RHEL 10**: Las herramientas de diagnóstico (journalctl, ip, ss, etc.) son las mismas.
+
 ## Objetivos del Reto
 
 Navega al directorio `/labs/15-troubleshooting/` y realiza las siguientes tareas en el subdirectorio `challenge/` donde corresponda:

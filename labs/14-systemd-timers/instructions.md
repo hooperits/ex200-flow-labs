@@ -2,6 +2,8 @@
 
 Este reto evaluará tu capacidad para crear y gestionar systemd timers y unidades en AlmaLinux 10 / RHEL 10.
 
+**Nota RHEL 10**: systemd timers son idénticos.
+
 ## Objetivos del Reto
 
 Navega al directorio `/labs/14-systemd-timers/` y realiza las siguientes tareas:

@@ -2,6 +2,8 @@
 
 Este reto evalúa tu capacidad para gestionar cuentas de usuario, grupos de trabajo, aplicar permisos especiales (como SGID) y definir reglas de acceso fino usando ACLs en AlmaLinux 10 / RHEL 10.
 
+**Nota RHEL 10**: Comandos de usuarios y ACLs son idénticos.
+
 ## Objetivos del Reto
 
 Realiza las siguientes configuraciones de administración de usuarios en el sistema:

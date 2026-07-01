@@ -2,6 +2,8 @@
 
 Este reto evalúa tu capacidad para gestionar discos físicos, particiones, volúmenes lógicos (LVM) y la optimización de almacenamiento con VDO en AlmaLinux 10 / RHEL 10.
 
+**Nota RHEL 10**: LVM y VDO comandos son los mismos. El disco secundario /dev/sdb sigue siendo provisto por Vagrant.
+
 ## Objetivos del Reto
 
 Realiza las siguientes configuraciones de almacenamiento local (puedes usar un disco secundario libre, como `/dev/sdb`, el cual ya está incorporado en tu VM):
@@ -26,6 +28,15 @@ Realiza las siguientes configuraciones de almacenamiento local (puedes usar un d
      * Tamaño físico asignado al pool: **`4G`** (`-L 4G`)
      * Tamaño virtual presentado: **`8G`** (`-V 8G`)
    * Dale formato **`xfs`** y configúralo para montarse automáticamente en **`/mnt/vdo`**.
+
+5. **Particionamiento con gdisk (RHEL 10)**:
+   * (Opcional pero recomendado) Usa `gdisk` para crear una partición GPT en un archivo de imagen o nota el uso preferido de GPT en RHEL 10 para discos >2TB.
+   * Muestra el uso de `gdisk -l` para inspeccionar.
+
+6. **Configuración de Swap y más almacenamiento (RHEL 10)**:
+   * Crea un LV adicional para swap (`lv_swap`) de 500M.
+   * Formatea como swap, activa con `swapon`, y agrégalo a fstab.
+   * Verifica con `free -h` y `swapon --show`.
 
 ## Evaluación
 

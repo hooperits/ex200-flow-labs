@@ -2,6 +2,8 @@
 
 Este reto evalúa tu capacidad para gestionar la identificación de host, configurar parámetros de red estáticos usando `nmcli`, configurar servidores de tiempo y programar automatizaciones usando `cron` en AlmaLinux 10 / RHEL 10.
 
+**Nota RHEL 10**: nmcli guarda conexiones en formato keyfile por defecto en /etc/NetworkManager/system-connections/.
+
 ## Objetivos del Reto
 
 Realiza las siguientes configuraciones dentro del entorno:
@@ -16,7 +18,9 @@ Realiza las siguientes configuraciones dentro del entorno:
      * Gateway (puerta de enlace): `192.168.56.1`
      * Servidor DNS: `8.8.8.8`
      * Método: Manual (estático).
+   * **Nota RHEL 10**: Las conexiones se guardan en formato keyfile (en `/etc/NetworkManager/system-connections/`) por defecto.
    * Asegúrate de que la conexión se configure para activarse de forma automática y **levanta el enlace** para que los cambios surtan efecto de inmediato.
+   * Inspecciona el archivo keyfile generado en `/etc/NetworkManager/system-connections/` para verificar el formato RHEL 10.
 
 3. **Sincronización NTP (Chrony)**:
    * Edita la configuración del cliente NTP (`/etc/chrony.conf`) para agregar el servidor NTP **`pool.ntp.org`** con la opción `iburst` (si ya existe un servidor similar, asegúrate de que este servidor en particular esté presente y activo).
@@ -26,6 +30,11 @@ Realiza las siguientes configuraciones dentro del entorno:
    * Crea una tarea programada para el usuario **`vagrant`**.
    * La tarea debe ejecutarse **todos los lunes exactamente a las 3:00 AM**.
    * El comando que debe ejecutar la tarea es: `echo "RHCSA Examen" >> /tmp/cron_test.txt`.
+
+5. **Resolución de Nombres y Configuración Adicional de Red (RHEL 10)**:
+   * Agrega una entrada en `/etc/hosts` para resolver `rhcsa-server` a la IP estática.
+   * Usa `nmcli` para mostrar detalles de la conexión en formato detallado.
+   * (Opcional avanzado) Configura una regla simple en firewalld para permitir el servicio `ssh` en la zona pública (para demostrar integración red/seguridad en RHEL 10).
 
 ## Evaluación
 

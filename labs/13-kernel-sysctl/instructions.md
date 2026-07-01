@@ -2,6 +2,8 @@
 
 Este reto evaluará tu capacidad para inspeccionar y modificar parámetros del kernel con sysctl en AlmaLinux 10 / RHEL 10.
 
+**Nota RHEL 10**: sysctl y /proc/sys son los mismos. Kernel es 6.12.
+
 ## Objetivos del Reto
 
 Navega al directorio `/labs/13-kernel-sysctl/` y realiza las siguientes tareas:

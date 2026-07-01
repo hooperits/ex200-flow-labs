@@ -41,7 +41,7 @@ if $EXPLAIN_MODE; then
 fi
 
 echo -e "${CYAN}================================================================${NC}"
-echo -e "${CYAN}         Evaluador de Reto: Módulo 01 - Herramientas Esenciales  ${NC}"
+echo -e "${CYAN}         Evaluador de Reto: Módulo 01 - Herramientas Esenciales (RHEL 10)  ${NC}"
 echo -e "${CYAN}================================================================${NC}"
 echo
 

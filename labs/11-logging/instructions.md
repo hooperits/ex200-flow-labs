@@ -2,6 +2,8 @@
 
 Este reto evaluará tu capacidad para gestionar logs con journalctl, configurar rsyslog y persistencia de logs en AlmaLinux 10 / RHEL 10.
 
+**Nota RHEL 10**: journalctl y rsyslog son idénticos en comportamiento.
+
 ## Objetivos del Reto
 
 Navega al directorio `/labs/11-logging/` y realiza las siguientes tareas:

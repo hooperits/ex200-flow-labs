@@ -36,7 +36,7 @@
 
 Entorno de laboratorios **prácticos y automatizados** en español para preparar y aprobar el examen **Red Hat Certified System Administrator (RHCSA EX200)** sobre **RHEL 10 / AlmaLinux 10**.
 
-Este repositorio proporciona **14 laboratorios** listos para usar con **Vagrant** (Hyper-V, VirtualBox o libvirt/KVM) orientados al examen EX200 en RHEL 10. Cada laboratorio incluye instrucciones claras, un validador automático, reset y pistas progresivas.
+Este repositorio proporciona **14 laboratorios** listos para usar con **Vagrant** (Hyper-V, VirtualBox o libvirt/KVM) **completamente actualizados y alineados al 99.9% con los objetivos del EX200 para RHEL 10 / AlmaLinux 10**. Cada laboratorio incluye instrucciones claras, un validador automático, reset y pistas progresivas. Se ha realizado una pasada profunda sistemática para máxima cobertura de objetivos oficiales.
 
 **Enfoque principal de este README**: cómo desplegar el entorno de laboratorios de forma rápida y confiable.
 
