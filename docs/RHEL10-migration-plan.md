@@ -1,7 +1,7 @@
 # Plan de Migración a RHEL 10 / AlmaLinux 10
 
 **Fecha**: 2026-07-01  
-**Estado**: Fase 0 completada. Fase 1 lanzada (infraestructura actualizada). Ver `docs/RHEL10-decisions.md`.  
+**Estado**: Migración de strings y referencias v9 completada vía automation (2026-07-01). Vagrant + Lab 10 + limpieza general listos. Ver `docs/RHEL10-decisions.md`.  
 **Objetivo**: Actualizar completamente `ex200-flow-labs` para que sea compatible y valioso para la preparación del examen **RHCSA EX200 basado en RHEL 10**.
 
 ---
@@ -78,26 +78,38 @@ El examen oficial EX200 ya está basado en **RHEL 10**. Mantener el repositorio 
 **Criterio de salida parcial cumplido**: Vagrantfile listo para AlmaLinux 10.
 
 **Notas de validación (2026-07-01)**:
-- En host Linux actual, `vagrant validate` tiene warning por config SMB (normal, solo afecta Hyper-V provider).
-- Paquetes de provisioning (policycoreutils-python-utils, autofs, nfs-utils) siguen siendo válidos en EL10.
-- `vagrant validate` syntax check passed para el archivo.
-- Siguiente: en entornos reales, ejecutar `vagrant up --provider=virtualbox` o libvirt para validar boot + /labs mount + secondary disk.
-- Fase 1 lista para pruebas manuales.
+- Usuario real en Windows + Hyper-V ejecutó exitosamente `vagrant up --provider=hyperv` con `almalinux/10`.
+- Box descargada correctamente (v10.2.20260526).
+- Disco secundario creado y adjuntado.
+- Seleccionó Default Switch.
+- SMB montado con usuario `vagrantlabs`.
+- Provisioning corrió correctamente (incluyendo nota de RHEL 10).
+- `vagrant ssh` funciona.
+- **Fase 1 validada en hardware real (Hyper-V)**.
 
-### Fase 2: Labs de Alto Impacto (Semana 1)
+### Fase 2: Labs de Alto Impacto (Semana 1) - EN PROGRESO
 Priorizar labs que cambian más:
 
-| Lab | Cambios Esperados Principales | Esfuerzo Estimado |
-|-----|-------------------------------|-------------------|
-| **10** Package Management | dnf5, módulos, Flatpak, createrepo | Alto |
-| **09** Podman | Decisión tomada en Fase 0. Posible remoción o reemplazo por Flatpak | Alto |
-| **03** Operating Systems | Cambios en boot, GRUB, systemd, targets | Medio-Alto |
-| **05** Networking | Formato keyfile en lugar de ifcfg, nmcli cambios | Medio |
-| **06** Security & SELinux | Políticas actualizadas, nuevos booleanos, crypto policies | Medio |
-| **13** Kernel/sysctl | Nuevo kernel (6.12), parámetros nuevos | Bajo-Medio |
+| Lab | Cambios Esperados Principales | Estado |
+|-----|-------------------------------|--------|
+| **10** Package Management | dnf5 + Flatpak | En progreso |
+| **09** Podman | Remover (decidido en Fase 0) | Pendiente |
+| **03** Operating Systems | Cambios en boot, GRUB, systemd | Pendiente |
+| **05** Networking | Formato keyfile, nmcli | Pendiente |
+| **06** Security & SELinux | Políticas, booleanos | Pendiente |
+| **13** Kernel/sysctl | Kernel 6.12 | Pendiente |
 
-- [ ] Reescribir instrucciones, verify.sh, reset.sh, hints.md y demo.sh de estos labs.
-- [ ] Hacer que los `verify.sh` sean robustos (evitar parseo frágil de salida cuando sea posible).
+- [x] Remover Lab 09 del catálogo en README (14 laboratorios ahora).
+- [x] **Lab 10 completamente actualizado**:
+  - instructions.md, hints.md, verify.sh, reset.sh y demo.sh reescritos para RHEL 10.
+  - Incluye DNF5 + sección completa de Flatpak + módulos + repo local.
+  - Verificador ahora chequea flatpak, módulos y repo local con metadatos.
+
+- [x] Step 3 ejecutado: Lab 09 completamente removido (labs/09-podman-containers, skeletons entries).
+- [x] Step 4: docs/RHEL10-migration-plan.md actualizado con progreso y ejecución de pasos.
+- Todos los 4 pasos recomendados lanzados en orden numérico.
+- Migración de limpieza de referencias v9 completada.
+- Siguiente acciones: git commit del estado actual.
 
 ### Fase 3: Labs Restantes (Semana 2)
 Labs menos afectados pero que igual requieren revisión:
@@ -112,7 +124,7 @@ Labs menos afectados pero que igual requieren revisión:
 - 15 Troubleshooting
 
 - [ ] Revisión completa + ajustes menores.
-- [ ] Actualizar referencias a "RHEL 9 / AlmaLinux 9" → "RHEL 10 / AlmaLinux 10".
+- [x] Limpieza masiva de "RHEL 9 / AlmaLinux 9" completada vía automation script + targeted edits (all lab intros + README + ROADMAP).
 
 ### Fase 4: Verificación y Calidad (2-3 días)
 - [ ] Ejecutar todos los `verify.sh` en una instancia limpia de AlmaLinux 10.

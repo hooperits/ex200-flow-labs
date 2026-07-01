@@ -1,6 +1,6 @@
 # Reto Práctico: Configuración de Red, NTP y Tareas Cron (Módulo 05)
 
-Este reto evalúa tu capacidad para gestionar la identificación de host, configurar parámetros de red estáticos usando `nmcli`, configurar servidores de tiempo y programar automatizaciones usando `cron` en Rocky/AlmaLinux 9.
+Este reto evalúa tu capacidad para gestionar la identificación de host, configurar parámetros de red estáticos usando `nmcli`, configurar servidores de tiempo y programar automatizaciones usando `cron` en AlmaLinux 10 / RHEL 10.
 
 ## Objetivos del Reto
 

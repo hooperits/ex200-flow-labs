@@ -1,6 +1,6 @@
 # Reto Práctico: Configuración de Almacenamiento Local y LVM (Módulo 07)
 
-Este reto evalúa tu capacidad para gestionar discos físicos, particiones, volúmenes lógicos (LVM) y la optimización de almacenamiento con VDO en Rocky/AlmaLinux 9.
+Este reto evalúa tu capacidad para gestionar discos físicos, particiones, volúmenes lógicos (LVM) y la optimización de almacenamiento con VDO en AlmaLinux 10 / RHEL 10.
 
 ## Objetivos del Reto
 

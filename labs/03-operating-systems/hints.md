@@ -24,7 +24,7 @@
   ```
 
 ## 3. Recuperación de Contraseña de root en GRUB
-* Las palabras clave obligatorias son la secuencia estándar de RHEL 9:
+* Las palabras clave obligatorias son la secuencia estándar de RHEL 10:
   1. Parámetro de parada en el kernel: `rd.break`
   2. Remontar sysroot con permisos de escritura: `mount -o remount,rw /sysroot`
   3. Ingresar al entorno chroot: `chroot /sysroot`

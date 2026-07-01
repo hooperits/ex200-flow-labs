@@ -1,6 +1,6 @@
 # Esqueleto Video / Letras - 10-package-management
 # Generado desde: /home/juanca/proys/RHCSA-EX200/labs/10-package-management/demo.sh
-# Fecha: 2026-06-30
+# Fecha: 2026-07-01
 #
 # Instrucciones:
 # - Alinea con las letras en RHCSA-EX200-lyrics/.
@@ -13,105 +13,107 @@
 ### CORO / Intro
 [00:00 - 00:00] - INTRO / GANCHO
 
-[00:00 - 01:00] - ESTROFA 1: 1. Configurar un Repositorio DNF
+[00:00 - 00:30] - ESTROFA 1: RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 1. Configurar un Repositorio
 
-- **Instalamos createrepo si es necesario**
+- **Creamos el archivo de repo local**
   ```
-  dnf install -y createrepo &>/dev/null || true
-  ```
-
-- **Creamos un directorio para el repo local**
-  ```
-  mkdir -p /tmp/local-repo && cp /var/cache/dnf/*/packages/bash*.rpm /tmp/local-repo/ 2>/dev/null || echo 'Usando paquetes de ejemplo'
+  mkdir -p /tmp/local-repo && echo '[local-test]
   ```
 
-- **Creamos el repositorio local**
+- **Verificamos repositorios**
   ```
-  createrepo /tmp/local-repo
-  ```
-
-- **Creamos el archivo .repo**
-  ```
-  echo '[local-test]
+  dnf repolist --enabled | head -3
   ```
 
-- **Verificamos los repositorios**
-  ```
-  dnf repolist --enabled | head -5
-  ```
-
-[01:00 - 02:00] - ESTROFA 2: 2. Instalar y Gestionar Paquetes con DNF
+[00:30 - 01:30] - ESTROFA 2: RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 2. Paquetes con DNF5
 
 - **Buscamos un paquete**
   ```
-  dnf search httpd | head -3
+  dnf search httpd | head -2
   ```
 
-- **Instalamos httpd (si no está)**
+- **Instalamos httpd**
   ```
   dnf install -y httpd &>/dev/null || true
   ```
 
-- **Verificamos instalación**
+- **Verificamos**
   ```
   rpm -q httpd
   ```
 
-- **Actualizamos información de paquetes**
+- **Actualizamos bash**
   ```
-  dnf check-update | head -3 || true
-  ```
-
-- **Limpiamos cache de dnf**
-  ```
-  dnf clean all
+  dnf update -y bash &>/dev/null || true
   ```
 
-[02:00 - 02:48] - ESTROFA 3: 3. Usar Módulos DNF
-
-- **Listamos módulos disponibles**
+- **Removemos httpd**
   ```
-  dnf module list | head -5
+  dnf remove -y httpd &>/dev/null || true
   ```
 
-- **Habilitamos un módulo de ejemplo (si disponible)**
+[01:30 - 02:18] - ESTROFA 3: RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 3. Flatpak
+
+- **Instalamos flatpak**
   ```
-  dnf module enable -y nodejs:18 2>/dev/null || echo 'Módulo de ejemplo (puede variar por versión)'
+  dnf install -y flatpak &>/dev/null || true
   ```
 
-- **Instalamos desde módulo**
+- **Agregamos Flathub**
   ```
-  dnf module install -y nodejs:18/minimal 2>/dev/null || echo 'Simulando instalación de módulo'
-  ```
-
-- **Verificamos módulo activo**
-  ```
-  dnf module list --enabled | grep nodejs || echo 'Verificación de módulo'
+  flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 2>/dev/null || true
   ```
 
-[02:48 - 03:36] - ESTROFA 4: 4. Crear un Repositorio Local
-
-- **Preparamos directorio para repo local**
+- **Instalamos app de ejemplo (puede variar)**
   ```
-  mkdir -p /tmp/myrepo && cp /var/cache/dnf/*/packages/coreutils*.rpm /tmp/myrepo/ 2>/dev/null || touch /tmp/myrepo/dummy.rpm
+  flatpak install -y flathub org.gnome.Calculator 2>/dev/null || echo 'Flatpak de ejemplo (puede necesitar red)'
   ```
 
-- **Creamos metadatos del repo**
+- **Listamos apps Flatpak**
   ```
-  createrepo /tmp/myrepo
+  flatpak list | head -3 || true
   ```
 
-- **Configuramos repo que apunta al local**
+[02:18 - 02:54] - ESTROFA 4: RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 4. Módulos AppStream
+
+- **Listamos módulos**
+  ```
+  dnf module list | head -4
+  ```
+
+- **Habilitamos módulo de ejemplo**
+  ```
+  dnf module enable -y nodejs:18 2>/dev/null || echo 'Módulo ejemplo (puede variar)'
+  ```
+
+- **Verificamos módulo**
+  ```
+  dnf module list --enabled | head -2 || true
+  ```
+
+[02:54 - 03:42] - ESTROFA 5: RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 5. Repositorio Local
+
+- **Preparamos directorio local**
+  ```
+  mkdir -p challenge/local-repo && cp /var/cache/dnf/*/*/packages/bash*.rpm challenge/local-repo/ 2>/dev/null || touch challenge/local-repo/dummy.rpm
+  ```
+
+- **Creamos metadatos**
+  ```
+  createrepo challenge/local-repo
+  ```
+
+- **Configuramos .repo local**
   ```
   echo '[my-local]
   ```
 
-- **Verificamos el nuevo repo**
+- **Verificamos nuevo repo**
   ```
   dnf repolist | grep my-local || true
   ```
 
-[03:36 - 03:36] - OUTRO / CIERRE
+[03:42 - 03:42] - OUTRO / CIERRE
 
 - Recordatorio final + llamada a practicar el reto
 
@@ -122,27 +124,28 @@ Genera un rap técnico y agresivo en español con un flujo chopper de velocidad 
 Estructura: CORO + 4-5 ESTROFAS + OUTRO.
 Incluye estos conceptos clave con sus comandos:
 
-ESTROFA: 1. Configurar un Repositorio DNF
-- Instalamos createrepo si es necesario → dnf install -y createrepo &>/dev/null || true
-- Creamos un directorio para el repo local → mkdir -p /tmp/local-repo && cp /var/cache/dnf/*/packages/bash*.rpm /tmp/local-repo/ 2>/dev/null || echo 'Usando paquetes de ejemplo'
-- Creamos el repositorio local → createrepo /tmp/local-repo
-- Creamos el archivo .repo → echo '[local-test]
-- Verificamos los repositorios → dnf repolist --enabled | head -5
-ESTROFA: 2. Instalar y Gestionar Paquetes con DNF
-- Buscamos un paquete → dnf search httpd | head -3
-- Instalamos httpd (si no está) → dnf install -y httpd &>/dev/null || true
-- Verificamos instalación → rpm -q httpd
-- Actualizamos información de paquetes → dnf check-update | head -3 || true
-- Limpiamos cache de dnf → dnf clean all
-ESTROFA: 3. Usar Módulos DNF
-- Listamos módulos disponibles → dnf module list | head -5
-- Habilitamos un módulo de ejemplo (si disponible) → dnf module enable -y nodejs:18 2>/dev/null || echo 'Módulo de ejemplo (puede variar por versión)'
-- Instalamos desde módulo → dnf module install -y nodejs:18/minimal 2>/dev/null || echo 'Simulando instalación de módulo'
-- Verificamos módulo activo → dnf module list --enabled | grep nodejs || echo 'Verificación de módulo'
-ESTROFA: 4. Crear un Repositorio Local
-- Preparamos directorio para repo local → mkdir -p /tmp/myrepo && cp /var/cache/dnf/*/packages/coreutils*.rpm /tmp/myrepo/ 2>/dev/null || touch /tmp/myrepo/dummy.rpm
-- Creamos metadatos del repo → createrepo /tmp/myrepo
-- Configuramos repo que apunta al local → echo '[my-local]
-- Verificamos el nuevo repo → dnf repolist | grep my-local || true
+ESTROFA: RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 1. Configurar un Repositorio
+- Creamos el archivo de repo local → mkdir -p /tmp/local-repo && echo '[local-test]
+- Verificamos repositorios → dnf repolist --enabled | head -3
+ESTROFA: RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 2. Paquetes con DNF5
+- Buscamos un paquete → dnf search httpd | head -2
+- Instalamos httpd → dnf install -y httpd &>/dev/null || true
+- Verificamos → rpm -q httpd
+- Actualizamos bash → dnf update -y bash &>/dev/null || true
+- Removemos httpd → dnf remove -y httpd &>/dev/null || true
+ESTROFA: RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 3. Flatpak
+- Instalamos flatpak → dnf install -y flatpak &>/dev/null || true
+- Agregamos Flathub → flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 2>/dev/null || true
+- Instalamos app de ejemplo (puede variar) → flatpak install -y flathub org.gnome.Calculator 2>/dev/null || echo 'Flatpak de ejemplo (puede necesitar red)'
+- Listamos apps Flatpak → flatpak list | head -3 || true
+ESTROFA: RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 4. Módulos AppStream
+- Listamos módulos → dnf module list | head -4
+- Habilitamos módulo de ejemplo → dnf module enable -y nodejs:18 2>/dev/null || echo 'Módulo ejemplo (puede variar)'
+- Verificamos módulo → dnf module list --enabled | head -2 || true
+ESTROFA: RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 5. Repositorio Local
+- Preparamos directorio local → mkdir -p challenge/local-repo && cp /var/cache/dnf/*/*/packages/bash*.rpm challenge/local-repo/ 2>/dev/null || touch challenge/local-repo/dummy.rpm
+- Creamos metadatos → createrepo challenge/local-repo
+- Configuramos .repo local → echo '[my-local]
+- Verificamos nuevo repo → dnf repolist | grep my-local || true
 
 Mantén los comandos técnicos en inglés. Prioriza velocidad extrema, precisión y rimas complejas.

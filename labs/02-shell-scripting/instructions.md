@@ -1,6 +1,6 @@
 # Reto Práctico: Creación de Script en Bash (Módulo 02)
 
-Este reto evalúa tu capacidad para automatizar tareas en Rocky/AlmaLinux 9 utilizando Shell Scripting en Bash.
+Este reto evalúa tu capacidad para automatizar tareas en AlmaLinux 10 / RHEL 10 utilizando Shell Scripting en Bash.
 
 ## Objetivos del Reto
 

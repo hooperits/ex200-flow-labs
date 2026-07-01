@@ -1,6 +1,6 @@
 # Reto Práctico: Logging y Journalctl Avanzado para el Examen EX200
 
-Este reto evaluará tu capacidad para gestionar logs con journalctl, configurar rsyslog y persistencia de logs en AlmaLinux 9 / RHEL 9.
+Este reto evaluará tu capacidad para gestionar logs con journalctl, configurar rsyslog y persistencia de logs en AlmaLinux 10 / RHEL 10.
 
 ## Objetivos del Reto
 

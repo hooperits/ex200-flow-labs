@@ -2,7 +2,7 @@
 
 **Purpose**: Map labs to official Red Hat EX200 objectives (RHEL 10 / AlmaLinux 10). This supports 90%+ coverage goal and verification of educational quality (Rule 1).
 
-**Status**: En migración a RHEL 10 (2026-07-01). 
+**Status**: Migración a RHEL 10 completada (strings limpios, julio 2026). 
 - Basado en objetivos oficiales EX200 para RHEL 10.
 - **Cambio importante**: "Manage containers" (Podman) fue **eliminado** de los objetivos del EX200 (se movió a examen separado).
 - Lab 09 será removido o reemplazado en esta migración.
@@ -85,9 +85,9 @@
   - Sub: blkid/UUID, fstab, autofs, NFS/SMB.
 
 **Lab 09: Podman Containers**
-- **Estado**: Removido del proyecto para la versión RHEL 10.
-- Razón: El objetivo "Manage containers" fue eliminado de los objetivos oficiales del EX200 (RHEL 10).
-- Decisión (Fase 0): No se incluirá en la cobertura principal del EX200.
+- **Estado**: Removido del catálogo (Fase 2).
+- Razón: El objetivo "Manage containers" fue eliminado de los objetivos oficiales del EX200 en RHEL 10.
+- El row fue eliminado de la tabla en README.
 
 **Lab 10: Package Management**
 - Objectives: Manage software (dnf5, repositorios, RPM, Flatpak).
@@ -124,7 +124,7 @@
 **Enhance notes**: Lab 14 demo enhanced with list timers; lab 15 with extra network. Generators run. Lab 13 with /proc check.
 
 ## Detailed Examples (Sample) - Actualizando a RHEL 10
-- Lab 10: dnf5 / Flatpak / repos - maps to "Manage software" (incluye Flatpak en RHEL 10).
+- Lab 10: dnf5 + Flatpak + repos locales - maps to "Manage software" (RHEL 10).
 - Lab 11: journalctl -n/-u/-p/-b ... - maps to logging.
 - Lab 12: SSH + sudoers.
 - Lab 13: sysctl.
@@ -133,12 +133,12 @@
 - **Lab 09 removido** (ver decisiones).
 - Full update pending durante migración.
 
-## Gaps and Next (RHEL 10 Migration)
-- Actualizar matriz completa para RHEL 10 objetivos.
-- Remover referencias a contenedores como objetivo EX200.
-- Agregar Flatpak en Manage software.
-- Phase 0 completada: Decisiones en docs/RHEL10-decisions.md.
-- Siguiente: Fase 1 (infraestructura Vagrant + AlmaLinux 10).
+## Gaps and Next (Post RHEL 10 Migration)
+- Matriz actualizada. Referencias v9 limpiadas.
+- Lab 09 removido del catálogo.
+- Flatpak incorporado en Lab 10.
+- Phase 0-2 principales completadas.
+- Siguiente: revisión completa de verifies para dnf5/otros comportamientos RHEL 10 + regen de skeletons.
 - Target: 90%+ cobertura objetivos oficiales EX200 RHEL 10.
 
 **Verification**: Esta matriz será revisada en cada fase de la migración.

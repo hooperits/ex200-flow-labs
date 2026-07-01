@@ -1,6 +1,6 @@
 # Reto Práctico: Operación del Sistema (Módulo 03)
 
-Este reto evalúa tu capacidad para gestionar servicios de `systemd`, configurar niveles de arranque (`targets`) y documentar el proceso de recuperación de contraseña de root en RHEL 9.
+Este reto evalúa tu capacidad para gestionar servicios de `systemd`, configurar niveles de arranque (`targets`) y documentar el proceso de recuperación de contraseña de root en RHEL 10.
 
 ## Objetivos del Reto
 

@@ -1,6 +1,6 @@
 # Reto Práctico: Systemd Timers para el Examen EX200
 
-Este reto evaluará tu capacidad para crear y gestionar systemd timers y unidades en AlmaLinux 9 / RHEL 9.
+Este reto evaluará tu capacidad para crear y gestionar systemd timers y unidades en AlmaLinux 10 / RHEL 10.
 
 ## Objetivos del Reto
 

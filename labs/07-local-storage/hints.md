@@ -35,7 +35,7 @@
   ```
 
 ## 4. Crear Volumen LVM VDO
-* Para crear un volumen VDO con compresión y deduplicación en RHEL 9:
+* Para crear un volumen VDO con compresión y deduplicación en RHEL 10:
   ```bash
   sudo lvcreate --type vdo --name vdo_vol -L 4G -V 8G vg_labs
   ```

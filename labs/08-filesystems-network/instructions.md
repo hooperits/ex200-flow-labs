@@ -1,6 +1,6 @@
 # Reto Práctico: Sistemas de Archivos Locales y Montajes de Red (Módulo 08)
 
-Este reto evalúa tu capacidad para gestionar sistemas de archivos locales usando montajes por UUID, configurar montajes de red (NFS) y automatizar el montaje dinámico bajo demanda utilizando `autofs` en Rocky/AlmaLinux 9.
+Este reto evalúa tu capacidad para gestionar sistemas de archivos locales usando montajes por UUID, configurar montajes de red (NFS) y automatizar el montaje dinámico bajo demanda utilizando `autofs` en AlmaLinux 10 / RHEL 10.
 
 ## Objetivos del Reto
 

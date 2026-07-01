@@ -1,6 +1,6 @@
 # Esqueleto Video / Letras - 07-local-storage
 # Generado desde: /home/juanca/proys/RHCSA-EX200/labs/07-local-storage/demo.sh
-# Fecha: 2026-06-30
+# Fecha: 2026-07-01
 #
 # Instrucciones:
 # - Alinea con las letras en RHCSA-EX200-lyrics/.

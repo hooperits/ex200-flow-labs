@@ -12,49 +12,54 @@ NC='\033[0m' # No Color
 # Cargar helpers comunes (soporte --video / --fast)
 source "/labs/lib/demo-common.sh"
 
-# 1. Configurar un Repositorio DNF
-clear_section "RHCSA Módulo 10: Gestión de Paquetes - Tema: 1. Configurar un Repositorio DNF"
-run_demo_cmd "Instalamos createrepo si es necesario" "dnf install -y createrepo &>/dev/null || true"
-run_demo_cmd "Creamos un directorio para el repo local" "mkdir -p /tmp/local-repo && cp /var/cache/dnf/*/packages/bash*.rpm /tmp/local-repo/ 2>/dev/null || echo 'Usando paquetes de ejemplo'"
-run_demo_cmd "Creamos el repositorio local" "createrepo /tmp/local-repo"
-run_demo_cmd "Creamos el archivo .repo" "echo '[local-test]
+# 1. Configurar un Repositorio
+clear_section "RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 1. Configurar un Repositorio"
+run_demo_cmd "Creamos el archivo de repo local" "mkdir -p /tmp/local-repo && echo '[local-test]
 name=Local Test Repo
-baseurl=file:///tmp/local-repo
+baseurl=file:///srv/nfs_export
 enabled=1
 gpgcheck=0' > /etc/yum.repos.d/local-test.repo"
-run_demo_cmd "Verificamos los repositorios" "dnf repolist --enabled | head -5"
+run_demo_cmd "Verificamos repositorios" "dnf repolist --enabled | head -3"
 rm -f /etc/yum.repos.d/local-test.repo
-sleep 2.0
+sleep 1.5
 
-# 2. Instalar y Gestionar Paquetes con DNF
-clear_section "RHCSA Módulo 10: Gestión de Paquetes - Tema: 2. Instalar y Gestionar Paquetes con DNF"
-run_demo_cmd "Buscamos un paquete" "dnf search httpd | head -3"
-run_demo_cmd "Instalamos httpd (si no está)" "dnf install -y httpd &>/dev/null || true"
-run_demo_cmd "Verificamos instalación" "rpm -q httpd"
-run_demo_cmd "Actualizamos información de paquetes" "dnf check-update | head -3 || true"
-run_demo_cmd "Limpiamos cache de dnf" "dnf clean all"
-sleep 2.0
+# 2. Instalar y Gestionar Paquetes con DNF5
+clear_section "RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 2. Paquetes con DNF5"
+run_demo_cmd "Buscamos un paquete" "dnf search httpd | head -2"
+run_demo_cmd "Instalamos httpd" "dnf install -y httpd &>/dev/null || true"
+run_demo_cmd "Verificamos" "rpm -q httpd"
+run_demo_cmd "Actualizamos bash" "dnf update -y bash &>/dev/null || true"
+run_demo_cmd "Removemos httpd" "dnf remove -y httpd &>/dev/null || true"
+sleep 1.5
 
-# 3. Usar Módulos DNF (AppStreams)
-clear_section "RHCSA Módulo 10: Gestión de Paquetes - Tema: 3. Usar Módulos DNF"
-run_demo_cmd "Listamos módulos disponibles" "dnf module list | head -5"
-run_demo_cmd "Habilitamos un módulo de ejemplo (si disponible)" "dnf module enable -y nodejs:18 2>/dev/null || echo 'Módulo de ejemplo (puede variar por versión)'"
-run_demo_cmd "Instalamos desde módulo" "dnf module install -y nodejs:18/minimal 2>/dev/null || echo 'Simulando instalación de módulo'"
-run_demo_cmd "Verificamos módulo activo" "dnf module list --enabled | grep nodejs || echo 'Verificación de módulo'"
-sleep 2.0
+# 3. Gestionar con Flatpak
+clear_section "RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 3. Flatpak"
+run_demo_cmd "Instalamos flatpak" "dnf install -y flatpak &>/dev/null || true"
+run_demo_cmd "Agregamos Flathub" "flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo 2>/dev/null || true"
+run_demo_cmd "Instalamos app de ejemplo (puede variar)" "flatpak install -y flathub org.gnome.Calculator 2>/dev/null || echo 'Flatpak de ejemplo (puede necesitar red)'"
+run_demo_cmd "Listamos apps Flatpak" "flatpak list | head -3 || true"
+sleep 1.5
 
-# 4. Crear y Usar un Repositorio Local
-clear_section "RHCSA Módulo 10: Gestión de Paquetes - Tema: 4. Crear un Repositorio Local"
-run_demo_cmd "Preparamos directorio para repo local" "mkdir -p /tmp/myrepo && cp /var/cache/dnf/*/packages/coreutils*.rpm /tmp/myrepo/ 2>/dev/null || touch /tmp/myrepo/dummy.rpm"
-run_demo_cmd "Creamos metadatos del repo" "createrepo /tmp/myrepo"
-run_demo_cmd "Configuramos repo que apunta al local" "echo '[my-local]
+# 4. Usar Módulos
+clear_section "RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 4. Módulos AppStream"
+run_demo_cmd "Listamos módulos" "dnf module list | head -4"
+run_demo_cmd "Habilitamos módulo de ejemplo" "dnf module enable -y nodejs:18 2>/dev/null || echo 'Módulo ejemplo (puede variar)'"
+run_demo_cmd "Verificamos módulo" "dnf module list --enabled | head -2 || true"
+sleep 1.5
+
+# 5. Crear Repositorio Local
+clear_section "RHCSA Módulo 10: Gestión de Paquetes (RHEL 10) - 5. Repositorio Local"
+run_demo_cmd "Preparamos directorio local" "mkdir -p challenge/local-repo && cp /var/cache/dnf/*/*/packages/bash*.rpm challenge/local-repo/ 2>/dev/null || touch challenge/local-repo/dummy.rpm"
+run_demo_cmd "Creamos metadatos" "createrepo challenge/local-repo"
+run_demo_cmd "Configuramos .repo local" "echo '[my-local]
 name=My Local Repo
-baseurl=file:///tmp/myrepo
+baseurl=file://$(pwd)/challenge/local-repo
 enabled=1
 gpgcheck=0' > /etc/yum.repos.d/my-local.repo"
-run_demo_cmd "Verificamos el nuevo repo" "dnf repolist | grep my-local || true"
-rm -rf /tmp/myrepo /etc/yum.repos.d/my-local.repo
-sleep 2.0
+run_demo_cmd "Verificamos nuevo repo" "dnf repolist | grep my-local || true"
+rm -f /etc/yum.repos.d/my-local.repo
+rm -rf challenge/local-repo
+sleep 1.5
 
 # Fin de la demostración
 clear

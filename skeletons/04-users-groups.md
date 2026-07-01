@@ -1,6 +1,6 @@
 # Esqueleto Video / Letras - 04-users-groups
 # Generado desde: /home/juanca/proys/RHCSA-EX200/labs/04-users-groups/demo.sh
-# Fecha: 2026-06-30
+# Fecha: 2026-07-01
 #
 # Instrucciones:
 # - Alinea con las letras en RHCSA-EX200-lyrics/.
