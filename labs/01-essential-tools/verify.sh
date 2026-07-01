@@ -73,7 +73,8 @@ if [ -f "$CHALLENGE_DIR/secure_perm.txt" ]; then
     PERMS="$(stat -c "%a" "$CHALLENGE_DIR/secure_perm.txt" 2>/dev/null | sed 's/^0*//')"
     GROUP="$(stat -c "%G" "$CHALLENGE_DIR/secure_perm.txt" 2>/dev/null)"
     
-    if [ "$PERMS" = "640" ]; then
+    # Check numeric or the exact symbolic permissions the student sees with ls -l
+    if [ "$PERMS" = "640" ] || ls -l "$CHALLENGE_DIR/secure_perm.txt" 2>/dev/null | grep -q '^-rw-r-----'; then
         print_result "Permisos 640" "SUCCESS" "Los permisos de 'secure_perm.txt' están configurados exactamente a 640."
     else
         print_result "Permisos 640" "FAIL" "Los permisos de 'secure_perm.txt' son '$PERMS' en lugar de '640'."
