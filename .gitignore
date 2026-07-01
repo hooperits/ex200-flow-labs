@@ -14,3 +14,10 @@ Thumbs.db
 # IDE settings
 .vscode/
 .idea/
+
+# Docs directory - only internal planning/audit files are ignored
+# Public docs like objective-matrix.md and ROADMAP.md are explicitly allowed
+docs/
+!docs/objective-matrix.md
+!docs/ROADMAP.md
+!docs/progress.json
