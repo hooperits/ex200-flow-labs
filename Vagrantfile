@@ -21,6 +21,10 @@ Vagrant.configure("2") do |config|
   config.vm.box = "almalinux/10"
 
   config.vm.disk :disk, size: "5GB", name: "secondary_disk"
+  # Dedicated virtual hard disk for /labs (and /labs/lib). This replaces SMB synced
+  # folders for the lab content on Hyper-V, giving us a real Linux filesystem so
+  # chmod, chown, and stat behave correctly (fixes Lab 01 permission checks etc.).
+  config.vm.disk :disk, size: "2GB", name: "labs_data_disk"
 
   config.vm.network "private_network", ip: "192.168.56.10"
 
@@ -46,30 +50,35 @@ Vagrant.configure("2") do |config|
     lv.nested = true
   end
 
-  # Mount the local labs/ directory to /labs inside the guest VM
-  # Provider-specific handling for best compatibility:
-  # - Hyper-V: SMB (default on Windows)
-  # - VirtualBox: vboxsf (or rsync fallback)
-  # - libvirt: 9p or nfs
-  config.vm.synced_folder "./labs", "/labs"
+  # NOTE: We no longer mount ./labs or ./lib via synced_folder as the primary
+  # mechanism. Instead we use a dedicated virtual hard disk (see labs_data_disk above)
+  # and populate it from the file provisions above. This gives a real Linux FS
+  # so chmod/stat work reliably (especially important on Hyper-V).
+  #
+  # We still allow a /vagrant mount on non-Hyper-V for convenience during development.
+  # On Hyper-V we disable it to completely avoid SMB when possible.
 
-  # Mount shared lib/ so demo.sh can source ../../lib/demo-common.sh from inside /labs/XX/
-  config.vm.synced_folder "./lib", "/labs/lib"
+  # Bootstrap the labs and lib content via file provisioner (transfers over SSH/WinRM).
+  # This is the source we will copy into the internal virtual disk at /labs.
+  # Using file provision (instead of relying solely on synced_folder) lets us
+  # avoid or minimize SMB for the actual /labs mount.
+  config.vm.provision "file", source: "./labs", destination: "/tmp/labs-bootstrap"
+  config.vm.provision "file", source: "./lib", destination: "/tmp/lib-bootstrap"
 
-  # Hyper-V specific synced folder overrides (SMB)
-  # Note: Do NOT hardcode smb_username/smb_password here.
-  # Let Vagrant use the current Windows user's credentials (run PowerShell as Administrator).
+  # Hyper-V: we deliberately avoid SMB for the labs content.
+  # The labs + lib directories are delivered via the "file" provisioner above and
+  # placed onto a real virtual hard disk (see labs_data_disk). This removes the
+  # permission-mapping problems that SMB causes for chmod/stat.
   config.vm.provider "hyperv" do |h, override|
-    override.vm.synced_folder "./labs", "/labs", type: "smb",
-      mount_options: ["file_mode=0777", "dir_mode=0777", "noperm"]
-    override.vm.synced_folder "./lib", "/labs/lib", type: "smb",
-      mount_options: ["file_mode=0777", "dir_mode=0777", "noperm"]
+    # Fully disable the default project sync (and any remaining labs/lib) to
+    # avoid SMB credential prompts and permission issues entirely for labs.
+    override.vm.synced_folder ".", "/vagrant", disabled: true
   end
 
-  # Libvirt specific synced folder overrides (use 9p for better Linux compatibility)
+  # Libvirt specific (we still allow the default /vagrant for bootstrap convenience;
+  # the labs disk logic below will take over for the actual /labs mount).
   config.vm.provider "libvirt" do |lv, override|
-    override.vm.synced_folder "./labs", "/labs", type: "9p", accessmode: "mapped"
-    override.vm.synced_folder "./lib", "/labs/lib", type: "9p", accessmode: "mapped"
+    # No special override needed for labs/lib anymore; disk-backed mount is used.
   end
 
   # Provisioning (runs for all providers)
@@ -77,11 +86,79 @@ Vagrant.configure("2") do |config|
   # - dnf now uses dnf5 under the hood (compatible for most commands)
   # - Package names for SELinux tools remain similar
   config.vm.provision "shell", inline: <<-SHELL
+    # ==================================================================
+    # Labs directory on a real virtual hard disk (instead of SMB share)
+    # This gives us proper Unix permissions (chmod 640, stat, etc.).
+    # See the labs_data_disk declaration in the Vagrantfile.
+    # ==================================================================
+
+    echo "Setting up /labs from virtual hard disk..."
+
+    LABS_DISK=""
+    for candidate in /dev/sdc /dev/sdd; do
+      if [ -b "$candidate" ]; then
+        if blkid "$candidate" | grep -q LABSDATA || \
+           (lsblk -b "$candidate" 2>/dev/null | grep -q '2G' && [ "$candidate" != "/dev/sdb" ]); then
+          LABS_DISK="$candidate"
+          break
+        fi
+      fi
+    done
+
+    if [ -n "$LABS_DISK" ]; then
+      PART="${LABS_DISK}1"
+      if ! blkid "$PART" 2>/dev/null | grep -q 'LABEL="LABSDATA"'; then
+        echo "Formatting labs data disk ($LABS_DISK)..."
+        parted -s "$LABS_DISK" mklabel gpt
+        parted -s "$LABS_DISK" mkpart primary ext4 1MiB 100%
+        mkfs.ext4 -L LABSDATA "$PART" >/dev/null
+      fi
+
+      mkdir -p /labs
+      mount -L LABSDATA /labs 2>/dev/null || mount "$PART" /labs
+
+      if ! grep -q 'LABEL=LABSDATA /labs' /etc/fstab 2>/dev/null; then
+        echo 'LABEL=LABSDATA /labs ext4 defaults 0 0' >> /etc/fstab
+      fi
+    fi
+
+    # Determine bootstrap source (file provisioner or /vagrant)
+    SRC_LABS=""
+    SRC_LIB=""
+    [ -d /tmp/labs-bootstrap ] && SRC_LABS=/tmp/labs-bootstrap
+    [ -d /vagrant/labs ]       && SRC_LABS=/vagrant/labs
+    [ -d /tmp/lib-bootstrap ]  && SRC_LIB=/tmp/lib-bootstrap
+    [ -d /vagrant/lib ]        && SRC_LIB=/vagrant/lib
+
+    if [ -n "$SRC_LABS" ] && [ -d "$SRC_LABS" ]; then
+      # First boot / initial population
+      if [ ! -d /labs/01-essential-tools ]; then
+        echo "Initial population of /labs from bootstrap..."
+        rsync -a "$SRC_LABS/" /labs/
+        [ -n "$SRC_LIB" ] && rsync -a "$SRC_LIB/" /labs/lib/
+        echo "labs_data_disk - mounted at /labs (internal virtual disk, no SMB for labs)" > /labs/.disk-info
+        touch /labs/.populated
+      fi
+
+      # Refresh lab code without destroying student work in challenge/
+      rsync -a --delete --exclude '*/challenge/' "$SRC_LABS/" /labs/
+      [ -n "$SRC_LIB" ] && rsync -a "$SRC_LIB/" /labs/lib/
+
+      # Restore any missing committed challenge/ skeletons (student files stay)
+      for labdir in /labs/*/challenge; do
+        lab=$(basename "$(dirname "$labdir")")
+        if [ -d "$SRC_LABS/$lab/challenge" ]; then
+          rsync -a --ignore-existing "$SRC_LABS/$lab/challenge/" "$labdir/" || true
+        fi
+      done
+    fi
+
+    # --- Original provisioning steps (now operating on disk-backed /labs) ---
     echo "Setting executable permissions on all lab scripts..."
     find /labs -name '*.sh' -type f -exec chmod 755 {} + 2>/dev/null || true
 
     echo "Installing required packages for RHCSA labs (RHEL 10)..."
-    dnf install -y policycoreutils-python-utils autofs nfs-utils &>/dev/null
+    dnf install -y policycoreutils-python-utils autofs nfs-utils rsync &>/dev/null
 
     echo "Configuring local simulated NFS server..."
     mkdir -p /srv/nfs_export

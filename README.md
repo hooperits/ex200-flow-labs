@@ -76,7 +76,7 @@ vagrant up --provider=libvirt
 > Durante el primer `vagrant up` con Hyper-V se te pedirá elegir un **Virtual Switch**. Selecciona **Default Switch**.
 
 > [!NOTE]
-> **Hyper-V**: Es muy recomendable crear un usuario local administrador llamado `vagrantlabs` para el montaje SMB. Las instrucciones completas están en la sección "Guía Detallada de Despliegue" más abajo.
+> **Hyper-V**: Los laboratorios ahora usan un disco duro virtual interno (sin SMB para /labs). No se requiere el usuario `vagrantlabs` para las labs (ver detalles en la guía de despliegue).
 
 ### 4. Accede a la VM y verifica
 
@@ -120,13 +120,13 @@ cat instructions.md       # Lee el reto
 
 | Proveedor     | Host recomendado       | Notas clave                                                                 | Comando recomendado                  | Dificultad inicial |
 |---------------|------------------------|-----------------------------------------------------------------------------|--------------------------------------|--------------------|
-| **Hyper-V**   | Windows 10/11 Pro/Enterprise | Requiere usuario local con permisos de Administrador para montaje SMB. Muy rápido en Windows. | `vagrant up --provider=hyperv`      | Media (credenciales) |
+| **Hyper-V**   | Windows 10/11 Pro/Enterprise | Usa disco virtual interno para /labs (sin SMB). Recomendado para integración Windows. | `vagrant up --provider=hyperv`      | Baja (después de primer setup) |
 | **VirtualBox**| Windows, macOS, Linux  | Más universal. Fácil de usar. Recomendado si no estás atado a Hyper-V.     | `vagrant up --provider=virtualbox`  | Baja               |
 | **libvirt**   | Linux (Fedora, Ubuntu, etc.) | Excelente rendimiento. Requiere plugin `vagrant-libvirt` y privilegios.   | `vagrant up --provider=libvirt`     | Media (setup inicial) |
 
 **Recomendación**:
-- Windows → prueba primero **VirtualBox** si no quieres complicarte con el usuario local.
-- Quieres máxima integración Windows → usa **Hyper-V**.
+- Windows → **Hyper-V** para integración (ahora sin problemas de SMB para labs).
+- Quieres máxima compatibilidad → usa **VirtualBox**.
 - Linux → **libvirt** o VirtualBox.
 
 ---
@@ -136,37 +136,24 @@ cat instructions.md       # Lee el reto
 <details>
 <summary><strong>Windows + Hyper-V (clic para expandir)</strong></summary>
 
-**⚠️ Usuario auxiliar recomendado para Hyper-V**
+**⚠️ Hyper-V sin SMB para los laboratorios**
 
-Para evitar tener que ingresar tu cuenta personal de Windows (especialmente si usas PIN o quieres aislamiento), se recomienda crear un usuario local exclusivo para el montaje de carpetas.
+Los laboratorios ahora viven en un disco duro virtual interno (no en un share SMB). 
 
-1. Abre **PowerShell como Administrador** y activa Hyper-V:
+Esto elimina los problemas históricos de permisos (chmod, stat, etc.) que aparecían con SMB.
 
-   ```powershell
-   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
-   ```
+- Ya **no es necesario** crear el usuario `vagrantlabs` solo para montar las labs.
+- Durante el primer `vagrant up --provider=hyperv` sigue seleccionando **Default Switch**.
+- Si en el futuro usas otros shares o prefieres, puedes crear el usuario auxiliar, pero ya no es requisito para usar los laboratorios.
 
-2. Crea el usuario local `vagrantlabs` (ejecuta los dos comandos):
+Ejemplo mínimo:
 
-   ```powershell
-   net user vagrantlabs MiPasswordSeguro123 /add
-   net localgroup Administradores vagrantlabs /add
-   ```
-
-3. Levanta la máquina virtual:
-
-   ```powershell
-   vagrant up --provider=hyperv
-   ```
-
-   > Durante el primer arranque, selecciona el **Default Switch** como Virtual Switch.
-
-4. Cuando Vagrant solicite credenciales SMB para montar las carpetas desde Windows, utiliza:
-
-   - **Usuario**: `vagrantlabs`
-   - **Contraseña**: `MiPasswordSeguro123`
-
-   (Vagrant solo utiliza estas credenciales localmente para autorizar el montaje SMB; no se almacenan.)
+```powershell
+vagrant up --provider=hyperv
+vagrant ssh
+ls /labs          # 14 laboratorios en disco interno real
+lsblk | grep sdb  # disco secundario para prácticas de almacenamiento (LVM/VDO)
+```
 
 </details>
 
@@ -210,11 +197,12 @@ ls /labs                           # 14 laboratorios listos
 ```
 
 > [!TIP]
-> Si editas archivos en tu máquina host (VS Code, etc.), sincronízalos con:
+> Si editas archivos en tu máquina host (instrucciones, demos, etc.), actualiza el contenido dentro de la VM con:
 > ```powershell
 > # Desde el host
 > vagrant provision
 > ```
+> El provisioner copia los cambios al disco virtual interno de /labs.
 
 ---
 
@@ -223,10 +211,10 @@ ls /labs                           # 14 laboratorios listos
 Ejecuta dentro de la VM:
 
 ```bash
-# 1. ¿Existen los laboratorios?
+# 1. ¿Existen los laboratorios? (ahora en disco duro virtual interno)
 ls /labs | head -5
 
-# 2. ¿Hay disco secundario para LVM/VDO?
+# 2. ¿Hay disco secundario para LVM/VDO? (sdb = prácticas de almacenamiento)
 lsblk | grep sdb
 
 # 3. ¿Están instalados paquetes básicos de los laboratorios?
@@ -237,7 +225,7 @@ cd /labs/01-essential-tools
 ./verify.sh
 ```
 
-Si ves la lista de laboratorios y el disco `sdb`, estás listo.
+Si ves la lista de laboratorios y el disco `sdb`, estás listo. El disco de las labs (`sdc` normalmente) está montado en `/labs` como un filesystem nativo de Linux.
 
 ---
 
@@ -328,8 +316,8 @@ vagrant reload
 vagrant destroy -f && vagrant up
 ```
 
-### Error de credenciales SMB (Hyper-V)
-Asegúrate de haber creado el usuario `vagrantlabs` como Administrador y de usar exactamente esas credenciales cuando Vagrant las pida.
+### Hyper-V y montaje (SMB ya no usado para labs)
+Los laboratorios usan un disco virtual interno. Si ves prompts de credenciales, es para otros shares (si aplica). La creación de `vagrantlabs` ya no es necesaria para las labs.
 
 ### `command not found` para `semanage`, `autofs`, etc.
 El aprovisionamiento no terminó o no había internet. Ejecuta:
