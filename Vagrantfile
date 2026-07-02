@@ -28,6 +28,33 @@ Vagrant.configure("2") do |config|
 
   config.vm.network "private_network", ip: "192.168.56.10"
 
+  # Forward ports for the interactive web platform (so localhost:8080 and :7681 work on the host)
+  # These are applied during VM creation
+  config.vm.network "forwarded_port", guest: 7681, host: 7681, auto_correct: true
+  config.vm.network "forwarded_port", guest: 8080, host: 8080, auto_correct: true
+  # SSH forward (useful for some setups)
+  config.vm.network "forwarded_port", guest: 22, host: 2222, auto_correct: true, id: "ssh"
+
+  # After VM creation, ensure port forwarding works (especially useful on Hyper-V)
+  # On Hyper-V this uses netsh portproxy as a reliable fallback
+  config.trigger.after :up do |trigger|
+    trigger.name = "Setup localhost access for interactive platform"
+    trigger.info = "Making sure you can reach http://localhost:8080 and :7681"
+    trigger.run = {
+      inline: <<-POWERSHELL
+        if ($env:OS -eq 'Windows_NT') {
+          $ErrorActionPreference = "SilentlyContinue"
+          $vmIp = "192.168.56.10"
+          netsh interface portproxy delete v4tov4 listenport=8080 | Out-Null
+          netsh interface portproxy add v4tov4 listenport=8080 connectport=8080 connectaddress=$vmIp | Out-Null
+          netsh interface portproxy delete v4tov4 listenport=7681 | Out-Null
+          netsh interface portproxy add v4tov4 listenport=7681 connectport=7681 connectaddress=$vmIp | Out-Null
+          Write-Host "Port proxy configured for localhost:8080 and :7681 -> $vmIp"
+        }
+      POWERSHELL
+    }
+  end
+
   # Hyper-V (Windows)
   config.vm.provider "hyperv" do |h|
     h.enable_virtualization_extensions = true
@@ -64,6 +91,7 @@ Vagrant.configure("2") do |config|
   # avoid or minimize SMB for the actual /labs mount.
   config.vm.provision "file", source: "./labs", destination: "/tmp/labs-bootstrap"
   config.vm.provision "file", source: "./lib", destination: "/tmp/lib-bootstrap"
+  config.vm.provision "file", source: "./interactive-platform", destination: "/tmp/interactive-platform"
 
   # Hyper-V: we deliberately avoid SMB for the labs content.
   # The labs + lib directories are delivered via the "file" provisioner above and
@@ -163,15 +191,12 @@ Vagrant.configure("2") do |config|
     # Install Python packages for the interactive web platform
     pip3 install --quiet fastapi uvicorn jinja2 markdown 2>/dev/null || pip install --quiet fastapi uvicorn jinja2 markdown 2>/dev/null || true
 
-    # Install the interactive guided platform (gold experience)
-    mkdir -p /usr/local/bin
+    # Install the CLI guide (for convenience)
     if [ -f /tmp/labs-bootstrap/../bin/ex200-guide ]; then
-      install -m 755 /tmp/labs-bootstrap/../bin/ex200-guide /usr/local/bin/ex200-guide || true
+      install -m 755 /tmp/labs-bootstrap/../bin/ex200-guide /usr/local/bin/ex200-guide 2>/dev/null || true
     elif [ -f /vagrant/bin/ex200-guide ]; then
-      install -m 755 /vagrant/bin/ex200-guide /usr/local/bin/ex200-guide || true
+      install -m 755 /vagrant/bin/ex200-guide /usr/local/bin/ex200-guide 2>/dev/null || true
     fi
-
-    # Also make sure it's in PATH for the vagrant user
     ln -sf /usr/local/bin/ex200-guide /home/vagrant/ex200-guide 2>/dev/null || true
 
     # Start ttyd for the interactive guided platform (gold experience)
@@ -188,27 +213,74 @@ Vagrant.configure("2") do |config|
     systemctl enable --now nfs-server &>/dev/null
 
     # --- Interactive Web Platform (Gold experience) ---
-    echo "Starting interactive guided platform..."
+    echo "Deploying and starting interactive guided platform (systemd services)..."
 
-    # Deploy interactive web platform (gold)
+    # Deploy the web platform code
     rm -rf /opt/ex200-guide
     mkdir -p /opt/ex200-guide
-    if [ -d /vagrant/interactive-platform ]; then
-        cp -r /vagrant/interactive-platform/* /opt/ex200-guide/
-    elif [ -d /tmp/labs-bootstrap/../interactive-platform ]; then
-        cp -r /tmp/labs-bootstrap/../interactive-platform/* /opt/ex200-guide/
+    if [ -d /tmp/interactive-platform ]; then
+        cp -r /tmp/interactive-platform/* /opt/ex200-guide/
     fi
 
-    # Start ttyd (real terminal in browser)
-    pkill ttyd 2>/dev/null || true
-    nohup ttyd -p 7681 -W /bin/bash > /tmp/ttyd.log 2>&1 &
+    # Create systemd service for ttyd (real terminal on 7681)
+    cat > /etc/systemd/system/ttyd.service << 'TTYD'
+[Unit]
+Description=ttyd - Share terminal over web
+After=network.target
 
-    # Start the web guide UI (FastAPI on 8080)
-    cd /opt/ex200-guide
-    nohup uvicorn main:app --host 0.0.0.0 --port 8080 > /tmp/guide.log 2>&1 &
+[Service]
+Type=simple
+ExecStart=/usr/bin/ttyd -p 7681 -W /bin/bash
+Restart=always
+User=vagrant
 
-    echo "Interactive platform ready:"
-    echo "  - Web guide: http://localhost:8080 (or forward port)"
-    echo "  - Terminal:  http://localhost:7681"
+[Install]
+WantedBy=multi-user.target
+TTYD
+
+    # Create systemd service for the web guide (FastAPI on 8080)
+    cat > /etc/systemd/system/ex200-guide.service << 'GUIDE'
+[Unit]
+Description=EX200 Interactive Web Guide
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/ex200-guide
+ExecStart=/usr/bin/python3 -m uvicorn main:app --host 0.0.0.0 --port 8080
+Restart=always
+User=vagrant
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+GUIDE
+
+    # Enable and start the services (this happens during VM creation)
+    systemctl daemon-reload
+    systemctl enable --now ttyd.service ex200-guide.service
+
+    echo "Interactive platform ready (auto-starts on boot):"
+    echo "  - Web guide UI:  http://localhost:8080 (add ?lab=01)"
+    echo "  - Real terminal: http://localhost:7681"
   SHELL
+
+  # Nice message shown after successful creation
+  config.vm.post_up_message = <<~MSG
+    ===============================================
+    EX200 Interactive Platform is ready!
+
+    Web guided experience (recommended):
+      http://localhost:8080/?lab=01
+
+    Direct terminal (ttyd):
+      http://localhost:7681
+
+    Inside the VM you can also run:
+      ex200-guide 01
+
+    If localhost doesn't work on Hyper-V, try the VM IP:
+      http://192.168.56.10:8080/?lab=01
+    ===============================================
+  MSG
 end
