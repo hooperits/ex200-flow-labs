@@ -1,0 +1,198 @@
+#!/usr/bin/env python3
+"""
+ex200-guide - Interactive guided platform for RHCSA EX200 labs
+
+Usage:
+  ex200-guide 01
+  ex200-guide 01 --exam          # no hints
+  ex200-guide --list
+
+The student is guided task-by-task using the lab's instructions.md.
+Hints are available on demand from hints.md.
+Verification uses the existing verify.sh.
+"""
+
+import argparse
+import os
+import re
+import subprocess
+import sys
+from pathlib import Path
+
+try:
+    from rich.console import Console
+    from rich.panel import Panel
+    from rich.markdown import Markdown
+    from rich.prompt import Prompt
+    RICH_AVAILABLE = True
+except ImportError:
+    RICH_AVAILABLE = False
+    print("Warning: rich not installed. Falling back to basic output.", file=sys.stderr)
+
+console = Console() if RICH_AVAILABLE else None
+
+def find_lab_dir(lab_id: str) -> Path:
+    """Find the lab directory (e.g. 01-essential-tools)"""
+    base = Path("/labs")
+    for d in base.iterdir():
+        if d.is_dir() and d.name.startswith(lab_id + "-"):
+            return d
+    # fallback: try direct
+    direct = base / lab_id
+    if direct.exists():
+        return direct
+    raise FileNotFoundError(f"Lab {lab_id} not found in /labs")
+
+def parse_instructions(lab_dir: Path):
+    """Parse tasks from instructions.md. Returns list of (number, title, body)"""
+    instr = lab_dir / "instructions.md"
+    if not instr.exists():
+        return []
+    text = instr.read_text(encoding="utf-8")
+    tasks = []
+    # Very simple parser for the style used in the project
+    # Looks for lines like "1. **Title**:" or "## 1. Title"
+    pattern = re.compile(r'^(?:\d+\.\s*\*\*|##\s*\d+\.\s*)(.+?)(?:\*\*:|$)')
+    lines = text.splitlines()
+    current = None
+    body = []
+    for line in lines:
+        m = pattern.match(line.strip())
+        if m:
+            if current:
+                tasks.append((len(tasks)+1, current, "\n".join(body).strip()))
+            current = m.group(1).strip("* ").strip()
+            body = []
+        elif current:
+            if line.strip().startswith(("2.", "3.", "4.", "5.", "6.", "##")) and not line.strip().startswith(("## Objetivos", "## Evaluación")):
+                # next task probably
+                tasks.append((len(tasks)+1, current, "\n".join(body).strip()))
+                current = None
+                body = []
+            else:
+                body.append(line)
+    if current:
+        tasks.append((len(tasks)+1, current, "\n".join(body).strip()))
+    return tasks
+
+def parse_hints(lab_dir: Path):
+    """Parse hints grouped by section title"""
+    hints_file = lab_dir / "hints.md"
+    if not hints_file.exists():
+        return {}
+    text = hints_file.read_text(encoding="utf-8")
+    hints = {}
+    current_title = None
+    current_hints = []
+    for line in text.splitlines():
+        if line.startswith("## "):
+            if current_title:
+                hints[current_title] = current_hints
+            current_title = line[3:].strip()
+            current_hints = []
+        elif current_title and line.strip():
+            current_hints.append(line.strip())
+    if current_title:
+        hints[current_title] = current_hints
+    return hints
+
+def run_verify(lab_dir: Path, task_num: int = None):
+    verify = lab_dir / "verify.sh"
+    if not verify.exists():
+        print("No verify.sh found.")
+        return False
+    cmd = [str(verify)]
+    if task_num:
+        cmd += ["--task", str(task_num)]
+    try:
+        result = subprocess.run(cmd, cwd=lab_dir, capture_output=True, text=True)
+        print(result.stdout)
+        if result.stderr:
+            print(result.stderr)
+        return result.returncode == 0
+    except Exception as e:
+        print(f"Error running verify: {e}")
+        return False
+
+def get_hint(hints: dict, task_title: str, level: int):
+    if task_title not in hints:
+        return "No hints available for this task."
+    task_hints = hints[task_title]
+    if level <= 0 or level > len(task_hints):
+        return "No more hints for this task."
+    return "\n".join(task_hints[:level])
+
+def main():
+    parser = argparse.ArgumentParser(description="Interactive guided platform for RHCSA labs")
+    parser.add_argument("lab", nargs="?", help="Lab number or name (e.g. 01 or 01-essential-tools)")
+    parser.add_argument("--list", action="store_true", help="List available labs")
+    parser.add_argument("--exam", action="store_true", help="Exam mode (no hints)")
+    args = parser.parse_args()
+
+    labs_base = Path("/labs")
+    if args.list:
+        for d in sorted(labs_base.iterdir()):
+            if d.is_dir() and (d / "instructions.md").exists():
+                print(d.name)
+        return
+
+    if not args.lab:
+        print("Usage: ex200-guide <lab>   e.g. ex200-guide 01")
+        return
+
+    lab_dir = find_lab_dir(args.lab)
+    tasks = parse_instructions(lab_dir)
+    hints = parse_hints(lab_dir) if not args.exam else {}
+
+    print(f"\n=== Interactive Guide: {lab_dir.name} ===")
+    print("🌐 Web platform (recommended): http://localhost:8080?lab=" + lab)
+    print("💻 Terminal: http://localhost:7681")
+    print("\nType 'hint', 'next', 'check', 'quit' at any time (CLI mode).\n")
+
+    current = 0
+    hint_level = {}
+
+    while current < len(tasks):
+        num, title, body = tasks[current]
+        print(f"\n--- Task {num}/{len(tasks)}: {title} ---")
+        if RICH_AVAILABLE:
+            console.print(Markdown(body))
+        else:
+            print(body)
+
+        while True:
+            if RICH_AVAILABLE:
+                action = Prompt.ask("Action", choices=["hint", "next", "check", "quit", "back"], default="next")
+            else:
+                action = input("Action [hint/next/check/quit/back]: ").strip().lower()
+
+            if action == "quit":
+                print("Exiting guide. You can resume later.")
+                return
+            if action == "back" and current > 0:
+                current -= 1
+                break
+            if action == "hint" and not args.exam:
+                hlevel = hint_level.get(num, 0) + 1
+                hint = get_hint(hints, title, hlevel)
+                hint_level[num] = hlevel
+                if RICH_AVAILABLE:
+                    console.print(Panel(hint, title=f"Hint {hlevel}", border_style="yellow"))
+                else:
+                    print(f"\n[HINT {hlevel}]\n{hint}\n")
+            elif action in ("next", "done", "check"):
+                success = run_verify(lab_dir, num)
+                if success or action == "next":
+                    current += 1
+                    break
+                else:
+                    print("Step not yet complete. Try again or ask for a hint.")
+            else:
+                print("Unknown command.")
+
+    print("\n🎉 All tasks completed!")
+    print("Running final verification...")
+    run_verify(lab_dir)
+
+if __name__ == "__main__":
+    main()

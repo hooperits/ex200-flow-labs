@@ -158,7 +158,26 @@ Vagrant.configure("2") do |config|
     find /labs -name '*.sh' -type f -exec chmod 755 {} + 2>/dev/null || true
 
     echo "Installing required packages for RHCSA labs (RHEL 10)..."
-    dnf install -y policycoreutils-python-utils autofs nfs-utils rsync &>/dev/null
+    dnf install -y policycoreutils-python-utils autofs nfs-utils rsync ttyd python3-pip &>/dev/null
+
+    # Install Python packages for the interactive web platform
+    pip3 install --quiet fastapi uvicorn jinja2 markdown 2>/dev/null || pip install --quiet fastapi uvicorn jinja2 markdown 2>/dev/null || true
+
+    # Install the interactive guided platform (gold experience)
+    mkdir -p /usr/local/bin
+    if [ -f /tmp/labs-bootstrap/../bin/ex200-guide ]; then
+      install -m 755 /tmp/labs-bootstrap/../bin/ex200-guide /usr/local/bin/ex200-guide || true
+    elif [ -f /vagrant/bin/ex200-guide ]; then
+      install -m 755 /vagrant/bin/ex200-guide /usr/local/bin/ex200-guide || true
+    fi
+
+    # Also make sure it's in PATH for the vagrant user
+    ln -sf /usr/local/bin/ex200-guide /home/vagrant/ex200-guide 2>/dev/null || true
+
+    # Start ttyd for the interactive guided platform (gold experience)
+    # Exposes a real terminal in the browser on port 7681
+    pkill ttyd 2>/dev/null || true
+    nohup ttyd -p 7681 -W bash > /tmp/ttyd.log 2>&1 &
 
     echo "Configuring local simulated NFS server..."
     mkdir -p /srv/nfs_export
@@ -167,5 +186,29 @@ Vagrant.configure("2") do |config|
     echo "/srv/nfs_export *(rw,sync,no_root_squash)" > /etc/exports
     exportfs -ar
     systemctl enable --now nfs-server &>/dev/null
+
+    # --- Interactive Web Platform (Gold experience) ---
+    echo "Starting interactive guided platform..."
+
+    # Deploy interactive web platform (gold)
+    rm -rf /opt/ex200-guide
+    mkdir -p /opt/ex200-guide
+    if [ -d /vagrant/interactive-platform ]; then
+        cp -r /vagrant/interactive-platform/* /opt/ex200-guide/
+    elif [ -d /tmp/labs-bootstrap/../interactive-platform ]; then
+        cp -r /tmp/labs-bootstrap/../interactive-platform/* /opt/ex200-guide/
+    fi
+
+    # Start ttyd (real terminal in browser)
+    pkill ttyd 2>/dev/null || true
+    nohup ttyd -p 7681 -W /bin/bash > /tmp/ttyd.log 2>&1 &
+
+    # Start the web guide UI (FastAPI on 8080)
+    cd /opt/ex200-guide
+    nohup uvicorn main:app --host 0.0.0.0 --port 8080 > /tmp/guide.log 2>&1 &
+
+    echo "Interactive platform ready:"
+    echo "  - Web guide: http://localhost:8080 (or forward port)"
+    echo "  - Terminal:  http://localhost:7681"
   SHELL
 end

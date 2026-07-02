@@ -14,8 +14,12 @@ CHALLENGE_DIR="$BASE_DIR/challenge"
 # Status trackers
 FAILED_TESTS=0
 EXPLAIN_MODE=false
+TASK_FILTER=""
+
 if [[ "${1:-}" == "--explain" ]]; then
     EXPLAIN_MODE=true
+elif [[ "${1:-}" == "--task" && -n "${2:-}" ]]; then
+    TASK_FILTER="$2"
 fi
 
 print_result() {

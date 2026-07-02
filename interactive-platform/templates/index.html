@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX200 - Guía Interactiva | {{ lab_name }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        .task-card { transition: all 0.3s ease; }
+        .terminal-container { border: 1px solid #374151; }
+        .step-active { border-left: 4px solid #3b82f6; background-color: #eff6ff; }
+        .hint-box { background-color: #fefce8; border-left: 4px solid #eab308; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+    <div class="flex h-screen">
+        <!-- Sidebar: Steps -->
+        <div class="w-80 bg-zinc-900 border-r border-zinc-800 flex flex-col">
+            <div class="p-4 border-b border-zinc-800">
+                <div class="flex items-center gap-3">
+                    <i class="fas fa-graduation-cap text-blue-500 text-2xl"></i>
+                    <div>
+                        <h1 class="font-bold text-xl">EX200 Interactive</h1>
+                        <p class="text-sm text-zinc-400">{{ lab_name }}</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="p-4">
+                <div class="text-xs uppercase tracking-widest text-zinc-500 mb-2">Progreso</div>
+                <div class="flex items-center gap-2 mb-3">
+                    <div class="flex-1 bg-zinc-800 h-2 rounded-full overflow-hidden">
+                        <div id="progress-bar" class="bg-blue-500 h-2 transition-all" style="width: 0%"></div>
+                    </div>
+                    <div id="progress-text" class="text-sm font-mono text-zinc-400 w-12 text-right">1/1</div>
+                </div>
+            </div>
+
+            <div class="flex-1 overflow-auto px-2" id="steps-list">
+                <!-- Steps populated by JS -->
+            </div>
+
+            <div class="p-4 border-t border-zinc-800 text-xs text-zinc-500">
+                <div class="flex gap-2">
+                    <button onclick="setMode('guided')" 
+                            class="flex-1 py-1.5 rounded bg-zinc-800 hover:bg-zinc-700 text-xs">Guiado</button>
+                    <button onclick="setMode('exam')" 
+                            class="flex-1 py-1.5 rounded bg-zinc-800 hover:bg-zinc-700 text-xs">Modo Examen</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 flex flex-col">
+            <!-- Header -->
+            <div class="h-14 border-b border-zinc-800 px-6 flex items-center justify-between bg-zinc-900">
+                <div>
+                    <span id="current-task-title" class="font-semibold text-lg"></span>
+                </div>
+                <div class="flex items-center gap-3 text-sm">
+                    <a href="http://localhost:7681" target="_blank" 
+                       class="flex items-center gap-2 px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 rounded text-xs">
+                        <i class="fas fa-terminal"></i>
+                        <span>Abrir Terminal</span>
+                    </a>
+                    <button onclick="window.location.reload()" 
+                            class="px-3 py-1.5 bg-zinc-800 hover:bg-zinc-700 rounded text-xs">
+                        <i class="fas fa-sync mr-1"></i> Recargar
+                    </button>
+                </div>
+            </div>
+
+            <div class="flex-1 flex overflow-hidden">
+                <!-- Task Panel -->
+                <div class="w-1/2 p-6 overflow-auto border-r border-zinc-800">
+                    <div id="task-content" class="prose prose-invert max-w-none">
+                        <!-- Task markdown rendered here -->
+                    </div>
+
+                    <div class="mt-6 flex gap-3">
+                        <button onclick="requestHint()" 
+                                class="flex-1 flex items-center justify-center gap-2 bg-yellow-600 hover:bg-yellow-500 transition px-4 py-2.5 rounded-xl font-medium">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Pedir Pista</span>
+                        </button>
+                        
+                        <button onclick="checkCurrentStep()" 
+                                class="flex-1 flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 transition px-4 py-2.5 rounded-xl font-medium">
+                            <i class="fas fa-check"></i>
+                            <span>Verificar Paso</span>
+                        </button>
+                    </div>
+
+                    <div id="hint-container" class="mt-4 hidden">
+                        <div class="hint-box p-4 rounded-xl text-sm">
+                            <div class="font-medium text-yellow-300 mb-1 flex items-center gap-2">
+                                <i class="fas fa-lightbulb"></i> 
+                                <span>Pista</span>
+                            </div>
+                            <div id="hint-text" class="text-yellow-100"></div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 flex gap-3">
+                        <button onclick="goToPrevious()" 
+                                class="px-4 py-2 rounded-xl border border-zinc-700 hover:bg-zinc-800">Anterior</button>
+                        <button onclick="goToNext()" 
+                                class="flex-1 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 font-medium">Siguiente Tarea</button>
+                    </div>
+                </div>
+
+                <!-- Embedded Terminal -->
+                <div class="w-1/2 flex flex-col bg-black">
+                    <div class="px-4 py-2 bg-zinc-900 border-b border-zinc-800 flex items-center justify-between text-xs">
+                        <div class="flex items-center gap-2">
+                            <i class="fas fa-terminal text-green-400"></i>
+                            <span class="font-mono text-green-400">Terminal real (ttyd)</span>
+                        </div>
+                        <a href="http://localhost:7681" target="_blank" class="text-zinc-400 hover:text-white">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                    <div class="flex-1">
+                        <iframe id="terminal-frame" 
+                                src="http://localhost:7681" 
+                                class="w-full h-full border-0"
+                                style="background: #000;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentLab = "{{ lab }}";
+        let currentStep = {{ current_step }};
+        let tasks = [];
+        let hintLevel = 0;
+
+        async function loadTasks() {
+            const res = await fetch(`/api/tasks/${currentLab}`);
+            const data = await res.json();
+            tasks = data.tasks || [];
+            
+            renderSteps();
+            loadCurrentTask();
+        }
+
+        function renderSteps() {
+            const container = document.getElementById('steps-list');
+            container.innerHTML = '';
+            
+            tasks.forEach((task, i) => {
+                const num = i + 1;
+                const isActive = num === currentStep;
+                const div = document.createElement('div');
+                div.className = `px-3 py-2.5 mb-1 rounded-xl flex items-center gap-3 cursor-pointer transition ${isActive ? 'step-active text-blue-300' : 'hover:bg-zinc-800'}`;
+                div.innerHTML = `
+                    <div class="w-6 h-6 rounded-full flex items-center justify-center text-xs font-mono border ${isActive ? 'bg-blue-500 border-blue-400 text-white' : 'border-zinc-600'}">
+                        ${num}
+                    </div>
+                    <div class="flex-1 text-sm truncate">${task.title}</div>
+                `;
+                div.onclick = () => {
+                    currentStep = num;
+                    loadCurrentTask();
+                    renderSteps();
+                };
+                container.appendChild(div);
+            });
+            
+            updateProgress();
+        }
+
+        function updateProgress() {
+            const pct = tasks.length > 0 ? Math.round((currentStep / tasks.length) * 100) : 0;
+            document.getElementById('progress-bar').style.width = pct + '%';
+            document.getElementById('progress-text').textContent = `${currentStep}/${tasks.length}`;
+        }
+
+        async function loadCurrentTask() {
+            if (!tasks.length) return;
+            
+            const task = tasks[currentStep - 1];
+            if (!task) return;
+            
+            document.getElementById('current-task-title').textContent = `Tarea ${currentStep}: ${task.title}`;
+            
+            const contentEl = document.getElementById('task-content');
+            contentEl.innerHTML = marked.parse(task.body || 'Sin descripción.');
+            
+            hintLevel = 0;
+            document.getElementById('hint-container').classList.add('hidden');
+            
+            updateProgress();
+        }
+
+        async function requestHint() {
+            hintLevel++;
+            const res = await fetch(`/api/hint/${currentLab}/${currentStep}?level=${hintLevel}`);
+            const data = await res.json();
+            
+            const container = document.getElementById('hint-container');
+            const textEl = document.getElementById('hint-text');
+            
+            if (data.hints && data.hints.length) {
+                textEl.innerHTML = data.hints.join('<br>');
+                container.classList.remove('hidden');
+            } else {
+                textEl.textContent = "No hay más pistas para esta tarea.";
+                container.classList.remove('hidden');
+            }
+        }
+
+        async function checkCurrentStep() {
+            const btns = document.querySelectorAll('button');
+            btns.forEach(b => b.disabled = true);
+            
+            const res = await fetch(`/api/check/${currentLab}/${currentStep}`, { method: 'POST' });
+            const data = await res.json();
+            
+            btns.forEach(b => b.disabled = false);
+            
+            if (data.success) {
+                alert("¡Paso completado correctamente!");
+                // Auto advance
+                if (currentStep < tasks.length) {
+                    currentStep++;
+                    loadCurrentTask();
+                    renderSteps();
+                }
+            } else {
+                const msg = data.output || data.message || "El paso aún no está completo.";
+                alert("Verificación: " + msg);
+            }
+        }
+
+        function goToPrevious() {
+            if (currentStep > 1) {
+                currentStep--;
+                loadCurrentTask();
+                renderSteps();
+            }
+        }
+
+        async function goToNext() {
+            if (currentStep < tasks.length) {
+                currentStep++;
+                await fetch(`/api/progress/${currentLab}/${currentStep}`, { method: 'POST' });
+                loadCurrentTask();
+                renderSteps();
+            }
+        }
+
+        function setMode(mode) {
+            if (mode === 'exam') {
+                alert("Modo examen activado (sin pistas).");
+                // Future: hide hint button
+            }
+        }
+
+        // Initialize
+        window.onload = async function() {
+            await loadTasks();
+            
+            // Load saved progress
+            try {
+                const res = await fetch(`/api/progress/${currentLab}`);
+                const data = await res.json();
+                if (data.current_step > 0) {
+                    currentStep = data.current_step;
+                    loadCurrentTask();
+                    renderSteps();
+                }
+            } catch(e) {}
+            
+            // Keyboard shortcuts
+            document.addEventListener('keydown', function(e) {
+                if (e.key === '?') {
+                    e.preventDefault();
+                    requestHint();
+                }
+                if (e.key.toLowerCase() === 'n') {
+                    goToNext();
+                }
+            });
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</body>
+</html>

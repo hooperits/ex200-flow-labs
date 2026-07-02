@@ -269,34 +269,45 @@ graph TD
 2. Realiza las tareas indicadas (normalmente dentro de `challenge/`).
 3. Ejecuta `./verify.sh` (o `./verify.sh --explain` para más detalles) para autoevaluarte.
 4. Si falla, consulta `hints.md` de forma progresiva o usa `reset.sh` para empezar limpio.
-5. `demo.sh` sirve para ver los comandos en acción (no es obligatorio).
+5. Usa el modo interactivo guiado para avanzar tarea por tarea (recomendado para preparación seria del examen).
 
 ---
 
-## 🛠️ Uso Diario
+## 🛠️ Uso Diario (Enfoque Interactivo)
 
-Dentro de la VM siempre trabajarás en `/labs`:
+Dentro de la VM trabajarás en `/labs` usando el **modo guiado interactivo** (recomendado):
 
 ```bash
-cd /labs/07-local-storage
-./verify.sh              # Validación normal
-./verify.sh --explain    # Modo explicativo (muestra sugerencias al fallar)
+cd /labs/01-essential-tools
+ex200-guide
 ```
 
-### Parámetros de los scripts
+El guía te presenta **una tarea a la vez** directamente desde las instrucciones.
 
-Cada laboratorio incluye tres scripts principales. Estos son los parámetros que aceptan:
+**Versión Web (recomendada):**
+- Abre en tu navegador: `http://localhost:8080?lab=01`
+- Terminal embebido + pasos + pistas + verificación en un solo lugar.
 
-| Script       | Comando                        | Parámetros soportados              | Descripción |
-|--------------|--------------------------------|------------------------------------|-----------|
-| `verify.sh`  | `./verify.sh`                  | `--explain`                        | Valida tu solución. Con `--explain` muestra sugerencias detalladas cuando falla una prueba. |
-| `demo.sh`    | `./demo.sh`                    | `--fast`, `--video`                | Muestra los comandos en acción. `--fast` reduce pausas. `--video` está optimizado para grabación (muy rápido y limpio). |
-| `reset.sh`   | `./reset.sh`                   | *(ninguno)*                        | Restaura el laboratorio a su estado inicial limpio. No acepta parámetros. |
+**Versión CLI:**
+- Escribe los comandos en tu terminal normal.
+- Escribe `hint` para pedir pista.
+- Escribe `check` o `next` cuando creas que terminaste el paso.
+- Al final del laboratorio ejecuta `./verify.sh` para la validación completa.
+
+### Comandos principales
+
+| Comando            | Descripción |
+|--------------------|-------------|
+| `ex200-guide 01`     | Lanza CLI o abre http://localhost:8080 |
+| Abrir navegador    | http://localhost:8080 (plataforma web completa) |
+| `./verify.sh`      | Validación completa del laboratorio |
+| `./verify.sh --explain` | Modo con sugerencias detalladas |
+| `./reset.sh`       | Limpia el laboratorio para empezar de cero |
 
 **Notas importantes:**
-- Siempre ejecuta estos scripts **dentro del directorio del laboratorio** (`cd /labs/XX-nombre-lab`).
-- `demo.sh` es opcional (solo para ver ejemplos). Puedes completar los retos usando solo `instructions.md` + `hints.md`.
-- Estos flags son consistentes en **todos** los laboratorios.
+- El enfoque principal ahora es el **aprendizaje práctico guiado**.
+- `demo.sh` existe solo como referencia histórica / para creadores de contenido y ya no forma parte del flujo recomendado para estudiantes.
+- Todo se ejecuta dentro del directorio del laboratorio.
 
 Desde el host puedes reprovisionar o recargar:
 
