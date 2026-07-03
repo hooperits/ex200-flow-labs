@@ -260,9 +260,14 @@ GUIDE
     systemctl daemon-reload
     systemctl enable --now ttyd.service ex200-guide.service
 
+    # Discover the actual IPv4 the VM received (critical for Hyper-V Default Switch / NAT)
+    GUEST_IP=$(ip -4 addr show | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | head -1 || echo "192.168.56.10")
+
     echo "Interactive platform ready (auto-starts on boot):"
-    echo "  - Web guide UI:  http://localhost:8080 (add ?lab=01)"
-    echo "  - Real terminal: http://localhost:7681"
+    echo "  - Web guide UI:  http://$GUEST_IP:8080 (add ?lab=01)"
+    echo "  - Real terminal: http://$GUEST_IP:7681"
+    echo ""
+    echo "From HOST: use the IP shown above (localhost forwarding can be flaky on Hyper-V)."
   SHELL
 
   # Nice message shown after successful creation
@@ -270,17 +275,15 @@ GUIDE
     ===============================================
     EX200 Interactive Platform is ready!
 
-    Web guided experience (recommended):
-      http://localhost:8080/?lab=01
+    IMPORTANT (Hyper-V): Use the VM IP printed during provisioning, e.g.:
+      http://<GUEST-IP>:8080/?lab=01     (guided web UI)
+      http://<GUEST-IP>:7681             (raw terminal)
 
-    Direct terminal (ttyd):
-      http://localhost:7681
-
-    Inside the VM you can also run:
+    Inside the VM:
       ex200-guide 01
 
-    If localhost doesn't work on Hyper-V, try the VM IP:
-      http://192.168.56.10:8080/?lab=01
+    To discover the IP from host:
+      vagrant ssh -c "ip -4 addr show | grep inet"
     ===============================================
   MSG
 end
