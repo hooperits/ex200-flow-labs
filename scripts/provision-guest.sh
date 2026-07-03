@@ -47,9 +47,14 @@ configure_firewall_for_web() {
     return 1
   fi
 
-  if ! systemctl is-active --quiet firewalld; then
-    echo "firewalld inactivo; omitiendo reglas de firewall."
+  if ! rpm -q firewalld &>/dev/null; then
+    echo "firewalld no instalado; omitiendo reglas de firewall."
     return 0
+  fi
+
+  if ! systemctl is-active --quiet firewalld; then
+    echo "Iniciando firewalld..."
+    systemctl enable --now firewalld
   fi
 
   echo "Configurando firewalld para ${guest_ip} (puertos 8080, 7681)..."
@@ -154,7 +159,34 @@ install_packages_and_cli() {
   find /labs -name '*.sh' -type f -exec chmod 755 {} + 2>/dev/null || true
 
   echo "Installing required packages for RHCSA labs (RHEL 10)..."
-  dnf install -y policycoreutils-python-utils autofs nfs-utils rsync ttyd python3-pip curl &>/dev/null
+
+  # ttyd vive en EPEL en AlmaLinux 10; sin epel-release dnf falla y aborta (set -e).
+  if ! rpm -q epel-release &>/dev/null; then
+    echo "Habilitando EPEL..."
+    dnf install -y epel-release
+  fi
+
+  local base_pkgs=(
+    policycoreutils-python-utils
+    autofs
+    nfs-utils
+    rsync
+    python3-pip
+    curl
+    firewalld
+  )
+
+  if ! dnf install -y "${base_pkgs[@]}"; then
+    echo "ERROR: falló instalación de paquetes base." >&2
+    dnf install -y "${base_pkgs[@]}"
+    exit 1
+  fi
+
+  if ! dnf install -y ttyd; then
+    echo "ERROR: ttyd no disponible (requiere EPEL/repositorios activos)." >&2
+    dnf repolist
+    exit 1
+  fi
 
   pip3 install --quiet fastapi uvicorn jinja2 markdown 2>/dev/null \
     || pip install --quiet fastapi uvicorn jinja2 markdown 2>/dev/null || true
@@ -239,9 +271,9 @@ print_summary() {
 setup_labs_disk
 bootstrap_labs
 wait_for_dhcp_ip
-configure_firewall_for_web
 persist_guest_ip_for_labs
 install_packages_and_cli
+configure_firewall_for_web
 setup_nfs_simulation
 deploy_web_platform
 print_summary

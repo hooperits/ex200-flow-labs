@@ -43,6 +43,10 @@ apply_firewall_fix() {
   export GUEST_IP="$guest_ip"
   export IFACE="$iface"
 
+  if rpm -q firewalld &>/dev/null; then
+    systemctl enable --now firewalld 2>/dev/null || true
+  fi
+
   if systemctl is-active --quiet firewalld; then
     [[ -n "$iface" ]] && firewall-cmd --permanent --zone=public --change-interface="$iface" 2>/dev/null || true
     firewall-cmd --permanent --zone=public --add-port=8080/tcp 2>/dev/null || true
